@@ -74,7 +74,7 @@ así que los enlaces viejos seguirán funcionando.
 
 ## Pendiente
 
-- [ ] Mover a `files/libros/` los PDF que hoy están en Dropbox y actualizar los enlaces en `recursos/recursos.yml`, `docencia/` y `publicaciones/`.
+- [ ] Mover a `files/libros/` los PDF que hoy están en Dropbox y actualizar los enlaces en `recursos/recursos.yml` y `docencia/`.
 - [ ] Enlace propio para «Meta-análisis con R» (hoy apunta a RPubs).
 - [ ] Revisar las 67 entradas migradas del blog (formato y enlaces externos antiguos).
 - [ ] Decidir si se mantienen Twitter/X u otras redes en el pie.

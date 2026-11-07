@@ -1,9 +1,10 @@
 <%
 const slug = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-const temas = ['Estadística', 'Ciencia de datos', 'IA', 'Python', 'R', 'Bayesiana', 'Mejora de procesos', 'Innovación educativa', 'Comunicación científica'];
+const temas = ['Estadística', 'Ciencia de datos', 'IA', 'Python', 'R', 'Bayesiana', 'Mejora de procesos', 'Innovación educativa', 'Comunicación científica', 'Competencia digital'];
 const tipos = ['Asignatura', 'Curso', 'Taller', 'Libro', 'Apuntes y prácticas', 'Recopilatorio', 'Vídeo', 'Datos', 'Juego'];
 const usados = new Set(items.flatMap(i => i.temas || []));
 const tiposUsados = new Set(items.map(i => i.tipo));
+const series = [...new Set(items.map(i => i.serie).filter(Boolean))];
 %>
 <div class="recursos-page">
 <div class="filtros" role="search">
@@ -27,6 +28,16 @@ const tiposUsados = new Set(items.map(i => i.tipo));
 <% } %>
 </div>
 </div>
+<% if (series.length) { %>
+<div>
+<span class="rotulo" id="rot-serie">Colección</span>
+<div class="chips" role="group" aria-labelledby="rot-serie">
+<% for (const s of series) { %>
+<button type="button" class="chip" data-eje="serie" data-valor="<%= s %>" aria-pressed="false"><%= s %></button>
+<% } %>
+</div>
+</div>
+<% } %>
 <div>
 <span class="rotulo" id="rot-origen">Origen</span>
 <div class="chips" role="group" aria-labelledby="rot-origen">
@@ -43,15 +54,18 @@ const tiposUsados = new Set(items.map(i => i.tipo));
 
 <div class="tarjetas" id="rec-grid">
 <% for (const item of items) { %>
-<article class="tarjeta" data-tipo="<%= item.tipo %>" data-temas="<%= (item.temas || []).join('|') %>" data-origen="<%= item.origen %>"
-data-texto="<%= [item.title, item.description, item.autoria, (item.temas || []).join(' '), item.tipo].join(' ').toLowerCase() %>">
+<article class="tarjeta" data-tipo="<%= item.tipo %>" data-temas="<%= (item.temas || []).join('|') %>" data-origen="<%= item.origen %>" data-serie="<%= item.serie || '' %>"
+data-texto="<%= [item.title, item.description, item.autoria, item.serie, (item.temas || []).join(' '), item.tipo].join(' ').toLowerCase() %>">
 <div class="etiquetas">
 <span class="tag t-<%= slug(item.tipo) %>"><%= item.tipo %></span>
 <span class="tag tag-outline"><%= item.origen %></span>
+<% if (item.serie) { %><span class="tag t-serie"><%= item.serie %></span><% } %>
 </div>
-<h3><a href="<%- item.path %>"><%= item.title %></a></h3>
+<% if (item.portada) { %><img class="portada" src="<%- item.portada %>" alt="Portada de <%= item.title %>" loading="lazy"><% } %>
+<h3><% if (item.path) { %><a href="<%- item.path %>"><%= item.title %></a><% } else { %><%= item.title %><% } %></h3>
 <p class="desc"><%= item.description %></p>
 <% if (item.autoria) { %><p class="pie"><%= item.autoria %></p><% } %>
+<% if (item.mas) { %><p class="pie"><a href="<%- item.mas %>"><%= item.mas_texto || 'Más información' %></a></p><% } %>
 <% if (item.nota) { %><p class="pie"><em><%= item.nota %></em></p><% } %>
 <p class="pie"><%= (item.temas || []).join(' · ') %><% if (item.anio) { %> · <%= item.anio %><% } %></p>
 </article>
@@ -61,7 +75,7 @@ data-texto="<%= [item.title, item.description, item.autoria, (item.temas || []).
 
 <script>
 (function () {
-const estado = { tema: null, tipo: null, origen: null, q: '' };
+const estado = { tema: null, tipo: null, origen: null, serie: null, q: '' };
 const tarjetas = Array.from(document.querySelectorAll('#rec-grid .tarjeta'));
 const chips = Array.from(document.querySelectorAll('.filtros .chip'));
 const buscar = document.getElementById('rec-buscar');
@@ -71,7 +85,7 @@ const norm = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 
 // Filtros desde la URL: recursos/?tema=Python&tipo=Curso
 const params = new URLSearchParams(location.search);
-['tema', 'tipo', 'origen'].forEach(k => { if (params.get(k)) estado[k] = params.get(k); });
+['tema', 'tipo', 'origen', 'serie'].forEach(k => { if (params.get(k)) estado[k] = params.get(k); });
 
 function aplicar() {
 let visibles = 0;
@@ -80,11 +94,12 @@ tarjetas.forEach(t => {
 const ok = (!estado.tema || t.dataset.temas.split('|').includes(estado.tema))
 && (!estado.tipo || t.dataset.tipo === estado.tipo)
 && (!estado.origen || t.dataset.origen === estado.origen)
+&& (!estado.serie || t.dataset.serie === estado.serie)
 && (!q || norm(t.dataset.texto).includes(q));
 t.hidden = !ok; if (ok) visibles++;
 });
 chips.forEach(c => c.setAttribute('aria-pressed', String(estado[c.dataset.eje] === c.dataset.valor)));
-const filtrando = estado.tema || estado.tipo || estado.origen || q;
+const filtrando = estado.tema || estado.tipo || estado.origen || estado.serie || q;
 n.textContent = visibles === 0 ? 'Ningún recurso con esos filtros.' :
 (visibles === 1 ? '1 recurso' : visibles + ' recursos') + (filtrando ? ' con los filtros elegidos' : '');
 limpiar.hidden = !filtrando;
@@ -93,7 +108,7 @@ chips.forEach(c => c.addEventListener('click', () => {
 const eje = c.dataset.eje; estado[eje] = estado[eje] === c.dataset.valor ? null : c.dataset.valor; aplicar();
 }));
 buscar.addEventListener('input', () => { estado.q = buscar.value; aplicar(); });
-limpiar.addEventListener('click', () => { estado.tema = estado.tipo = estado.origen = null; estado.q = ''; buscar.value = ''; aplicar(); });
+limpiar.addEventListener('click', () => { estado.tema = estado.tipo = estado.origen = estado.serie = null; estado.q = ''; buscar.value = ''; aplicar(); });
 aplicar();
 })();
 </script>

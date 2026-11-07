@@ -24,7 +24,7 @@ Casada con otro estadístico de la UMH, tres hijos, dos perros y un proyecto de 
 ::: {.linea-tiempo}
 - [2022–]{.anio} Coordinación desde la UMH, en colaboración con la UV y con el patrocinio del IVE, del Concurso Valenciano de Estadística para la Ciencia de Datos, [Va de Dades!](https://vadedades.umh.es/)
 - [2021–]{.anio} Integración en el proyecto [IA4legos](https://ia4legos.umh.es/) para la formación en Inteligencia Artificial y Ciencia de Datos con Python.
-- [2021–2022]{.anio} Coordinación desde la UMH del proyecto Prodigital para la capacitación digital docente y de la ciudadanía (fondos UE Unidigital).
+- [2021–2022]{.anio} Coordinación desde la UMH del proyecto [Unidigital-Prodigital](https://unidigital.umh.es/prodigital) para la capacitación digital docente y de la ciudadanía (fondos UE Unidigital).
 - [2020–]{.anio} De nuevo solo profesora que disfruta aprendiendo.
 - [2014–2017]{.anio} Directora del Título de Experto Universitario UMH en Innovación Tecnológica en Educación.
 - [2011–2020]{.anio} Coordinadora de la asignatura TICs para la docencia y el aprendizaje en Secundaria, Máster de Profesorado.
@@ -48,6 +48,33 @@ Casada con otro estadístico de la UMH, tres hijos, dos perros y un proyecto de 
 :::
 
 ::: {.g-col-12 .g-col-lg-4}
+
+::: {.tarjeta-contacto}
+## Contacto
+
+**Mª Asunción Martínez Mayoral**<br>
+Profesora Titular de Universidad<br>
+Área de Estadística e Investigación Operativa<br>
+Universidad Miguel Hernández de Elche
+
+Edificio Torrepinet, planta 1, despacho 25<br>
+Avda. de la Universidad s/n, 03202 Elche (Alicante)
+
+[<i class="bi bi-envelope" aria-hidden="true"></i> asun.mayoral@umh.es](mailto:asun.mayoral@umh.es)<br>
+<i class="bi bi-telephone" aria-hidden="true"></i> (+34) 96 665 8818
+
+### Investigación
+
+[Google Scholar](https://scholar.google.es/citations?user=8QU4Vp8AAAAJ&hl=es){.perfil}
+[ORCID](https://orcid.org/0000-0001-6944-7335){.perfil}
+[Scopus](https://www.scopus.com/authid/detail.uri?authorId=6602702428){.perfil}
+[ResearchGate](https://www.researchgate.net/profile/Asuncion-Mayoral){.perfil}
+
+### En la red
+
+[<i class="bi bi-linkedin" aria-hidden="true"></i> LinkedIn](https://www.linkedin.com/in/asunmayoral/){.perfil}
+[<i class="bi bi-youtube" aria-hidden="true"></i> YouTube](https://www.youtube.com/channel/UCccvZ4InlmdutYsFSGy29-Q){.perfil}
+:::
 
 ## En frases
 
@@ -78,26 +105,6 @@ Ambicionar lo justo que nos permite disfrutar del día a día. No se puede llega
 ::: {.frase}
 Agradecer, agradecer y agradecer. Pedir perdón y disculpar.
 :::
-
-## Contacto
-
-**Mª Asunción Martínez Mayoral**<br>
-Profesora Titular de Universidad<br>
-Área de Estadística e Investigación Operativa
-
-Edificio Torrepinet, planta 1, despacho 25<br>
-Avda. de la Universidad s/n, 03202 Elche (Alicante)
-
-[asun.mayoral@umh.es](mailto:asun.mayoral@umh.es) · (+34) 96 665 8818
-
-## Perfiles
-
-- [Google Scholar](https://scholar.google.es/citations?user=8QU4Vp8AAAAJ&hl=es)
-- [ORCID](https://orcid.org/0000-0001-6944-7335)
-- [Scopus](https://www.scopus.com/authid/detail.uri?authorId=6602702428)
-- [ResearchGate](https://www.researchgate.net/profile/Asuncion-Mayoral)
-- [LinkedIn](https://www.linkedin.com/in/asunmayoral/)
-- [YouTube](https://www.youtube.com/channel/UCccvZ4InlmdutYsFSGy29-Q)
 
 :::
 

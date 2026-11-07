@@ -1,0 +1,83 @@
+---
+title: "Cursos Unidigital-Prodigital: competencia digital en abierto"
+date: 2026-11-07
+categories: [Recursos, Innovación]
+description: "Siete cursos abiertos y 37 módulos, con sus PDF, vídeos y cuestionarios, para desarrollar la competencia digital de la ciudadanía (DigComp) y la competencia digital docente (DigCompEdu)."
+format:
+  html:
+    grid:
+      body-width: 980px
+listing:
+  - id: digcomp
+    contents: cursos.yml
+    template: ../../../_templates/cursos-prodigital.ejs
+    include:
+      marco: DigComp
+    sort: "orden"
+  - id: digcompedu
+    contents: cursos.yml
+    template: ../../../_templates/cursos-prodigital.ejs
+    include:
+      marco: DigCompEdu
+    sort: "orden"
+---
+
+Dentro del proyecto interuniversitario [Unidigital-Prodigital](https://unidigital.umh.es/prodigital), desde la UMH elaboramos recursos de aprendizaje en abierto para el **Área 2 «Comunicación y colaboración»** de los marcos europeos de competencia digital: siete cursos de nivel B2, con 37 módulos y 18,5 horas de formación en total. Con las contribuciones de todas las universidades valencianas participantes se construyó la [plataforma Prodigital](https://uni-prodigital.es/prodigital-api/rest/inicio).
+
+Cada módulo tiene un **PDF** (en el repositorio institucional RediUMH), un **vídeo**, un **cuestionario** de autoevaluación y, en algunos casos, una **infografía**. Todos los vídeos están reunidos en una [lista de YouTube](https://www.youtube.com/playlist?list=PLClKgnzRFYe5Kck9xzadyq4iq7Dqu-NDO), y cada curso puede seguirse también en el Campus UMH (con identificación). Puedes desplegar cada curso o buscar directamente un tema.
+
+**Autoría:** Asunción M. Mayoral, Francisco J. Montiel Ruiz, F. Javier Amérigo Moreno y Federico Botella (Departamento de Estadística, Matemáticas e Informática, UMH).
+
+```{=html}
+<div class="filtros prodigital-buscar" role="search">
+<div>
+<label for="pd-buscar">Buscar en los 37 módulos</label>
+<input id="pd-buscar" type="search" placeholder="Telegram, licencias, Google Drive, accesibilidad…" autocomplete="off">
+</div>
+<p id="pd-n" class="pie" aria-live="polite"></p>
+</div>
+```
+
+## Para la ciudadanía (DigComp)
+
+::: {#digcomp}
+:::
+
+## Para docentes (DigCompEdu)
+
+::: {#digcompedu}
+:::
+
+```{=html}
+<script>
+(function () {
+  const norm = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  const input = document.getElementById('pd-buscar');
+  const n = document.getElementById('pd-n');
+  const cursos = Array.from(document.querySelectorAll('details.curso'));
+  // Abrir el curso enlazado con #ancla
+  function abrirAncla() {
+    const d = location.hash && document.getElementById(location.hash.slice(1));
+    if (d && d.tagName === 'DETAILS') { d.open = true; d.scrollIntoView(); }
+  }
+  window.addEventListener('hashchange', abrirAncla); abrirAncla();
+  input.addEventListener('input', () => {
+    const q = norm(input.value.trim());
+    let total = 0;
+    cursos.forEach(c => {
+      let vis = 0;
+      c.querySelectorAll('.modulo').forEach(m => {
+        const ok = !q || norm(m.dataset.texto).includes(q);
+        m.hidden = !ok; if (ok) vis++;
+      });
+      c.hidden = q && vis === 0;
+      c.open = !!q && vis > 0;
+      total += vis;
+    });
+    n.textContent = q ? (total === 0 ? 'Ningún módulo coincide.' : (total === 1 ? '1 módulo' : total + ' módulos') + ' con «' + input.value.trim() + '»') : '';
+  });
+})();
+</script>
+```
+
+[Ver el proyecto Unidigital-Prodigital](../../../proyectos/index.qmd) · [Ver estos cursos en el catálogo de Recursos](../../../recursos/index.html?serie=Unidigital-Prodigital)

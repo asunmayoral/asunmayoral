@@ -5,7 +5,9 @@ page-layout: full
 title-block-banner: false
 listing:
   - id: novedades
-    contents: recursos/recursos.yml
+    contents:
+      - recursos/recursos.yml
+      - recursos/recursos-prodigital.yml
     template: _templates/recursos-novedades.ejs
     sort: "date desc"
     max-items: 3
@@ -16,8 +18,8 @@ listing:
       estado: Activo
     sort: "orden desc"
   - id: ultimas
-    contents: cuaderno/posts
-    template: _templates/cuaderno-lista.ejs
+    contents: blog/posts
+    template: _templates/blog-lista.ejs
     sort: "date desc"
     max-items: 3
     date-format: "D MMM YYYY"
@@ -34,7 +36,7 @@ listing:
 
 [Profesora Titular de Estadística e Investigación Operativa en la Universidad Miguel Hernández de Elche. Aquí comparto lo que preparo para mis clases y lo que encuentro por el camino.]{.lead}
 
-[Explorar recursos](recursos/index.qmd){.btn-pill .solid} [Leer el cuaderno](cuaderno/index.qmd){.btn-pill .line}
+[Explorar recursos](recursos/index.qmd){.btn-pill .solid} [Leer el blog](blog/index.qmd){.btn-pill .line}
 :::
 
 ::: {.puertas}
@@ -42,7 +44,7 @@ listing:
 
 [[Recursos]{.kicker} [Materiales propios y recomendados]{.titulo} [Webs de asignatura, libros, recopilatorios y vídeos, con buscador y filtros por tema y tipo.]{.texto}](recursos/index.qmd){.puerta .recursos}
 
-[[Cuaderno]{.kicker} [Divulgación y notas]{.titulo} [Estadística, inteligencia artificial y comunicación científica, contadas con calma.]{.texto}](cuaderno/index.qmd){.puerta .cuaderno}
+[[Blog]{.kicker} [Divulgación y notas]{.titulo} [Estadística, inteligencia artificial y comunicación científica, contadas con calma.]{.texto}](blog/index.qmd){.puerta .blog}
 :::
 
 ::::: {.franja .blanca}
@@ -69,9 +71,9 @@ listing:
 
 ::::: {.franja .ciruela}
 ::: {.seccion-cab}
-## Del cuaderno
+## Del blog
 
-[Todas las entradas](cuaderno/index.qmd)
+[Todas las entradas](blog/index.qmd)
 :::
 
 ::: {#ultimas}

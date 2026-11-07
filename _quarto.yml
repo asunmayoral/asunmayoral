@@ -30,10 +30,8 @@ website:
         href: recursos/index.qmd
       - text: Proyectos
         href: proyectos/index.qmd
-      - text: Cuaderno
-        href: cuaderno/index.qmd
-      - text: Publicaciones
-        href: publicaciones/index.qmd
+      - text: Blog
+        href: blog/index.qmd
       - text: Sobre mí
         href: sobre-mi/index.qmd
   page-footer:
@@ -52,7 +50,7 @@ website:
       - text: YouTube
         href: https://www.youtube.com/channel/UCccvZ4InlmdutYsFSGy29-Q
       - text: RSS
-        href: cuaderno/index.xml
+        href: blog/index.xml
 
 format:
   html:

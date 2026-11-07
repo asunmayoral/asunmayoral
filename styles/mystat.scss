@@ -10,8 +10,8 @@ $linea: #E9DFCF;
 $melocoton: #F8D5C2;   $melocoton-p: #A8472A;   // Docencia
 $menta: #CFE9DA;       $menta-p: #2F6E50;       // Recursos
 $mantequilla: #FBE8AE; $mantequilla-p: #8A6200; // Proyectos
-$ciruela: #EBD3E4;     $ciruela-p: #7B2D63;     // Cuaderno
-$cielo: #D3E7F4;       $cielo-p: #2C628A;       // Publicaciones
+$ciruela: #EBD3E4;     $ciruela-p: #7B2D63;     // Blog
+$cielo: #D3E7F4;       $cielo-p: #2C628A;       // Cursos Prodigital, libros
 
 $body-bg: $crema;
 $body-color: $tinta;
@@ -89,7 +89,7 @@ a { text-underline-offset: 3px; }
 .puerta::after { content: ""; position: absolute; width: 120px; height: 120px; right: -30px; top: -30px; background: rgba(255,251,242,.55); }
 .puerta.docencia { background: $melocoton; } .puerta.docencia::after { border-radius: 50%; }
 .puerta.recursos { background: $menta; } .puerta.recursos::after { clip-path: polygon(0 0, 100% 0, 100% 100%); right: 0; top: 0; }
-.puerta.cuaderno { background: $ciruela; } .puerta.cuaderno::after { border-radius: 0 0 0 100%; right: 0; top: 0; }
+.puerta.blog { background: $ciruela; } .puerta.blog::after { border-radius: 0 0 0 100%; right: 0; top: 0; }
 
 .franja { margin: 0 calc(-50vw + 50%); padding: 3.5rem calc(50vw - 50%); }
 .franja.blanca { background: #fff; border-top: 1px solid $linea; border-bottom: 1px solid $linea; }
@@ -188,3 +188,40 @@ details.acordeon.proyectos > summary:focus-visible { outline-color: $mantequilla
 .tag.t-activo { background: $mantequilla; color: $tinta; margin-right: .3rem; vertical-align: .1em; }
 .asig ul.detalle { margin: .4rem 0 0; padding-left: 1.2rem; font-size: .9rem; color: $gris; }
 .asig ul.detalle li { margin: .1rem 0; }
+
+// Cursos Unidigital-Prodigital (entrada del Cuaderno)
+details.acordeon.prodigital[open] > summary { background: $cielo; }
+details.acordeon.prodigital > summary::after { color: $cielo-p; }
+details.acordeon.prodigital > summary:focus-visible { outline-color: $cielo-p; }
+details.acordeon.prodigital > summary { font-size: 1.25rem; }
+.curso-tit { display: flex; flex-direction: column; gap: .2rem; padding-right: 1rem; }
+.curso-meta { font-family: "Atkinson Hyperlegible", sans-serif; font-size: .88rem; font-weight: 400; color: $gris; }
+.curso-cuerpo > p { margin: 1rem 0 .4rem; }
+.modulo { border-top: 1px solid $linea; padding: 1rem 0; }
+.modulo:first-of-type { margin-top: .6rem; }
+.mod-cab { display: flex; align-items: baseline; gap: .7rem; }
+.mod-cab h4 { margin: 0; font-size: 1.1rem; flex: 1; }
+.mod-num { font-family: "JetBrains Mono", monospace; font-size: .85rem; color: $cielo-p; }
+.mod-h { font-size: .85rem; color: $gris; white-space: nowrap; }
+.mod-desc { margin: .35rem 0 .6rem; color: $gris; font-size: .97rem; }
+.mod-rec { display: flex; flex-wrap: wrap; gap: .5rem; }
+.mod-rec a.rec { display: inline-flex; align-items: center; min-height: 40px; padding: 0 .9rem; border-radius: 20px; background: $cielo; color: $tinta; font-weight: 700; font-size: .9rem; text-decoration: none; }
+.mod-rec a.rec:hover { background: $cielo-p; color: #fff; }
+.mod-rec a.rec-sec { background: #fff; border: 1px solid $linea; font-weight: 400; }
+details.mod-mas { margin-top: .5rem; font-size: .93rem; }
+details.mod-mas > summary { cursor: pointer; color: $cielo-p; font-weight: 700; min-height: 32px; }
+details.mod-mas p { margin: .3rem 0; }
+.prodigital-buscar { margin: 1.5rem 0 1rem; }
+
+.tag.t-serie { background: $cielo; }
+
+// Portada pequeña de libros en el catálogo
+.tarjeta img.portada { width: 64px; height: auto; border-radius: 3px; box-shadow: 0 1px 3px rgba(47,42,54,.25); margin: .2rem 0; }
+
+// Sobre mí: tarjeta de contacto y perfiles
+.tarjeta-contacto { background: #fff; border: 1px solid $linea; border-radius: .75rem; padding: 1.25rem 1.4rem; margin: 1.5rem 0 2rem; }
+.tarjeta-contacto h2 { margin-top: 0; border: 0; }
+.tarjeta-contacto h3 { font-size: 1rem; margin: 1.2rem 0 .5rem; color: $gris; font-family: "Atkinson Hyperlegible", sans-serif; text-transform: uppercase; letter-spacing: .06em; }
+.tarjeta-contacto p:has(a.perfil) { display: flex; flex-wrap: wrap; gap: .45rem; }
+a.perfil { display: inline-flex; align-items: center; gap: .35rem; min-height: 40px; padding: 0 .85rem; border-radius: 20px; border: 1.5px solid $tinta; color: $tinta; font-weight: 700; font-size: .92rem; text-decoration: none; }
+a.perfil:hover { background: $tinta; color: $crema; }

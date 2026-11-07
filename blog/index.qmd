@@ -1,5 +1,5 @@
 ---
-title: "Cuaderno"
+title: "Blog"
 description: "Notas y divulgación sobre estadística, inteligencia artificial, docencia y comunicación científica."
 listing:
   contents: posts

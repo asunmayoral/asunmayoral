@@ -7,9 +7,10 @@
 #   anio         lo que se muestra como fecha (texto libre: "2022", "2023-24", "Web")
 #   tipo         uno de: Asignatura, Curso, Taller, Libro, Apuntes y prácticas, Recopilatorio, Vídeo, Datos, Juego
 #   temas        lista con valores de: Estadística, Ciencia de datos, IA, Python, R, Bayesiana,
-#                Mejora de procesos, Innovación educativa, Comunicación científica
+#                Mejora de procesos, Innovación educativa, Comunicación científica, Competencia digital
 #   origen       Propio | Recomendado
 #   autoria      (opcional) coautoría o autoría ajena
+#   serie        (opcional) proyecto o colección al que pertenece (se muestra como etiqueta), p. ej. Unidigital-Prodigital
 #   nota         (opcional) aviso breve, p. ej. acceso restringido
 
 # ---------- Estadística y ciencia de datos ----------
@@ -241,9 +242,12 @@
   origen: Recomendado
 
 # ---------- Libros ----------
+# Campos extra para libros: portada (imagen pequeña en images/libros/), mas / mas_texto (enlace adicional)
 - title: "Lean Seis Sigma para la Mejora de Procesos"
   description: "A. M. Mayoral y J. Morales. Editorial electrónica UMH. ISBN 978-84-18177-14-9."
   path: https://innovacionumh.es/editorial/Lean%20Seis%20Sigma%20para%20la%20mejora%20de%20procesos.pdf
+  mas: https://play.google.com/store/books/details?id=jKVYEAAAQBAJ
+  mas_texto: "Google Play"
   date: 2022-01-13
   anio: "2022"
   tipo: Libro
@@ -253,6 +257,9 @@
 - title: "TICs para la docencia y el aprendizaje"
   description: "Mª A. Martínez Mayoral, J. Morales, J. Aparicio, L. Ortiz y M. Quesada. Editorial electrónica UMH. ISBN 978-84-16024-82-7."
   path: http://innovacionumh.es/editorial/TICS.pdf
+  mas: https://play.google.com/store/books/details?id=2EvEDwAAQBAJ
+  mas_texto: "Google Play"
+  portada: /images/libros/tics.webp
   date: 2019-12-16
   anio: "2019"
   tipo: Libro
@@ -260,8 +267,11 @@
   origen: Propio
 
 - title: "Monográfico Innovación UMH 2017"
-  description: "Recopilación revisada de experiencias de innovación docente en la UMH. Eds.: A. M. Mayoral, J. Morales, J. A. Pérez-Juan y P. Robles."
+  description: "Recopilación revisada de experiencias de innovación docente en la UMH. Eds.: A. M. Mayoral, J. Morales, J. A. Pérez-Juan y P. Robles. Editorial electrónica UMH. ISBN 978-84-16024-55-1."
   path: http://editorial.umh.es/2018/11/06/monografico-innovacion-umh-2017/
+  mas: https://play.google.com/store/books/details?id=lm12DwAAQBAJ
+  mas_texto: "Google Play"
+  portada: /images/libros/monografico-2017.webp
   date: 2018-11-06
   anio: "2018"
   tipo: Libro
@@ -269,7 +279,7 @@
   origen: Propio
 
 - title: "Apuntes de Teoría de Colas"
-  description: "Simulación y análisis de sistemas de espera. A. M. Mayoral, J. Morales, X. Barber y J. Aparicio. Universidad Miguel Hernández."
+  description: "Simulación y análisis de sistemas de espera. A. M. Mayoral, J. Morales, X. Barber y J. Aparicio. Universidad Miguel Hernández. ISBN 978-84-96297-76-0."
   path: https://www.dropbox.com/s/4jkbpjfvp1m762y/A4%20Apuntes%20de%20Teor%C3%ADa%20de%20Colas.pdf
   date: 2007-01-01
   anio: "2007"
@@ -278,16 +288,16 @@
   origen: Propio
 
 - title: "Modelos estadísticos para pérdidas y reclamaciones"
-  description: "A. M. Mayoral, J. Morales, X. Barber y J. Aparicio. Universidad Miguel Hernández."
+  description: "A. M. Mayoral, J. Morales, X. Barber y J. Aparicio. Universidad Miguel Hernández. ISBN 978-84-96297-78-4."
   path: https://www.dropbox.com/s/nhjrlamuo8kcasd/A4%20Mod%20Estad%20p%20P%C3%A9rd%20y%20Reclamac.pdf
-  date: 2006-01-01
-  anio: "Libro"
+  date: 2007-01-02
+  anio: "2007"
   tipo: Libro
   temas: [Estadística]
   origen: Propio
 
-- title: "Modelos Lineales Generalizados"
-  description: "A. M. Mayoral y J. Morales. Universidad Miguel Hernández."
+- title: "Modelos Lineales Generalizados (apuntes)"
+  description: "A. M. Mayoral y J. Morales. Universidad Miguel Hernández. ISBN 84-95893-01-0."
   path: https://www.dropbox.com/s/bcjt5ms5idtun2p/Modelos%20Lineales%20Generalizados.pdf
   date: 2002-01-01
   anio: "Libro"
@@ -296,10 +306,18 @@
   origen: Propio
 
 - title: "TIS: Técnicas de Investigación Social"
-  description: "M. Landete y A. M. Mayoral. Universidad Miguel Hernández."
+  description: "M. Landete y A. M. Mayoral. Universidad Miguel Hernández. ISBN 84-95315-90-4."
   path: https://www.dropbox.com/s/wcwdu4qw83rulr6/TIS%20a4.pdf
   date: 2001-01-01
   anio: "2001"
+  tipo: Libro
+  temas: [Estadística]
+  origen: Propio
+
+- title: "Pràctiques d'Estadística Matemàtica"
+  description: "J. J. Abellán, R. Álvarez-Valdés, S. Aniceto, C. Armero, M. J. Bayarri, A. M. Mayoral, J. Morales, E. Mota, M. T. Rabena y S. Sanmatías. Servei de Publicacions de la Universitat de València. ISBN 84-370-4450-2."
+  date: 2000-01-01
+  anio: "2000"
   tipo: Libro
   temas: [Estadística]
   origen: Propio

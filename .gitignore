@@ -12,3 +12,6 @@ __pycache__/
 *.pdf
 !files/**/*.pdf
 sobre-mi/CVN*
+
+# Hojas de cálculo de origen (datos internos)
+/fuentes/

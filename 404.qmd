@@ -1,0 +1,14 @@
+---
+title: "Página no encontrada"
+description: "La dirección que buscas no existe o ha cambiado de sitio."
+toc: false
+---
+
+Puede que el enlace sea de la web anterior. Prueba con:
+
+- [La portada](/index.html)
+- [Recursos](/recursos/index.html): materiales, cursos y libros, con buscador
+- [Blog](/blog/index.html): todas las entradas, también las del blog antiguo
+- [Docencia](/docencia/index.html) y [Proyectos](/proyectos/index.html)
+
+También puedes usar el buscador de la barra superior.

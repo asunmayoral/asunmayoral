@@ -8,7 +8,7 @@ const slug = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ
 <span class="tag t-<%= slug(item.tipo) %>"><%= item.tipo %></span>
 <span class="tag tag-outline"><%= item.origen %></span>
 </div>
-<h3><a href="<%- item.path %>"><%= item.title %></a></h3>
+<h3><% if (item.path) { %><a href="<%- item.path %>"><%= item.title %></a><% } else { %><%= item.title %><% } %></h3>
 <p class="desc"><%= item.description %></p>
 <p class="pie"><%= (item.temas || []).join(' · ') %><% if (item.anio) { %> · <%= item.anio %><% } %></p>
 </article>

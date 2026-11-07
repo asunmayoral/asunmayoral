@@ -1,9 +1,14 @@
 ---
 title: "Recursos"
+aliases:
+  - /publicaciones/
+  - /docencia/publicaciones-docentes/
 description: "Materiales que he preparado, sola o con compañeros y compañeras, y otros que recomiendo. Sobre todo de Estadística y Ciencia de Datos; también de innovación educativa y comunicación científica."
 listing:
   id: catalogo
-  contents: recursos.yml
+  contents:
+    - recursos.yml
+    - recursos-prodigital.yml
   template: ../_templates/recursos-catalogo.ejs
   sort: "date desc"
 ---

@@ -1,0 +1,572 @@
+# Generado por scripts/prodigital_desde_excel.py a partir de la hoja de cálculo del proyecto.
+# No editar a mano: corrige la hoja y vuelve a ejecutar el script.
+- modulos:
+  - id: DC2.1.1
+    num: 2.1.1
+    titulo: Recursos para la interacción online. Redes sociales
+    competencia: DigComp 2.1 Interactuar a través de tecnologías digitales
+    horas: 0,5 h
+    descripcion: En este módulo podrás conocer el concepto de red social, así como las bondades que ofrecen las redes más populares y el tipo de interacciones que promueven.
+    objetivos: Identificar usos y potencialidades de las redes sociales. Conocer las bondades y los peligros de nuestra participación en la red social. Interaccionar de manera adecuada en las mismas.
+    contenidos: 'Concepto de Red social: usos y potencialidades. Características y adecuación para interactuar.'
+    pdf: https://dspace.umh.es/bitstream/11000/29641/1/DC2.1.1%20Recursos%20para%20la%20interacci%c3%b3n%20online.%20Redes%20sociales.pdf
+    ficha: https://hdl.handle.net/11000/29641
+    video: https://youtu.be/Ilc4I60KrkE
+    cuestionario: https://forms.gle/txBnY78F3dKNa8iU8
+  - id: DC2.1.2
+    num: 2.1.2
+    titulo: Servicios de Mensajería
+    competencia: DigComp 2.1 Interactuar a través de tecnologías digitales
+    horas: 0,5 h
+    descripcion: En este módulo presentamos diferentes servicios de mensajería online para comunicarte con otras personas y para compartir contenidos digitales.
+    objetivos: Revisar los servicios de mensajería digital más populares en la actualidad, sus características y diferencias, para saber elegir y orientar cuál interesa en función de las necesidades de comunicación e interacción.
+    contenidos: Tipos y características de los servicios de mensajería.online. Compartición de contenidos digitales.
+    pdf: https://dspace.umh.es/bitstream/11000/29610/6/Servicios%20de%20mensajer%c3%ada%20instant%c3%a1nea.pdf
+    ficha: https://hdl.handle.net/11000/29610
+    video: https://youtu.be/Wair9-bF8lg
+    cuestionario: https://forms.gle/ZgMVk4StVL9LTrzZ6
+  - id: DC2.1.3
+    num: 2.1.3
+    titulo: Comunicación con Telegram
+    competencia: DigComp 2.1 Interactuar a través de tecnologías digitales
+    horas: 0,5 h
+    descripcion: En este módulo descubrirás interesantes funcionalidades de Telegram para comunicarte por internet en chats, canales de difusión y videollamadas.
+    objetivos: Conocer las funcionalidades y peculiaridades de Telegram para la interacción con otros usuarios.
+    contenidos: Herramientas y funcionalidades de Telegram para la interacción.
+    pdf: https://dspace.umh.es/bitstream/11000/29611/1/Comunicaci%c3%b3n%20con%20Telegram.pdf
+    ficha: https://hdl.handle.net/11000/29611
+    video: https://youtu.be/uAXWDQYP8EQ
+    cuestionario: https://forms.gle/CiweYg4Tf5JXL3qB6
+  - id: DC2.1.4
+    num: 2.1.4
+    titulo: Visualizar contenidos de forma compartida con Google Meet
+    competencia: DigComp 2.1 Interactuar a través de tecnologías digitales
+    horas: 0,5 h
+    descripcion: En este módulo aprenderás a visualizar contenido de modo compartido desde la aplicación Google Meet.
+    objetivos: Conocer las posibilidades de Google Meet para visualización de contenidos desde cualquier dispositivo u ordenador.
+    contenidos: Google Meet para compartir y visualizar contenidos.
+    pdf: https://dspace.umh.es/bitstream/11000/29612/6/Visualizar%20contenidos%20de%20forma%20compartida%20con%20Google%20Meet.pdf
+    ficha: https://hdl.handle.net/11000/29612
+    video: https://youtu.be/3br9GmrgpHI
+    cuestionario: https://forms.gle/PUZ36saKc1NUVA4m9
+  id: CDC2.1
+  ancla: cdc2-1
+  marco: DigComp
+  title: Interacción digital
+  competencia: DigComp 2.1 Interactuar a través de tecnologías digitales
+  area: Área 2. Comunicación y colaboración
+  nivel: B2
+  horas: 2 h
+  description: La comunicación en red es fundamental en el siglo XXI. Repasamos cómo interaccionar de un modo eficaz y saludable a través de redes sociales y diversos servicios de mensajería y videoconferencia.
+  objetivos: Identificar y conocer usos y potencialidades de las redes sociales, servicios de mensajería y videoconferencia, para interaccionar en red de manera adecuada.
+  contenidos: Usos, potencialidades, bondades y peligros de las redes sociales. Servicios de mensajería digital. Telegram y Google Meet para compartir y visualizar contenidos.
+  evaluacion: Cuestionarios tipo test
+  profesorado: Asunción M. Mayoral, Francisco J. Montiel Ruiz, F. Javier Amérigo Moreno y Federico Botella (Departamento de Estadística, Matemáticas e Informática)
+  coleccion: https://dspace.umh.es/handle/11000/29584
+  campus: https://campus.umh.es/course/view.php?id=38524
+  orden: 0
+  n_modulos: 4
+- modulos:
+  - id: DC2.2.1
+    num: 2.2.1
+    titulo: Servicios de Almacenamiento en la nube
+    competencia: DigComp 2.2 Compartir mediante tecnologías digitales
+    horas: 0,5 h
+    descripcion: En este módulo descubrirás las características y diferencias entre los servicios de almacenamiento en la nube más populares.
+    objetivos: Revisar los servicios de almacenamiento en la nube más populares en la actualidad, sus características y diferencias, para saber elegir y orientar cuál interesa en función de las necesidades de almacenamiento y compartición.
+    contenidos: Servicios de almacenamiento en la nube. Google Drive. WhatsApp. Telegram.
+    pdf: https://dspace.umh.es/bitstream/11000/29614/1/Servicios%20de%20almacenamiento%20en%20la%20nube.pdf
+    ficha: https://hdl.handle.net/11000/29614
+    video: https://youtu.be/_FyuWL05AwI
+    cuestionario: https://forms.gle/XoZ1JrCLeN6f3f8t9
+  - id: DC2.2.2
+    num: 2.2.2
+    titulo: Almacenar y gestionar contenido con Google Drive
+    competencia: DigComp 2.2 Compartir mediante tecnologías digitales
+    horas: 0,5 h
+    descripcion: En este módulo aprenderás a utilizar Google Drive como espacio de almacenamiento gratuito de archivos en la nube, y también a gestionar dicho contenido para mantenerlo accesible en función de tus necesidades.
+    objetivos: Aprender a almacenar y gestionar contenido en Google Drive.
+    contenidos: 'Servicios de almacenamiento en la nube: Google Drive.'
+    pdf: https://dspace.umh.es/bitstream/11000/29615/1/Almacenar%20y%20gestionar%20contenido%20con%20Google%20Drive.pdf
+    ficha: https://hdl.handle.net/11000/29615
+    video: https://youtu.be/27gNWgd-5vY
+    cuestionario: https://forms.gle/yae4csxHRBc9d9Lz6
+  - id: DC2.2.3
+    num: 2.2.3
+    titulo: Compartir contenido con Google Drive
+    competencia: DigComp 2.2 Compartir mediante tecnologías digitales
+    horas: 0,5 h
+    descripcion: En este módulo aprenderás a utilizar Google Drive para compartir contenido diverso con otros usuarios.
+    objetivos: Aprender a compartir contenido con Google Drive.
+    contenidos: 'Servicios de almacenamiento en la nube: Compartición con Google Drive.'
+    pdf: https://dspace.umh.es/bitstream/11000/29616/1/Compartir%20contenido%20con%20Google%20Drive.pdf
+    ficha: https://hdl.handle.net/11000/29616
+    video: https://youtu.be/YlzA1uJBS-U
+    cuestionario: https://forms.gle/AXTmop3qoWiF9TiT7
+  - id: DC2.2.4
+    num: 2.2.4
+    titulo: Compartir con WhatsApp
+    competencia: DigComp 2.2 Compartir mediante tecnologías digitales
+    horas: 0,5 h
+    descripcion: En este módulo revisamos las opciones y funcionalidades que ofrece el servicio de mensajería instantánea WhastApp para compartir contenido con otros usuarios.
+    objetivos: Conocer las funcionalidades y peculiaridades de WhatsApp para interaccionar y compartir contenido con otros usuarios.
+    contenidos: 'Servicios de almacenamiento en la nube: Funcionalidades con WhatsApp.'
+    pdf: https://dspace.umh.es/bitstream/11000/29617/1/Compartir%20con%20WhatsApp.pdf
+    ficha: https://hdl.handle.net/11000/29617
+    video: https://youtu.be/TxIF5-fPDZA
+    cuestionario: https://forms.gle/av4aLmGQKxQWXbzEA
+  - id: DC2.2.5
+    num: 2.2.5
+    titulo: Compartir con Telegram
+    competencia: DigComp 2.2 Compartir mediante tecnologías digitales
+    horas: 0,5 h
+    descripcion: En este módulo revisamos las opciones y funcionalidades que ofrece el servicio de mensajería instantánea Telegram para compartir contenido con otros usuarios.
+    objetivos: Conocer las funcionalidades y peculiaridades de Telegram para interaccionar y compartir contenido con otros usuarios.
+    contenidos: 'Servicios de almacenamiento en la nube: Funcionalidades con Telegram.'
+    pdf: https://dspace.umh.es/bitstream/11000/29618/1/Compartir%20con%20Telegram.pdf
+    ficha: https://hdl.handle.net/11000/29618
+    video: https://youtu.be/KjWoNXzNEkA
+    cuestionario: https://forms.gle/ekHHDHoxBVM2ABRw7
+  - id: DC2.2.6
+    num: 2.2.6
+    titulo: Compartir en proximidad sin internet
+    competencia: DigComp 2.2 Compartir mediante tecnologías digitales
+    horas: 0,5 h
+    descripcion: En este módulo aprenderás a compartir contenido con otras personas a través de dispositivos móviles cuano no disponemos de conexión a internet, utilizando otro tipo de tecnologías en proximidad.
+    objetivos: Conocer las alternativas tecnológicas para compartir contenido digital en entornos sin internet, y desde cualquier dispositivo móvil u ordenador.
+    contenidos: Alternativas para compartir contenido digital en entornos sin internet.
+    pdf: https://dspace.umh.es/bitstream/11000/29619/1/Compartir%20en%20proximidad%20sin%20internet.pdf
+    ficha: https://hdl.handle.net/11000/29619
+    video: https://youtu.be/5R0ITX9WVLU
+    cuestionario: https://forms.gle/3qNuu1P8Y794TncH7
+  id: CDC2.2
+  ancla: cdc2-2
+  marco: DigComp
+  title: Compartir en la red
+  competencia: DigComp 2.2 Compartir mediante tecnologías digitales
+  area: Área 2. Comunicación y colaboración
+  nivel: B2
+  horas: 3 h
+  description: Es importante conocer todos los recursos en red de los que disponemos para almacenar y organizar contenidos digitales de cualquier tipo. Saber además cómo compartirlo con otros a través de diversas herramientas web, es básico para un ciudadano del siglo XXI.
+  objetivos: Conocer los sistemas de almacenamiento en la nube y aprender a gestionar y compartir contenidos diversos.
+  contenidos: Servicios de almacenamiento en la nube. Google Drive. WhatsApp. Telegram. Alternativas para compartir contenido digital en entornos sin internet.
+  evaluacion: Cuestionario tipo test
+  profesorado: Asunción M. Mayoral, Francisco J. Montiel Ruiz, F. Javier Amérigo Moreno y Federico Botella (Departamento de Estadística, Matemáticas e Informática)
+  coleccion: https://dspace.umh.es/handle/11000/29613
+  campus: https://campus.umh.es/course/view.php?id=38536
+  orden: 1
+  n_modulos: 6
+- modulos:
+  - id: DC2.3.1
+    num: 2.3.1
+    titulo: Identificación electrónica segura
+    competencia: DigComp 2.3 Participación ciudadana a través de las tecnologías digitales.
+    horas: 0,5 h
+    descripcion: Con este módulo podrás conocer cómo crear y gestionar una o varias identidades digitales para resolver trámites a través de internet en la Administración Pública Electrónica.
+    objetivos: Aprender a crear y gestionar una o varias identidades digitales para resolver trámites a través de internet en la Administración Pública Electrónica.
+    contenidos: Creación y gestión de identidades digitales para resolver trámites online en la Administración Pública Electrónica.
+    pdf: https://dspace.umh.es/bitstream/11000/29621/1/Identificaci%c3%b3n%20electr%c3%b3nica%20segura.pdf
+    ficha: https://hdl.handle.net/11000/29621
+    video: https://youtu.be/qAqTd3_t6-4
+    cuestionario: https://forms.gle/fU5K8qH8YPybD7ZE7
+    infografia: https://dspace.umh.es/bitstream/11000/29621/6/DC2.3.1%20infograf%c3%ada%20-%20Identificaci%c3%b3n%20electr%c3%b3nica%20segura.png
+  - id: DC2.5.1
+    num: 2.5.1
+    titulo: Comportamiento en la red
+    competencia: DigComp 2.5 Comportamiento en la red.
+    horas: 0,5 h
+    descripcion: En este módulo podrás conocer diferentes ejemplos de buenas y malas prácticas en la red, de las precauciones recomendables para usar las redes -teniendo en cuenta cómo se construye tu huella digital-, y de las posibilidades de denuncia o filtro de la información que te llega diariamente por internet.
+    objetivos: Conocer las normas de comportamiento en el uso de las tecnologías para la interacción en entornos digitales. Adaptar las estrategias de comunicación a una audiencia específica, teniendo en cuenta la diversidad cultural y generacional de los entornos digitales.
+    contenidos: 'Prácticas en la red: Precauciones en entornos digitales y construcción de la huella digital.'
+    pdf: https://dspace.umh.es/bitstream/11000/29632/1/DC2.5.1%20Comportamiento%20en%20la%20red.pdf
+    ficha: https://hdl.handle.net/11000/29632
+    video: https://youtu.be/-D_AIBJOyGQ
+    cuestionario: https://forms.gle/WREQ2MfUnFHoiA7J6
+  - id: DC2.6.1
+    num: 2.6.1
+    titulo: Identidad digital
+    competencia: DigComp 2.6 Gestión de la identidad digital
+    horas: 0,5 h
+    descripcion: Con la información de este módulo podrás ser capaz de reconocer el concepto de identidad digital y todo aquello que implica respecto a tu huella en la red y la reputación digital que construyes.
+    objetivos: 'Conocer el concepto de identidad digital en sus dos acepciones: identificación autenticada y huella digital. Tomar consciencia de cómo se configura nuestra reputación digital.'
+    contenidos: Concepto de Identidad Digital y reputación digital.
+    pdf: https://dspace.umh.es/bitstream/11000/29633/1/DC2.6.1%20Identidad%20digital.pdf
+    ficha: https://hdl.handle.net/11000/29633
+    video: https://youtu.be/IaaaZGuIO3k
+    cuestionario: https://forms.gle/99gmzYARkJ3VkKeX8
+  - id: DC2.6.2
+    num: 2.6.2
+    titulo: Navegación y cookies
+    competencia: DigComp 2.6 Gestión de la identidad digital
+    horas: 0,5 h
+    descripcion: Con este módulo conocerás qué son las cookies, para qué sirven y cómo gestionarlas, o incluso evitarlas navegando de incógnito.
+    objetivos: Conocer el tipo de datos que se produce a través de diversas herramientas, entornos y servicios digitales. Identificar las cookies y diferenciar los usos diversos que facilitan. Gestionar y restringir el uso de los datos que se comparte al navegar en la web.
+    contenidos: 'Cookies: Gestión y utilidad de las mismas para la navegación online.'
+    pdf: https://dspace.umh.es/bitstream/11000/29634/1/DC2.6.2%20Navegaci%c3%b3n%20y%20cookies.pdf
+    ficha: https://hdl.handle.net/11000/29634
+    video: https://youtu.be/8iJJzbh_jBo
+    cuestionario: https://forms.gle/pECekze6UF2LRsNV7
+  - id: DC2.6.3
+    num: 2.6.3
+    titulo: Derechos sobre mi identidad digital
+    competencia: DigComp 2.6 Gestión de la identidad digital
+    horas: 0,5 h
+    descripcion: Con este módulo podrás conocer acerca de todos aquellos derechos que, como ciudadano español y europeo, tienes sobre tu identidad digital. En concreto, conocerás las implicaciones del derecho de acceso, el de rectificación y el de supresión de tus datos digitales.
+    objetivos: Conocer los derechos que nos amparan al respecto del respeto a nuestros datos en internet, así como las herramientas disponibles para reivindicar y reclamar dichos derechos.
+    contenidos: Conocer de los Derechos en cuanto a acceso, rectificación y supresión de la Identidad Digital.
+    pdf: https://dspace.umh.es/bitstream/11000/29635/1/DC2.6.3%20Derechos%20sobre%20mi%20identidad%20digital.pdf
+    ficha: https://hdl.handle.net/11000/29635
+    video: https://youtu.be/AQRQR4s9624
+    cuestionario: https://forms.gle/iZa3K3TFrJ2KUymZ6
+  - id: DC2.6.4
+    num: 2.6.4
+    titulo: Decálogo para cuidar mi identidad digital
+    competencia: DigComp 2.6 Gestión de la identidad digital
+    horas: 0,5 h
+    descripcion: En este módulo tendrás acceso a un decálogo de recomendaciones para que cuides tu identidad y reputación digital, a la vez que las proteges para que tu huella en internet contenga sólo la información que tú quieres compartir.
+    objetivos: Identificar prácticas de interacción y comportamiento en la red, positivas para la construcción y cuidado de la identidad digital.
+    contenidos: Decálogo sobre reputación e Identidad Digital.
+    pdf: https://dspace.umh.es/bitstream/11000/29636/1/DC2.6.4%20Dec%c3%a1logo%20para%20cuidar%20mi%20identidad%20digital.pdf
+    ficha: https://hdl.handle.net/11000/29636
+    video: https://youtu.be/9DmeibYZNis
+    cuestionario: https://forms.gle/69VjW9D7QorgyqUX6
+    infografia: https://dspace.umh.es/bitstream/11000/29636/2/DC2.6.4%20infograf%c3%ada%20-%20Dec%c3%a1logo%20para%20cuidar%20mi%20identidad%20digital%20%281%29.png
+  id: CDC2.3
+  ancla: cdc2-3
+  marco: DigComp
+  title: Identidad digital, participación ciudadana y comportamiento en la red
+  competencia: DigComp 2.3 Participación ciudadana a través de las tecnologías digitales. DigComp 2.5 Comportamiento en la red. DigComp 2.6 Gestión de la identidad digital
+  area: Área 2. Comunicación y colaboración
+  nivel: B2
+  horas: 3 h
+  description: Vivimos interactuando en red y generando una huella digital de la que a veces no somos conscientes. Hablamos sobre identidad, huella y reputación digital, y cómo gestionarlas, así como sobre buenas prácticas para la comunicación en red. Te informamos sobre cómo crear tu identidad digital para resolver trámites online en la Administración Pública. Recordamos los derechos que, como ciudadanos, tenemos sobre nuestra identidad digital, y te damos un decálogo de buenas prácticas para cuidar tu reputación digital. Repasamos también la gestión de cookies para garantizar una navegación segura en internet.
+  objetivos: Aprender a crear, gestionar y utilizar una o varias identidades digitales para la participación ciudadana, y conocer las normas de comportamiento en la red
+  contenidos: Concepto de identidad digital. Reputación digital. Datos, metadatos y cookies al interaccionar en la red. Gestión del uso de los datos que se comparte al navegar en la web. Derechos del internauta y herramientas para la protección de los derechos. Cuidado de la identidad digital. Prácticas de interacción y comportamiento en la red, positivas para la construcción y cuidado de la identidad digital. Creación y gestión de identidades digitales para resolver trámites online en la Administración Pública Electrónica. Normas de comportamiento en entornos digitales. Estrategias de comunicación y adaptación a audiencias diversas. Prácticas positivas de interacción y comportamiento en la red.
+  evaluacion: Cuestionario tipo test
+  profesorado: Asunción M. Mayoral, Francisco J. Montiel Ruiz, F. Javier Amérigo Moreno y Federico Botella (Departamento de Estadística, Matemáticas e Informática)
+  campus: https://campus.umh.es/course/view.php?id=38553
+  orden: 2
+  n_modulos: 6
+- modulos:
+  - id: DC2.4.1
+    num: 2.4.1
+    titulo: Colaboración virtual
+    competencia: DigComp 2.4 Colaboración a través de las tecnologías digitales
+    horas: 0,5 h
+    descripcion: Con este módulo podrás reflexionar sobre las necesidades, ventajas, funcionalidades y recomendaciones de uso de herramientas relacionadas con la colaboración online con otras personas.
+    objetivos: Reflexionar sobre las necesidades, ventajas, funcionalidades y recomendaciones de uso de herramientas relacionadas con la colaboración online con otras personas.
+    contenidos: 'La colaboración online: Herramientas y usos.'
+    pdf: https://dspace.umh.es/bitstream/11000/29626/1/DC2.4.1%20Colaboraci%c3%b3n%20virtual.pdf
+    ficha: https://hdl.handle.net/11000/29626
+    video: https://youtu.be/8D78aSPhkpY
+    cuestionario: https://forms.gle/puQDceTU4pXPDWL78
+  - id: DC2.4.2
+    num: 2.4.2
+    titulo: Agendar, planificar y recordar colaboraciones
+    competencia: DigComp 2.4 Colaboración a través de las tecnologías digitales
+    horas: 0,5 h
+    descripcion: En este módulo podrás conocer algunas herramientas digitales que te resultarán útiles para agendar, planificar y gestionar colaboraciones con otras personas, así como para programar recordatorios de tareas específicas en tu día a día.
+    objetivos: Conocer algunas herramientas digitales útiles para agendar, planificar y gestionar colaboraciones con otras personas, así como para programar recordatorios de tareas específicas en nuestro día a día.
+    contenidos: Herramientas digitales útiles para agendar, planificar y gestionar colaboraciones. Uso del Calendario y los Documentos de Google para planificar y gestionar un proyecto colaborativo.
+    pdf: https://dspace.umh.es/bitstream/11000/29627/1/DC2.4.2%20Agendar%2c%20planificar%20y%20recordar%20colaboraciones.pdf
+    ficha: https://hdl.handle.net/11000/29627
+    video: https://youtu.be/xPbSBnRskxQ
+    cuestionario: https://forms.gle/j4knnnLa8FCBGwVi8
+  - id: DC2.4.3
+    num: 2.4.3
+    titulo: Google Calendar y Docs para la colaboración en proyectos
+    competencia: DigComp 2.4 Colaboración a través de las tecnologías digitales
+    horas: 0,5 h
+    descripcion: En este módulo podrás conocer cómo utilizar de un modo combinado el Calendario de Google y los documentos de Google con un tipo específico de elementos que integran, a modo de Notas de la Reunión. Estos elementos serán muy útiles para planificar y gestionar la ejecución de un proyecto de forma colaborativa con otros usuarios, sean o no de nuestra organización, e incluso cuando no tienen cuentas de Gmail.
+    objetivos: Aprender a utilizar de modo conjunto el Calendario y los Documentos de Google para planificar y gestionar la ejecución de un proyecto colaborativo con otros usuarios.
+    contenidos: Uso del Calendario y los Documentos de Google para planificar y gestionar un proyecto colaborativo.
+    pdf: https://dspace.umh.es/bitstream/11000/29628/1/DC2.4.3%20Google%20Calendar%20y%20Docs%20para%20la%20colaboraci%c3%b3n%20de%20proyectos.pdf
+    ficha: https://hdl.handle.net/11000/29628
+    video: https://youtu.be/stWVoi7JIc44
+    cuestionario: https://forms.gle/RtGwBbWdpt4rFUCP6
+  - id: DC2.4.4
+    num: 2.4.4
+    titulo: Cocreación de contenidos con documentos de Google
+    competencia: DigComp 2.4 Colaboración a través de las tecnologías digitales
+    horas: 0,5 h
+    descripcion: Con la información de este módulo conocerás varias herramientas de la Suite de Documentos de Google que te permitirán crear contenido online de forma colaborativa con otros usuarios, como son los documentos, las hojas de cálculo y las presentaciones. Estos recursos integran funcionalidades para interactuar de modo síncrono con el resto de editores, a través de chat y vídeo, lo que facilitará la edición colaborativa.
+    objetivos: Conocer las posibilidades para cocreación de contenidos que ofrece la suite de documentos de Google, y poder elegir y orientar cuál interesa en función de las necesidades de cocreación.
+    contenidos: Cocreación de contenidos con la suite de documentos de Google. Notas, pizarras online y webs colaborativas de Google. Cocreación de contenidos universales en Wikipedia.
+    pdf: https://dspace.umh.es/bitstream/11000/29629/1/DC2.4.4%20Cocreaci%c3%b3n%20de%20contenidos%20con%20documentos%20de%20Google.pdf
+    ficha: https://hdl.handle.net/11000/29629
+    video: https://youtu.be/AWIBF3cV688
+    cuestionario: https://forms.gle/HvUdcdNZ1mUR32ZUA
+  - id: DC2.4.5
+    num: 2.4.5
+    titulo: Notas, pizarras y webs colaborativas
+    competencia: DigComp 2.4 Colaboración a través de las tecnologías digitales
+    horas: 0,5 h
+    descripcion: En este módulo te presentamos varias herramientas gratuitas de Google que te facilitarán la organización del trabajo y la cocreación de contenido online, tanto a modo de notas, como con pizarras online y webs colaborativas. En concreto hablaremos de los recursos Google Keep, Jamboard y Google Sites.
+    objetivos: Conocer herramientas digitales gratuitas de Google para cocrear contenidos a modo de notas, cocrear con pizarras online colaborativas y webs colaborativas.
+    contenidos: Notas, pizarras online y webs colaborativas de Google (Keep y Sites).
+    pdf: https://dspace.umh.es/bitstream/11000/29630/1/DC2.4.5%20Notas%2c%20pizarras%20y%20webs%20colaborativas.pdf
+    ficha: https://hdl.handle.net/11000/29630
+    video: https://youtu.be/t96RTVvbqsY
+    cuestionario: https://forms.gle/1DawgJoLRSiLZzrr5
+  - id: DC2.4.6
+    num: 2.4.6
+    titulo: 'Cocreación de contenidos universales: publicación en Wikipedia'
+    competencia: DigComp 2.4 Colaboración a través de las tecnologías digitales
+    horas: 0,5 h
+    descripcion: Con la información de esta infografía conocerás el concepto de Wikipedia, la manera de colaborar con este recurso y/o cómo crear una página en unos sencillos pasos.
+    objetivos: Conocer las posibilidades y modos de cocreación de contenidos universales mediante la participación en Wikipedia.
+    contenidos: Cocreación de contenidos universales en Wikipedia.
+    pdf: https://dspace.umh.es/bitstream/11000/29631/1/DC2.4.6%20Cocreaci%c3%b3n%20de%20contenidos%20universales.%20Publicaci%c3%b3n%20en%20wikipedia.pdf
+    ficha: https://hdl.handle.net/11000/29631
+    video: https://drive.google.com/file/d/18cQfEMGb1NsiALRnyi4XZiYBzYJZpYvY/view?usp=share_link
+    cuestionario: https://forms.gle/Qv4LJDLjPQPDBvtb9
+    infografia: https://dspace.umh.es/bitstream/11000/29631/2/DC2.4.6%20infograf%c3%ada%20-%20Cocreaci%c3%b3n%20de%20contenidos%20universales_%20publicaci%c3%b3n%20en%20Wikipedia%20%281%29.png
+  id: CDC2.4
+  ancla: cdc2-4
+  marco: DigComp
+  title: Creación colaborativa en la red
+  competencia: DigComp 2.4 Colaboración a través de las tecnologías digitales
+  area: Área 2. Comunicación y colaboración
+  nivel: B2
+  horas: 3 h
+  description: La colaboración en red es especialmente útil en nuestra época. Repasamos las consideraciones básicas para una colaboración virtual eficaz y saludable, proporcionamos herramientas con las que agendar y planificar proyectos colaborativos con otros usuarios, y revisamos diversas herramientas web para la colaboración y la cocreación de contenidos. Hablamos también sobre la colaboración en Wikipedia.
+  objetivos: Reflexionar sobre las ventajas y funcionalidades de la colaboración virtual. Conocer las posibilidades de creación colaborativa de contenidos a través de tecnologías digitales.
+  contenidos: La colaboración online. Herramientas digitales útiles para agendar, planificar y gestionar colaboraciones. Uso del Calendario y los Documentos de Google para planificar y gestionar un proyecto colaborativo. Cocreación de contenidos con la suite de documentos de Google. Notas, pizarras online y webs colaborativas de Google. Cocreación de contenidos universales en Wikipedia.
+  evaluacion: Cuestionario tipo test
+  profesorado: Asunción M. Mayoral, Francisco J. Montiel Ruiz, F. Javier Amérigo Moreno y Federico Botella (Departamento de Estadística, Matemáticas e Informática)
+  coleccion: https://dspace.umh.es/handle/11000/29622
+  campus: https://campus.umh.es/course/view.php?id=38560
+  orden: 3
+  n_modulos: 6
+- modulos:
+  - id: DCE2.1.1
+    num: 2.1.1
+    titulo: Estrategias de búsqueda de contenidos educativos digitales
+    competencia: DigCompEdu 2.1. Búsqueda y selección de contenidos digitales
+    horas: 0,5 h
+    descripcion: Repasa y descubre estrategias de búsqueda para ganar eficiencia en la localización de contenidos educativos digitales con los que ilustrar tus clases.
+    objetivos: Identificar, evaluar y seleccionar recursos digitales para la enseñanza y el aprendizaje.
+    contenidos: Estrategias de búsqueda y evaluación de contenidos educativos digitales.
+    pdf: https://dspace.umh.es/bitstream/11000/29637/1/DCE2.1.1%20Estrategias%20de%20b%c3%basqueda%20de%20contenidos.pdf
+    ficha: https://hdl.handle.net/11000/29637
+    video: https://youtu.be/g-XY4tzJYGE
+    cuestionario: https://forms.gle/xTQs2riGCXdpgy2r6
+  - id: DCE2.1.2
+    num: 2.1.2
+    titulo: Repositorios de contenidos educativos digitales
+    competencia: DigCompEdu 2.1. Búsqueda y selección de contenidos digitales
+    horas: 0,5 h
+    descripcion: Descubre diferentes características y tipos de repositorios digitales. Explora diversos servicios y herramientas de suscripción que nos facilitan el acceso a contenidos educativos digitales.
+    objetivos: Seleccionar recursos digitales y programar su uso considerando el objetivo de aprendizaje, contexto, enfoque y grupo.
+    contenidos: Repositorios educativos digitales.
+    pdf: https://dspace.umh.es/bitstream/11000/29638/1/DCE2.1.2%20Repositorio%20de%20contenidos%20educativos%20digitales.pdf
+    ficha: https://hdl.handle.net/11000/29638
+    video: https://youtu.be/keCR-jVkAQw
+    cuestionario: https://forms.gle/AZKiMVdhMpFSbioZ7
+  - id: DCE2.1.3
+    num: 2.1.3
+    titulo: Evaluación de la calidad de los contenidos educativos digitales
+    competencia: DigCompEdu 2.1. Búsqueda y selección de contenidos digitales
+    horas: 0,5 h
+    descripcion: Descubre los estándares de evaluación de contenidos educativos digitales. Te serán útiles para generar contenidos y también seleccionar contenidos ajenos, siempre considerando los fines pedagógicos y formativos. Norma UNE 71362:2020 en https://www.une.org/encuentra-tu-norma/busca-tu-norma/norma?c=N0063263. Norma extractada en https://intef.es/recursos-educativos/educacion-digital-de-calidad/une-71362/.
+    objetivos: Evaluar los recursos digitales de enseñanza y aprendizaje que se disponen.
+    contenidos: Evaluación de contenidos educativos digitales. Aplicación de la Norma UNE 71362.
+    pdf: https://dspace.umh.es/bitstream/11000/29639/4/DCE2.1.3%20Evaluaci%c3%b3n%20de%20la%20calidad%20de%20los%20contenidos%20educativos%20digitales.pdf
+    ficha: https://hdl.handle.net/11000/29639
+    video: https://youtu.be/LIuZLu40s7s
+    cuestionario: https://forms.gle/cedAw3e2QaHygo7R6
+  - id: DCE2.1.4
+    num: 2.1.4
+    titulo: Criterios de fiabilidad de un sitio web
+    competencia: DigCompEdu 2.1. Búsqueda y selección de contenidos digitales
+    horas: 0,5 h
+    descripcion: Reconoce la fiabilidad de un sitio web respondiendo a unas sencillas preguntas.
+    objetivos: Identificar criterios para reconocer la fiabilidad de un sitio web.
+    contenidos: Conocimiento de los criterios científicos (fiabilidad de las fuentes, rigor, etc.) para la selección de contenidos de calidad.
+    pdf: https://dspace.umh.es/bitstream/11000/29640/1/DCE2.1.4%20Contrastar%20fiabilidad%20de%20un%20sitio%20web%20%282%29.pdf
+    ficha: https://hdl.handle.net/11000/29640
+    video: https://drive.google.com/file/d/1eTeA3ELVb78SiTRVzNto1_EpUtR4yLHI/view?usp=share_link
+    cuestionario: https://forms.gle/tLjsbjpBAXfxDx8M8
+    infografia: https://dspace.umh.es/bitstream/11000/29640/2/DCE2.1.4%20infograf%c3%ada%20-%20Criterios%20de%20fiabilidad%20de%20un%20sitio%20web%20%281%29.png
+  id: CDCE2.1
+  ancla: cdce2-1
+  marco: DigCompEdu
+  title: Búsqueda y selección de contenidos digitales
+  competencia: DigCompEdu 2.1. Búsqueda y selección de contenidos digitales
+  area: Área 2. Contenidos digitales
+  nivel: B2
+  horas: 2 h
+  description: Como docentes necesitamos estar en continua actualización, y para ello es importante dominar estrategias eficientes de búsqueda, aplicar criterios eficaces de selección de contenidos fiables y de calidad, y conocer a la vez repositorios generales y específicos relacionados con la docencia y la investigación. Hablamos sobre todo ello en este curso.
+  objetivos: Identificar, evaluar y seleccionar recursos digitales para la enseñanza y el aprendizaje.
+  contenidos: Estrategias de búsqueda y evaluación de contenidos educativos digitales. Repositorios educativos digitales.
+  evaluacion: Cuestionario tipo test
+  profesorado: Asunción M. Mayoral, Francisco J. Montiel Ruiz, F. Javier Amérigo Moreno y Federico Botella (Departamento de Estadística, Matemáticas e Informática)
+  campus: https://campus.umh.es/course/view.php?id=38567
+  orden: 4
+  n_modulos: 4
+- modulos:
+  - id: DCE2.2.1
+    num: 2.2.1
+    titulo: Creación y modificación de contenidos digitales para docencia
+    competencia: DigCompEdu 2.2. Creación y modificación de contenidos digitales
+    horas: 0,5 h
+    descripcion: Repasa las consideraciones que, como docente, has de tener en cuenta para modificar y adaptar contenidos digitales para tus clases.
+    objetivos: Conocer los principios básicos y pasos a dar para la modificación y adaptación de contenidos digitales, en función de los objetivos didácticos.
+    contenidos: Fundamentos básicos para la creación y modificación de objetos digitales, adaptadas a los fines didácticos.
+    pdf: https://dspace.umh.es/bitstream/11000/29642/1/DCE2.2.1%20Creaci%c3%b3n%20y%20modificaci%c3%b3n%20de%20contenidos%20digitales%20para%20docencia.pdf
+    ficha: https://hdl.handle.net/11000/29642
+    video: https://youtu.be/pzSTVViAHno
+    cuestionario: https://forms.gle/Bq8f7aM5P3jsCrZcA
+  - id: DCE2.2.2
+    num: 2.2.2
+    titulo: Creación y edición de imágenes
+    competencia: DigCompEdu 2.2. Creación y modificación de contenidos digitales
+    horas: 0,5 h
+    descripcion: Repasa los principales aspectos, técnicos y didácticos, a tener en cuenta para la creación y edición de imágenes para uso en docencia. Descubre herramientas con las que hacerlo.
+    objetivos: Conocer los principales aspectos técnicos, herramientas y recursos para la creación y modificación de imágenes.
+    contenidos: Aspectos técnicos, herramientas y recursos para la creación y edición de imágenes.
+    pdf: https://dspace.umh.es/bitstream/11000/29643/1/DCE2.2.2%20Creaci%c3%b3n%20y%20edici%c3%b3n%20de%20im%c3%a1genes.pdf
+    ficha: https://hdl.handle.net/11000/29643
+    video: https://youtu.be/rNsx1WCItvk
+    cuestionario: https://forms.gle/sBwS2LqnwkUrgq7w6
+  - id: DCE2.2.3
+    num: 2.2.3
+    titulo: Creación y modificación de imágenes con Microsoft Office
+    competencia: DigCompEdu 2.2. Creación y modificación de contenidos digitales
+    horas: 0,5 h
+    descripcion: Descubre cómo utilizar Microsoft Word o PowerPoint para modificar y combinar imágenes de un modo rápido y sencillo.
+    objetivos: Utilizar Microsoft Office Word y Power Point para la edición de imágenes.
+    contenidos: Utilización de Microsoft Office Word y Power Point para la edición de imágenes.
+    pdf: https://dspace.umh.es/bitstream/11000/29644/1/DCE2.2.3%20Creaci%c3%b3n%20y%20modificaci%c3%b3n%20de%20im%c3%a1genes%20con%20Microsoft%20Office.pdf
+    ficha: https://hdl.handle.net/11000/29644
+    video: https://youtu.be/gVsY9FqgA4A
+    cuestionario: https://forms.gle/te5jVwqRJSxJwCGU8
+  - id: DCE2.2.4
+    num: 2.2.4
+    titulo: Creación y edición de infografías
+    competencia: DigCompEdu 2.2. Creación y modificación de contenidos digitales
+    horas: 0,5 h
+    descripcion: Descubre el potencial de las infografías para usos docentes y propuestas de actividades de aprendizaje. Aprende a comunicar con eficacia a través de infografías y descubre herramientas con las que llevarlas a cabo.
+    objetivos: Conocer la funcionalidad de las infografías para fines educativos y de divulgación, así como los principales aspectos técnicos y herramientas destacadas.
+    contenidos: Funcionalidad de las infografías para fines educativos y de divulgación. Aspectos técnicos y herramientas.
+    pdf: https://dspace.umh.es/bitstream/11000/29645/1/DCE2.2.4%20Creaci%c3%b3n%20y%20edici%c3%b3n%20de%20infograf%c3%adas.pdf
+    ficha: https://hdl.handle.net/11000/29645
+    video: https://youtu.be/A4laGUM0v9I
+    cuestionario: https://forms.gle/EVusZkvFARzV97TG9
+  - id: DCE2.2.5
+    num: 2.2.5
+    titulo: Grabación y edición de audios
+    competencia: DigCompEdu 2.2. Creación y modificación de contenidos digitales
+    horas: 0,5 h
+    descripcion: Repasa los principales aspectos, técnicos y didácticos, a tener en cuenta para la creación y edición de audios para uso en docencia. Descubre herramientas con las que hacerlo.
+    objetivos: Conocer los principales aspectos técnicos, así como herramientas y recursos destacados para la grabación y edición de audios.
+    contenidos: Aspectos técnicos, herramientas y recursos para la grabación y edición de audios.
+    pdf: https://dspace.umh.es/bitstream/11000/29646/1/DCE2.2.5%20Grabaci%c3%b3n%20y%20edici%c3%b3n%20de%20audios.pdf
+    ficha: https://hdl.handle.net/11000/29646
+    video: https://youtu.be/IJJMJF1qkUY
+    cuestionario: https://forms.gle/oJ4cr2a1uiF69Hzi8
+  - id: DCE2.2.6
+    num: 2.2.6
+    titulo: Grabación y edición de vídeos
+    competencia: DigCompEdu 2.2. Creación y modificación de contenidos digitales
+    horas: 0,5 h
+    descripcion: Repasa los principales aspectos, técnicos y didácticos, a tener en cuenta para la creación y edición de vídeos para uso en docencia. Descubre herramientas con las que hacerlo.
+    objetivos: Conocer los principales aspectos técnicos, así como herramientas y recursos destacados para la grabación y edición de vídeos.
+    contenidos: Aspectos técnicos, herramientas y recursos para la grabación y edición de vídeos.
+    pdf: https://dspace.umh.es/bitstream/11000/29647/1/DCE2.2.6%20Grabaci%c3%b3n%20y%20edici%c3%b3n%20de%20v%c3%addeos.pdf
+    ficha: https://hdl.handle.net/11000/29647
+    video: https://youtu.be/cHBhMnLfW84
+    cuestionario: https://forms.gle/YvJmAb3EHsRxxVxv7
+  - id: DCE2.2.7
+    num: 2.2.7
+    titulo: Accesibilidad en los contenidos educativos digitales
+    competencia: DigCompEdu 2.2. Creación y modificación de contenidos digitales
+    horas: 0,5 h
+    descripcion: Descubre los principios básicos de accesibilidad para el diseño universal de contenidos educativos digitales.
+    objetivos: Conocer los criterios básicos y normados sobre accesibilidad, en la creación de contenidos educativos digitales.
+    contenidos: Criterios básicos de accesibilidad para el diseño de recursos educativos digitales. Norma UNE71362.
+    pdf: https://dspace.umh.es/bitstream/11000/29648/1/DCE2.2.7%20Accesibilidad%20en%20los%20contenidos%20educativos%20digitales.pdf
+    ficha: https://hdl.handle.net/11000/29648
+    video: https://youtu.be/Al_1E1HusQU
+    cuestionario: https://forms.gle/WF866DuqcYWtu1MT9
+  id: CDCE2.2
+  ancla: cdce2-2
+  marco: DigCompEdu
+  title: Creación y modificación de contenidos digitales
+  competencia: DigCompEdu 2.2. Creación y modificación de contenidos digitales
+  area: Área 2. Contenidos digitales
+  nivel: B2
+  horas: 3,5 h
+  description: Se proporcionan herramientas y recursos para modificar y crear contenidos educativos digitales en formatos diversos y en función de los objetivos pedagógicos.
+  objetivos: Crear y modificar, de forma individual o en colaboración con otros, nuevos recursos educativos digitales.
+  contenidos: Herramientas para la creación y modificación de contenidos digitales.
+  evaluacion: Cuestionario tipo test
+  profesorado: Asunción M. Mayoral, Francisco J. Montiel Ruiz, F. Javier Amérigo Moreno y Federico Botella (Departamento de Estadística, Matemáticas e Informática)
+  campus: https://campus.umh.es/course/view.php?id=38572
+  orden: 5
+  n_modulos: 7
+- modulos:
+  - id: DCE2.3.1
+    num: 2.3.1
+    titulo: Propiedad intelectual y licenciamiento de objetos digitales
+    competencia: DigCompEdu 2.3. Protección, gestión e intercambio de contenidos digitales
+    horas: 0,5 h
+    descripcion: 'Aprenderás a reconocer el tipo de licenciamiento de los contenidos digitales ajenos que encuentras en internet, y qué comporta cada una de las licencias más comunes: copyright, copyleft y dominio público.'
+    objetivos: Proteger eficazmente la información digital confidencial. Respetar y aplicar correctamente la normativa sobre privacidad y propiedad intelectual.
+    contenidos: Descripción de los tipos de licenciamiento de objetos digitales.
+    pdf: https://dspace.umh.es/bitstream/11000/29649/1/DCE2.3.1%20Propiedad%20intelectual%20y%20licenciamiento%20de%20objetos%20digitales.pdf
+    ficha: https://hdl.handle.net/11000/29649
+    video: https://youtu.be/eNQyYh6vWKo
+    cuestionario: https://forms.gle/VLPcrpapgkscVRST9
+  - id: DCE2.3.2
+    num: 2.3.2
+    titulo: Licencias Creative Commons
+    competencia: DigCompEdu 2.3. Protección, gestión e intercambio de contenidos digitales
+    horas: 0,5 h
+    descripcion: Descubre las licencias Creative Commons para reutilizar contenidos digitales ajenos, cómo reconocerlas, asignarlas a recursos y referenciar adecuadamente.
+    objetivos: Conocer el uso y creación de licencias abiertas y recursos educativos abiertos, incluyendo su correcta atribución.
+    contenidos: Descripción y utilización de las licencias Creative Commons en objetos de aprendizaje.
+    pdf: https://dspace.umh.es/bitstream/11000/29653/1/DCE2.3.2%20Documento%20de%20enlaces%20complementarios.pdf
+    ficha: https://hdl.handle.net/11000/29653
+    video: https://youtu.be/zFhf3l31ZmI
+    cuestionario: https://forms.gle/LD4kwHHjWgfWM2pm8
+  - id: DCE2.3.3
+    num: 2.3.3
+    titulo: Catalogación de contenidos educativos digitales
+    competencia: DigCompEdu 2.3. Protección, gestión e intercambio de contenidos digitales
+    horas: 0,5 h
+    descripcion: Aprende más sobre la catalogación de contenidos educativos digitales y la utilidad de los metadatos para facilitar su localización y reutilización.
+    objetivos: Conocer y aplicar las normas y criterios de catalogación de contenidos educativos digitales.
+    contenidos: Catalogación de recursos digitales. Normas y criterios de catalogación.
+    pdf: https://dspace.umh.es/bitstream/11000/29654/1/DCE2.3.3%20Catalogaci%c3%b3n%20de%20contenidos.pdf
+    ficha: https://hdl.handle.net/11000/29654
+    video: https://youtu.be/u_zYCjsjopc
+    cuestionario: https://forms.gle/4joQh1YqzF3j19U4A
+  - id: DCE2.3.4
+    num: 2.3.4
+    titulo: Curación de contenidos y agregadores para almacenar, organizar y compartir
+    competencia: DigCompEdu 2.3. Protección, gestión e intercambio de contenidos digitales
+    horas: 0,5 h
+    descripcion: Aprende más sobre cómo llevar a cabo de modo eficiente el proceso de búsqueda, selección, almacenamiento y compartición de contenidos educativos digitales.
+    objetivos: Recopilar, seleccionar, organizar y compartir contenidos digitales en el proceso de enseñanza-aprendizaje. Conocer herramientas gratuitas para la curación de contenidos.
+    contenidos: 'Curación de contenidos y agregadores: búsqueda, selección, almacenamiento y compartición de contenidos educativos digitales.'
+    pdf: https://dspace.umh.es/bitstream/11000/29655/1/DCE2.3.4%20Curaci%c3%b3n%20de%20contenidos%20y%20agregadores%20para%20almacenar%2c%20organizar%20y%20compartir.pdf
+    ficha: https://hdl.handle.net/11000/29655
+    video: https://youtu.be/YbS-wWnDFbM
+    cuestionario: https://forms.gle/xi5q3VebRoX7q6Kz8
+  id: CDCE2.3
+  ancla: cdce2-3
+  marco: DigCompEdu
+  title: Protección, gestión y compartición de contenidos digitales
+  competencia: DigCompEdu 2.3. Protección, gestión e intercambio de contenidos digitales
+  area: Área 2. Contenidos digitales
+  nivel: B2
+  horas: 2 h
+  description: Para la creación, reutilización y protección de contenidos educativos digitales es fundamental conocer los tipos y características básicas de los licenciamientos existentes. Hablamos sobre la permisibilidad de uso con fines educativos en función del tipo de licencia, y en particular de las licencias Creative Commons. Hablamos sobre la gestión y compartición eficaz de contenidos digitales a través de criterios estándar de catalogación, y ofrecemos recursos y pautas para recopilar, seleccionar, organizar y compartir eficazmente contenidos digitales.
+  objetivos: Conocer el uso y creación de licencias abiertas y recursos educativos abiertos, incluyendo su correcta atribución.
+  contenidos: Tipos de licenciamiento de objetos digitales. Creative Commons. Catalogación de recursos digitales. Curación y agregadores de contenidos para compartir.
+  evaluacion: Cuestionario tipo test
+  profesorado: Asunción M. Mayoral, Francisco J. Montiel Ruiz, F. Javier Amérigo Moreno y Federico Botella (Departamento de Estadística, Matemáticas e Informática)
+  campus: https://campus.umh.es/course/view.php?id=38573
+  orden: 6
+  n_modulos: 4

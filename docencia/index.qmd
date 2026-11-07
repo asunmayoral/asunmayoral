@@ -13,7 +13,7 @@ Pulsa en cada apartado para desplegarlo.
 :::: {.tarjetas}
 
 ::: {.tarjeta}
-[Grado en Estadística Empresarial · desde 2020]{.pie}
+[Grado en Estadística Empresarial · desde 2021]{.pie}
 
 #### [Simulación de Procesos y Sistemas](https://umh1477.github.io/)
 
@@ -144,13 +144,16 @@ Grado en Ciencia de Datos e Inteligencia Artificial.
 <summary>Formación continua</summary>
 
 ::: {.asig}
+[2021–2022]{.anio} **Cursos abiertos Unidigital-Prodigital**: siete cursos (37 módulos, 18,5 h) para la competencia digital de la ciudadanía (DigComp) y la competencia digital docente (DigCompEdu). · [cursos y recursos](../blog/posts/2026-11-07-cursos-unidigital-prodigital/index.qmd)
+:::
+::: {.asig}
 [2025]{.anio} **Modelización Estadística con Python** (15 h). Certificado de Formación Continua, UMH.
 :::
 ::: {.asig}
 [2025]{.anio} **Machine Learning para Clasificación con Python** (15 h). Certificado de Formación Continua, UMH.
 :::
 ::: {.asig}
-[2024]{.anio} **Python Machine Learning** (30 h). Certificado de Formación Continua, UMH. · [Fundamentos de IA usando Python](../cuaderno/posts/2024-02-29-fundamentos-de-ia-usando-python/index.qmd)
+[2024]{.anio} **Python Machine Learning** (30 h). Certificado de Formación Continua, UMH. · [Fundamentos de IA usando Python](../blog/posts/2024-02-29-fundamentos-de-ia-usando-python/index.qmd)
 :::
 
 </details>
@@ -162,7 +165,7 @@ Grado en Ciencia de Datos e Inteligencia Artificial.
 [2022–]{.anio} **Metodologías activas con aula invertida y gamificación** (10 h). Programa TECHEDU-UMH, edición anual.
 :::
 ::: {.asig}
-[2020]{.anio} **Estrategias activas para la educación en ODS: gamificación y escape rooms** (20 h). · [entrada del cuaderno](../cuaderno/posts/2021-03-20-estrategias-activas-para-la-educacion-en-ods-gamificacion-y-escape-roo/index.qmd)
+[2020]{.anio} **Estrategias activas para la educación en ODS: gamificación y escape rooms** (20 h). · [entrada del blog](../blog/posts/2021-03-20-estrategias-activas-para-la-educacion-en-ods-gamificacion-y-escape-roo/index.qmd)
 :::
 ::: {.asig}
 [2018]{.anio} **Crea tu videocurso** (20 h) y **Recursos web para la coordinación en orientación en IES de Elche: la web OrientaElx** (4 h). Cefire Elche.

@@ -1,0 +1,23 @@
+<% for (const c of items) { %>
+<details class="acordeon prodigital curso" id="<%= c.ancla %>">
+<summary><span class="curso-tit"><%= c.title %><span class="curso-meta"><%= c.competencia %> · <%= c.horas %> · <%= c.n_modulos %> módulos · nivel <%= c.nivel %></span></span></summary>
+<div class="curso-cuerpo">
+<p><%= c.description %></p>
+<p class="pie"><% if (c.campus) { %><a href="<%- c.campus %>">Curso en el Campus UMH</a> (acceso con identificación)<% } %><% if (c.campus && c.coleccion) { %> · <% } %><% if (c.coleccion) { %><a href="<%- c.coleccion %>">Colección del curso en RediUMH</a><% } %></p>
+<% for (const m of c.modulos) { %>
+<div class="modulo" data-texto="<%= [m.num, m.titulo, m.descripcion, m.objetivos, m.contenidos, c.title].join(' ').toLowerCase() %>">
+<div class="mod-cab"><span class="mod-num"><%= m.num %></span><h4><%= m.titulo %></h4><span class="mod-h"><%= m.horas %></span></div>
+<p class="mod-desc"><%= m.descripcion %></p>
+<div class="mod-rec">
+<% if (m.pdf) { %><a class="rec" href="<%- m.pdf %>">PDF</a><% } %>
+<% if (m.video) { %><a class="rec" href="<%- m.video %>">Vídeo</a><% } %>
+<% if (m.infografia) { %><a class="rec" href="<%- m.infografia %>">Infografía</a><% } %>
+<% if (m.cuestionario) { %><a class="rec" href="<%- m.cuestionario %>">Cuestionario</a><% } %>
+<% if (m.ficha) { %><a class="rec rec-sec" href="<%- m.ficha %>">Ficha en RediUMH</a><% } %>
+</div>
+<details class="mod-mas"><summary>Objetivos y contenidos</summary><p><strong>Objetivos.</strong> <%= m.objetivos %></p><p><strong>Contenidos.</strong> <%= m.contenidos %></p></details>
+</div>
+<% } %>
+</div>
+</details>
+<% } %>
