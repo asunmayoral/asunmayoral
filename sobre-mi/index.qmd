@@ -74,6 +74,8 @@ Avda. de la Universidad s/n, 03202 Elche (Alicante)
 
 [<i class="bi bi-linkedin" aria-hidden="true"></i> LinkedIn](https://www.linkedin.com/in/asunmayoral/){.perfil}
 [<i class="bi bi-youtube" aria-hidden="true"></i> YouTube](https://www.youtube.com/channel/UCccvZ4InlmdutYsFSGy29-Q){.perfil}
+[<i class="bi bi-github" aria-hidden="true"></i> GitHub](https://github.com/asunmayoral){.perfil}
+[<i class="bi bi-bar-chart-line" aria-hidden="true"></i> RPubs](https://rpubs.com/asunmayoral){.perfil}
 :::
 
 ## En frases

@@ -26,8 +26,8 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
 2. Añade una entrada a `recursos/recursos.yml` en el bloque que corresponda, con estos campos:
    `title`, `description`, `path`, `date` (AAAA-MM-DD; si solo hay año, 1 de enero), `anio` (texto que se muestra), `tipo`, `temas`, `origen`, y opcionalmente `autoria` y `nota`.
 3. Valores permitidos (no inventes otros sin preguntar):
-   - `tipo`: Asignatura, Curso, Taller, Libro, Apuntes y prácticas, Recopilatorio, Vídeo, Datos, Juego
-   - `temas`: Estadística, Ciencia de datos, IA, Python, R, Bayesiana, Mejora de procesos, Innovación educativa, Comunicación científica, Competencia digital
+   - `tipo`: Curso/Taller, Libro, Recopilatorio, Vídeo, Datos, Juego
+   - `temas`: Estadística-CC Datos, IA, Python, R, Bayesiana, Mejora de procesos, Innovación educativa, Comunicación científica, Competencia digital
    - `origen`: Propio (hecho por Asun, sola o en equipo) | Recomendado (de otras personas)
 4. Libros: van en el catálogo con `tipo: Libro`; campos opcionales `portada` (imagen pequeña en `images/libros/`, ruta `/images/libros/...`) y `mas` / `mas_texto` (enlace extra, p. ej. Google Play). La antigua página Publicaciones ya no existe: redirige a Recursos.
 5. Campo opcional `serie`: colección o proyecto al que pertenece (p. ej. `Unidigital-Prodigital`); se muestra como etiqueta y como filtro «Colección».

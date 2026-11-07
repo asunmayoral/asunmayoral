@@ -19,8 +19,8 @@
   path: https://asunmayoral.github.io/GLM/
   date: 2026-09-01
   anio: "2026"
-  tipo: Asignatura
-  temas: [Estadística]
+  tipo: Curso/Taller
+  temas: [Estadística-CC Datos]
   origen: Propio
 
 - title: "Simulación de procesos y sistemas"
@@ -28,8 +28,8 @@
   path: https://umh1477.github.io/
   date: 2022-09-01
   anio: "2022"
-  tipo: Asignatura
-  temas: [Estadística, Python]
+  tipo: Curso/Taller
+  temas: [Estadística-CC Datos, Python]
   origen: Propio
 
 - title: "Lean Six Sigma para la mejora de procesos (web)"
@@ -37,7 +37,7 @@
   path: https://bookdown.org/asun_mayoral/book-l6s/
   date: 2021-12-01
   anio: "2021"
-  tipo: Asignatura
+  tipo: Curso/Taller
   temas: [Mejora de procesos, R]
   origen: Propio
   autoria: "Con Javier Morales"
@@ -47,8 +47,8 @@
   path: https://unidigitalsimustat.umh.es/proyecto/
   date: 2022-06-01
   anio: "Unidigital"
-  tipo: Curso
-  temas: [Python, Estadística]
+  tipo: Curso/Taller
+  temas: [Python, Estadística-CC Datos]
   origen: Propio
   autoria: "Con Fernando Borrás, Federico Botella, Josep Moltó, Javier Morales e Inés Hernández"
 
@@ -57,8 +57,8 @@
   path: https://sites.google.com/umh.es/python/inicio
   date: 2021-01-01
   anio: "Web"
-  tipo: Curso
-  temas: [Python, Estadística]
+  tipo: Curso/Taller
+  temas: [Python, Estadística-CC Datos]
   origen: Propio
   autoria: "Con Javier Morales"
 
@@ -67,8 +67,8 @@
   path: https://jmsocuellamos.github.io/
   date: 2021-01-01
   anio: "Web"
-  tipo: Curso
-  temas: [R, Estadística]
+  tipo: Curso/Taller
+  temas: [R, Estadística-CC Datos]
   origen: Recomendado
   autoria: "Javier Morales"
 
@@ -78,7 +78,7 @@
   date: 2021-01-01
   anio: "Web"
   tipo: Recopilatorio
-  temas: [Ciencia de datos]
+  temas: [Estadística-CC Datos]
   origen: Recomendado
   autoria: "Javier Morales"
 
@@ -90,7 +90,7 @@
   date: 2020-09-01
   anio: "2020"
   tipo: Recopilatorio
-  temas: [Ciencia de datos]
+  temas: [Estadística-CC Datos]
   origen: Propio
 
 - title: "Visualización de datos"
@@ -99,7 +99,7 @@
   date: 2021-10-01
   anio: "Web"
   tipo: Recopilatorio
-  temas: [Ciencia de datos]
+  temas: [Estadística-CC Datos]
   origen: Propio
 
 - title: "Webs con datos en abierto"
@@ -108,27 +108,8 @@
   date: 2021-10-01
   anio: "Web"
   tipo: Datos
-  temas: [Ciencia de datos]
+  temas: [Estadística-CC Datos]
   origen: Propio
-
-- title: "RPubs de asunmayoral"
-  description: "Primeras versiones de prácticas y trabajos publicadas en abierto."
-  path: https://rpubs.com/asunmayoral
-  date: 2019-01-01
-  anio: "Web"
-  tipo: Apuntes y prácticas
-  temas: [R, Estadística]
-  origen: Propio
-
-- title: "Meta-análisis con R"
-  description: "Compendio de procedimientos y técnicas para el meta-análisis con R, con enfoque en Ciencias de la Salud."
-  path: https://rpubs.com/asunmayoral
-  date: 2022-01-01
-  anio: "2022"
-  tipo: Apuntes y prácticas
-  temas: [R, Estadística]
-  origen: Propio
-  nota: "Pendiente de enlace propio"
 
 # ---------- Cursos y talleres ----------
 - title: "Integrando IA generativa y estadística en proyectos de investigación multidisciplinar"
@@ -136,8 +117,8 @@
   path: https://sites.google.com/umh.es/iaestadisticavadedades/inicio
   date: 2026-04-01
   anio: "2026"
-  tipo: Curso
-  temas: [IA, Estadística, Innovación educativa]
+  tipo: Curso/Taller
+  temas: [IA, Estadística-CC Datos, Innovación educativa]
   origen: Propio
   serie: Va de Dades!
 
@@ -146,8 +127,8 @@
   path: https://asunmayoral.github.io/modelizacion_python/index.html
   date: 2025-07-01
   anio: "2025-26"
-  tipo: Curso
-  temas: [Estadística, Python]
+  tipo: Curso/Taller
+  temas: [Estadística-CC Datos, Python]
   origen: Propio
 
 - title: "Gestión digital en Auditoría"
@@ -155,7 +136,7 @@
   path: https://sites.google.com/umh.es/gestioniaparaauditores/aprende
   date: 2025-02-01
   anio: "2025"
-  tipo: Curso
+  tipo: Curso/Taller
   temas: [Competencia digital, IA]
   origen: Propio
 
@@ -164,8 +145,8 @@
   path: /recursos/bayesiana/index.html
   date: 2022-11-01
   anio: "2022"
-  tipo: Taller
-  temas: [Bayesiana, Estadística]
+  tipo: Curso/Taller
+  temas: [Bayesiana, Estadística-CC Datos]
   origen: Propio
 
 - title: "Comunicación Científica 4.0"
@@ -175,7 +156,7 @@
   mas_texto: "Documento del curso (2023-24)"
   date: 2025-01-01
   anio: "2023-25"
-  tipo: Curso
+  tipo: Curso/Taller
   temas: [Comunicación científica]
   origen: Propio
 
@@ -185,7 +166,7 @@
   date: 2021-03-01
   anio: "2021"
   tipo: Vídeo
-  temas: [Estadística, Comunicación científica]
+  temas: [Estadística-CC Datos, Comunicación científica]
   origen: Propio
 
 - title: "Data Labs en Google Classroom"
@@ -193,8 +174,8 @@
   path: https://classroom.google.com/c/NjE0Njg4NDcwNTBa
   date: 2020-09-01
   anio: "2020"
-  tipo: Curso
-  temas: [Estadística, Ciencia de datos]
+  tipo: Curso/Taller
+  temas: [Estadística-CC Datos]
   origen: Propio
   nota: "Acceso restringido a personas inscritas"
 
@@ -204,7 +185,7 @@
   path: https://sites.google.com/umh.es/gamificacion/p%C3%A1gina-principal
   date: 2021-02-01
   anio: "2021"
-  tipo: Curso
+  tipo: Curso/Taller
   temas: [Innovación educativa]
   origen: Propio
   autoria: "Con Manuel Quesada"
@@ -224,7 +205,7 @@
   path: https://docs.google.com/presentation/d/1IyqUnvz1HjkQRTRhXtSzEvBBbne7jqxN8e37JANwjjs/edit?usp=sharing
   date: 2022-10-01
   anio: "2019-23"
-  tipo: Taller
+  tipo: Curso/Taller
   temas: [Innovación educativa]
   origen: Propio
 
@@ -233,7 +214,7 @@
   path: https://www.symbaloo.com/mix/mobilelearning7
   date: 2016-04-01
   anio: "2016"
-  tipo: Curso
+  tipo: Curso/Taller
   temas: [Innovación educativa]
   origen: Propio
 
@@ -316,7 +297,7 @@
   date: 2007-01-01
   anio: "2007"
   tipo: Libro
-  temas: [Estadística]
+  temas: [Estadística-CC Datos]
   origen: Propio
 
 - title: "Modelos estadísticos para pérdidas y reclamaciones"
@@ -325,7 +306,7 @@
   date: 2007-01-02
   anio: "2007"
   tipo: Libro
-  temas: [Estadística]
+  temas: [Estadística-CC Datos]
   origen: Propio
 
 - title: "Modelos Lineales Generalizados (apuntes)"
@@ -334,7 +315,7 @@
   date: 2002-01-01
   anio: "Libro"
   tipo: Libro
-  temas: [Estadística, R]
+  temas: [Estadística-CC Datos, R]
   origen: Propio
 
 - title: "TIS: Técnicas de Investigación Social"
@@ -343,7 +324,7 @@
   date: 2001-01-01
   anio: "2001"
   tipo: Libro
-  temas: [Estadística]
+  temas: [Estadística-CC Datos]
   origen: Propio
 
 - title: "Pràctiques d'Estadística Matemàtica"
@@ -351,7 +332,7 @@
   date: 2000-01-01
   anio: "2000"
   tipo: Libro
-  temas: [Estadística]
+  temas: [Estadística-CC Datos]
   origen: Propio
 
 # ---------- Vídeos ----------
@@ -406,7 +387,7 @@
   date: 2012-09-01
   anio: "2012-13"
   tipo: Vídeo
-  temas: [Estadística]
+  temas: [Estadística-CC Datos]
   origen: Propio
 
 - title: "¿Es necesaria una educación tecnológica para los jóvenes?"

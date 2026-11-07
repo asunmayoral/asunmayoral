@@ -134,7 +134,7 @@ for c in salida:
         "path": f"/{ENTRADA}/index.html#{c['ancla']}",
         "date": "2022-06-01",
         "anio": f"{c['marco']} · 2021-22",
-        "tipo": "Curso",
+        "tipo": "Curso/Taller",
         "temas": temas,
         "origen": "Propio",
         "serie": "Unidigital-Prodigital",

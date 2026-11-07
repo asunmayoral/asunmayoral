@@ -1,7 +1,7 @@
 <%
 const slug = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-const temas = ['Estadística', 'Ciencia de datos', 'IA', 'Python', 'R', 'Bayesiana', 'Mejora de procesos', 'Innovación educativa', 'Comunicación científica', 'Competencia digital'];
-const tipos = ['Asignatura', 'Curso', 'Taller', 'Libro', 'Apuntes y prácticas', 'Recopilatorio', 'Vídeo', 'Datos', 'Juego'];
+const temas = ['Estadística-CC Datos', 'IA', 'Python', 'R', 'Bayesiana', 'Mejora de procesos', 'Innovación educativa', 'Comunicación científica', 'Competencia digital'];
+const tipos = ['Curso/Taller', 'Libro', 'Recopilatorio', 'Vídeo', 'Datos', 'Juego'];
 const usados = new Set(items.flatMap(i => i.temas || []));
 const tiposUsados = new Set(items.map(i => i.tipo));
 const series = [...new Set(items.map(i => i.serie).filter(Boolean))];
@@ -81,7 +81,7 @@ const n = document.getElementById('rec-n');
 const limpiar = document.getElementById('rec-limpiar');
 const norm = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 
-// Filtros desde la URL: recursos/?tema=Python&tipo=Curso
+// Filtros desde la URL: recursos/?tema=Python&tipo=Curso%2FTaller
 const params = new URLSearchParams(location.search);
 ['tema', 'tipo', 'origen', 'serie'].forEach(k => { if (params.get(k)) estado[k] = params.get(k); });
 
