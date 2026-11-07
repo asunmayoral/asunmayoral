@@ -51,5 +51,6 @@ Edita `docencia/index.qmd`. Cada línea usa el bloque `::: {.asig}` con `[años]
 
 ## Publicar
 - `quarto preview` para ver los cambios en local.
-- Cada `git push` a `main` publica la web con GitHub Actions (`.github/workflows/publish.yml`).
+- Asun sube los cambios con **GitHub Desktop** (*Commit to main* › *Push origin*); cada push a `main` publica la web con GitHub Actions (`.github/workflows/publish.yml`).
+- Claude edita los ficheros de la carpeta y propone el resumen del commit, pero no hace push: la credencial del Terminal no tiene permiso `workflow`.
 - Mensajes de commit en castellano y descriptivos («Añade recurso: Simulación de procesos»).

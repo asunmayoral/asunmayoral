@@ -16,7 +16,6 @@ website:
   favicon: images/favicon.svg
   open-graph: true
   page-navigation: false
-  back-to-top-navigation: true
   search:
     location: navbar
     type: overlay
