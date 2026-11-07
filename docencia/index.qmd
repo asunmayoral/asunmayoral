@@ -100,7 +100,7 @@ Grado en Ciencia de Datos e Inteligencia Artificial.
 <summary>Postgrado</summary>
 
 ::: {.asig}
-[2023–2025]{.anio} **Comunicación científica** (16 h por edición) · [material del curso](https://docs.google.com/document/d/1yJtnQyxma5kDnb-RTHpcSVTh7wZ6kPbA_Mx5jpzXysk/edit?usp=sharing)
+[2023–2025]{.anio} **Comunicación científica** (16 h por edición) · [Comunicación Científica 4.0](https://sites.google.com/umh.es/comunicacioncientifica40/inicio) · [material del curso](https://docs.google.com/document/d/1yJtnQyxma5kDnb-RTHpcSVTh7wZ6kPbA_Mx5jpzXysk/edit?usp=sharing)
 
 ::: {.ediciones}
 | Año | Programa de doctorado | Universidad |
@@ -114,7 +114,10 @@ Grado en Ciencia de Datos e Inteligencia Artificial.
 :::
 :::
 ::: {.asig}
-[2025]{.anio} **Modelización Estadística Avanzada** (16 h). Doctorado en IA aplicada a la Productividad Empresarial, Universidad O&M (República Dominicana).
+[2025–2026]{.anio} **Modelización Estadística Avanzada** (16 h). Doctorado en IA aplicada a la Productividad Empresarial, Universidad O&M (República Dominicana). Ediciones de julio de 2025 y octubre de 2026. · [web del curso](https://asunmayoral.github.io/modelizacion_python/index.html)
+:::
+::: {.asig}
+[2025–2027]{.anio} **Diseño de Experimentos y Análisis Estadístico en Algoritmos con Python** (10 h, en línea). Programa de Doctorado en Tecnologías Informáticas, Universidad de Castilla-La Mancha (UCLM). Cursos 2025-26 y 2026-27.
 :::
 ::: {.asig}
 [2022]{.anio} **Una primera aproximación a la Estadística Bayesiana** (10 h). Doctorado en Biología y Conservación de la Biodiversidad, Universidad de Salamanca. · [materiales y grabaciones](../recursos/bayesiana/index.qmd)
@@ -123,7 +126,7 @@ Grado en Ciencia de Datos e Inteligencia Artificial.
 [2020–2025]{.anio} **Métodos Cuantitativos para la Toma de Decisiones**. Máster Universitario en Contabilidad y Finanzas Avanzadas (UMH).
 :::
 ::: {.asig}
-[2018–]{.anio} **Tecnologías de la información en Auditoría**. Máster Universitario en Auditoría de Cuentas (UMH).
+[2018–]{.anio} **Tecnologías de la información en Auditoría**. Máster Universitario en Auditoría de Cuentas (UMH). · [Gestión digital en Auditoría](https://sites.google.com/umh.es/gestioniaparaauditores/aprende)
 :::
 ::: {.asig}
 [2015–2025]{.anio} **Estadística en Investigación Experimental y Clínica** y **Diseño y Ejecución de Procedimientos Experimentales con Animales**. Máster Universitario en Neuropsicofarmacología Traslacional (UMH).
@@ -161,6 +164,9 @@ Grado en Ciencia de Datos e Inteligencia Artificial.
 <details class="acordeon">
 <summary>Formación del profesorado</summary>
 
+::: {.asig}
+[2026]{.anio} **Integrando IA generativa y estadística en proyectos de investigación multidisciplinar**. CEFIRE de Gandía, abril de 2026. Vinculado al concurso Va de Dades!. · [web del curso](https://sites.google.com/umh.es/iaestadisticavadedades/inicio)
+:::
 ::: {.asig}
 [2022–]{.anio} **Metodologías activas con aula invertida y gamificación** (10 h). Programa TECHEDU-UMH, edición anual.
 :::

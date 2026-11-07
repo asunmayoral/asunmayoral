@@ -225,3 +225,18 @@ details.mod-mas p { margin: .3rem 0; }
 .tarjeta-contacto p:has(a.perfil) { display: flex; flex-wrap: wrap; gap: .45rem; }
 a.perfil { display: inline-flex; align-items: center; gap: .35rem; min-height: 40px; padding: 0 .85rem; border-radius: 20px; border: 1.5px solid $tinta; color: $tinta; font-weight: 700; font-size: .92rem; text-decoration: none; }
 a.perfil:hover { background: $tinta; color: $crema; }
+
+// Filtros compactos del catálogo (una fila de desplegables)
+.filtros-fila { display: grid; grid-template-columns: minmax(220px, 2fr) repeat(auto-fit, minmax(150px, 1fr)); gap: .75rem 1rem; align-items: end; }
+.filtros-fila label { font-weight: 700; font-size: .85rem; display: block; margin-bottom: .3rem; }
+.filtros-fila input[type=search], .filtros-fila select { width: 100%; max-width: none; height: 44px; padding: 0 .8rem; border: 1.5px solid #CFC3B0; border-radius: 22px; background: #fff; font: inherit; font-size: .95rem; color: $tinta; }
+.filtros-fila select { appearance: none; padding-right: 2rem; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%232F2A36' stroke-width='1.6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right .8rem center; }
+.filtros-fila select:focus-visible, .filtros-fila input:focus-visible { outline: 3px solid $menta-p; outline-offset: 1px; }
+@media (max-width: 767px) { .filtros-fila { grid-template-columns: 1fr 1fr; } .filtros-fila .f-buscar { grid-column: 1 / -1; } }
+
+// Enlaces Data Labs: acordeón en menta (Recursos)
+details.acordeon.datalabs[open] > summary { background: $menta; }
+details.acordeon.datalabs > summary::after { color: $menta-p; }
+details.acordeon.datalabs > summary:focus-visible { outline-color: $menta-p; }
+details.acordeon.datalabs ul, details.acordeon.datalabs ol { margin-bottom: 1rem; }
+details.acordeon.datalabs li { margin: .25rem 0; }

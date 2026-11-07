@@ -82,9 +82,11 @@
   origen: Recomendado
   autoria: "Javier Morales"
 
-- title: "Enlaces DATA LABS"
-  description: "Recopilación propia de tutoriales, cursos y bases de datos sobre ciencia de datos."
-  path: https://docs.google.com/spreadsheets/d/e/2PACX-1vQLYXQY74Cmd4x-pdv9L7tvVJg9G8ek7I0D7JJLLfGlbASCGvFA-15jk0j8QMBFBWw06QYjiZb53kzl/pubhtml
+- title: "Enlaces Data Labs"
+  description: "Recopilación propia, ordenada por temas, de tutoriales, libros en línea, itinerarios de DataCamp, fuentes de datos y herramientas para aprender estadística y ciencia de datos con R."
+  path: /recursos/datalabs/index.html
+  mas: https://docs.google.com/spreadsheets/d/e/2PACX-1vQLYXQY74Cmd4x-pdv9L7tvVJg9G8ek7I0D7JJLLfGlbASCGvFA-15jk0j8QMBFBWw06QYjiZb53kzl/pubhtml
+  mas_texto: "Hoja de cálculo original"
   date: 2020-09-01
   anio: "2020"
   tipo: Recopilatorio
@@ -129,6 +131,34 @@
   nota: "Pendiente de enlace propio"
 
 # ---------- Cursos y talleres ----------
+- title: "Integrando IA generativa y estadística en proyectos de investigación multidisciplinar"
+  description: "Curso de formación del profesorado impartido con el CEFIRE de Gandía en abril de 2026, vinculado al concurso Va de Dades!."
+  path: https://sites.google.com/umh.es/iaestadisticavadedades/inicio
+  date: 2026-04-01
+  anio: "2026"
+  tipo: Curso
+  temas: [IA, Estadística, Innovación educativa]
+  origen: Propio
+  serie: Va de Dades!
+
+- title: "Modelización Estadística Avanzada"
+  description: "Curso de doctorado de 16 horas en la Universidad O&M (República Dominicana), Doctorado en IA aplicada a la Productividad Empresarial. Ediciones de julio de 2025 y octubre de 2026."
+  path: https://asunmayoral.github.io/modelizacion_python/index.html
+  date: 2025-07-01
+  anio: "2025-26"
+  tipo: Curso
+  temas: [Estadística, Python]
+  origen: Propio
+
+- title: "Gestión digital en Auditoría"
+  description: "Recursos de gestión digital e inteligencia artificial para auditores, de la asignatura Tecnologías de la información en Auditoría (Máster Universitario en Auditoría de Cuentas, UMH)."
+  path: https://sites.google.com/umh.es/gestioniaparaauditores/aprende
+  date: 2025-02-01
+  anio: "2025"
+  tipo: Curso
+  temas: [Competencia digital, IA]
+  origen: Propio
+
 - title: "Una primera aproximación a la Estadística Bayesiana"
   description: "Taller de 10 horas para el Programa de Doctorado en Biología y Conservación de la Biodiversidad de la Universidad de Salamanca."
   path: /recursos/bayesiana/index.html
@@ -138,11 +168,13 @@
   temas: [Bayesiana, Estadística]
   origen: Propio
 
-- title: "Comunicación científica"
-  description: "Curso de 8 horas con recomendaciones y herramientas tecnológicas para la divulgación científica efectiva. Doctorado en la UASD (República Dominicana)."
-  path: https://docs.google.com/document/d/1yJtnQyxma5kDnb-RTHpcSVTh7wZ6kPbA_Mx5jpzXysk/edit?usp=sharing
-  date: 2023-10-01
-  anio: "2023-24"
+- title: "Comunicación Científica 4.0"
+  description: "Recomendaciones y herramientas tecnológicas para la divulgación científica efectiva. Curso de doctorado impartido en la República Dominicana (UASD-UMH y Universidad O&M)."
+  path: https://sites.google.com/umh.es/comunicacioncientifica40/inicio
+  mas: https://docs.google.com/document/d/1yJtnQyxma5kDnb-RTHpcSVTh7wZ6kPbA_Mx5jpzXysk/edit?usp=sharing
+  mas_texto: "Documento del curso (2023-24)"
+  date: 2025-01-01
+  anio: "2023-25"
   tipo: Curso
   temas: [Comunicación científica]
   origen: Propio

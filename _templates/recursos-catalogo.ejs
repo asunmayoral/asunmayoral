@@ -7,43 +7,41 @@ const tiposUsados = new Set(items.map(i => i.tipo));
 const series = [...new Set(items.map(i => i.serie).filter(Boolean))];
 %>
 <div class="recursos-page">
-<div class="filtros" role="search">
-<div>
+<div class="filtros filtros-fila" role="search">
+<div class="f-buscar">
 <label for="rec-buscar">Buscar</label>
 <input id="rec-buscar" type="search" placeholder="Python, bayesiana, gamificación…" autocomplete="off">
 </div>
 <div>
-<span class="rotulo" id="rot-tema">Tema</span>
-<div class="chips" role="group" aria-labelledby="rot-tema">
-<% for (const t of temas.filter(t => usados.has(t))) { %>
-<button type="button" class="chip" data-eje="tema" data-valor="<%= t %>" aria-pressed="false"><%= t %></button>
-<% } %>
-</div>
+<label for="f-tema">Tema</label>
+<select id="f-tema" class="filtro" data-eje="tema">
+<option value="">Todos</option>
+<% for (const t of temas.filter(t => usados.has(t))) { %><option value="<%= t %>"><%= t %> (<%= items.filter(i => (i.temas || []).includes(t)).length %>)</option><% } %>
+</select>
 </div>
 <div>
-<span class="rotulo" id="rot-tipo">Tipo</span>
-<div class="chips" role="group" aria-labelledby="rot-tipo">
-<% for (const t of tipos.filter(t => tiposUsados.has(t))) { %>
-<button type="button" class="chip" data-eje="tipo" data-valor="<%= t %>" aria-pressed="false"><%= t %></button>
-<% } %>
-</div>
+<label for="f-tipo">Tipo</label>
+<select id="f-tipo" class="filtro" data-eje="tipo">
+<option value="">Todos</option>
+<% for (const t of tipos.filter(t => tiposUsados.has(t))) { %><option value="<%= t %>"><%= t %> (<%= items.filter(i => i.tipo === t).length %>)</option><% } %>
+</select>
 </div>
 <% if (series.length) { %>
 <div>
-<span class="rotulo" id="rot-serie">Colección</span>
-<div class="chips" role="group" aria-labelledby="rot-serie">
-<% for (const s of series) { %>
-<button type="button" class="chip" data-eje="serie" data-valor="<%= s %>" aria-pressed="false"><%= s %></button>
-<% } %>
-</div>
+<label for="f-serie">Colección</label>
+<select id="f-serie" class="filtro" data-eje="serie">
+<option value="">Todas</option>
+<% for (const s of series) { %><option value="<%= s %>"><%= s %> (<%= items.filter(i => i.serie === s).length %>)</option><% } %>
+</select>
 </div>
 <% } %>
 <div>
-<span class="rotulo" id="rot-origen">Origen</span>
-<div class="chips" role="group" aria-labelledby="rot-origen">
-<button type="button" class="chip" data-eje="origen" data-valor="Propio" aria-pressed="false">Propio</button>
-<button type="button" class="chip" data-eje="origen" data-valor="Recomendado" aria-pressed="false">Recomendado</button>
-</div>
+<label for="f-origen">Origen</label>
+<select id="f-origen" class="filtro" data-eje="origen">
+<option value="">Todos</option>
+<option value="Propio">Propio</option>
+<option value="Recomendado">Recomendado</option>
+</select>
 </div>
 </div>
 
@@ -77,7 +75,7 @@ data-texto="<%= [item.title, item.description, item.autoria, item.serie, (item.t
 (function () {
 const estado = { tema: null, tipo: null, origen: null, serie: null, q: '' };
 const tarjetas = Array.from(document.querySelectorAll('#rec-grid .tarjeta'));
-const chips = Array.from(document.querySelectorAll('.filtros .chip'));
+const selects = Array.from(document.querySelectorAll('.filtros select.filtro'));
 const buscar = document.getElementById('rec-buscar');
 const n = document.getElementById('rec-n');
 const limpiar = document.getElementById('rec-limpiar');
@@ -98,15 +96,13 @@ const ok = (!estado.tema || t.dataset.temas.split('|').includes(estado.tema))
 && (!q || norm(t.dataset.texto).includes(q));
 t.hidden = !ok; if (ok) visibles++;
 });
-chips.forEach(c => c.setAttribute('aria-pressed', String(estado[c.dataset.eje] === c.dataset.valor)));
+selects.forEach(s => { s.value = estado[s.dataset.eje] || ''; });
 const filtrando = estado.tema || estado.tipo || estado.origen || estado.serie || q;
 n.textContent = visibles === 0 ? 'Ningún recurso con esos filtros.' :
 (visibles === 1 ? '1 recurso' : visibles + ' recursos') + (filtrando ? ' con los filtros elegidos' : '');
 limpiar.hidden = !filtrando;
 }
-chips.forEach(c => c.addEventListener('click', () => {
-const eje = c.dataset.eje; estado[eje] = estado[eje] === c.dataset.valor ? null : c.dataset.valor; aplicar();
-}));
+selects.forEach(s => s.addEventListener('change', () => { estado[s.dataset.eje] = s.value || null; aplicar(); }));
 buscar.addEventListener('input', () => { estado.q = buscar.value; aplicar(); });
 limpiar.addEventListener('click', () => { estado.tema = estado.tipo = estado.origen = estado.serie = null; estado.q = ''; buscar.value = ''; aplicar(); });
 aplicar();
