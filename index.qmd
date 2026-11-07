@@ -30,11 +30,11 @@ listing:
 :::
 
 ::: {.hero}
-[Hola, soy Asun.]{.saludo}
+[Hola, soy Asun Martínez Mayoral, y esta es mi web.]{.saludo}
 
-# Estadística, ciencia de datos e IA para aprender y enseñar.
+# Estadística, ciencia de datos e IA para aprender y enseñar
 
-[Profesora Titular de Estadística e Investigación Operativa en la Universidad Miguel Hernández de Elche. Aquí comparto lo que preparo para mis clases y lo que encuentro por el camino.]{.lead}
+[Profesora Titular de Estadística e Investigación Operativa en la Universidad Miguel Hernández de Elche. Mi sitio para compartir.]{.lead}
 
 [Explorar recursos](recursos/index.qmd){.btn-pill .solid} [Leer el blog](blog/index.qmd){.btn-pill .line}
 :::
