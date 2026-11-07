@@ -6,9 +6,11 @@ Hecha con [Quarto](https://quarto.org) y publicada en GitHub Pages.
 ## Trabajar en local
 
 ```bash
-quarto preview      # vista previa con recarga automática
-quarto render       # genera el sitio en _site/
+quarto preview
+quarto render
 ```
+
+`quarto preview` abre una vista previa que se recarga sola; `quarto render` genera el sitio en `_site/`.
 
 El banner de la cabecera se regenera con `python scripts/hero_cluster.py` (necesita `numpy` y `scikit-learn`).
 
@@ -25,14 +27,18 @@ No debe formar parte del proyecto.
 
 ```bash
 cd ~/Claude/Projects/asunmayoral
-git rm --cached asunmayoral          # solo si la subcarpeta llegó a guardarse en un commit
+git rm --cached asunmayoral
 git add .
 git commit -m "Quita la carpeta anidada y ajusta rutas para GitHub Pages"
 git remote add origin https://github.com/asunmayoral/asunmayoral.github.io.git
-# (si el remoto ya existía con otro nombre: git remote set-url origin https://github.com/asunmayoral/asunmayoral.github.io.git)
-git pull origin main --allow-unrelated-histories --no-edit   # integra el commit inicial creado en GitHub
+git pull origin main --allow-unrelated-histories --no-edit
 git push -u origin main
 ```
+
+Notas: `git rm --cached asunmayoral` solo hace falta si la subcarpeta llegó a guardarse en un commit.
+Si el remoto ya existía con otro nombre, en lugar de `git remote add` usa
+`git remote set-url origin https://github.com/asunmayoral/asunmayoral.github.io.git`.
+El `git pull` integra el commit inicial que GitHub crea con el repositorio.
 
 Al hacer `push`, como contraseña se usa un *token* personal de GitHub
 (*Settings › Developer settings › Personal access tokens*), no la contraseña de la cuenta.
