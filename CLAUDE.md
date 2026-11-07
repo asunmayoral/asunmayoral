@@ -40,7 +40,7 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
 Entrada en `proyectos/proyectos.yml`. Si un proyecto termina, cambia `estado` a `Histórico`.
 
 ### Docencia
-Edita `docencia/index.qmd`. Cada línea usa el bloque `::: {.asig}` con `[años]{.anio}`; lo más reciente arriba.
+Edita `docencia/index.qmd`. Está organizada en cuatro acordeones (`<details class="acordeon">`: Grado, Postgrado, Formación continua, Formación del profesorado); solo Grado se abre por defecto (`open`). En Grado, las asignaturas actuales van como tarjetas en «Asignaturas que imparto» y las demás en «Asignaturas anteriores». Cada línea usa el bloque `::: {.asig}` con `[años]{.anio}`; lo más reciente arriba. Un curso con varias ediciones (como Comunicación científica) va en un solo bloque con su tabla de ediciones (`::: {.ediciones}`), ordenada del año más reciente al más antiguo. La organización de eventos está en `sobre-mi/index.qmd`, tras la trayectoria.
 
 ## Estilo
 - Castellano, tono cercano y claro; primera persona cuando habla Asun.

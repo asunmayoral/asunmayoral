@@ -3,69 +3,74 @@
 Web personal de **Asun M. Mayoral**: estadística, ciencia de datos e IA para aprender y enseñar.
 Hecha con [Quarto](https://quarto.org) y publicada en GitHub Pages.
 
-## Trabajar en local
+| | |
+| --- | --- |
+| Web | <https://asunmayoral.github.io/> (después, `asunmayoral.umh.es`) |
+| Repositorio | <https://github.com/asunmayoral/asunmayoral.github.io> |
+| Carpeta local | `~/Claude/Projects/asunmayoral` |
+
+## Cómo se publica
+
+Al pulsar **Push origin** en GitHub Desktop, GitHub construye la web con la última versión de Quarto
+y la publica sola (`.github/workflows/publish.yml`). No hace falta ejecutar nada en el Terminal.
+
+## Actualizar la web con GitHub Desktop
+
+1. **Haz los cambios** en la carpeta, a mano o pidiéndoselo a Claude.
+2. **Abre GitHub Desktop.** Comprueba arriba a la izquierda que *Current repository* es
+   `asunmayoral.github.io` y *Current branch* es `main`.
+3. **Revisa los cambios** en la pestaña *Changes* (columna izquierda). Al pulsar cada fichero se ve qué ha cambiado.
+4. **Guarda los cambios.** Abajo a la izquierda, escribe en *Summary* qué has hecho
+   (por ejemplo, «Añade recurso: Simulación de procesos») y pulsa **Commit to main**.
+5. **Súbelos.** Pulsa **Push origin** en la barra superior.
+6. **Comprueba la publicación.** *Repository › View on GitHub* › pestaña **Actions**.
+   «Publicar en GitHub Pages» tarda uno o dos minutos:
+   - círculo verde: la web ya está actualizada (recarga la página del navegador);
+   - cruz roja: algo ha fallado; abre la ejecución, copia el mensaje de error y pásaselo a Claude.
+
+Si alguna vez se edita algo directamente en github.com, antes de empezar pulsa **Fetch origin**
+y después **Pull origin** para traer esos cambios a la carpeta.
+
+## Ver los cambios antes de publicarlos (opcional)
+
+En el Terminal, o en el terminal de RStudio/Positron, dentro de la carpeta:
 
 ```bash
 quarto preview
-quarto render
 ```
 
-`quarto preview` abre una vista previa que se recarga sola; `quarto render` genera el sitio en `_site/`.
+Se abre la web en el navegador y se recarga sola al guardar cambios. Para pararla, pulsa Ctrl + C.
+Necesita Quarto 1.4 o posterior (instalador en quarto.org › Get Started); para publicar no hace falta.
 
 El banner de la cabecera se regenera con `python scripts/hero_cluster.py` (necesita `numpy` y `scikit-learn`).
 
-## Repositorio
+## Configuración inicial (ya hecha)
 
-**github.com/asunmayoral/asunmayoral.github.io** (público). Mientras no se active el dominio,
-la web se ve en `https://asunmayoral.github.io/`.
+Para rehacerla en otro ordenador o en otro repositorio:
 
-La carpeta local `~/Claude/Projects/asunmayoral` ya está conectada a ese repositorio y añadida a
-GitHub Desktop. Los cambios se suben con **GitHub Desktop**: se identifica con la cuenta de GitHub y tiene
-los permisos necesarios, incluido el de los ficheros de GitHub Actions (`.github/workflows/`).
+1. En GitHub Desktop: *File › Add Local Repository…* › elige la carpeta › *Add Repository*.
+2. En github.com, en el repositorio: *Settings › Pages* › *Build and deployment* › *Source*: **GitHub Actions**.
+3. *Push origin* y comprobar en *Actions* que la publicación termina en verde.
 
-## Publicar cambios con GitHub Desktop
+## Si algo falla
 
-1. Haz los cambios en la carpeta (a mano o pidiéndoselo a Claude) y, si quieres, compruébalos con `quarto preview`.
-2. Abre GitHub Desktop. En la columna izquierda, pestaña *Changes*, aparecen los ficheros modificados.
-3. Escribe un resumen en *Summary* (por ejemplo «Añade recurso: Simulación de procesos») y pulsa **Commit to main**.
-4. Pulsa **Push origin** en la barra superior.
-5. GitHub publica la web sola en uno o dos minutos. El progreso se ve en la pestaña *Actions* del
-   repositorio (*Repository › View on GitHub*).
-
-Si se ha editado algo directamente en github.com, pulsa antes **Fetch origin** y luego **Pull origin**
-para traer esos cambios a la carpeta.
-
-## Activar la publicación (una sola vez)
-
-La web la construye y publica GitHub con la última versión de Quarto (`.github/workflows/publish.yml`),
-así que no depende de la versión instalada en el ordenador.
-
-1. En GitHub, *Settings › Pages* › *Build and deployment* › *Source*: elige **GitHub Actions**.
-2. Haz *Push origin* desde GitHub Desktop (o, en la pestaña *Actions*, abre «Publicar en GitHub Pages»
-   y pulsa *Run workflow*).
-3. En uno o dos minutos la web aparece en `https://asunmayoral.github.io/`. Desde ese momento, cada
-   *Push origin* la vuelve a publicar.
-
-Para ver los cambios en local con `quarto preview` conviene tener Quarto 1.4 o posterior
-(instalador en quarto.org › Get Started).
-
-## Si alguna vez falla una subida
-
-- **«refusing to allow … without `workflow` scope»** al subir desde el Terminal: la credencial guardada en el
-  Llavero de macOS no tiene permiso para GitHub Actions. Sube desde GitHub Desktop.
-- **«RPC failed; HTTP 400»** desde el Terminal: amplía el búfer con
-  `git config http.postBuffer 524288000` y vuelve a intentarlo.
+- **La publicación sale en rojo en *Actions*:** abre la ejecución fallida, copia el error y pásaselo a Claude.
+- **Subir desde el Terminal da «refusing to allow … without `workflow` scope»:** la credencial guardada
+  en el Llavero de macOS no tiene permiso para GitHub Actions. Sube desde GitHub Desktop.
+- **Subir desde el Terminal da «RPC failed; HTTP 400»:** `git config http.postBuffer 524288000` y repetir.
+- **`quarto preview` da «property name … is invalid»:** el Quarto del ordenador es antiguo; actualízalo.
 - En el Terminal de Mac, no copies comentarios (`# …`) en la misma línea que un comando: zsh no los ignora.
 
 ## Dominio asunmayoral.umh.es
 
-Cuando la web esté lista en `https://asunmayoral.github.io/`:
+Cuando la web esté revisada en `https://asunmayoral.github.io/`:
 
 1. Pide al Servicio de Informática de la UMH un registro DNS **CNAME** de `asunmayoral.umh.es` a `asunmayoral.github.io`.
-2. Crea un fichero `CNAME` en la raíz del repositorio con una sola línea: `asunmayoral.umh.es`, y añádelo a `resources` en `_quarto.yml`.
-3. En *Settings › Pages*, escribe el dominio y activa *Enforce HTTPS*.
+2. En github.com: *Settings › Pages* › *Custom domain*: escribe `asunmayoral.umh.es` y pulsa *Save*.
+   Cuando GitHub verifique el DNS, marca *Enforce HTTPS*.
 
-Las entradas antiguas del blog tienen redirecciones (`aliases`) desde sus direcciones de WordPress, así que los enlaces viejos seguirán funcionando.
+Las entradas antiguas del blog tienen redirecciones (`aliases`) desde sus direcciones de WordPress,
+así que los enlaces viejos seguirán funcionando.
 
 ## Pendiente
 

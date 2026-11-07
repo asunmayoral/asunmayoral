@@ -13,6 +13,15 @@
 #   nota         (opcional) aviso breve, p. ej. acceso restringido
 
 # ---------- Estadística y ciencia de datos ----------
+- title: "Modelos Lineales Generalizados"
+  description: "Web de la asignatura del Grado en Ciencia de Datos e Inteligencia Artificial."
+  path: https://asunmayoral.github.io/GLM/
+  date: 2026-09-01
+  anio: "2026"
+  tipo: Asignatura
+  temas: [Estadística]
+  origen: Propio
+
 - title: "Simulación de procesos y sistemas"
   description: "Contenidos de la asignatura 1477, de 3.º del Grado en Estadística Empresarial."
   path: https://umh1477.github.io/

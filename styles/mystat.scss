@@ -161,3 +161,21 @@ a { text-underline-offset: 3px; }
 .cuaderno-lista .entrada p { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .25rem 1.5rem; width: 100%; margin: 0; }
 .frase p { margin: 0; }
 .quarto-post main img, #quarto-document-content p > img { max-height: 520px; width: auto; max-width: 100%; }
+
+// Acordeón (Docencia)
+details.acordeon { border: 1px solid $linea; border-radius: .75rem; background: #fff; margin: 0 0 1rem; }
+details.acordeon > summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;
+  padding: 1rem 1.4rem; min-height: 56px; font-family: "Fraunces", Georgia, serif; font-size: 1.45rem; font-weight: 600; color: $tinta; }
+details.acordeon > summary::-webkit-details-marker { display: none; }
+details.acordeon > summary::after { content: "+"; font-family: "Atkinson Hyperlegible", sans-serif; font-size: 1.6rem; color: $melocoton-p; }
+details.acordeon[open] > summary::after { content: "−"; }
+details.acordeon[open] > summary { border-bottom: 1px solid $linea; background: $melocoton; border-radius: .75rem .75rem 0 0; }
+details.acordeon > summary:focus-visible { outline: 3px solid $melocoton-p; outline-offset: 2px; }
+details.acordeon > :not(summary) { margin-left: 1.4rem; margin-right: 1.4rem; }
+details.acordeon > :last-child { margin-bottom: 1.2rem; }
+details.acordeon h3 { font-size: 1.15rem; margin-top: 1.4rem; }
+details.acordeon .tarjeta { background: $crema; }
+details.acordeon .tarjeta h4 { font-size: 1.25rem; margin: 0; }
+details.acordeon .tarjeta h4 a { color: $tinta; text-decoration: none; }
+.ediciones table { font-size: .92rem; margin: .6rem 0 0; }
+details.acordeon .tarjetas { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
