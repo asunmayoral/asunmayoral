@@ -14,22 +14,17 @@ El banner de la cabecera se regenera con `python scripts/hero_cluster.py` (neces
 
 ## Primera publicación en GitHub (una sola vez)
 
-1. Crea en GitHub un repositorio llamado **`<tu-usuario>.github.io`** (público) y súbelo:
-   ```bash
-   git init && git add . && git commit -m "Primera versión de la web"
-   git branch -M main
-   git remote add origin https://github.com/<tu-usuario>/<tu-usuario>.github.io.git
-   git push -u origin main
-   ```
+1. Repositorio: **github.com/asunmayoral/asunmayoral** (público). Mientras no se active el dominio,
+   la web se verá en `https://asunmayoral.github.io/asunmayoral/`.
 2. Crea la rama de publicación desde tu ordenador: `quarto publish gh-pages` (responde «sí»).
 3. En GitHub, *Settings › Pages*: origen «Deploy from a branch», rama `gh-pages`, carpeta `/ (root)`.
 4. Desde ese momento, cada `git push` a `main` publica la web sola (`.github/workflows/publish.yml`).
 
 ## Dominio asunmayoral.umh.es
 
-Cuando la web esté lista en `https://<tu-usuario>.github.io`:
+Cuando la web esté lista en `https://asunmayoral.github.io/asunmayoral/`:
 
-1. Pide al Servicio de Informática de la UMH un registro DNS **CNAME** de `asunmayoral.umh.es` a `<tu-usuario>.github.io`.
+1. Pide al Servicio de Informática de la UMH un registro DNS **CNAME** de `asunmayoral.umh.es` a `asunmayoral.github.io`.
 2. Crea un fichero `CNAME` en la raíz del repositorio con una sola línea: `asunmayoral.umh.es`, y añádelo a `resources` en `_quarto.yml`.
 3. En *Settings › Pages*, escribe el dominio y activa *Enforce HTTPS*.
 

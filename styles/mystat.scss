@@ -52,7 +52,7 @@ a { text-underline-offset: 3px; }
 // Cabecera con el banner suave en páginas interiores
 .quarto-title-banner {
   background: linear-gradient(90deg, $crema 0%, $crema 38%, rgba(255,251,242,.55) 62%, rgba(255,251,242,0) 85%),
-              url("/images/banner-suave.svg") right center / cover no-repeat, $crema !important;
+              url("images/banner-suave.svg") right center / cover no-repeat, $crema !important;
   border-bottom: 1px solid $linea;
 }
 .quarto-title-banner .quarto-title .title { font-size: 2.8rem; }

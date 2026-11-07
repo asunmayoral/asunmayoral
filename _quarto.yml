@@ -4,8 +4,8 @@ project:
   render:
     - "**/*.qmd"
   resources:
-    - files/
-    - images/
+    - "files/**"
+    - "images/**"
 
 lang: es
 
