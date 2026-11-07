@@ -1,0 +1,29 @@
+---
+title: "Recomendaciones para docencia online-COVID19"
+date: 2020-03-16
+categories: [Recursos]
+image: 2021-07-covid.webp
+aliases:
+  - /2020/03/16/recomendaciones-para-docencia-online-covid19/
+---
+Puesto que en estos días muchos docentes estarán buscando recursos y herramientas con los que lidiar la docencia online, ponemos nuestro granito de arena desde EduInnoTICs para compartir algunas recomendaciones. Si tenéis alguna necesidad específica, escribidnos a [eduinnotics@umh.es ](mailto:eduinnotics@umh.es)y trataremos de respondernos a la mayor celeridad.
+
+Destacamos los siguientes:
+
+- [Crea y Aprende con Laura](https://creaconlaura.blogspot.com/), con múltiples recursos y enlaces para Primaria y Secundaria, organizados por niveles, materias y categorías, recopilados por @jhergony
+- El grupo de investigación GITE de la Universidad de Murcia te ofrece un copioso [Catálogo de recursos para M-learning](https://www.um.es/catalogosgite/?page_id=4271) y docencia online, comentados y etiquetados por niveles educativos.
+- [@lygobu](https://twitter.com/lygobu) tiene una completa recopilación de [Aplicaciones educativas ara el aula](https://view.genial.ly/5e5b8c6934f73c0fdb4cda74/presentation-aplicaciones-educativas-para-el-aula), también organizada por categorías.
+- En [TICs para la docencia y el aprendizaje](http://editorial.umh.es/2019/12/16/tics-para-la-docencia-y-el-aprendizaje/) recopilamos todos los recursos, portales y herramientas para todas las funcionalidades, con los que formamos en TIC en el Máster de Profesorado de la Universidad Miguel Hernández. El manual es gratuito y descargable en pdf.
+- La web [Free Technology for Teachers](https://www.freetech4teachers.com/) contiene montones de recursos, sugerencias didácticas y tutoriales para realizar prácticamente cualquier tarea en el aula o fuera de ella. Escrito por [@rmbyrne.](https://twitter.com/rmbyrne/)
+- Algunas empresas están ofreciendo servicio gratuito a sus herramientas por la crisis del COVID19. Es el caso de [PeerGrade](https://app.peergrade.io/) (una herramienta para coevaluación entre iguales) y [Eduflow](https://www.eduflow.com/) (una plataforma de docencia online), que ofrecen acceso gratuito por 4 meses. Basta con acceder a <https://app.peergrade.io/settings/codes> y utilizar el código  COVID19.
+- Aquellos que buscáis herramientas para grabación de clases, os recomendamos:
+  - [Google Meet](https://meet.google.com/). Es muy fácil de usar y permite la conexión síncrona con otros usuarios (a través de una url), la grabación de la clase, compartir pantalla y presentaciones, y emitir con la webcam. Tienes el tutorial completo en el [Soporte de Google](https://support.google.com/meet/?hl=es#topic=7306097).
+  - Si quieres crear un videotutorial grabando en pizarra y tienes tableta, es sumamente fácil:
+    - en iPad (el Pro+pencil o un stylus), puedes utilizar la grabación de pantalla junto con una app de pizarra en blanco.  [Mira el tutorial](https://apple.co/390JIi5).
+    - Igualmente los que usáis Android también disponéis de la grabación de pantalla con una buena [diversidad de apps](https://play.google.com/store/search?q=grabacion%20de%20pantalla&gl=ES).
+    - En cualquier app Store encontrarás un buen número de apps que reproducen pizarras en blanco. Busca por «pizarra» o «whiteboard».
+- Los que preferís grabar tutoriales cortos en casa con el ordenador, a partir de diapositivas y añadiendo voz, podéis utilizar Screencastify, muy fácil de utilizar a través de la [extensión en Chrome](https://chrome.google.com/webstore/detail/screencastify-screen-vide/mmeijimgabbpbgpdklnllpncmdofkcpn?utm_source=chrome-ntp-icon).
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 16/3/2020 en el blog anterior de esta web.
+:::

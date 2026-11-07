@@ -1,0 +1,13 @@
+---
+title: "Va de Dades!"
+date: 2022-11-10
+categories: [Divulgación, Estadística]
+image: 2023-11-fondo-vdd-768x474.webp
+aliases:
+  - /2022/11/10/va-de-dades/
+---
+Durante el curso 2022-23 hemos iniciado la aventura [Va de Dades! Concurso Valenciano de Estadística para la Ciencia de Datos](https://vadedades.umh.es/), junto con Mari Carmen Martínez (UV) y Carmen Aguilera (UPV), y empujadas por Carmen Armero (UV) como vicepresidenta de Estadística de la SEIO. Este concurso se convierte en la fase local en la Comunitat Valenciana del concurso tipo Incubadora de Sondeos y Experimentos, organizado por la Sociedad Española de Estadística e Investigación Operativa (SEIO).
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 10/11/2022 en el blog anterior de esta web.
+:::

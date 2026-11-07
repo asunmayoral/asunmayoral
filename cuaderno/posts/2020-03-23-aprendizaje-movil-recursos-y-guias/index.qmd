@@ -1,0 +1,15 @@
+---
+title: "Aprendizaje móvil. Recursos y guías"
+date: 2020-03-23
+categories: [Innovación, Recursos]
+image: 2020-07-aprendizaje_movil-768x662.webp
+aliases:
+  - /2020/03/23/aprendizaje-movil-recursos-y-guias/
+---
+Un curso sobre **Aprendizaje Móvil** para docentes en Secundaria que preparé e impartí en 2016 a través del CEFIRE. Los recursos (Android e IOS), enlaces y guías están publicados en este [Webmix de Symbaloo](https://www.symbaloo.com/home/mix/13eP27aaQ6).
+
+[![Captura de pantalla 2020-03-23 a las 10.35.51](http://asunmayoral.edu.umh.es/wp-content/uploads/sites/467/2020/03/Captura-de-pantalla-2020-03-23-a-las-10.35.51-300x256.png)](https://www.symbaloo.com/home/mix/13eP27aaQ6)
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 23/3/2020 en el blog anterior de esta web.
+:::

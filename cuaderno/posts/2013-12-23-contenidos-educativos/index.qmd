@@ -1,0 +1,25 @@
+---
+title: "Contenidos educativos"
+date: 2013-12-23
+categories: [Divulgación]
+aliases:
+  - /2013/12/23/contenidos-educativos/
+---
+Comparto información sobre recursos TIC para educación, universidad e innovación en varias redes sociales. Conoce mis perfiles en[ https://about.me/asunmayoral/](https://about.me/asunmayoral/)
+
+Agregadores de información que gestiono en forma de PLE-panel de enlaces con Symbaloo:
+
+- **[Mis webs](http://edu.symbaloo.com/mix/miswebs6)**, que gestiono, en las que participo o simplemente que sigo.
+- **[Contenidos educativos y TICs](http://edu.symbaloo.com/mix/ticseducacion),** relacionados sobretodo con el aprendizaje en Secundaria
+- **[Software educativo](http://edu.symbaloo.com/mix/software8), **programas y apps de utilidad para el aprendizaje en distintas materias y niveles.
+- **[Blogs](http://edu.symbaloo.com/mix/blogs73)** de algunas gentes interesantes a las que sigo.
+
+Recopilo, comento y etiqueto enlaces, recursos, noticias y herramientas en estas webs de Scoop.it:
+
+- **[Innovación Docente y](http://www.scoop.it/t/innovacion-docente-universidad) [Universidad](http://www.scoop.it/t/innovacion-docente-universidad)**. Actualidad universitaria y relacionada con la innovación docente.
+- [**Tics para docencia y aprendizaje  
+  **](http://www.scoop.it/t/ticseduca)
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 23/12/2013 en el blog anterior de esta web.
+:::

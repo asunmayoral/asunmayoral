@@ -1,0 +1,10 @@
+<div class="tarjetas">
+<% for (const item of items) { %>
+<article class="tarjeta proyecto <%= item.estado === 'Activo' ? '' : 'historico' %>">
+<span class="estado"><%= item.estado %> · <%= item.anios %></span>
+<h3><a href="<%- item.path %>"><%= item.title %></a></h3>
+<p class="desc"><%= item.description %></p>
+<% if (item.papel) { %><p class="pie"><%= item.papel %></p><% } %>
+</article>
+<% } %>
+</div>

@@ -1,0 +1,27 @@
+---
+title: "Proyectos"
+description: "Concursos, formación abierta, innovación educativa y divulgación: proyectos en los que he trabajado, solos o en equipo."
+listing:
+  - id: activos
+    contents: proyectos.yml
+    template: ../_templates/proyectos.ejs
+    include:
+      estado: Activo
+    sort: "orden desc"
+  - id: historicos
+    contents: proyectos.yml
+    template: ../_templates/proyectos.ejs
+    include:
+      estado: Histórico
+    sort: "orden desc"
+---
+
+## En marcha
+
+::: {#activos}
+:::
+
+## Proyectos anteriores
+
+::: {#historicos}
+:::

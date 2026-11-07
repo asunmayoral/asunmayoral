@@ -1,0 +1,21 @@
+---
+title: "Datos y visualización"
+date: 2021-10-05
+categories: [Docencia, Estadística, Recursos]
+image: 2021-10-barras-768x549.webp
+aliases:
+  - /2021/10/05/datos-y-visualizacion/
+---
+Tenía por ahí aparcados un montón de enlaces a webs con datos en abierto para analizar (estadísticamente) y también con ejemplos, cursos, recomendaciones y herramientas para la visualización de datos efectiva. Lo he recopilado todo en sendos tablones de Symbaloo que comparto en este post.
+
+[**VISUALIZACIÓN DE DATOS**](https://www.symbaloo.com/mix/visualizing-data)
+
+[![](2021-10-captura-de-pantalla-2021-10-05-a-las-15.47.25-300x150.webp)](https://www.symbaloo.com/mix/visualizing-data)
+
+[**DATOS EN ABIERTO**](https://www.symbaloo.com/mix/datos-estadistica)
+
+[![](2021-10-captura-de-pantalla-2021-10-05-a-las-15.46.56-300x180.webp)](https://www.symbaloo.com/mix/datos-estadistica)
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 5/10/2021 en el blog anterior de esta web.
+:::

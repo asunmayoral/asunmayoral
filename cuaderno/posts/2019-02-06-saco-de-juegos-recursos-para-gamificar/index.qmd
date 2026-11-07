@@ -1,0 +1,21 @@
+---
+title: "Saco de juegos: recursos para gamificar"
+date: 2019-02-06
+categories: [Docencia, Innovación]
+image: 2019-02-sdj_principal_h2.webp
+aliases:
+  - /2019/02/06/saco-de-juegos-recursos-para-gamificar/
+---
+Recientemente hemos descubierto una interesante web [Saco de Juegos](http://sacodejuegos.com/), muy recomendable para los interesados en la gamificación educativa.
+
+[Sacodejuegos.com](http://sacodejuegos.com/) es una web totalmente gratuita que permite dar de alta, consultar y localizar juegos (tradicionales, libres, competitivos, físicos, colaborativos, de nueva creación…) que cumplan varios criterios pedagógicos para facilitar su consulta y acceso. Cada juego en esta web cuenta con una descripción detallada de su desarrollo, así como de varios criterios para conocer su capacidad educativa: edades a la que está orientado, objetivos alcanzados, localización, materiales utilizados….
+
+La web dispone con una sección de recursos adicionales que podrás utilizar en distintas actividades y juegos. Además, periódicamente también publican artículos relacionados con la capacidad educativa del juego y con técnicas para su dirección y creación.
+
+Sacodejuegos.com está destinada a educadores, monitores de tiempo libre, padres y jóvenes de todas las edades que quieran encontrar y utilizar recursos  gratuitos para el conseguir el principal objetivo del juego: divertir y educar.
+
+SacodeJuegos está también visible en [Facebook](https://www.facebook.com/sacodejuegos), [Twitter](https://twitter.com/sacodejuegos), y dispone de una aplicación móvil en [Google Play](https://play.google.com/store/apps/details?id=com.rg.sacodejuegos) que permite consultar todos sus juegos de manera online u offline.
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 6/2/2019 en el blog anterior de esta web.
+:::

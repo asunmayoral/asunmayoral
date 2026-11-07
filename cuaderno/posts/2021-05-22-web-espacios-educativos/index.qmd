@@ -1,0 +1,14 @@
+---
+title: "Web de Espacios Educativos gracias al proyecto ADAS"
+date: 2021-05-22
+categories: [Divulgación, Investigación]
+image: 2021-07-avatar-redes-sociales-768x768.webp
+aliases:
+  - /2021/05/22/web-espacios-educativos/
+---
+Las profesoras de la UMH Asun Mtnez. Mayoral e Isabel Montiel hemos creado una nueva web denominada [espacioseducativos.umh.es](https://espacioseducativos.umh.es) en la que hemos alojado todo el trabajo desarrollado desde que Isabel se decidió a iniciar su tesis doctoral y profundizar en el estudio de los espacios educativos.  
+Iniciamos el proyecto lanzando encuestas online a todos los institutos públicos de educación Secundaria en la provincia de Alicante. La evolución y logros se puede seguir en esa web.
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 22/5/2021 en el blog anterior de esta web.
+:::

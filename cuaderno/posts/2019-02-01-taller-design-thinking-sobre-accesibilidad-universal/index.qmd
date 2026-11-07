@@ -1,0 +1,13 @@
+---
+title: "Taller Design Thinking sobre accesibilidad universal"
+date: 2019-02-01
+categories: [Divulgación, Innovación]
+image: 2021-07-accesibilidad-alicante2019.webp
+aliases:
+  - /2019/02/01/taller-design-thinking-sobre-accesibilidad-universal/
+---
+El día 31 de enero de 2019 Isabel Montiel y yo visitamos el IES Leonardo da Vinci de Alicante, para encontrarnos con todos los profesores y profesoras implicados en el proyecto OSMOSIS2018/24 titulado «MEJORANDO LA ACCESIBILIDAD» e impulsado por Mª Fernanda Chocomeli ([@fchocomeli](http://twitter.com/fchocomeli)), desde el CEFIRE Específico Educación Inclusiva. Este encuentro se dinamizó a modo de taller de ideas que dinamizamos Isabel y yo para detectar necesidades respecto a accesibilidad en los diversos centros representados. Se hizo una implementación breve del Design Thinking como método de trabajo creativo, disfrutamos mucho y surgieron muchas interesantes ideas.
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 1/2/2019 en el blog anterior de esta web.
+:::

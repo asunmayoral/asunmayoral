@@ -1,0 +1,15 @@
+---
+title: "Colaboración en El País"
+date: 2023-09-10
+categories: [Divulgación, Innovación, Opinión]
+image: 2023-11-portada_elpais-768x512.webp
+aliases:
+  - /2023/09/10/colaboracion-en-el-pais/
+---
+Gracias a la invitación de Diana Oliver, pudimos compartir nuestra visión sobre la utilidad de las aplicaciones móviles en educación, y en particular en el ámbito universitario.
+
+[Leer el artículo completo en El País](https://elpais.com/extra/formacion/2023-09-10/asistentes-virtuales-que-ayudan-al-estudio.html).
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 10/9/2023 en el blog anterior de esta web.
+:::

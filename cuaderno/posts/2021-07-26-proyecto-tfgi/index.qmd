@@ -1,0 +1,16 @@
+---
+title: "Proyecto TFGi"
+date: 2021-07-26
+categories: [Docencia, Innovación]
+image: 2021-07-captura-de-pantalla-2021-07-26-a-las-13.59.11-768x338.webp
+aliases:
+  - /2021/07/26/proyecto-tfgi/
+---
+Durante este curso 2020-2021 hemos hecho pleno con el proyecto TFGi, participando en dos congresos de innovación educativa, además de en las Jornadas de Innovación Educativa de la UMH. Empezamos a mostrar resultados.
+
+- IMAT 2021, con la ponencia [**EL PROGRAMA TFGi: TRABAJOS DE FIN DE GRADO INTERDISCIPLINARES EN LA UMH**](https://drive.google.com/file/d/1ig1uGeg0q5kFa7GRLcChz8rPj44xyGa3/view?usp=sharing)
+- REDES-INNOVAESTIC 2021, con la ponencia [Formación Transversal y Trabajos Fin de Grado Interdisciplinares](https://drive.google.com/file/d/1BrFuWSauR7-LCLt8CtBha_6V2RoJ6l9A/view?usp=sharing), que además se publicará en la editorial Octaedro.
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 26/7/2021 en el blog anterior de esta web.
+:::

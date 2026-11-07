@@ -1,0 +1,8 @@
+<div class="cuaderno-lista">
+<% for (const item of items) { %>
+<div class="entrada">
+<a href="<%- item.path %>"><%= item.title %></a>
+<span class="meta"><%= item.date %><% if (item.categories && item.categories.length) { %> · <%= item.categories.join(' · ') %><% } %></span>
+</div>
+<% } %>
+</div>

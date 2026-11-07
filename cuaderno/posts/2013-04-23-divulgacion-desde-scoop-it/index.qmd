@@ -1,0 +1,16 @@
+---
+title: "Divulgación desde Scoop-it"
+date: 2013-04-23
+categories: [Divulgación]
+aliases:
+  - /2013/04/23/divulgacion-desde-scoop-it/
+---
+Durante una época estuve recopilando, comentando y etiquetando enlaces, recursos, noticias y herramientas en estas webs de Scoop.it:
+
+- [Innovación Docente y](http://www.scoop.it/t/innovacion-docente-universidad) [Universidad](http://www.scoop.it/t/innovacion-docente-universidad). Actualidad universitaria y relacionada con la innovación docente.
+- [Tics para docencia y aprendizaje**  
+  **](http://www.scoop.it/t/ticseduca)
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 23/4/2013 en el blog anterior de esta web.
+:::

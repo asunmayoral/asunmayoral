@@ -1,0 +1,16 @@
+<%
+const slug = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+%>
+<div class="tarjetas">
+<% for (const item of items) { %>
+<article class="tarjeta">
+<div class="etiquetas">
+<span class="tag t-<%= slug(item.tipo) %>"><%= item.tipo %></span>
+<span class="tag tag-outline"><%= item.origen %></span>
+</div>
+<h3><a href="<%- item.path %>"><%= item.title %></a></h3>
+<p class="desc"><%= item.description %></p>
+<p class="pie"><%= (item.temas || []).join(' · ') %><% if (item.anio) { %> · <%= item.anio %><% } %></p>
+</article>
+<% } %>
+</div>

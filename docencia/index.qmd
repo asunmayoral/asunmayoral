@@ -1,0 +1,131 @@
+---
+title: "Docencia"
+description: "Asignaturas de grado y postgrado, formación continua y formación del profesorado. Los materiales de cada curso están en Recursos."
+---
+
+## Grado
+
+Asignaturas que imparto ahora en el Grado en Estadística Empresarial de la UMH:
+
+:::: {.tarjetas}
+
+::: {.tarjeta}
+[Asignatura · desde 2020]{.pie}
+
+### [Simulación de Procesos y Sistemas](https://umh1477.github.io/)
+
+Código 1477, 3.^er^ curso del Grado en Estadística Empresarial.
+
+[Web de la asignatura](https://umh1477.github.io/) · [Apuntes de Teoría de Colas](https://www.dropbox.com/s/4jkbpjfvp1m762y/A4%20Apuntes%20de%20Teor%C3%ADa%20de%20Colas.pdf)
+:::
+
+::: {.tarjeta}
+[Asignatura · desde 2013]{.pie}
+
+### [Mejora de Procesos](https://bookdown.org/asun_mayoral/book-l6s/)
+
+Código 1479, 4.º curso. Lean Six Sigma y metodologías activas, con el libro de Editorial UMH como referencia.
+
+[Web de la asignatura](https://bookdown.org/asun_mayoral/book-l6s/) · [Vídeos](http://bit.ly/2dk19NR) · [Libro (PDF)](https://innovacionumh.es/editorial/Lean%20Seis%20Sigma%20para%20la%20mejora%20de%20procesos.pdf)
+:::
+
+::::
+
+### Asignaturas anteriores
+
+::: {.asig}
+[2010–2013]{.anio} Análisis Exploratorio de Datos (Grado en Estadística Empresarial y Grado en ADE) · [vídeos](http://www.youtube.com/playlist?list=PLClKgnzRFYe6_q-BiaN0COs1Xc0wssTqM)
+:::
+::: {.asig}
+[2007–2010]{.anio} Técnicas de Investigación Social (Licenciatura en ADE) · [libro TIS](https://www.dropbox.com/s/wcwdu4qw83rulr6/TIS%20a4.pdf)
+:::
+::: {.asig}
+[2003–2007]{.anio} Estadística Actuarial I y II (Licenciatura en Ciencias Actuariales y Financieras) · [Modelos para pérdidas y reclamaciones](https://www.dropbox.com/s/nhjrlamuo8kcasd/A4%20Mod%20Estad%20p%20P%C3%A9rd%20y%20Reclamac.pdf)
+:::
+::: {.asig}
+[2002–2003]{.anio} Introducción a la Econometría (Licenciatura en ADE) y Técnicas de Investigación Social (Licenciatura en Ciencias Políticas y de la Administración)
+:::
+::: {.asig}
+[1998–2002]{.anio} Modelos Lineales Generalizados y Estadística Bayesiana (Licenciatura en Ciencias y Técnicas Estadísticas) · [libro MLG](https://www.dropbox.com/s/bcjt5ms5idtun2p/Modelos%20Lineales%20Generalizados.pdf)
+:::
+::: {.asig}
+[1997–2002]{.anio} Técnicas de Investigación Social (Diplomatura en Estadística)
+:::
+
+## Postgrado
+
+::: {.asig}
+[2025]{.anio} **Comunicación científica** (16 h). Doctorado en Inteligencia Artificial y Aprendizaje Automático y Doctorado en Creación e Investigación Artísticas (UASD-UMH). · [material del curso](https://docs.google.com/document/d/1yJtnQyxma5kDnb-RTHpcSVTh7wZ6kPbA_Mx5jpzXysk/edit?usp=sharing)
+:::
+::: {.asig}
+[2025]{.anio} **Modelización Estadística Avanzada** (16 h). Doctorado en IA aplicada a la Productividad Empresarial, Universidad O&M (República Dominicana).
+:::
+::: {.asig}
+[2023–2024]{.anio} **Comunicación científica** (16 h). Doctorados en Ciencias de la Salud, Medio Ambiente y Sostenibilidad y Ciencias Agroalimentarias (UASD-UMH), y Doctorado en IA aplicada a la Productividad Empresarial (Universidad O&M).
+:::
+::: {.asig}
+[2022]{.anio} **Una primera aproximación a la Estadística Bayesiana** (10 h). Doctorado en Biología y Conservación de la Biodiversidad, Universidad de Salamanca. · [materiales y grabaciones](../recursos/bayesiana/index.qmd)
+:::
+::: {.asig}
+[2018–]{.anio} **Tecnologías de la información en Auditoría**. Máster Universitario en Auditoría de Cuentas (UMH).
+:::
+::: {.asig}
+[2017–]{.anio} **Estadística en Investigación Experimental y Clínica**. Máster Universitario en Neuropsicofarmacología Traslacional (UMH).
+:::
+::: {.asig}
+[2013–]{.anio} **Técnicas de comunicación y herramientas web para la investigación**. Máster Universitario en Investigación en Medicina Clínica (UMH). · [vídeos](https://www.youtube.com/playlist?list=PLClKgnzRFYe7VDKn29zwc-CgTMkD5qTD-)
+:::
+::: {.asig}
+[2011–2020]{.anio} **TICs para la docencia y el aprendizaje en Secundaria**. Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y EI (UMH). · [libro](http://innovacionumh.es/editorial/TICS.pdf) · [vídeos](https://www.youtube.com/playlist?list=PLClKgnzRFYe5hwY17dxjRB_pJAeG4SqUF)
+:::
+
+## Formación continua
+
+::: {.asig}
+[2025]{.anio} **Modelización Estadística con Python** (15 h). Certificado de Formación Continua, UMH.
+:::
+::: {.asig}
+[2025]{.anio} **Machine Learning para Clasificación con Python** (15 h). Certificado de Formación Continua, UMH.
+:::
+::: {.asig}
+[2024]{.anio} **Python Machine Learning** (30 h). Certificado de Formación Continua, UMH. · [Fundamentos de IA usando Python](../cuaderno/posts/2024-02-29-fundamentos-de-ia-usando-python/index.qmd)
+:::
+
+## Formación del profesorado
+
+::: {.asig}
+[2022–]{.anio} **Metodologías activas con aula invertida y gamificación** (10 h). Programa TECHEDU-UMH, edición anual.
+:::
+::: {.asig}
+[2020]{.anio} **Estrategias activas para la educación en ODS: gamificación y escape rooms** (20 h). · [entrada del cuaderno](../cuaderno/posts/2021-03-20-estrategias-activas-para-la-educacion-en-ods-gamificacion-y-escape-roo/index.qmd)
+:::
+::: {.asig}
+[2018]{.anio} **Crea tu videocurso** (20 h) y **Recursos web para la coordinación en orientación en IES de Elche: la web OrientaElx** (4 h). Cefire Elche.
+:::
+::: {.asig}
+[2016]{.anio} **Aprendizaje móvil** (20 h) y **Recursos y herramientas web para orientación educativa** (6 h). Cefire. · [recopilatorio](https://www.symbaloo.com/mix/mobilelearning7)
+:::
+::: {.asig}
+[2014–2017]{.anio} **Recursos de información** (20 h), módulo 5 del Título de Experto en Innovación Tecnológica (UMH). · [vídeos](https://www.youtube.com/playlist?list=PLClKgnzRFYe4AeUPDdS1e9cCNnFJQGnUz)
+:::
+::: {.asig}
+[2014]{.anio} **La planificación de la enseñanza universitaria**: guía docente UMH y recursos web para la enseñanza semipresencial y a distancia (4 h). Escuela Internacional de Protocolo.
+:::
+::: {.asig}
+[2012–2013]{.anio} **Recursos web para la docencia** (niveles básico y avanzado, 15 h cada uno; tres ediciones) y **Recursos web para semipresencialidad** (15 h). UMH.
+:::
+
+## Organización de eventos
+
+::: {.asig}
+[2017–2018]{.anio} Jornadas JIC de Innovación Colaborativa en la UMH (2 ediciones).
+:::
+::: {.asig}
+[2015–2018]{.anio} FeCiTElx, Feria de Ciencia y Tecnología en Elche, con la Jornada de Puertas Abiertas y Proyecta TÚ (4 ediciones).
+:::
+::: {.asig}
+[2009–2014]{.anio} Jornadas de Innovación Docente UMH (5 ediciones).
+:::
+::: {.asig}
+[2007–2008]{.anio} Outdoor Training on Business Intelligence (2 ediciones) y VENTE, Verano Estadístico en Elche (2 ediciones).
+:::

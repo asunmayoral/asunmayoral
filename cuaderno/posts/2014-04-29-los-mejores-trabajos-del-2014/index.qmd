@@ -1,0 +1,18 @@
+---
+title: "Me podré jubilar haciendo lo que hago"
+date: 2014-04-29
+categories: [Opinión]
+aliases:
+  - /2014/04/29/los-mejores-trabajos-del-2014/
+---
+Da gusto encontrarse entre las tres primeras profesiones que Forbes destaca como mejor valoradas en 2014 y más prometedoras para 2022 en lo que a crecimiento de empleo se refiere:
+
+1.  Matemático, a pesar de que parecía un estudio pasado de moda, alguien ha apreciado que el entrenamiento de cerebro que favorecen estos estudios es un magnífico medio para afrontar y resolver problemas en un mundo cada vez más complejo.
+2.  Profesor de Universidad, si bien en España podría ser discutible dado el importante número de universidades públicas creadas en las últimas décadas, aún parece que podemos ir a más ante la inminente proliferación de universidades privadas que nuestros políticos están promoviendo; incluso cuando se debate la utilidad de los profesores ante  los múltiples medios de acceso a la información y  al conocimiento que nos ofrece Internet, igual tenemos algo que hacer como guías, seleccionadores e incluso generadores de conocimiento.
+3.  Estadístico, aunque en España no se valora demasiado su utilidad y las titulaciones de Estadística están en proceso de extinción acelerada, el manejo eficiente de la información es sin duda la mejor baza que podemos ofrecer como profesionales en una sociedad cada día más invadida de datos.
+
+[Aquí](http://forbesmagazine.es/actualidad-noticia/mejores-trabajos-2014_2032.html) va un extracto en español y en este otro enlace, el informe «[Jobs Rated 2014: Ranking 200 Jobs from best to worst](http://www.careercast.com/jobs-rated/jobs-rated-2014-ranking-200-jobs-best-worst)«  publicado en [CareerCast.com](http://www.careercast.com/). Se trata de un informe y de una web americana. La situación y las expectativas en España seguramente no son las mismas, pero como todo lo que surge en Estados Unidos, en 10 años igual llega aquí, lo que nos daría aún mejores expectativas (más prolongadas) de futuro. Si es así, podré jubilarme haciendo lo que hago y disfrutando con mi trabajo: estadística matemática que además da clases como profesora universitaria.
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 29/4/2014 en el blog anterior de esta web.
+:::

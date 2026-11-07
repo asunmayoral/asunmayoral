@@ -1,0 +1,15 @@
+---
+title: "Situación de la programación y la robótica en España. Informe INTEF"
+date: 2018-03-28
+categories: [Divulgación]
+image: 2021-07-robotica.webp
+aliases:
+  - /2018/03/28/situacion-de-la-programacion-y-la-robotica-en-espana-informe-intef/
+---
+El Grupo de Trabajo de Tecnologías del Aprendizaje ha estado trabajando en los últimos meses en un [informe](http://code.educalab.es/wp-content/uploads/2017/09/Pensamiento-Computacional-Fase-1-Informe-sobre-la-situaci%C3%B3n-en-Espa%C3%B1a.pdf) que describe la situación actual de la enseñanza de la programación, la robótica y el pensamiento computacional en el aula en nuestro país, poniendo el foco en la situación normativa de las Comunidades Autónomas participantes en la Ponencia, pero sin olvidarnos de otro tipo de iniciativas no oficiales desarrolladas desde la escuela, la universidad, la empresa o la sociedad civil.
+
+INTEF pone a disposición pública dicho informe en su [blog](http://blog.educalab.es/intef/2018/02/15/situacion-en-espana-de-la-ensenanza-de-la-programacion-la-robotica-y-el-pensamiento-computacional/).
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 28/3/2018 en el blog anterior de esta web.
+:::

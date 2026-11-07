@@ -1,0 +1,19 @@
+---
+title: "TICs para la docencia y el aprendizaje"
+date: 2019-12-23
+categories: [Publicación, Recursos]
+image: 2020-07-portada-tics-768x1086.webp
+aliases:
+  - /2019/12/23/tics-para-la-docencia-y-el-aprendizaje/
+---
+[![PORTADA-TICS](http://asunmayoral.edu.umh.es/wp-content/uploads/sites/467/2019/12/PORTADA-TICS-212x300.jpg)](http://asunmayoral.edu.umh.es/wp-content/uploads/sites/467/2019/12/PORTADA-TICS.jpg)En diciembre de 2019 ha visto la luz el manual en el que hemos estado trabajando buena parte del profesorado que impartimos la asignatura TICs para la docencia y el aprendizaje en Secundaria, dentro del Máster Universitario en Formación del Profesorado de ESO, BACH, FP y EI de la Universidad Miguel Hernández.
+
+El manual contiene una minuciosa recopilación y selección de recursos TIC para las diversas funcionalidades que compendian la vida digital relacionada con el aprendizaje, y las distintas áreas competenciales del Marco Común de Competencia Digital Docente: información, comunicación, colaboración, creación de contenidos, seguridad y resolución de problemas.
+
+El libro lo ha editado la Editorial electrónica UMH. Tiene licenciamiento Creative Commons CC BY-SA-NC y está disponible para su descarga en el [**Catálogo de la Editorial UMH**](http://editorial.umh.es/2019/12/16/tics-para-la-docencia-y-el-aprendizaje/).
+
+Gracias a mis compañeros Manuel Quesada, Juan Aparicio, Lidia Ortiz y Javier Morales, por el trabajo y dedicación para la creación de este recurso que sin duda resultará útil para más de un docente.
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 23/12/2019 en el blog anterior de esta web.
+:::

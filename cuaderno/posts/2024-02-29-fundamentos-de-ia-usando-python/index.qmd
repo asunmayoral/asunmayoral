@@ -1,0 +1,19 @@
+---
+title: "Fundamentos de IA usando Python"
+date: 2024-02-29
+categories: [Docencia, IA]
+image: 2024-02-santander_acad.webp
+aliases:
+  - /2024/02/29/fundamentos-de-ia-usando-python/
+---
+El curso “**[Fundamentos de IA usando Python](https://fiaup.umh.es/detalles/)**” se incluye en la [oferta de Enseñanzas de Formación Permanente de la Universidad Miguel Hernández de Elche](https://formacionpermanente.umh.es/solicitud/oferta/), regulados bajo la tipología “*Certificado de formación permanente por la Universidad Miguel Hernández de Elche*”.
+
+Este curso está financiado completamente por el Banco Santander a través de convenio suscrito con la UMH por el que se convocarán **500 plazas **para estudiantes de grado o máster oficial de la Universidad Miguel Hernández de Elche, preferentemente de ramas diferentes a la Ingeniería.
+
+El estudiante UMH no tendrá que abonar tasa de matrícula alguna. La **preinscripción** en el curso se realizará a través de la Plataforma Santander Open Academy: <http://app.santanderopenacademy.com/program/fundamentos-de-inteligencia-artificial-usando-python-1a-y-2a-edicion>, donde los estudiantes deberán aportar el certificado académico (extracto de notas desde su acceso personalizado) de estar matriculado en un grado o máster oficial de la UMH y no haber finalizado sus estudios.
+
+La **selección** de participantes se realizará por riguroso orden de preinscripción hasta completar el tamaño máximo del grupo que será de 100 estudiantes.
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 29/2/2024 en el blog anterior de esta web.
+:::

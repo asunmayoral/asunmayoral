@@ -1,0 +1,31 @@
+---
+title: "Una primera aproximación a la Estadística Bayesiana"
+description: "Formación de 10 horas en el Programa de Doctorado en Biología y Conservación de la Biodiversidad de la Universidad de Salamanca. Noviembre de 2022."
+categories: [Bayesiana, Estadística, R, Taller]
+---
+
+Material del taller: diapositivas, código R, datos y las grabaciones de las cuatro sesiones.
+
+- Diapositivas y código R en [GitHub](https://github.com/BayesModel/diapos)
+- Datos de todas las sesiones en [GitHub](https://github.com/BayesModel/data)
+
+## Sesión 1. Probabilidad, Bayes y proporciones
+
+- [Grabación de la sesión 1](https://drive.google.com/file/d/10J9Ub_DNuP6wChH3Kgl2KOF_Cl9VV0mk/view?usp=share_link)
+
+## Sesión 2. INLA y la regresión lineal
+
+- Contenidos: [INLA y regresión lineal](https://bayesmodel.github.io/index.html)
+- [Grabación de la sesión 2](https://drive.google.com/file/d/1XAKZP47z58lvclZ2Sj6TOgzJ5v-f_jEO/view?usp=share_link)
+
+## Sesión 3. Modelos de ANOVA
+
+- Contenidos: [Modelos de ANOVA](https://bayesmodel.github.io/anova.html)
+- [Grabación de la sesión 3](https://drive.google.com/file/d/1F651-W8Uc-aCj71rFKfyBvm2-4HbZnNt/view?usp=share_link)
+
+## Sesión 4. Modelos lineales generalizados
+
+- Contenidos: [Modelos lineales generalizados](https://bayesmodel.github.io/glm.html)
+- [Grabación de la sesión 4](https://drive.google.com/file/d/1wu0CwwANuUzrMv2k1rnbxBuDAS8rvNJW/view?usp=share_link)
+
+[← Volver a Recursos](../index.qmd)

@@ -1,0 +1,8 @@
+/.quarto/
+/_site/
+.DS_Store
+*_files/libs/
+.Rproj.user/
+__pycache__/
+
+**/*.quarto_ipynb

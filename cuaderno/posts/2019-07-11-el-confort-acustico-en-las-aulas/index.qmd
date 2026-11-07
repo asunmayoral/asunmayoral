@@ -1,0 +1,21 @@
+---
+title: "El confort acústico en las aulas"
+date: 2019-07-11
+categories: [Investigación]
+image: 2021-07-cover-sustainability-v11.webp
+aliases:
+  - /2019/07/11/el-confort-acustico-en-las-aulas/
+---
+La revista Sustainability ha publicado el artículo titulado «Acoustic comfort in Learning Spaces: Moving towards Sustainable Development Goals», elaborado por Isabel Montiel, Asun M. Mayoral, Jose Navarro y Silvia Maiques.
+
+Este trabajo trata sobre la importancia del confort acústico en las aulas de los centros educativos de Secundaria sobre la salud de profesorado y alumnado, así como su relevancia para propiciar la integración de metodologías activas y cooperativas. Hace además una revisión detallada sobre el tema y comenta la normativa vigente en la construcción de centros educativos en la Comunidad Valenciana, incorporando recomendaciones que pueden resultar críticas si no son tenidas en cuenta en la planificación de los edificios educativos.
+
+Finalmente proporciona numerosas sugerencias, de diferente calado económico, para conseguir mejoras en las condiciones acústicas de las aulas actuales.
+
+Sustainability es una revista de acceso abierto.  El artículo está indexado en la sección [Sustainable Education and Approaches](https://www.mdpi.com/journal/sustainability/sections/education_and_approaches) y se puede consultar íntegramente a continuación.
+
+**Compartir y citar:** Montiel, I.; Mayoral, A.M.; Navarro Pedreño, J.; Maiques, S. Acoustic Comfort in Learning Spaces: Moving Towards Sustainable Development Goals. *Sustainability* **2019**, *11 (13)*, 3573. <https://doi.org/10.3390/su11133573>
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 11/7/2019 en el blog anterior de esta web.
+:::

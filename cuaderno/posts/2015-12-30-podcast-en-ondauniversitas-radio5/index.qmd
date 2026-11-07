@@ -1,0 +1,15 @@
+---
+title: "Podcast en OndaUniversitas Radio5"
+date: 2015-12-30
+categories: [Divulgación]
+image: 2015-12-onda_universitas-768x440.webp
+aliases:
+  - /2015/12/30/podcast-en-ondauniversitas-radio5/
+---
+La Oficina de Comunicación de la UMH me ha dado la oportunidad de aportar una pequeña reflexión sobre la educación tecnológica de nuestros hijos. Aquí os enlazo el [podcast](http://mvod.lvlt.rtve.es/resources/TE_SONUNIV/mp3/7/8/1450966740387.mp3) del programa emitido en Onda Universitas en Radio 5 el día 24 de diciembre de 2015, con el título «**¿Es necesaria una educación tecnológica para los jóvenes?**
+
+*«Nacer en la era tecnológica no implica que se sepan utilizar correctamente de manera innata todos los aparatos y dispositivos electrónicos y las posibilidades que nos ofrecen. La profesora de Estadística e Investigación Operativa de la Universidad Miguel Hernández de Elche, María Asunción Martínez Mayoral, nos explica por qué se ha de apostar por una educación tecnológica.»*
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 30/12/2015 en el blog anterior de esta web.
+:::

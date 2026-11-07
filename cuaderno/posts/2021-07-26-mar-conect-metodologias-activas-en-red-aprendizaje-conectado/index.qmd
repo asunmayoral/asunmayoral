@@ -1,0 +1,15 @@
+---
+title: "MAR-CONECT: Metodologías Activas en Red. Aprendizaje Conectado"
+date: 2021-07-26
+categories: [Docencia, Innovación]
+image: 2021-07-avatar-redes-768x768.webp
+aliases:
+  - /2021/07/26/mar-conect-metodologias-activas-en-red-aprendizaje-conectado/
+---
+Durante las Jornadas de Innovación organizadas por el Vdo. Estudios, hemos compartido el proyecto de innovación que hemos desarrollado durante este curso 2020-21, intentando protocolizar una metodología docente que llevamos implementando varios cursos, integrando la conectividad y promoviendo un aprendizaje activo del estudiantado en Estadística Empresarial. Los resultados muy positivos para el estudiantado que ha sido proactivo para aprender.
+
+[![](2021-07-logo-mar-conect-300x75.webp)](https://sites.google.com/umh.es/mar-conect/inicio)En la web [MAR-CONECT](https://sites.google.com/umh.es/mar-conect/inicio) mostramos la experiencia y proporcionamos acceso a todos los recursos que hemos generado para acompañar el proceso de enseñanza-aprendizaje. La imagen y logos del proyecto los ha creado mi amigo y artista del SIPT Carlos Ramos (¡¡a mí me encantan!!). También os dejamos el vídeo de presentación que utilizamos en las jornadas (pulsa sobre la imagen para reproducirlo).[![](2021-07-captura-de-pantalla-2021-07-26-a-las-13.42.03-300x186.webp)](https://www.loom.com/share/80e96f329f564d509bbf4a138b7d6812)
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 26/7/2021 en el blog anterior de esta web.
+:::

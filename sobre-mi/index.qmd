@@ -1,0 +1,95 @@
+---
+title: "Sobre mí"
+description: "Profesora Titular de Estadística e Investigación Operativa en la Universidad Miguel Hernández de Elche."
+---
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-lg-8}
+
+## Hola, soy Asun
+
+Nacida en Albacete el año en que la librería `time` de Python empieza a contar las fechas; hace ya un capacho de años. Criada en una familia humilde y muy muy trabajadora, empecé la Licenciatura en Ciencias Matemáticas en 1988 en la Universidad de Murcia. Me licencié en la especialidad de Estadística e Investigación Operativa (más estadística que IO) en la Universitat de València en 1993.
+
+Entre 1993 y 1997 fui becaria FPI en el Departament d'Estadística i Investigació Operativa de la UV, aprendiendo un montón con gente maravillosa y disfrutando de mi gran jefa Susi Bayarri y otras muy buenas gentes con quienes todavía comparto buenos momentos. Me doctoré en 1998 con una tesis bayesiana sobre replicación de experimentos y meta-análisis.
+
+En 1997 inauguramos la Universidad Miguel Hernández de Elche y comencé a trabajar como Ayudante. Tras un recorrido completo como ayudante doctora y profesora de escuela universitaria, conseguí la titularidad de universidad en 2008. En 2007 me liaron en gestión universitaria como vicerrectora adjunta para innovación, y ahí estuve hasta 2019, aprendiendo muchísimo y evolucionando más. En 2010 pusimos en marcha el Máster en Formación del Profesorado de ESO, Bachillerato, FP y EI de la UMH, y ahí trabajamos una barbaridad y con muchísima ilusión por formar bien, aprendiendo también mucho de magníficos profesores de Secundaria.
+
+**Mi investigación** es multidisciplinar: siempre aplicando la Estadística para descubrir qué pasa en salud, genética, entorno natural, agricultura, economía, prospectiva, antropología, educación, sostenibilidad, espacios educativos… y lo que surja. Bayesiana de formación y corazón, sigo estudiando y evolucionando. Me gusta implicarme en proyectos diferentes y siempre a fondo. Disfruto con la docencia poco convencional y en continua actualización.
+
+Casada con otro estadístico de la UMH, tres hijos, dos perros y un proyecto de vida cerca de la naturaleza. Me gusta conservar la catalogación *4p* que me dio un gran jefe que espero conservar siempre como amigo: **pasión, perseverancia, pico y pala**.
+
+## Trayectoria
+
+::: {.linea-tiempo}
+- [2022–]{.anio} Coordinación desde la UMH, en colaboración con la UV y la UPV, del Concurso Valenciano de Estadística para la Ciencia de Datos, [Va de Dades!](https://vadedades.umh.es/)
+- [2021–]{.anio} Integración en el proyecto [IA4legos](https://ia4legos.umh.es/) para la formación en Inteligencia Artificial y Ciencia de Datos con Python.
+- [2021–2022]{.anio} Coordinación desde la UMH del proyecto Prodigital para la capacitación digital docente y de la ciudadanía (fondos UE Unidigital).
+- [2020–]{.anio} De nuevo solo profesora que disfruta aprendiendo.
+- [2014–2017]{.anio} Directora del Título de Experto Universitario UMH en Innovación Tecnológica en Educación.
+- [2011–2020]{.anio} Coordinadora de la asignatura TICs para la docencia y el aprendizaje en Secundaria, Máster de Profesorado.
+- [2010–2011]{.anio} Directora del Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y EI en la UMH.
+- [2008–]{.anio} Profesora Titular de Universidad.
+- [2007–2019]{.anio} Vicerrectora Adjunta para la Innovación.
+- [2002–2008]{.anio} Profesora Titular de Escuela Universitaria.
+- [1997–2002]{.anio} Ayudante y Ayudante Doctora.
+- [1994–1997]{.anio} Becaria FPI del Ministerio.
+:::
+
+:::
+
+::: {.g-col-12 .g-col-lg-4}
+
+## En frases
+
+::: {.frase}
+Ya no quiero innovar. Solo mejorar, con retos día a día y entusiasmo siempre.
+:::
+
+::: {.frase}
+Empeño en aprender a enseñar, en motivar a aprender y viceversa.
+:::
+
+::: {.frase}
+Corazón bayesiano, bayarriano y armeriense.
+:::
+
+::: {.frase}
+No basta con soñar; hay que trabajar. Pero si trabajas con empeño, lo consigues.
+:::
+
+::: {.frase}
+En evolución constante. Todo lo que nos sucede nos hace aprender y ser mejores.
+:::
+
+::: {.frase}
+Ambicionar lo justo que nos permite disfrutar del día a día. No se puede llegar a todo a la vez.
+:::
+
+::: {.frase}
+Agradecer, agradecer y agradecer. Pedir perdón y disculpar.
+:::
+
+## Contacto
+
+**Mª Asunción Martínez Mayoral**<br>
+Profesora Titular de Universidad<br>
+Área de Estadística e Investigación Operativa
+
+Edificio Torrepinet, planta 1, despacho 25<br>
+Avda. de la Universidad s/n, 03202 Elche (Alicante)
+
+[asun.mayoral@umh.es](mailto:asun.mayoral@umh.es) · (+34) 96 665 8818
+
+## Perfiles
+
+- [Google Scholar](https://scholar.google.es/citations?user=8QU4Vp8AAAAJ&hl=es)
+- [ORCID](https://orcid.org/0000-0001-6944-7335)
+- [Scopus](https://www.scopus.com/authid/detail.uri?authorId=6602702428)
+- [ResearchGate](https://www.researchgate.net/profile/Asuncion-Mayoral)
+- [LinkedIn](https://www.linkedin.com/in/asunmayoral/)
+- [YouTube](https://www.youtube.com/channel/UCccvZ4InlmdutYsFSGy29-Q)
+
+:::
+
+::::

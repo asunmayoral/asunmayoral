@@ -1,0 +1,19 @@
+---
+title: "Monográfico de Innovación UMH 2017"
+date: 2018-12-12
+categories: [Docencia, Innovación, Publicación]
+image: 2020-07-portada_monografico-212x300.webp
+aliases:
+  - /2018/12/12/monografico-de-innovacion-umh-2017/
+---
+Con mucho trabajo, mío y de mis compañeros editores, ha salido a la luz el Monográfico de Innovación de la UMH 2017.
+
+Cada año la Universidad Miguel Hernández promueve convocatorias en las que apoya a profesores y proyectos de innovación educativa que se desarrollan en nuestra universidad. Desde el curso 2016-17 este llamamiento se concreta en los Programas PIEU (Programa de Innovación Educativa Universitaria) y ÓSMOSIS. PIEU está dirigido a profesorado universitario para desarrollar proyectos innovadores y de mejora en grados y másteres oficiales. ÓSMOSIS está dirigido a docentes no universitarios en centros educativos de financiación pública, para desarrollar proyectos innovadores en niveles preuniversitarios, contando para ello con la colaboración de la UMH, y en particular de profesores y estudiantes UMH que, por su línea de trabajo, pueden aportar algo en cada uno de los proyectos financiados.
+
+Este monográfico ha pretendido recopilar las mejores experiencias PIEU y ÓSMOSIS del curso académico 2016-17, y así mismo acompañarlas de experiencias previas en convocatorias anteriores de la UMH. El objetivo de este monográfico es el de mostrar las experiencias desarrolladas, con el fin de servir de motor creativo para la generación de nuevas ideas y proyectos de innovación que podamos desarrollar en cualquier ámbito educativo, y en particular de proyectos de colaboración internivel entre la Universidad, Secundaria y Primaria.
+
+El libro lo ha publicado la Editorial electrónica UMH bajo licencia CC BY-NC-ND y se puede descargar gratuitamente en la [web de la Editorial y en Google Play](http://editorial.edu.umh.es/2018/11/06/monografico-innovacion-umh-2017/).
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 12/12/2018 en el blog anterior de esta web.
+:::

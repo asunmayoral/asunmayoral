@@ -1,0 +1,13 @@
+---
+title: "Entornos colaborativos para la Semana de la Innovación PAS-UMH"
+date: 2015-10-28
+categories: [Recursos]
+image: 2020-07-semana_innovacion-768x499.webp
+aliases:
+  - /2015/10/28/entornos-colaborativos-para-la-semana-de-la-innovacion-pas-umh/
+---
+Parte de la formación que recibe nuestro PAS participante en la Semana de la Innovación UMH 2015.
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 28/10/2015 en el blog anterior de esta web.
+:::

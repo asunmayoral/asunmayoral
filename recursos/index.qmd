@@ -1,0 +1,14 @@
+---
+title: "Recursos"
+description: "Materiales que he preparado, sola o con compañeros y compañeras, y otros que recomiendo. Sobre todo de Estadística y Ciencia de Datos; también de innovación educativa y comunicación científica."
+listing:
+  id: catalogo
+  contents: recursos.yml
+  template: ../_templates/recursos-catalogo.ejs
+  sort: "date desc"
+---
+
+::: {#catalogo}
+:::
+
+¿Te interesa algún recurso o tema en particular? Escríbeme a [asun.mayoral@umh.es](mailto:asun.mayoral@umh.es).

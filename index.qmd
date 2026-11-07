@@ -1,0 +1,79 @@
+---
+pagetitle: "Asun M. Mayoral · My Stat Space"
+description: "Estadística, ciencia de datos e IA para aprender y enseñar."
+page-layout: full
+title-block-banner: false
+listing:
+  - id: novedades
+    contents: recursos/recursos.yml
+    template: _templates/recursos-novedades.ejs
+    sort: "date desc"
+    max-items: 3
+  - id: proyectos-activos
+    contents: proyectos/proyectos.yml
+    template: _templates/proyectos.ejs
+    include:
+      estado: Activo
+    sort: "orden desc"
+  - id: ultimas
+    contents: cuaderno/posts
+    template: _templates/cuaderno-lista.ejs
+    sort: "date desc"
+    max-items: 3
+    date-format: "D MMM YYYY"
+---
+
+::: {.home-banner}
+![](images/banner.svg){fig-alt="Diagrama de dispersión con tendencia cúbica: tres grupos de un análisis cluster y una curva de suavizado"}
+:::
+
+::: {.hero}
+[Hola, soy Asun.]{.saludo}
+
+# Estadística, ciencia de datos e IA para aprender y enseñar.
+
+[Profesora Titular de Estadística e Investigación Operativa en la Universidad Miguel Hernández de Elche. Aquí comparto lo que preparo para mis clases y lo que encuentro por el camino.]{.lead}
+
+[Explorar recursos](recursos/index.qmd){.btn-pill .solid} [Leer el cuaderno](cuaderno/index.qmd){.btn-pill .line}
+:::
+
+::: {.puertas}
+[[Docencia]{.kicker} [Asignaturas, cursos y talleres]{.titulo} [Simulación de procesos, Mejora de procesos, Python para Machine Learning y comunicación científica en doctorado.]{.texto}](docencia/index.qmd){.puerta .docencia}
+
+[[Recursos]{.kicker} [Materiales propios y recomendados]{.titulo} [Webs de asignatura, libros, recopilatorios y vídeos, con buscador y filtros por tema y tipo.]{.texto}](recursos/index.qmd){.puerta .recursos}
+
+[[Cuaderno]{.kicker} [Divulgación y notas]{.titulo} [Estadística, inteligencia artificial y comunicación científica, contadas con calma.]{.texto}](cuaderno/index.qmd){.puerta .cuaderno}
+:::
+
+::::: {.franja .blanca}
+::: {.seccion-cab}
+## Novedades en Recursos
+
+[Ver el catálogo completo](recursos/index.qmd)
+:::
+
+::: {#novedades}
+:::
+:::::
+
+::: {.seccion-cab style="margin-top: 3.5rem"}
+## Proyectos en marcha
+
+[Todos los proyectos](proyectos/index.qmd)
+:::
+
+::: {#proyectos-activos}
+:::
+
+<div style="height: 3.5rem"></div>
+
+::::: {.franja .ciruela}
+::: {.seccion-cab}
+## Del cuaderno
+
+[Todas las entradas](cuaderno/index.qmd)
+:::
+
+::: {#ultimas}
+:::
+:::::

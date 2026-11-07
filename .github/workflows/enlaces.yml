@@ -1,0 +1,27 @@
+name: Revisar enlaces rotos
+
+on:
+  schedule:
+    - cron: "17 6 1 * *"   # el día 1 de cada mes
+  workflow_dispatch:
+
+jobs:
+  enlaces:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Comprobar enlaces de recursos, proyectos y páginas
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --max-concurrency 4 --accept 200,201,204,206,301,302,403,429 "**/*.qmd" "**/*.yml"
+          fail: false
+      - name: Abrir una incidencia si hay enlaces rotos
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Enlaces rotos detectados
+          content-filepath: ./lychee/out.md
+          labels: enlaces

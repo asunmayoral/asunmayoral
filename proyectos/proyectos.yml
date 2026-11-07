@@ -1,0 +1,72 @@
+# Proyectos. estado: Activo | Histórico. orden: número para ordenar (mayor = antes).
+- title: "Va de Dades!"
+  description: "Concurso Valenciano de Estadística para la Ciencia de Datos: fase local en la Comunitat Valenciana del concurso nacional «Incubadora de Sondeos y Experimentos» de la SEIO. Organizado desde la UMH, la UV y la UPV para despertar el interés por la Estadística en Secundaria."
+  path: https://vadedades.umh.es/
+  estado: Activo
+  anios: "Desde 2022"
+  papel: "Coordinación desde la UMH"
+  orden: 100
+
+- title: "IA4legos"
+  description: "Formación en Inteligencia Artificial y Ciencia de Datos con Python para públicos diversos."
+  path: https://ia4legos.umh.es/
+  estado: Activo
+  anios: "Desde 2021"
+  papel: "Equipo docente"
+  orden: 95
+
+- title: "Simustat"
+  description: "Proyecto abierto de contenidos formativos sobre programación y estadística con Python, financiado con fondos europeos Unidigital."
+  path: https://unidigitalsimustat.umh.es/proyecto/
+  estado: Activo
+  anios: "Unidigital"
+  papel: "Con F. Borrás, F. Botella, J. Moltó, J. Morales e I. Hernández"
+  orden: 90
+
+- title: "Prodigital"
+  description: "Proyecto interuniversitario de contenidos sobre competencia digital para la ciudadanía (DigComp) y para docentes (DigCompEdu). En la UMH desarrollamos el área 2 de ambos marcos."
+  path: http://dspace.umh.es/handle/11000/29584
+  estado: Histórico
+  anios: "2021-2022"
+  papel: "Coordinación desde la UMH, con F. Botella, F. Montiel y J. Américo"
+  orden: 80
+
+- title: "MAR-CONECT"
+  description: "Metodologías Activas en Red. Aprendizaje conectado. Proyecto de innovación educativa sobre metodologías activas y evaluación, a partir de la asignatura Mejora de Procesos."
+  path: https://sites.google.com/umh.es/mar-conect/
+  estado: Histórico
+  anios: "PIEU 2020/06"
+  papel: "Coordinación"
+  orden: 70
+
+- title: "TFGi: Trabajos Fin de Grado Interdisciplinares"
+  description: "Proyecto de innovación educativa para que estudiantes de distintos grados resuelvan problemas reales en TFG interdisciplinares."
+  path: https://tfgi.edu.umh.es/
+  estado: Histórico
+  anios: "2018-2021"
+  papel: "Participante"
+  orden: 65
+
+- title: "Espacios Educativos Sostenibles y Conectados"
+  description: "Proyecto compartido con Isabel Montiel durante su tesis sobre espacios educativos eficaces; recoge lo que se hizo en una web."
+  path: https://espacioseducativos.umh.es/
+  estado: Histórico
+  anios: "2017-2022"
+  papel: "Con Isabel Montiel"
+  orden: 60
+
+- title: "FeCiTElx, Feria de Ciencia y Tecnología en Elx"
+  description: "Proyecto institucional de la UMH, junto con Jornadas de Puertas Abiertas en el Campus de Elche y Proyecta TÚ, para promover la divulgación científica desde colegios e institutos."
+  path: /cuaderno/posts/2018-05-23-fecitelx-feria-de-ciencia-y-tecnologia-en-elche/index.html
+  estado: Histórico
+  anios: "2015-2018, 4 ediciones"
+  papel: "Creación y organización"
+  orden: 55
+
+- title: "Proyectos ÓSMOSIS"
+  description: "Profesorado de Secundaria y de universidad colaborando en iniciativas de mejora en los centros de Secundaria del entorno."
+  path: /cuaderno/posts/2019-07-23-programa-osmosis-umh-para-la-innovacion-educativa/index.html
+  estado: Histórico
+  anios: "2019"
+  papel: "Participante"
+  orden: 50

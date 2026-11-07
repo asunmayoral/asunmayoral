@@ -1,0 +1,74 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "**/*.qmd"
+  resources:
+    - files/
+    - images/
+
+lang: es
+
+website:
+  title: "My Stat Space"
+  description: "Asun M. Mayoral. Estadística, ciencia de datos e IA para aprender y enseñar."
+  site-url: "https://asunmayoral.umh.es"
+  favicon: images/favicon.svg
+  open-graph: true
+  page-navigation: false
+  back-to-top-navigation: true
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    title: "My Stat Space"
+    background: light
+    collapse-below: lg
+    left:
+      - text: Docencia
+        href: docencia/index.qmd
+      - text: Recursos
+        href: recursos/index.qmd
+      - text: Proyectos
+        href: proyectos/index.qmd
+      - text: Cuaderno
+        href: cuaderno/index.qmd
+      - text: Publicaciones
+        href: publicaciones/index.qmd
+      - text: Sobre mí
+        href: sobre-mi/index.qmd
+  page-footer:
+    background: "#2F2A36"
+    left: |
+      **My Stat Space** · Mª Asunción Martínez Mayoral<br>
+      Área de Estadística e Investigación Operativa · Universidad Miguel Hernández de Elche<br>
+      Edificio Torrepinet, planta 1, despacho 25 · [asun.mayoral@umh.es](mailto:asun.mayoral@umh.es)
+    right:
+      - text: Google Scholar
+        href: https://scholar.google.es/citations?user=8QU4Vp8AAAAJ&hl=es
+      - text: ORCID
+        href: https://orcid.org/0000-0001-6944-7335
+      - text: LinkedIn
+        href: https://www.linkedin.com/in/asunmayoral/
+      - text: YouTube
+        href: https://www.youtube.com/channel/UCccvZ4InlmdutYsFSGy29-Q
+      - text: RSS
+        href: cuaderno/index.xml
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles/mystat.scss]
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    title-block-banner: true
+    title-block-banner-color: "#2F2A36"
+    highlight-style: github
+    grid:
+      body-width: 1060px
+      margin-width: 220px
+
+execute:
+  freeze: auto

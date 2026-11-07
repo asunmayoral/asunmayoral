@@ -1,0 +1,15 @@
+---
+title: "ODSGAME: descubriendo los ODS con la Cátedra de Cooperación y Desarrollo Sostenible Prosperidad UMH"
+date: 2021-06-25
+categories: [Docencia]
+image: 2021-07-captura-de-pantalla-2021-07-26-a-las-13.14.23-768x288.webp
+aliases:
+  - /2021/06/25/odsgame-descubriendo-los-ods-con-la-catedra-de-cooperacion-y-desarrollo-sostenible-prosperidad-umh/
+---
+Para promover y publicitar los ODS en nuestra comunidad universitaria, la Cátedra de Cooperación y Desarrollo Sostenible Prosperidad UMH nos propuso a Manuel Quesada y a mí, crear un juego online con recursos de gamificación educativa, para mostrar qué hace la cátedra y cómo implicarnos más en los objetivos de sostenibilidad de la Agenda 2030.
+
+El resultado fue el [ODSGAME](https://odsgame.umh.es), que estuvo activo durante la primera semana de junio de 2021 y que puedes jugar cuando te apetezca si perteneces a la comunidad UMH.
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 25/6/2021 en el blog anterior de esta web.
+:::

@@ -1,0 +1,360 @@
+# Catálogo de recursos. Una entrada por recurso.
+# Campos:
+#   title        título
+#   description  una o dos frases
+#   path         enlace (externo o interno)
+#   date         AAAA-MM-DD aproximada (ordena el catálogo; si solo sabes el año, usa el 1 de enero)
+#   anio         lo que se muestra como fecha (texto libre: "2022", "2023-24", "Web")
+#   tipo         uno de: Asignatura, Curso, Taller, Libro, Apuntes y prácticas, Recopilatorio, Vídeo, Datos, Juego
+#   temas        lista con valores de: Estadística, Ciencia de datos, IA, Python, R, Bayesiana,
+#                Mejora de procesos, Innovación educativa, Comunicación científica
+#   origen       Propio | Recomendado
+#   autoria      (opcional) coautoría o autoría ajena
+#   nota         (opcional) aviso breve, p. ej. acceso restringido
+
+# ---------- Estadística y ciencia de datos ----------
+- title: "Simulación de procesos y sistemas"
+  description: "Contenidos de la asignatura 1477, de 3.º del Grado en Estadística Empresarial."
+  path: https://umh1477.github.io/
+  date: 2022-09-01
+  anio: "2022"
+  tipo: Asignatura
+  temas: [Estadística, Python]
+  origen: Propio
+
+- title: "Lean Six Sigma para la mejora de procesos (web)"
+  description: "Contenidos de la asignatura Mejora de Procesos (1479), de 4.º del Grado en Estadística Empresarial. Web vinculada al libro de Editorial UMH."
+  path: https://bookdown.org/asun_mayoral/book-l6s/
+  date: 2021-12-01
+  anio: "2021"
+  tipo: Asignatura
+  temas: [Mejora de procesos, R]
+  origen: Propio
+  autoria: "Con Javier Morales"
+
+- title: "Simustat"
+  description: "Proyecto abierto, financiado con fondos europeos Unidigital, de contenidos formativos sobre programación y estadística con Python."
+  path: https://unidigitalsimustat.umh.es/proyecto/
+  date: 2022-06-01
+  anio: "Unidigital"
+  tipo: Curso
+  temas: [Python, Estadística]
+  origen: Propio
+  autoria: "Con Fernando Borrás, Federico Botella, Josep Moltó, Javier Morales e Inés Hernández"
+
+- title: "Estadística con Python y Google Colab"
+  description: "Curso básico de Estadística con Python en cuadernos Jupyter de Google Colab."
+  path: https://sites.google.com/umh.es/python/inicio
+  date: 2021-01-01
+  anio: "Web"
+  tipo: Curso
+  temas: [Python, Estadística]
+  origen: Propio
+  autoria: "Con Javier Morales"
+
+- title: "Modelos estadísticos con R"
+  description: "Web con prácticamente toda la modelización estadística, paso a paso y en español."
+  path: https://jmsocuellamos.github.io/
+  date: 2021-01-01
+  anio: "Web"
+  tipo: Curso
+  temas: [R, Estadística]
+  origen: Recomendado
+  autoria: "Javier Morales"
+
+- title: "Recursos en línea para Data Science"
+  description: "Recopilación de libros gratuitos en la nube para el análisis estadístico y la ciencia de datos."
+  path: https://sites.google.com/umh.es/recursos-datascience/
+  date: 2021-01-01
+  anio: "Web"
+  tipo: Recopilatorio
+  temas: [Ciencia de datos]
+  origen: Recomendado
+  autoria: "Javier Morales"
+
+- title: "Enlaces DATA LABS"
+  description: "Recopilación propia de tutoriales, cursos y bases de datos sobre ciencia de datos."
+  path: https://docs.google.com/spreadsheets/d/e/2PACX-1vQLYXQY74Cmd4x-pdv9L7tvVJg9G8ek7I0D7JJLLfGlbASCGvFA-15jk0j8QMBFBWw06QYjiZb53kzl/pubhtml
+  date: 2020-09-01
+  anio: "2020"
+  tipo: Recopilatorio
+  temas: [Ciencia de datos]
+  origen: Propio
+
+- title: "Visualización de datos"
+  description: "Gráficos, ejemplos, tutoriales, recomendaciones y herramientas para presentar datos."
+  path: https://www.symbaloo.com/mix/visualizing-data
+  date: 2021-10-01
+  anio: "Web"
+  tipo: Recopilatorio
+  temas: [Ciencia de datos]
+  origen: Propio
+
+- title: "Webs con datos en abierto"
+  description: "Fuentes de datos abiertos para practicar el análisis estadístico."
+  path: https://www.symbaloo.com/home/mix/13eP2BWQEG
+  date: 2021-10-01
+  anio: "Web"
+  tipo: Datos
+  temas: [Ciencia de datos]
+  origen: Propio
+
+- title: "RPubs de asunmayoral"
+  description: "Primeras versiones de prácticas y trabajos publicadas en abierto."
+  path: https://rpubs.com/asunmayoral
+  date: 2019-01-01
+  anio: "Web"
+  tipo: Apuntes y prácticas
+  temas: [R, Estadística]
+  origen: Propio
+
+- title: "Meta-análisis con R"
+  description: "Compendio de procedimientos y técnicas para el meta-análisis con R, con enfoque en Ciencias de la Salud."
+  path: https://rpubs.com/asunmayoral
+  date: 2022-01-01
+  anio: "2022"
+  tipo: Apuntes y prácticas
+  temas: [R, Estadística]
+  origen: Propio
+  nota: "Pendiente de enlace propio"
+
+# ---------- Cursos y talleres ----------
+- title: "Una primera aproximación a la Estadística Bayesiana"
+  description: "Taller de 10 horas para el Programa de Doctorado en Biología y Conservación de la Biodiversidad de la Universidad de Salamanca."
+  path: /recursos/bayesiana/index.html
+  date: 2022-11-01
+  anio: "2022"
+  tipo: Taller
+  temas: [Bayesiana, Estadística]
+  origen: Propio
+
+- title: "Comunicación científica"
+  description: "Curso de 8 horas con recomendaciones y herramientas tecnológicas para la divulgación científica efectiva. Doctorado en la UASD (República Dominicana)."
+  path: https://docs.google.com/document/d/1yJtnQyxma5kDnb-RTHpcSVTh7wZ6kPbA_Mx5jpzXysk/edit?usp=sharing
+  date: 2023-10-01
+  anio: "2023-24"
+  tipo: Curso
+  temas: [Comunicación científica]
+  origen: Propio
+
+- title: "Diseñar, mostrar y demostrar: investigación versus estadística"
+  description: "Taller del I Congreso Anual de Estudiantes de Doctorado UMH (CAED), marzo de 2021."
+  path: https://youtu.be/1i6RYwyVXMA
+  date: 2021-03-01
+  anio: "2021"
+  tipo: Vídeo
+  temas: [Estadística, Comunicación científica]
+  origen: Propio
+
+- title: "Data Labs en Google Classroom"
+  description: "Proyecto para enseñar y aprender estadística desde la reflexión y la práctica."
+  path: https://classroom.google.com/c/NjE0Njg4NDcwNTBa
+  date: 2020-09-01
+  anio: "2020"
+  tipo: Curso
+  temas: [Estadística, Ciencia de datos]
+  origen: Propio
+  nota: "Acceso restringido a personas inscritas"
+
+# ---------- Innovación educativa ----------
+- title: "Una experiencia educativa gamificada"
+  description: "Curso de 20 horas para la Oficina de Cooperación UMH, impartido en febrero de 2021."
+  path: https://sites.google.com/umh.es/gamificacion/p%C3%A1gina-principal
+  date: 2021-02-01
+  anio: "2021"
+  tipo: Curso
+  temas: [Innovación educativa]
+  origen: Propio
+  autoria: "Con Manuel Quesada"
+
+- title: "ODS Game"
+  description: "Experiencia de gamificación para descubrir los ODS con la Cátedra de Sostenibilidad (mayo de 2021)."
+  path: https://odsgame.umh.es/
+  date: 2021-05-01
+  anio: "2021"
+  tipo: Juego
+  temas: [Innovación educativa]
+  origen: Propio
+  autoria: "Con Manuel Quesada"
+
+- title: "Equipos eficaces"
+  description: "Taller de competencias transversales del proyecto TFGi (TFG interdisciplinares). Cursos 2019-20, 2021-22 y 2022-23."
+  path: https://docs.google.com/presentation/d/1IyqUnvz1HjkQRTRhXtSzEvBBbne7jqxN8e37JANwjjs/edit?usp=sharing
+  date: 2022-10-01
+  anio: "2019-23"
+  tipo: Taller
+  temas: [Innovación educativa]
+  origen: Propio
+
+- title: "Aprendizaje móvil"
+  description: "Aplicaciones y herramientas para enseñar y aprender con tabletas y móviles. Curso en línea de 20 horas, CEFIRE de Orihuela (2016)."
+  path: https://www.symbaloo.com/mix/mobilelearning7
+  date: 2016-04-01
+  anio: "2016"
+  tipo: Curso
+  temas: [Innovación educativa]
+  origen: Propio
+
+- title: "Recursos TIC para la evaluación"
+  description: "Recopilatorio propio de herramientas para la evaluación formativa."
+  path: https://www.symbaloo.com/mix/evaluacion-formativa
+  date: 2018-01-01
+  anio: "Web"
+  tipo: Recopilatorio
+  temas: [Innovación educativa]
+  origen: Propio
+
+- title: "El aprendizaje cooperativo en el aula"
+  description: "Texto clásico de Johnson, Johnson y Holubec sobre aprendizaje cooperativo."
+  path: https://www.ucm.es/data/cont/docs/1626-2019-03-15-JOHNSON%20El%20aprendizaje%20cooperativo%20en%20el%20aula.pdf
+  date: 2019-03-01
+  anio: "PDF"
+  tipo: Libro
+  temas: [Innovación educativa]
+  origen: Recomendado
+
+- title: "Aprendizaje cooperativo (Gobierno de Canarias)"
+  description: "Guía práctica sobre aprendizaje cooperativo del programa Pedagotic."
+  path: https://www3.gobiernodecanarias.org/medusa/ecoescuela/pedagotic/aprendizaje-cooperativo/
+  date: 2019-01-01
+  anio: "Web"
+  tipo: Recopilatorio
+  temas: [Innovación educativa]
+  origen: Recomendado
+
+- title: "Red Española de Aprendizaje-Servicio"
+  description: "Recursos, experiencias y guías sobre aprendizaje-servicio."
+  path: https://www.aprendizajeservicio.net/
+  date: 2019-01-01
+  anio: "Web"
+  tipo: Recopilatorio
+  temas: [Innovación educativa]
+  origen: Recomendado
+
+# ---------- Libros ----------
+- title: "Lean Seis Sigma para la Mejora de Procesos"
+  description: "A. M. Mayoral y J. Morales. Editorial electrónica UMH. ISBN 978-84-18177-14-9."
+  path: https://innovacionumh.es/editorial/Lean%20Seis%20Sigma%20para%20la%20mejora%20de%20procesos.pdf
+  date: 2022-01-13
+  anio: "2022"
+  tipo: Libro
+  temas: [Mejora de procesos]
+  origen: Propio
+
+- title: "TICs para la docencia y el aprendizaje"
+  description: "Mª A. Martínez Mayoral, J. Morales, J. Aparicio, L. Ortiz y M. Quesada. Editorial electrónica UMH. ISBN 978-84-16024-82-7."
+  path: http://innovacionumh.es/editorial/TICS.pdf
+  date: 2019-12-16
+  anio: "2019"
+  tipo: Libro
+  temas: [Innovación educativa]
+  origen: Propio
+
+- title: "Monográfico Innovación UMH 2017"
+  description: "Recopilación revisada de experiencias de innovación docente en la UMH. Eds.: A. M. Mayoral, J. Morales, J. A. Pérez-Juan y P. Robles."
+  path: http://editorial.umh.es/2018/11/06/monografico-innovacion-umh-2017/
+  date: 2018-11-06
+  anio: "2018"
+  tipo: Libro
+  temas: [Innovación educativa]
+  origen: Propio
+
+- title: "Apuntes de Teoría de Colas"
+  description: "Simulación y análisis de sistemas de espera. A. M. Mayoral, J. Morales, X. Barber y J. Aparicio. Universidad Miguel Hernández."
+  path: https://www.dropbox.com/s/4jkbpjfvp1m762y/A4%20Apuntes%20de%20Teor%C3%ADa%20de%20Colas.pdf
+  date: 2007-01-01
+  anio: "2007"
+  tipo: Libro
+  temas: [Estadística]
+  origen: Propio
+
+- title: "Modelos estadísticos para pérdidas y reclamaciones"
+  description: "A. M. Mayoral, J. Morales, X. Barber y J. Aparicio. Universidad Miguel Hernández."
+  path: https://www.dropbox.com/s/nhjrlamuo8kcasd/A4%20Mod%20Estad%20p%20P%C3%A9rd%20y%20Reclamac.pdf
+  date: 2006-01-01
+  anio: "Libro"
+  tipo: Libro
+  temas: [Estadística]
+  origen: Propio
+
+- title: "Modelos Lineales Generalizados"
+  description: "A. M. Mayoral y J. Morales. Universidad Miguel Hernández."
+  path: https://www.dropbox.com/s/bcjt5ms5idtun2p/Modelos%20Lineales%20Generalizados.pdf
+  date: 2002-01-01
+  anio: "Libro"
+  tipo: Libro
+  temas: [Estadística, R]
+  origen: Propio
+
+- title: "TIS: Técnicas de Investigación Social"
+  description: "M. Landete y A. M. Mayoral. Universidad Miguel Hernández."
+  path: https://www.dropbox.com/s/wcwdu4qw83rulr6/TIS%20a4.pdf
+  date: 2001-01-01
+  anio: "2001"
+  tipo: Libro
+  temas: [Estadística]
+  origen: Propio
+
+# ---------- Vídeos ----------
+- title: "Mejora de Procesos (umh1479)"
+  description: "Lista de videotutoriales de la asignatura, Grado en Estadística Empresarial."
+  path: http://bit.ly/2dk19NR
+  date: 2016-09-01
+  anio: "Lista"
+  tipo: Vídeo
+  temas: [Mejora de procesos]
+  origen: Propio
+
+- title: "TICs para la docencia y el aprendizaje en Secundaria (umh0460, 2014-15)"
+  description: "Lista de vídeos de la asignatura del Máster en Formación del Profesorado."
+  path: https://www.youtube.com/playlist?list=PLClKgnzRFYe5hwY17dxjRB_pJAeG4SqUF
+  date: 2014-09-01
+  anio: "2014-15"
+  tipo: Vídeo
+  temas: [Innovación educativa]
+  origen: Propio
+
+- title: "TICs para la docencia y el aprendizaje en Secundaria (umh0460, 2013-14)"
+  description: "Lista de vídeos de la asignatura del Máster en Formación del Profesorado."
+  path: http://www.youtube.com/playlist?list=PLClKgnzRFYe6fKYcWfMMrwvfFjcH61jPz
+  date: 2013-09-01
+  anio: "2013-14"
+  tipo: Vídeo
+  temas: [Innovación educativa]
+  origen: Propio
+
+- title: "Experto en Innovación Tecnológica en Educación (@iteumh 2014)"
+  description: "Lista de vídeos del Título de Experto Universitario UMH."
+  path: https://www.youtube.com/playlist?list=PLClKgnzRFYe4AeUPDdS1e9cCNnFJQGnUz
+  date: 2014-01-01
+  anio: "2014"
+  tipo: Vídeo
+  temas: [Innovación educativa]
+  origen: Propio
+
+- title: "Herramientas web en investigación (umh3389, 2013-14)"
+  description: "Lista de vídeos del Máster en Investigación en Medicina Clínica."
+  path: https://www.youtube.com/playlist?list=PLClKgnzRFYe7VDKn29zwc-CgTMkD5qTD-
+  date: 2013-09-02
+  anio: "2013-14"
+  tipo: Vídeo
+  temas: [Comunicación científica]
+  origen: Propio
+
+- title: "Análisis Exploratorio de Datos (umh1263, 2012-13)"
+  description: "Lista de vídeos de la asignatura de grado."
+  path: http://www.youtube.com/playlist?list=PLClKgnzRFYe6_q-BiaN0COs1Xc0wssTqM
+  date: 2012-09-01
+  anio: "2012-13"
+  tipo: Vídeo
+  temas: [Estadística]
+  origen: Propio
+
+- title: "¿Es necesaria una educación tecnológica para los jóvenes?"
+  description: "Participación en Descubre con la UMH, abril de 2016."
+  path: https://youtu.be/TK0KfIHlQY8
+  date: 2016-04-01
+  anio: "2016"
+  tipo: Vídeo
+  temas: [Innovación educativa]
+  origen: Propio

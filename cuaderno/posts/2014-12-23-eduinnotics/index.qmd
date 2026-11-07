@@ -1,0 +1,15 @@
+---
+title: "EduInnoTICs"
+date: 2014-12-23
+categories: [Divulgación]
+image: 2014-12-eit-twitter.webp
+aliases:
+  - /2014/12/23/eduinnotics/
+---
+En 2014 nos tiramos a la piscina y generamos el proyecto global Educación Innovación y TICs, EduInnoTICs. El objetivo fue proporcionar  una plataforma de colaboración y desarrollo docente que arrancara de nuestra experiencia como docentes en el Máster Universitario en Formación del Profesorado de ESO, BACH, FP Y EI de la UMH y diera cabida a toda la comunidad educativa de nuestro entorno.
+
+La mejor forma de ver qué hacemos desde ahí, es mirar nuestra web: [Educación Innovadora y TICs](http://eduinnoticsumh.es/)
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 23/12/2014 en el blog anterior de esta web.
+:::

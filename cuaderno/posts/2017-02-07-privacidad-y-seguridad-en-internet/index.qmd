@@ -1,0 +1,15 @@
+---
+title: "Privacidad y Seguridad en Internet"
+date: 2017-02-07
+categories: [Divulgación]
+image: 2021-07-privacidad-y-seguridad-en-internet.webp
+aliases:
+  - /2017/02/07/privacidad-y-seguridad-en-internet/
+---
+La Agencia Española de Protección de Datos ha publicado una guía online titulada ***Privacidad y Seguridad en Internet***, donde se dan las pautas al usuario para prevenir problemas de privacidad y seguridad y resolverlos cuando acontecen.
+
+Puedes consultar la guía completa en la web de la [Agencia](http://www.agpd.es/portalwebAGPD/canaldocumentacion/publicaciones/Guias_online/PrivacidadSeguridad-ides-idphp.php).
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 7/2/2017 en el blog anterior de esta web.
+:::

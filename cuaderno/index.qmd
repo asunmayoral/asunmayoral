@@ -1,0 +1,16 @@
+---
+title: "Cuaderno"
+description: "Notas y divulgación sobre estadística, inteligencia artificial, docencia y comunicación científica."
+listing:
+  contents: posts
+  type: default
+  sort: "date desc"
+  categories: true
+  sort-ui: false
+  filter-ui: true
+  page-size: 12
+  date-format: "D MMM YYYY"
+  image-placeholder: ../images/favicon.svg
+  feed: true
+  fields: [image, date, title, categories, description]
+---

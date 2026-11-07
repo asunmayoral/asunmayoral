@@ -1,0 +1,9 @@
+# Opciones comunes a todas las entradas del Cuaderno
+title-block-banner: false
+toc: false
+date-format: "D [de] MMMM [de] YYYY"
+title-block-categories: true
+format:
+  html:
+    grid:
+      body-width: 760px

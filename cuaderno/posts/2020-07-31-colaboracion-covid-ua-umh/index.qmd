@@ -1,0 +1,28 @@
+---
+title: "Colaboración COVID UA-UMH"
+date: 2020-07-31
+categories: [Investigación]
+image: 2020-07-18845-768x512.webp
+aliases:
+  - /2020/07/31/colaboracion-covid-ua-umh/
+---
+Durante estos meses Javier Morales (j.morales@umh.es) y yo hemos colaborado con la Universidad de Alicante en un ambicioso proyecto a nivel nacional, para estudiar la incidencia de la pandemia por COVID19 a nivel departamento de salud/municipio. Los investigadores de la UA han trabajado intensamente por recopilar toda la información disponible en abierto en  las 17 comunidades autónomas (consiguiendo acceso sólo a seis de ellas), así como en indagar efectos climático-geográficos relacionados con el contagio, y los de la UMH hemos trabajado en el análisis y modelización de las tasas de incidencia en función de dichos efectos climático-geográficos, para predecir su efecto. El resultado ha sido un informe conjunto disponible en este [enlace](https://drive.google.com/file/d/1u_WvCAwZiXVLITJK2iGtyCEiG3tgueaB/view?usp=sharing).
+
+Los recursos desarrollados por ambas universidades se pueden consultar en los siguientes enlaces:
+
+- Universidad de Alicante (J.Norberto Mazón, J.Jacobo Zubcoff, Jorge Olcina): <https://wake.dlsi.ua.es/datahub/>, desde donde se pueden descargar todos los datos de contagios COVID disponibles en la actualidad en abierto en España.
+- Universidad Miguel Hernández (Javier Morales, Asunción M. Mayoral): <https://rpubs.com/asunmayoral/covid19-spain>, con análisis estadísticos y modelos de predicción realizados con los datos.
+
+Diversos medios, para nuestra perplejidad, se han hecho eco de la noticia:
+
+- [Diario Información: Altas temperaturas, mínimas variaciones diarias y bajas altitudes frenan el covid-19.](https://www.diarioinformacion.com/alicante/2020/08/01/altas-temperaturas-minimas-variaciones-diarias/2287892.html)
+- [ABC: La pandemia del coronavirus afecta menos a las zonas cálidas y no influye la movilidad](https://www.abc.es/espana/comunidad-valenciana/abci-pandemia-afecta-mas-zonas-calidas-y-no-influye-movilidad-202008011324_noticia.html#vca=rrss-inducido&vmc=abc-es&vso=wh&vli=noticia-foto),  con un titular errático, pues la movilidad efectivamente no afectó de forma crítica durante la etapa de confinamiento, que ha sido la estudiada.
+- [Alicante Plaza: la UA y la UMH relacionan la incidencia de la covid con las condiciones climáticas.](https://alicanteplaza.es/la-ua-y-la-umh-relacionan-la-incidencia-de-la-covid-19-con-las-condiciones-climaticas)
+- [La Razón: La incidencia de la covid-19 afectó con menor severidad a las zonas cálidas, según un estudio.](https://www.larazon.es/comunidad-valenciana/20200801/fmunlt6zmfgghmth5i3hffv2cu.html)
+- [La Vanguardia: Estudio relaciona incidencia de la covid-19 con las condiciones climáticas ](https://www.lavanguardia.com/vida/20200801/482615418549/relacionan-la-incidencia-de-la-covid-19-con-las-condiciones-climaticas.html)
+
+Imagen: «[Vector de Fondo](https://www.freepik.es/vectores/fondo). Designed by Harryarts / Freepik»
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 31/7/2020 en el blog anterior de esta web.
+:::

@@ -1,0 +1,15 @@
+---
+title: "ODS versus confort térmico y lumínico en centros de Secundaria"
+date: 2020-04-14
+categories: [Investigación]
+image: 2021-07-education-10-00065-g018-255x194.webp
+aliases:
+  - /2020/04/14/education_sciences20/
+---
+Hemos publicado en la revista Education Sciences, un nuevo trabajo relacionado con el impacto y relación del confort térmico y las condiciones lumínicas en los centros de Secundaria, con la implementación de los objetivos de  desarrollo sostenible (ODS).En el artículo se hace un estudio intensivo de las condiciones térmicas y lumínicas de los IES de Elche y algunos de alrededores, encontrando ciertos casos en los que estas condiciones quedan lejos de unos estándares mínimos de comodidad y para sus usuarios y sostenibilidad energética y económica. Se proporcionan además criterios estandarizados óptimos y recomendaciones para mejorar las condiciones y motivar el diseño de nuevos edificios escolares, en los que se tenga en cuenta la sostenibilidad y la finalidad básica de favorecer el aprendizaje y la creación de espacios que faciliten el desarrollo de proyectos educativos basados en los valores que promueven los ODS.El artículo ha sido publicado en abierto y es accesible online. Sus autores son Isabel Montiel, Asun M. Mayoral, Jose Navarro Pedreño, Silvia Maiques y Gema Marco Dos Santos.Lo puedes consultar en Educ. Sci. 2020, 10(3), 65; <https://doi.org/10.3390/educsci10030065>
+
+CITAR el artículo:Montiel, I.; Mayoral, A.M.; Navarro Pedreño, J.; Maiques, S.; Marco Dos Santos, G. Linking Sustainable Development Goals with Thermal Comfort and Lighting Conditions in Educational Environments. Educ. Sci. 2020, 10, 65. https://doi.org/10.3390/educsci10030065
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 14/4/2020 en el blog anterior de esta web.
+:::

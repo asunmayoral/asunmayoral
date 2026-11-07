@@ -1,0 +1,29 @@
+---
+title: "Taller activo: «Vive una experiencia educativa gamificada»"
+date: 2019-04-05
+categories: [Docencia, Innovación]
+image: 2021-07-er_27032019.webp
+aliases:
+  - /2019/04/05/taller-activo-vive-una-experiencia-educativa-gamificada/
+---
+El día 27 de marzo de 2019 compartimos el taller activo «Vive una experiencia de aprendizaje gamificada» con alumnado del Máster de Profesorado UMH @masterprofumh. El taller lo coordinamos Manuel Quesada y yo misma, Asun Mtnez. Mayoral, ambos docentes de TICs en el máster.
+
+Queríamos aprovechar toda la formación recibida en los 6 talleres activos que propusimos previamente, y finalizar añadiendo la gamificación. Así, sobre la dinámica de un escape room para nuestro alumnado, planteamos un proyecto (ABP) basado en construir indagando y de modo cooperativo (con roles), y bajo la dinámica de trabajo del Desing Thinking, un escape room para alumnado de 1º de la ESO. Ese escape room construido, habría de contener ciertas características:
+
+- había de integrar 6 materias: matemáticas, lengua castellana, inglés, geografía e historia, biología y geología, y educación plástica y visual;
+- había de integrar actividades en cada una de estas materias, confeccionadas a partir de unos contenidos e indicadores de logro previamente seleccionados;
+- permitiría integrar diversos recursos de aprendizaje, incluidos los basados en TICs y aprendizaje móvil;
+- habría de desarrollar una narrativa sobre la temática elegida, plantear enigmas y recompensas;
+- su evaluación permitiría dar calificaciones por materia y también por competencia clave.
+
+Los resultados fueron espectaculares: ¡¡¡ Nuestro alumnado del máster es espectacular !!!
+
+Os dejamos a continuación el padlet que utilizamos para guiar todo el proceso, y unas cuantas imágenes de la sesión y el vídeo que utilizamos para empezar. En otro post, detallaremos todos los pasos que seguimos y proporcionaremos el material, con el fin de que pueda ser útil para profesores de Secundaria que quieren diseñar un escape room para su alumnado.
+
+[![Hecho con Padlet](https://padlet.net/embeds/made_with_padlet.png)](https://padlet.com?ref=embed)
+
+VIDEO PRESENTACIÓN
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 5/4/2019 en el blog anterior de esta web.
+:::

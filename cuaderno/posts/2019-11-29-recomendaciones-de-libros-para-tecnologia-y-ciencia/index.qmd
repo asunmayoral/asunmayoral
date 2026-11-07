@@ -1,0 +1,58 @@
+---
+title: "Recomendaciones de libros para Tecnología y Ciencia"
+date: 2019-11-29
+categories: [Docencia, Recursos]
+image: 2021-07-science_.webp
+aliases:
+  - /2019/11/29/recomendaciones-de-libros-para-tecnologia-y-ciencia/
+---
+Gracias a pertenecer a esta red, puedo disfrutar de las magníficas aportaciones que allí se realizan, y que creo justo compartir y expandir. Gracias [TecnoProfes](https://tecnoprofes.ning.com/), por todas las ideas que compartís. Nos ayudan a crecer. Una de las últimas aportaciones son recomendaciones de libros relacionados con Tecnología, útiles para profesorado y/o alumnado. A los materiales proporcionados por algunos miembros de la red, me he atrevido a añadir algunos más que he localizado, relacionados con la ciencia y la tecnología.
+
+Aquí van los títulos.
+
+Sobre estructuras:
+
+- [Estructuras o por qué las cosas no se caen](https://www.amazon.es/Estructuras-Por-Qu%C3%A9-Cosas-Caen/dp/8496235068/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Estructuras+o+por+qu%C3%A9+las+cosas+no+se+caen&qid=1575027390&sr=8-1), de J.E Gordon. Ed. Calamar. Para profesorado. Describe la evolución de los problemas de estructuras con numerosos ejemplos.
+- [La Catedral](https://www.amazon.es/catedral-Gran-angular-C%C3%A9sar-Mallorqu%C3%AD/dp/8467593539/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=la+catedral&qid=1575028092&sr=8-1), de César Mallorquí. Una novela de misterio en el mundo de los artesanos, los templarios y las cruzadas, en torno a la construcción de una catedral colosal.
+
+Javier Fernández Panadero tiene muchos libros de divulgación en los que utiliza un lenguaje cercano al público más joven e incluso situaciones novelescas de adolescentes, para divulgar sobre curiosidades de nuestra vida cotidiana, proporciona experimentos a los docentes y explica ciencia y tecnología para entenderlas.
+
+- [¿Por qué el cielo es azul?](https://www.amazon.es/%C2%BFPor-Cielo-Azul-Voces-Ensayo/dp/8483931869/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=%C2%BFPor+qu%C3%A9+el+cielo+es+azul%3F&qid=1575027226&sr=8-1), de J. Fernández Panadero.
+- [¿Por qué la nieve es blanca?](https://www.amazon.es/%C2%BFPor-Nieve-Blanca-Voces-Ensayo/dp/8495642646/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=%C2%BFPor+qu%C3%A9+la+nieve+es+blanca%3F&qid=1575027283&sr=8-1) , de J. Fernández Panadero.
+- [Experimentos para entender el mundo](https://www.amazon.es/Experimentos-Entender-Mundo-Voces-Ensayo/dp/8483931672/ref=pd_bxgy_14_3/257-8161270-5010768?_encoding=UTF8&pd_rd_i=8483931672&pd_rd_r=b149d37c-e425-4df5-9e10-f4a13508265e&pd_rd_w=ElpAX&pd_rd_wg=6R0wM&pf_rd_p=dbe848be-18d1-4685-bd47-677ce3936446&pf_rd_r=TXT0BN5TK5M760J6ZYKW&psc=1&refRID=TXT0BN5TK5M760J6ZYKW), de J. Fernández Panadero. Setenta experimentos acompañados de vídeos.
+- [El mundo de Max](https://www.amazon.es/El-Mundo-Max-Voces-Ensayo/dp/8483930005/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=El+mundo+de+Max&qid=1575027544&sr=8-1), de J. Fernández Panadero. Una historia de un adolescente trufada con explicaciones de ciencia y más de 40 experimentos.
+- [¿Cómo le explico esto a un extraterrestre? Incoherencias de la vida cotidiana](https://www.amazon.es/%C2%BFC%C3%B3mo-explico-esto-extraterrestre-Incoherencias/dp/8483930641/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=%C2%BFC%C3%B3mo+le+explico+esto+a+un+extraterrestre%3F&qid=1575027595&sr=8-1), de J. Fernández Panadero.
+- [Aproxímate: mide, calcula, estima](https://www.amazon.es/Aprox%C3%ADmate-Ensayo-Javier-Fern%C3%A1ndez-Panadero/dp/8483931982/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=aprox%C3%ADmate&qid=1575027766&sr=8-1), de J. Fernández Panadero. Experimentos con materiales cotidianos pero involucrando cálculos y conceptos matemáticos de la ciencia experimental.
+- [Como Einstein por su casa](https://www.amazon.es/Como-Einstein-casa-Voces-Ensayo/dp/8483932253/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=como+einstein+por+su+casa&qid=1575027837&sr=8-1), de J. Fernández Panadero. Experimentos estilo «Life hacks» con ligeras explicaciones científicas.
+
+En la línea de divulgación de ciencia, hemos encontrado estos títulos:
+
+- [La puerta de los tres cerrojos](https://www.amazon.es/Estuche-trilog%C3%ADa-puerta-tres-cerrojos/dp/8408218220/ref=sr_1_3?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=La+puerta+de+los+tres+cerrojos&qid=1575027327&sr=8-3), de Sonia Fernández-Vidal, es una trilogía en formato novela que divulga conceptos básicos de física cuántica. Recomendado para 1º a 3º de la ESO.
+- [¿Qué pasaría si …? Respuestas serias y científicas a todo tipo de preguntas absurdas](https://www.amazon.es/%C2%BFQu%C3%A9-pasar%C3%ADa-Respuestas-cient%C3%ADficas-Tendencias/dp/8403517297/ref=sr_1_3?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=divulgaci%C3%B3n+cient%C3%ADfica+para+j%C3%B3venes&qid=1575029623&sr=8-3), de Randall Munroe. Es un libro de divulgación científica en el que se recopilan algunos de los mejores posts así como otros nuevos elaborados a partir de las preguntas del [blog de Randall Munroe](https://xkcd.com/), en el que responde a los lectores haciendo uso de sus conocimientos científicos y matemáticos. Su blog proporciona interesantes ideas para clase.
+- [El Bosón de Higgs no te va a hacer la cama](https://www.amazon.es/El-Bos%C3%B3n-Higgs-Fuera-colecci%C3%B3n/dp/8490607729/ref=sr_1_4?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=divulgaci%C3%B3n+cient%C3%ADfica+para+j%C3%B3venes&qid=1575029623&sr=8-4), de Javier Santaolalla. Un divertido libro en el que se habla de los viajes en el tiempo, agujeros negros, motores de antimateria, aceleración del universo… Recomendado para Física.
+
+A colación de la figura de Tesla encontramos no solo obras que divulgan su vida e inventos, sino incluso materiales didácticos con los que poder trabajar en el aula de un modo divertido y provechoso.
+
+- [Tesla: Man out of Time](https://www.amazon.es/Tesla-Man-Time-Margaret-Cheney/dp/0743215362/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Tesla%3A+man+out+of+time&qid=1575028337&sr=8-1), de Margaret Cheney, donde se explora la brillante mente de uno de los inventores más brillantes del siglo XX.
+- [Lesson Plans Tesla, Man Out of Time](https://www.amazon.es/Lesson-Plans-Tesla-Time-English-ebook/dp/B0096QY802/ref=sr_1_2?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Tesla%3A+man+out+of+time&qid=1575028206&sr=8-2), con una gran variedad de materiales para la docencia: lecciones, actividades divertidas, preguntas de opción múltiple, preguntas de reflexión, puzles y mucho más.
+
+La trilogía de Harari proporciona una visión de la evolución humana en busca de la respuesta a grandes preguntas de nuestro tiempo:
+
+- [Sapiens. De animales a dioses: Breve historia de la humanidad](https://www.amazon.es/Sapiens-animales-dioses-historia-humanidad/dp/8499926223/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Sapiens+de+animales+a+dioses&qid=1575028449&sr=8-1), de Yuval Noah Harari. A través de describir la historia de la humanidad, trata de dar respuestas a preguntas del tipo ¿Cómo logró nuestra especie imponerse en la lucha por la existencia? ¿Por qué nuestros ancestros recolectores se unieron para crear ciudades y reinos? ¿Cómo llegamos a creer en dioses, en naciones o en los derechos humanos; a confiar en el dinero, en los libros o en las leyes?
+- [Homo Deus: Breve historia del mañana](https://www.amazon.es/Homo-Deus-Historia-History-Tomorrow/dp/194554094X/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Homo+deus&qid=1575028533&smid=A1PT7S6F0FISH&sr=8-1), de Yuval N.Harari.
+- [21 lecciones para el siglo XXI](https://www.amazon.es/lecciones-para-siglo-XXI-Historia/dp/8499928676/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=21+lecciones+para+el+siglo+21&qid=1575028599&sr=8-1), de Yuval N.Harari. Busca respuestas para preguntas del tipo ¿Cómo podemos protegernos de las guerras nucleares, los cataclismos ecológicos o las tecnologías disruptivas? ¿Qué podemos hacer contra la propagación de la posverdad o la amenaza del terrorismo? ¿Qué debemos enseñar a nuestros hijos?
+
+Relativos a movimientos pedagógicos relacionados con la creatividad, la programación, el uso de tecnologías y la idea de compartir:
+
+- [The Flight of a Butterfly or the Path of a Bullet?: Using Technology to Transform Teaching and Learning](https://www.amazon.com/Flight-Butterfly-Path-Bullet-Technology/dp/1682531376), de Larry Cuban, busca respuestas sobre la integración de la tecnología en las aulas.
+- [Makers: la nueva revolución industrial,](https://www.amazon.es/Makers-revoluci%C3%B3n-industrial-Nuevos-paradigmas/dp/8496627705/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=makers%2C+chris+anderson&qid=1575028676&sr=8-1) de Chris Anderson.
+- [Mindstorms: children, computers and powerful ideas](https://www.amazon.es/Mindstorms-Children-Computers-Powerful-Ideas/dp/0465046746/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Mindstorm%2C+Seymour+Papert&qid=1575028847&sr=8-1), de Seymour Papert. Los niños pueden aprender a utilizar los ordenadores de un modo magistral y ese aprendizaje puede cambiar el modo en que aprenden cualquier otra cosa.
+- En edSys nos proponen [20 libros apasionantes sobre creatividad e innovación](https://www.edsys.in/books-on-creativity-and-innovation/), junto con una breve reseña de cada uno de ellos.
+- En la web Educational Technology and Mobile Learning nos ofrecen [8 grandes guías para ayudar a los profesores a integrar la tecnología en sus clases](https://www.educatorstechnology.com/2017/06/8-great-books-on-technology-integration.html).
+- En Fractus Learning han hecho una recopilación en 2019 con [24 libros sobre tecnología educativa recomendados para todos los docentes](https://www.early-childhood-education-degrees.com/features/editors-choice-best-books-on-technology-in-education/). Títulos como Out of Our Minds de Ken Robinson, hasta DY U: edupunks, edupreneurs and the Coming Transformation of Higher education, de Anya Kamenetz, proporcionarán sin duda inspiración en los docentes.
+
+Atribuciones imagen de cabecera: [Science!»](https://www.flickr.com/photos/9032130@N03/5809351607) by [ultrakickgirl](https://www.flickr.com/photos/9032130@N03) is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich)
+
+::: {.aviso-migrada}
+Entrada publicada originalmente el 29/11/2019 en el blog anterior de esta web.
+:::
