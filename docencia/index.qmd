@@ -1,6 +1,6 @@
 ---
 title: "Docencia"
-description: "Asignaturas de grado y postgrado, formación continua y formación del profesorado. Los materiales de cada curso están en Recursos."
+description: "Asignaturas de grado y postgrado, formación continua, formación del profesorado y dirección de trabajos. Los materiales de cada curso están en Recursos."
 ---
 
 Pulsa en cada apartado para desplegarlo.
@@ -40,22 +40,58 @@ Grado en Ciencia de Datos e Inteligencia Artificial.
 [2013–2026]{.anio} **Mejora de Procesos** (código 1479, Grado en Estadística Empresarial). Lean Six Sigma y metodologías activas. · [web de la asignatura](https://bookdown.org/asun_mayoral/book-l6s/) · [vídeos](http://bit.ly/2dk19NR) · [libro (PDF)](https://innovacionumh.es/editorial/Lean%20Seis%20Sigma%20para%20la%20mejora%20de%20procesos.pdf)
 :::
 ::: {.asig}
-[2010–2013]{.anio} **Análisis Exploratorio de Datos** (Grado en Estadística Empresarial y Grado en ADE) · [vídeos](http://www.youtube.com/playlist?list=PLClKgnzRFYe6_q-BiaN0COs1Xc0wssTqM)
+[2017–2025]{.anio} **Modelos Estadísticos** (Grado en Biotecnología)
 :::
 ::: {.asig}
-[2007–2010]{.anio} **Técnicas de Investigación Social** (Licenciatura en ADE) · [libro TIS](https://www.dropbox.com/s/wcwdu4qw83rulr6/TIS%20a4.pdf)
+[2018–2025]{.anio} **Introducción a la Estadística** (Grado en Seguridad Pública y Privada)
+:::
+::: {.asig}
+[2024–2025]{.anio} **Estadística** (Grado en Ingeniería Informática en Tecnologías de la Información)
+:::
+::: {.asig}
+[2010–2018]{.anio} **Estadística** (Grado en Periodismo)
+:::
+::: {.asig}
+[2010–2013]{.anio} **Análisis Exploratorio de Datos** (Grado en Estadística Empresarial y Grado en ADE) · [vídeos](http://www.youtube.com/playlist?list=PLClKgnzRFYe6_q-BiaN0COs1Xc0wssTqM)
+:::
+
+### Licenciaturas y diplomaturas
+
+::: {.asig}
+[2008–2014]{.anio} **Estadística** e **Introducción a la Econometría** (Licenciatura en ADE, Elche Parque Industrial)
+:::
+::: {.asig}
+[2007–2014]{.anio} **Técnicas de Investigación Social** (Licenciatura en ADE) · [libro TIS](https://www.dropbox.com/s/wcwdu4qw83rulr6/TIS%20a4.pdf)
+:::
+::: {.asig}
+[2013–2014]{.anio} **Inferencia y Decisión** (Licenciatura en Ciencias y Técnicas Estadísticas)
+:::
+::: {.asig}
+[2003–2013]{.anio} **Análisis de Datos en Ciencias del Medio Ambiente** (Licenciatura en Ciencias y Técnicas Estadísticas)
+:::
+::: {.asig}
+[2006–2008]{.anio} **Técnicas de Investigación Social** y **Técnicas Estadísticas en Periodismo** (Licenciatura en Periodismo)
 :::
 ::: {.asig}
 [2003–2007]{.anio} **Estadística Actuarial I y II** (Licenciatura en Ciencias Actuariales y Financieras) · [Modelos para pérdidas y reclamaciones](https://www.dropbox.com/s/nhjrlamuo8kcasd/A4%20Mod%20Estad%20p%20P%C3%A9rd%20y%20Reclamac.pdf)
 :::
 ::: {.asig}
-[2002–2003]{.anio} **Introducción a la Econometría** (Licenciatura en ADE) y **Técnicas de Investigación Social** (Licenciatura en Ciencias Políticas y de la Administración)
+[1997–2007]{.anio} **Diplomatura en Estadística**: Técnicas de Investigación Social (1997–2002), Análisis Multivariante (2001–2007), Herramientas para la Ingeniería de Datos (2002–2004), Estadística Pública (2002–2003) y Modelos Lineales (2004–2007)
+:::
+::: {.asig}
+[2003–2004]{.anio} **Matemática Aplicada** (Licenciatura en Farmacia)
+:::
+::: {.asig}
+[2000–2003]{.anio} **Introducción a la Econometría** (Licenciatura en ADE) y **Técnicas de Investigación Social** (Licenciatura en Ciencias Políticas y de la Administración, 2002–2003)
+:::
+::: {.asig}
+[2000–2003]{.anio} **Análisis Multivariante Avanzado** (Licenciatura en Ciencias y Técnicas Estadísticas)
+:::
+::: {.asig}
+[2000–2002]{.anio} **Análisis Estadístico Multivariante** (Licenciatura en Investigación y Técnicas de Mercado) y **Geografía Humana y Demografía** (Licenciatura en Antropología Social y Cultural)
 :::
 ::: {.asig}
 [1998–2002]{.anio} **Modelos Lineales Generalizados** y **Estadística Bayesiana** (Licenciatura en Ciencias y Técnicas Estadísticas) · [libro MLG](https://www.dropbox.com/s/bcjt5ms5idtun2p/Modelos%20Lineales%20Generalizados.pdf)
-:::
-::: {.asig}
-[1997–2002]{.anio} **Técnicas de Investigación Social** (Diplomatura en Estadística)
 :::
 
 </details>
@@ -84,16 +120,22 @@ Grado en Ciencia de Datos e Inteligencia Artificial.
 [2022]{.anio} **Una primera aproximación a la Estadística Bayesiana** (10 h). Doctorado en Biología y Conservación de la Biodiversidad, Universidad de Salamanca. · [materiales y grabaciones](../recursos/bayesiana/index.qmd)
 :::
 ::: {.asig}
+[2020–2025]{.anio} **Métodos Cuantitativos para la Toma de Decisiones**. Máster Universitario en Contabilidad y Finanzas Avanzadas (UMH).
+:::
+::: {.asig}
 [2018–]{.anio} **Tecnologías de la información en Auditoría**. Máster Universitario en Auditoría de Cuentas (UMH).
 :::
 ::: {.asig}
-[2017–]{.anio} **Estadística en Investigación Experimental y Clínica**. Máster Universitario en Neuropsicofarmacología Traslacional (UMH).
+[2015–2025]{.anio} **Estadística en Investigación Experimental y Clínica** y **Diseño y Ejecución de Procedimientos Experimentales con Animales**. Máster Universitario en Neuropsicofarmacología Traslacional (UMH).
 :::
 ::: {.asig}
 [2013–]{.anio} **Técnicas de comunicación y herramientas web para la investigación**. Máster Universitario en Investigación en Medicina Clínica (UMH). · [vídeos](https://www.youtube.com/playlist?list=PLClKgnzRFYe7VDKn29zwc-CgTMkD5qTD-)
 :::
 ::: {.asig}
-[2011–2020]{.anio} **TICs para la docencia y el aprendizaje en Secundaria**. Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y EI (UMH). · [libro](http://innovacionumh.es/editorial/TICS.pdf) · [vídeos](https://www.youtube.com/playlist?list=PLClKgnzRFYe5hwY17dxjRB_pJAeG4SqUF)
+[2011–2020]{.anio} **Tecnologías de la Información y la Comunicación aplicadas a la docencia y el aprendizaje** e **Innovación docente e iniciación a la investigación educativa**. Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y EI (UMH), donde también participé en el Prácticum I y II, el Trabajo Fin de Máster y la docencia de las especialidades. · [libro](http://innovacionumh.es/editorial/TICS.pdf) · [vídeos](https://www.youtube.com/playlist?list=PLClKgnzRFYe5hwY17dxjRB_pJAeG4SqUF)
+:::
+::: {.asig}
+[2009–2020]{.anio} **Diseño de Experimentos y Análisis de Datos** (2009–2013) y **Herramientas Metodológicas para la Investigación** (2013–2020). Máster Universitario en Gestión, Tratamiento y Valorización de Residuos Orgánicos (UMH).
 :::
 
 </details>
@@ -136,6 +178,24 @@ Grado en Ciencia de Datos e Inteligencia Artificial.
 :::
 ::: {.asig}
 [2012–2013]{.anio} **Recursos web para la docencia** (niveles básico y avanzado, 15 h cada uno; tres ediciones) y **Recursos web para semipresencialidad** (15 h). UMH.
+:::
+
+</details>
+
+<details class="acordeon">
+<summary>Dirección de tesis y trabajos fin de estudios</summary>
+
+::: {.asig}
+[2023]{.anio} **Estudio del perfil transcriptómico de muestras de glioblastoma humanas**. Trabajo fin de estudios de Nuria Termes Sabater.
+:::
+::: {.asig}
+[2023]{.anio} **Evolución estadística de separaciones, nulidades y divorcios en los años 2013-2020**. Trabajo fin de estudios de Jorge Pliego Marín.
+:::
+::: {.asig}
+[2011]{.anio} **Estimación de parámetros relacionados con la calidad del compost mediante espectroscopía en el infrarrojo cercano (NIRS)**. Proyecto fin de carrera de Luis Nazario Gálvez Sola (sobresaliente).
+:::
+::: {.asig}
+[2009]{.anio} **Modelos geoestadísticos para el estudio de índices bioclimáticos**. Tesis doctoral de Josep Xavier Barber Vallés, Programa de Doctorado en Estadística e Investigación Operativa, UMH (sobresaliente *cum laude*).
 :::
 
 </details>

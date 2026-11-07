@@ -11,7 +11,7 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
 | `index.qmd` | Portada: banner, presentación, puertas, novedades, proyectos activos, últimas entradas |
 | `recursos/recursos.yml` | **Catálogo de recursos.** Una entrada por recurso |
 | `recursos/<tema>/index.qmd` | Páginas propias de recursos alojados aquí (p. ej. `bayesiana/`) |
-| `proyectos/proyectos.yml` | Proyectos, con `estado: Activo` o `Histórico` y `orden` |
+| `proyectos/proyectos.yml` | Proyectos y contratos, con `categoria`, `estado` (Activo/Histórico) y `orden` |
 | `cuaderno/posts/AAAA-MM-DD-slug/index.qmd` | Entradas del blog; imágenes en la misma carpeta |
 | `docencia/`, `publicaciones/`, `sobre-mi/` | Páginas fijas |
 | `_templates/*.ejs` | Plantillas de los listados (no tocar salvo para cambiar el diseño) |
@@ -37,7 +37,11 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
 - Las entradas con código R o Python se ejecutan en local (`execute: freeze: auto`); hay que hacer `quarto render` antes de subir para que se guarde `_freeze/`.
 
 ### Añadir o actualizar un proyecto
-Entrada en `proyectos/proyectos.yml`. Si un proyecto termina, cambia `estado` a `Histórico`.
+Entrada en `proyectos/proyectos.yml` (los campos están descritos al principio del fichero).
+- `categoria`: Competencia digital | Innovación docente | Investigación | Contratos. Cada una es un acordeón en `proyectos/index.qmd`.
+- `estado: Activo` añade la etiqueta «En marcha» y lo muestra en la portada. Si termina, cambia a `Histórico`.
+- `orden`: año de inicio (ordena de más reciente a más antiguo dentro de cada categoría).
+- Fuente de datos para completar: el CVN de Asun (no se sube nunca al repositorio: contiene datos personales).
 
 ### Docencia
 Edita `docencia/index.qmd`. Está organizada en cuatro acordeones (`<details class="acordeon">`: Grado, Postgrado, Formación continua, Formación del profesorado); solo Grado se abre por defecto (`open`). En Grado, las asignaturas actuales van como tarjetas en «Asignaturas que imparto» y las demás en «Asignaturas anteriores». Cada línea usa el bloque `::: {.asig}` con `[años]{.anio}`; lo más reciente arriba. Un curso con varias ediciones (como Comunicación científica) va en un solo bloque con su tabla de ediciones (`::: {.ediciones}`), ordenada del año más reciente al más antiguo. La organización de eventos está en `sobre-mi/index.qmd`, tras la trayectoria.

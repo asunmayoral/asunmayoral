@@ -1,72 +1,367 @@
-# Proyectos. estado: Activo | Histórico. orden: número para ordenar (mayor = antes).
-- title: "Va de Dades!"
-  description: "En marcha desde el curso 2022-23, el Concurso Valenciano de Estadística para la Ciencia de Datos, Va De Dades, promueve la alfabetización en datos y el desarrollo de proyectos multidisciplinares usando la Estadística como nexo de unión para la investigación con datos sobre problemas del entorno. Es un concurso dirigido a alumnado de Secundaria, Bachillerato y Ciclos formativos en la Comunitat Valenciana. Organiza UMH y UV con el patrocinio del IVE (Instituto Valenciano de Estadística)."
-  path: https://vadedades.umh.es/
-  estado: Activo
-  anios: "Desde 2022-23"
-  papel: "Coordinación desde la UMH"
-  orden: 100
+# Proyectos y contratos. Fuente principal: CVN de Asun (completo, dic. 2025) y entradas del Cuaderno.
+# Campos:
+#   title        nombre del proyecto
+#   categoria    Competencia digital | Innovación docente | Investigación | Contratos
+#   estado       Activo | Histórico   (los activos salen también en la portada)
+#   anios        texto con las fechas ("2021-2022", "Desde 2022-23")
+#   orden        número para ordenar dentro de cada categoría (mayor = antes; usa el año de inicio)
+#   description  qué es, en una o dos frases
+#   papel        (opcional) papel de Asun / equipo / IP
+#   financiacion (opcional) entidad, código de la convocatoria, importe
+#   detalle      (opcional) lista de líneas para series de contratos o ediciones
+#   path         (opcional) enlace principal
+#   mas          (opcional) segundo enlace, p. ej. la entrada del Cuaderno
+#   mas_texto    (opcional) texto de ese segundo enlace
 
-- title: "IA4legos"
-  description: "Formación en Inteligencia Artificial y Ciencia de Datos con Python para públicos diversos."
-  path: https://ia4legos.umh.es/
-  estado: Histórico
-  anios: "Iniciado en 2021"
-  papel: "Equipo docente"
-  orden: 95
-
-- title: "Simustat"
-  description: "Proyecto abierto de contenidos formativos sobre programación y estadística con Python, financiado con fondos europeos Unidigital."
-  path: https://unidigitalsimustat.umh.es/proyecto/
-  estado: Histórico
-  anios: "Unidigital"
-  papel: "Con F. Borrás, F. Botella, J. Moltó, J. Morales e I. Hernández"
-  orden: 90
-
+# =================== Competencia digital ===================
 - title: "Prodigital"
-  description: "Proyecto interuniversitario de contenidos sobre competencia digital para la ciudadanía (DigComp) y para docentes (DigCompEdu). En la UMH desarrollamos el área 2 de ambos marcos."
-  path: http://dspace.umh.es/handle/11000/29584
+  categoria: Competencia digital
   estado: Histórico
   anios: "2021-2022"
+  orden: 2021
+  description: "Proyecto interuniversitario de contenidos sobre competencia digital para la ciudadanía (DigComp) y para docentes (DigCompEdu). En la UMH desarrollamos el área 2 de ambos marcos: comunicación y colaboración, y contenidos digitales."
   papel: "Coordinación desde la UMH, con F. Botella, F. Montiel y J. Américo"
-  orden: 80
+  financiacion: "Fondos UE Unidigital, Plan de Recuperación, Transformación y Resiliencia"
+  path: http://dspace.umh.es/handle/11000/29584
 
-- title: "MAR-CONECT"
-  description: "Metodologías Activas en Red. Aprendizaje conectado. Proyecto de innovación educativa sobre metodologías activas y evaluación, a partir de la asignatura Mejora de Procesos."
-  path: https://sites.google.com/umh.es/mar-conect/
+- title: "Simustat"
+  categoria: Competencia digital
   estado: Histórico
-  anios: "PIEU 2020/06"
-  papel: "Coordinación"
-  orden: 70
+  anios: "Unidigital"
+  orden: 2022
+  description: "Proyecto abierto de contenidos formativos sobre programación y estadística con Python."
+  papel: "Con F. Borrás, F. Botella, J. Moltó, J. Morales e I. Hernández"
+  financiacion: "Fondos europeos Unidigital"
+  path: https://unidigitalsimustat.umh.es/proyecto/
+
+- title: "IA4legos"
+  categoria: Competencia digital
+  estado: Histórico
+  anios: "Iniciado en 2021"
+  orden: 2021
+  description: "Formación en Inteligencia Artificial y Ciencia de Datos con Python para públicos diversos."
+  papel: "Equipo docente"
+  path: https://ia4legos.umh.es/
+  mas: /cuaderno/posts/2024-01-10-ia-para-todos-en-ia4legos/index.html
+  mas_texto: "IA para todos en IA4LEGOS"
+
+# =================== Innovación docente ===================
+- title: "Va de Dades!"
+  categoria: Innovación docente
+  estado: Activo
+  anios: "Desde 2022-23"
+  orden: 2022.5
+  description: "En marcha desde el curso 2022-23, el Concurso Valenciano de Estadística para la Ciencia de Datos, Va De Dades, promueve la alfabetización en datos y el desarrollo de proyectos multidisciplinares usando la Estadística como nexo de unión para la investigación con datos sobre problemas del entorno. Es un concurso dirigido a alumnado de Secundaria, Bachillerato y Ciclos formativos en la Comunitat Valenciana. Organiza UMH y UV con el patrocinio del IVE (Instituto Valenciano de Estadística)."
+  papel: "Coordinación desde la UMH"
+  path: https://vadedades.umh.es/
+
+- title: "Ayudas UMH para la difusión de la ciencia, la tecnología y la innovación"
+  categoria: Innovación docente
+  estado: Histórico
+  anios: "2021 y 2024"
+  orden: 2024
+  description: "Proyectos de difusión científica financiados en convocatoria competitiva de la UMH."
+  detalle:
+    - "2024 · VITDIF24/80 · IP: A. M. Mayoral · 1.000 €"
+    - "2021 · VIDIF21/68 · IP: J. Morales · 1.000 €"
 
 - title: "TFGi: Trabajos Fin de Grado Interdisciplinares"
-  description: "Proyecto de innovación educativa para que estudiantes de distintos grados resuelvan problemas reales en TFG interdisciplinares."
+  categoria: Innovación docente
+  estado: Histórico
+  anios: "2018-2022"
+  orden: 2022
+  description: "Programa de innovación educativa para que estudiantes de distintos grados resuelvan problemas reales en TFG interdisciplinares."
+  papel: "IP: E. Barrajón-Catalán (6 participantes)"
+  financiacion: "UMH, PIEU-A/2021/08 (2022), 1.700 €"
   path: https://tfgi.edu.umh.es/
-  estado: Histórico
-  anios: "2018-2021"
-  papel: "Participante"
-  orden: 65
+  mas: /cuaderno/posts/2021-07-26-proyecto-tfgi/index.html
+  mas_texto: "Resultados en congresos"
 
-- title: "Espacios Educativos Sostenibles y Conectados"
-  description: "Proyecto compartido con Isabel Montiel durante su tesis sobre espacios educativos eficaces; recoge lo que se hizo en una web."
-  path: https://espacioseducativos.umh.es/
+- title: "MAR-CONECT: Metodologías activas a través de la red. Aprendizaje conectado"
+  categoria: Innovación docente
   estado: Histórico
-  anios: "2017-2022"
-  papel: "Con Isabel Montiel"
-  orden: 60
+  anios: "2021"
+  orden: 2021
+  description: "Protocolización de una metodología activa y conectada en Mejora de Procesos (Grado en Estadística Empresarial), con todos los recursos generados en abierto."
+  papel: "IP: J. Morales"
+  financiacion: "UMH, PIEU/2020/06, 300 €"
+  path: https://sites.google.com/umh.es/mar-conect/
+  mas: /cuaderno/posts/2021-07-26-mar-conect-metodologias-activas-en-red-aprendizaje-conectado/index.html
+  mas_texto: "Entrada del Cuaderno"
+
+- title: "ADAS: Aulas Diversas, Activas y Sostenibles"
+  categoria: Innovación docente
+  estado: Histórico
+  anios: "2020-2021"
+  orden: 2020.5
+  description: "Proyecto sobre espacios educativos diversos, activos y sostenibles, que permitió crear la web Espacios Educativos."
+  papel: "IP: A. M. Mayoral"
+  financiacion: "SS0015IP, 3.000 €"
+  path: https://espacioseducativos.umh.es/
+  mas: /cuaderno/posts/2021-05-22-web-espacios-educativos/index.html
+  mas_texto: "Entrada del Cuaderno"
+
+- title: "PIC: Propuesta Interdisciplinar Cooperativa para la formación del profesorado de Secundaria"
+  categoria: Innovación docente
+  estado: Histórico
+  anios: "2020"
+  orden: 2020
+  description: "Desarrollando innovación, metodologías activas y competencias transversales en el Máster de Profesorado."
+  papel: "IP: A. M. Mayoral"
+  financiacion: "UMH, PIEU/2019/04, 400 €"
+
+- title: "Proyectos ÓSMOSIS con centros de Secundaria"
+  categoria: Innovación docente
+  estado: Histórico
+  anios: "2017-2019"
+  orden: 2017.5
+  description: "Proyectos de innovación con profesorado de Secundaria dentro del Programa ÓSMOSIS de la UMH."
+  detalle:
+    - "2019 · SALVEM ILLICE · OSMOSIS2018/32 · IP: J. Morales · 312 €"
+    - "2017-2018 · Gamificación · OSMOSIS2017/33 · IP: J. Morales · 366 €"
+  path: /cuaderno/posts/2019-07-23-programa-osmosis-umh-para-la-innovacion-educativa/index.html
+
+- title: "Aprendo haciendo: un proyecto de aprendizaje"
+  categoria: Innovación docente
+  estado: Histórico
+  anios: "2017-2018"
+  orden: 2017.4
+  description: "Proyecto de innovación educativa de la UMH."
+  papel: "IP: L. Ortiz"
+  financiacion: "UMH, PIEU2017/18, 840 €"
+
+- title: "I Jornadas de Innovación Colaborativa UMH, JIC2017"
+  categoria: Innovación docente
+  estado: Histórico
+  anios: "2017"
+  orden: 2017
+  description: "Organización de las primeras Jornadas de Innovación Colaborativa de la UMH."
+  papel: "IP: J. Morales"
+  financiacion: "UMH, INDICO2017-DIVULGA/089, 240 €"
+  path: /cuaderno/posts/2017-06-21-i-jornadas-de-innovacion-colaborativa-jic-umh/index.html
+
+- title: "El diseño de experimentos como herramienta óptima en la investigación"
+  categoria: Innovación docente
+  estado: Histórico
+  anios: "2016-2017"
+  orden: 2016.5
+  description: "Proyecto de divulgación del programa INNOVA+ de la UMH."
+  papel: "IP: J. Morales"
+  financiacion: "UMH, INNOVA+2016-DIVULGA/091, 240 €"
 
 - title: "FeCiTElx, Feria de Ciencia y Tecnología en Elx"
-  description: "Proyecto institucional de la UMH, junto con Jornadas de Puertas Abiertas en el Campus de Elche y Proyecta TÚ, para promover la divulgación científica desde colegios e institutos."
-  path: /cuaderno/posts/2018-05-23-fecitelx-feria-de-ciencia-y-tecnologia-en-elche/index.html
+  categoria: Innovación docente
   estado: Histórico
   anios: "2015-2018, 4 ediciones"
+  orden: 2015
+  description: "Proyecto institucional de la UMH, junto con las Jornadas de Puertas Abiertas en el Campus de Elche y Proyecta TÚ, para promover la divulgación científica desde colegios e institutos."
   papel: "Creación y organización"
-  orden: 55
+  path: /cuaderno/posts/2018-05-23-fecitelx-feria-de-ciencia-y-tecnologia-en-elche/index.html
 
-- title: "Proyectos ÓSMOSIS"
-  description: "Profesorado de Secundaria y de universidad colaborando en iniciativas de mejora en los centros de Secundaria del entorno."
-  path: /cuaderno/posts/2019-07-23-programa-osmosis-umh-para-la-innovacion-educativa/index.html
+- title: "Escuela de Verano UMH en Estadística y Optimización"
+  categoria: Innovación docente
   estado: Histórico
-  anios: "2019"
-  papel: "Participante"
-  orden: 50
+  anios: "2007"
+  orden: 2007
+  description: "Organización de la escuela de verano (VENTE, Verano Estadístico en Elche)."
+  papel: "IP: A. M. Mayoral"
+  financiacion: "Conselleria de Empresa, Universidad y Ciencia, AE07/028, 2.500 €"
+
+- title: "Congresos de Estudiantes de Estadística (I a IV)"
+  categoria: Innovación docente
+  estado: Histórico
+  anios: "1998-2001"
+  orden: 1998
+  description: "Organización de cuatro ediciones del Congreso de Estudiantes de Estadística en la UMH, con convenios y ayudas para su celebración."
+  papel: "IP: J. Morales"
+  detalle:
+    - "2001 · IV Congreso · Convenio Instituto Juan Gil Albert (10.818,22 €), ayuda Conselleria ORG01-07-31 (4.297,24 €) y Bancaja (3.005,60 €)"
+    - "2000 · III Congreso · Convenio Instituto Juan Gil Albert (10.217,21 €) y ayuda Conselleria ORG00-01-103 (1.803,04 €)"
+    - "1999 · II Congreso · Convenio Instituto Juan Gil Albert (10.271,21 €) y ayuda Conselleria ORG99-00 (1.893,19 €)"
+    - "1998 · I Congreso · Convenio Instituto Juan Gil Albert (10.818 €)"
+
+# =================== Investigación ===================
+- title: "Hacia la Agenda 2030: buenas prácticas ODS en los centros educativos de Elche"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2020"
+  orden: 2020.5
+  description: "Localizar, identificar y visibilizar los proyectos educativos basados en los Objetivos de Desarrollo Sostenible en los centros de Elche y su entorno. Grupo de investigación en Innovación y Espacios Educativos Sostenibles."
+  financiacion: "Valoración favorable del Consell Assessor del Mecenatge de la Comunitat Valenciana (CASMEC)"
+  path: /cuaderno/posts/2020-01-08-el-consell-assessor-del-mecenatge-de-la-comunitat-valenciana-valora-fa/index.html
+
+- title: "Incidencia de la COVID-19 y factores climático-geográficos"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2020"
+  orden: 2020
+  description: "Colaboración con la Universidad de Alicante en un estudio nacional de la incidencia de la pandemia por departamento de salud y municipio. En la UMH, análisis y modelización de las tasas de incidencia."
+  papel: "Con Javier Morales (UMH) y el equipo de la UA"
+  path: https://drive.google.com/file/d/1u_WvCAwZiXVLITJK2iGtyCEiG3tgueaB/view?usp=sharing
+  mas: /cuaderno/posts/2020-07-31-colaboracion-covid-ua-umh/index.html
+  mas_texto: "Entrada del Cuaderno"
+
+- title: "Espacios Educativos Sostenibles y Conectados"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2017-2022"
+  orden: 2017.5
+  description: "Estudio de los espacios educativos de los institutos de Secundaria (confort acústico, térmico y lumínico, ODS) que dio lugar a cinco publicaciones y a la tesis doctoral de Isabel Montiel (2022)."
+  papel: "Con Isabel Montiel"
+  path: https://espacioseducativos.umh.es/
+  mas: /cuaderno/posts/2022-04-07-tesis-en-espacios-educativos-innovadores-y-sostenibles/index.html
+  mas_texto: "La tesis"
+
+- title: "ChiQuiMeats"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2017-2019"
+  orden: 2017
+  description: "Proyecto europeo del grupo de investigación IPOA sobre chía y quinoa en productos cárnicos saludables."
+  papel: "Divulgación del proyecto y mantenimiento de su web"
+  financiacion: "Unión Europea"
+  path: /cuaderno/posts/2017-03-23-chiquimeats/index.html
+
+- title: "Nuevos recursos y bioproductos basados en residuos de especies palmáceas orientados al secuestro de carbono y estrategias de mitigación"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2014-2017"
+  orden: 2014
+  description: "Proyecto del Plan Nacional, programa Retos de la Sociedad."
+  papel: "IP: R. Moral"
+  financiacion: "Ministerio de Economía y Competitividad, AGL2013-41612-R, 121.000 €"
+
+- title: "Herramienta informática integrada para análisis estadísticos bayesianos con o sin información previa"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2007-2008"
+  orden: 2007
+  description: "Desarrollo en entorno Windows de una herramienta para análisis bayesianos."
+  papel: "IP: A. M. Mayoral"
+  financiacion: "Conselleria de Empresa, Universidad y Ciencia, GV07/028, 24.265 €"
+
+- title: "Análisis y diseño de césped artificial para campos de golf"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2006"
+  orden: 2006
+  description: "Proyecto de investigación aplicada."
+  papel: "IP: F. J. del Campo"
+  financiacion: "Conselleria de Empresa, Universidad y Ciencia, GVEMP06/019, 50.629 €"
+
+- title: "Análisis, selección y validación bayesianos de modelos espaciales y temporales en epidemiología y medio ambiente"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2004-2007"
+  orden: 2004
+  description: "Proyecto del Plan Nacional, con acción complementaria en 2006."
+  financiacion: "MTM2004-03290 y ACOMP06/2005"
+
+- title: "Espectroscopía en el infrarrojo cercano (NIR) para el estudio de suelos mediterráneos afectados por incendios forestales"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2005-2006"
+  orden: 2005
+  description: "Proyecto de investigación sobre suelos mediterráneos."
+  papel: "IP: J. Mataix-Solera"
+  financiacion: "Conselleria de Empresa, Universidad y Ciencia, GV05/018, 21.066 €"
+
+- title: "Diseño, implementación, selección y crítica de modelos jerárquicos bayesianos en la investigación farmacéutica"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2001-2004"
+  orden: 2001.5
+  description: "Proyecto del Plan Nacional."
+  financiacion: "SAF2001-2931"
+
+- title: "Inferencia bayesiana: desarrollos basados en teoría de la información e implementación de software"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2000-2001"
+  orden: 2000.5
+  description: "Proyecto de investigación metodológica."
+  papel: "IP: J. Morales"
+  financiacion: "Conselleria de Cultura, Educación y Ciencia, GV99-159-1-01"
+
+- title: "Teoría asintótica y soluciones computacionales en el tratamiento discreto de datos de naturaleza continua"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2000-2001"
+  orden: 2000
+  description: "Proyecto de investigación metodológica."
+  papel: "IP: J. Morales"
+  financiacion: "Conselleria de Cultura, Educación y Ciencia, INV00-01-22, 3.185,36 €"
+
+- title: "Ayuda a infraestructura de material científico"
+  categoria: Investigación
+  estado: Histórico
+  anios: "1999"
+  orden: 1999
+  description: "Ayuda a infraestructura por departamentos con cargo a fondos FEDER."
+  papel: "IP: J. Morales"
+  financiacion: "Fondos FEDER, 24.956,43 €"
+
+# =================== Contratos ===================
+- title: "Informe técnico sobre el impacto del convenio laboral en los veterinarios colegiados en la provincia de Alicante"
+  categoria: Contratos
+  estado: Histórico
+  anios: "2024"
+  orden: 2024.5
+  description: "Contrato de asistencia técnica (163-24), de cuatro meses de duración desde marzo de 2024."
+  papel: "IP: A. M. Mayoral"
+  financiacion: "2024/S000000281, 3.000 €"
+
+- title: "Asistencia técnica estadística a la Fundación Casa del Corazón"
+  categoria: Contratos
+  estado: Histórico
+  anios: "2016-2026"
+  orden: 2016
+  description: "Asistencia técnica, desde el ámbito estadístico y de la toma de decisiones, en la organización y planificación de los másteres de la Fundación, en especial de los Trabajos Fin de Máster."
+  papel: "IP: J. V. Segura"
+  detalle:
+    - "2024 · Máster en Avances en Cardiología (adenda) · FCC-SEC1.24D · 2 años · 22.000 €"
+    - "2023 · Máster en Diagnóstico de la Imagen en Cardiología (adenda) · FCC1.23D · 2 años · 22.000 €"
+    - "2022 · Máster en Avances en Cardiología · FCC-SEC1.22A · 2 años · 22.000 €"
+    - "2021 · Máster en Prevención Secundaria en Cardiopatía Isquémica (adenda) · FCC1.21D · 2 años · 6.000 €"
+    - "2020 · Máster en Avances en Cardiología (adenda) · FCC1.20D · 2 años · 10.700 €"
+    - "2019 · Máster en Prevención Secundaria en Cardiopatía Isquémica · FCC2.19A · 10.700 €"
+    - "2018 · Máster en Avances en Cardiología · FCC1.18A · 2 años · 10.700 €"
+    - "2016 · Apoyo y asesoramiento en el diseño y la planificación de actividades (adenda) · FCC1.15D · 1.800 €"
+
+- title: "Violencia de género en tiempos de COVID"
+  categoria: Contratos
+  estado: Histórico
+  anios: "2020-2021"
+  orden: 2020.5
+  description: "Estudio sobre los Centros Mujer de la Comunitat Valenciana durante 2020."
+  papel: "Con Mª José Alarcón, Puri Heras y Ainara Nardi"
+  financiacion: "Conselleria d'Igualtat i Polítiques Inclusives"
+  path: http://sinmaltrato.gva.es/documents/454751/173300223/UMH/27037ceb-da62-4561-aa8d-be2567de82a7
+  mas: /cuaderno/posts/2021-05-04-publicado-el-estudio-violencia-de-genero-en-tiempos-de-covid/index.html
+  mas_texto: "Entrada del Cuaderno"
+
+- title: "Planificación de la oferta de Formación Profesional en Elche"
+  categoria: Contratos
+  estado: Histórico
+  anios: "2019-2020"
+  orden: 2019
+  description: "Colaboración con el Consejo Municipal de FP del Ayuntamiento de Elche para detectar los perfiles profesionales más demandados por las empresas y la formación que necesitan."
+  path: /cuaderno/posts/2020-03-23-colaboracion-con-el-consejo-municipal-de-fp/index.html
+
+- title: "Asesoramiento y asistencia técnica en Estadística e Investigación Operativa"
+  categoria: Contratos
+  estado: Histórico
+  anios: "2006"
+  orden: 2006.5
+  description: "Contrato de asesoramiento de seis meses (4 participantes)."
+  papel: "IP: A. M. Mayoral"
+  financiacion: "Mutualidad de Levante, MUTUALEVANTE1.06A, 7.279 €"
+
+- title: "Análisis estadístico de la persistencia de los insecticidas y de la extensión de la plaga del picudo rojo"
+  categoria: Contratos
+  estado: Histórico
+  anios: "2006-2007"
+  orden: 2006
+  description: "Contrato con el Ayuntamiento de Elche (6 participantes), de un año y cuatro meses."
+  papel: "IP: J. Morales"
+  financiacion: "Ayuntamiento de Elche, AYELCHE3.06X, 42.918,48 €"

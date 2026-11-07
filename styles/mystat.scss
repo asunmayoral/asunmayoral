@@ -179,3 +179,12 @@ details.acordeon .tarjeta h4 { font-size: 1.25rem; margin: 0; }
 details.acordeon .tarjeta h4 a { color: $tinta; text-decoration: none; }
 .ediciones table { font-size: .92rem; margin: .6rem 0 0; }
 details.acordeon .tarjetas { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+// Acordeón de Proyectos: color mantequilla
+details.acordeon.proyectos[open] > summary { background: $mantequilla; }
+details.acordeon.proyectos > summary::after { color: $mantequilla-p; }
+details.acordeon.proyectos > summary:focus-visible { outline-color: $mantequilla-p; }
+.asig p { margin: 0; }
+.asig p.pie { margin-top: .3rem; font-size: .9rem; color: $gris; }
+.tag.t-activo { background: $mantequilla; color: $tinta; margin-right: .3rem; vertical-align: .1em; }
+.asig ul.detalle { margin: .4rem 0 0; padding-left: 1.2rem; font-size: .9rem; color: $gris; }
+.asig ul.detalle li { margin: .1rem 0; }
