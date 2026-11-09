@@ -123,10 +123,19 @@
   serie: Va de Dades!
 
 - title: "Modelización Estadística Avanzada"
-  description: "Curso de doctorado de 16 horas en la Universidad O&M (República Dominicana), Doctorado en IA aplicada a la Productividad Empresarial. Ediciones de julio de 2025 y octubre de 2026."
+  description: "Curso de doctorado de 16 horas en la Universidad O&M (República Dominicana), Doctorado en IA aplicada a la Productividad Empresarial. Cohorte I (Marzo 2025)."
+  path: https://sites.google.com/umh.es/modelizacion-avanzada
+  date: 2025-03-01
+  anio: "2025"
+  tipo: Curso/Taller
+  temas: [Estadística-CC Datos, Python]
+  origen: Propio
+  
+- title: "Modelización Estadística Avanzada"
+  description: "Curso de doctorado de 16 horas en la Universidad O&M (República Dominicana), Doctorado en IA aplicada a la Productividad Empresarial. Cohorte II (Octubre 2026)."
   path: https://asunmayoral.github.io/modelizacion_python/index.html
-  date: 2025-07-01
-  anio: "2025-26"
+  date: 2026-10-01
+  anio: "2026"
   tipo: Curso/Taller
   temas: [Estadística-CC Datos, Python]
   origen: Propio

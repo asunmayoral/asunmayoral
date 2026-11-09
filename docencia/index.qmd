@@ -114,7 +114,7 @@ Grado en Ciencia de Datos e Inteligencia Artificial.
 :::
 :::
 ::: {.asig}
-[2025–2026]{.anio} **Modelización Estadística Avanzada** (16 h). Doctorado en IA aplicada a la Productividad Empresarial, Universidad O&M (República Dominicana). Ediciones de julio de 2025 y octubre de 2026. · [web del curso](https://asunmayoral.github.io/modelizacion_python/index.html)
+[2025–2026]{.anio} **Modelización Estadística Avanzada** (16 h). Doctorado en IA aplicada a la Productividad Empresarial, Universidad O&M (República Dominicana). [Cohorte I (Marzo 2025)](https://sites.google.com/umh.es/modelizacion-avanzada), [Cohorte II (Octubre 2026)](https://asunmayoral.github.io/modelizacion_python/index.html).
 :::
 ::: {.asig}
 [2025–2027]{.anio} **Diseño de Experimentos y Análisis Estadístico en Algoritmos con Python** (10 h, en línea). Programa de Doctorado en Tecnologías Informáticas, Universidad de Castilla-La Mancha (UCLM). Cursos 2025-26 y 2026-27.
