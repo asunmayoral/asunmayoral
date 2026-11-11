@@ -1,0 +1,12 @@
+<%
+// Entradas del blog con la categoría Divulgación (las ocho más recientes).
+const sel = items.filter(i => (i.categories || []).some(c => c === 'Divulgación')).slice(0, 8);
+%>
+<div class="cuaderno-lista">
+<% for (const item of sel) { %>
+<div class="entrada">
+<a href="<%- item.path %>"><%= item.title %></a>
+<span class="meta"><%= item.date %><% if (item.categories && item.categories.length) { %> · <%= item.categories.join(' · ') %><% } %></span>
+</div>
+<% } %>
+</div>

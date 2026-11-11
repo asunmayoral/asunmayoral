@@ -89,6 +89,8 @@ a { text-underline-offset: 3px; }
 .puerta::after { content: ""; position: absolute; width: 120px; height: 120px; right: -30px; top: -30px; background: rgba(255,251,242,.55); }
 .puerta.docencia { background: $melocoton; } .puerta.docencia::after { border-radius: 50%; }
 .puerta.recursos { background: $menta; } .puerta.recursos::after { clip-path: polygon(0 0, 100% 0, 100% 100%); right: 0; top: 0; }
+.puerta.investigacion { background: $cielo; } .puerta.investigacion::after { clip-path: polygon(0 0, 100% 0, 100% 100%); right: 0; top: 0; }
+.puerta.divulgacion { background: $mantequilla; } .puerta.divulgacion::after { border-radius: 0 0 0 100%; right: 0; top: 0; }
 .puerta.blog { background: $ciruela; } .puerta.blog::after { border-radius: 0 0 0 100%; right: 0; top: 0; }
 
 .franja { margin: 0 calc(-50vw + 50%); padding: 3.5rem calc(50vw - 50%); }
@@ -138,6 +140,7 @@ a { text-underline-offset: 3px; }
 
 // ---------- Sobre mí ----------
 .linea-tiempo { list-style: none; padding-left: 0; border-left: 2px solid $linea; margin-left: .4rem; }
+.linea-tiempo ul { list-style: none; padding-left: 0; margin: 0; }
 .linea-tiempo li { position: relative; padding: 0 0 1.1rem 1.4rem; }
 .linea-tiempo li::before { content: ""; position: absolute; left: -7px; top: .45rem; width: 12px; height: 12px; border-radius: 50%; background: $ciruela; border: 2px solid $ciruela-p; }
 .linea-tiempo .anio { font-family: "JetBrains Mono", monospace; font-size: .85rem; color: $ciruela-p; display: block; }
@@ -289,10 +292,18 @@ p:has(> a.perfil) { display: flex; flex-wrap: wrap; gap: .45rem; }
 .tl-leyenda .k-s.contrato { background: repeating-linear-gradient(90deg, $tinta 0 5px, transparent 5px 8px); }
 .tl-leyenda .k-g { width: 26px; height: 12px; background: repeating-linear-gradient(135deg, #CFC3B0 0 2px, #F4EEE3 2px 7px); }
 
-.inv-linea { margin: 0 0 1.5rem; padding: 1.3rem 1.5rem 1rem; background: #fff; border: 1px solid $linea; border-left: 8px solid var(--c); border-radius: .75rem; scroll-margin-top: 5rem; }
-.inv-linea h3 { margin: 0; font-size: 1.5rem; }
-.inv-linea h4 { margin: 1.3rem 0 .5rem; font-size: 1.05rem; color: var(--p); }
-.inv-resumen { margin: .2rem 0 .7rem; font-family: "JetBrains Mono", monospace; font-size: .82rem; color: var(--p); }
+details.acordeon.inv-linea { border-left: 8px solid var(--c); }
+details.acordeon.inv-linea > summary { gap: 1rem; }
+details.acordeon.inv-linea[open] > summary { background: var(--c); border-radius: 0 .75rem 0 0; }
+details.acordeon.inv-linea > summary::after { color: var(--p); }
+details.acordeon.inv-linea > summary:focus-visible { outline-color: var(--p); }
+.inv-sum { display: flex; flex-direction: column; gap: .15rem; }
+.inv-tit { font-size: 1.3rem; line-height: 1.2; }
+.inv-resumen { font-family: "JetBrains Mono", monospace; font-size: .8rem; font-weight: 400; color: var(--p); }
+.inv-linea .inv-desc { margin-top: 1.1rem; }
+.inv-linea h4 { margin: 1.3rem 1.4rem .5rem; font-size: 1.05rem; color: var(--p); }
+.inv-linea { scroll-margin-top: 5rem; }
+.l-otros { --c: #EFE7DA; --p: #{$gris}; }
 .inv-lista { list-style: none; padding: 0; margin: 0; }
 .inv-lista li { padding: .5rem 0 .5rem .6rem; margin-left: -.6rem; border-top: 1px solid $linea; font-size: .97rem; line-height: 1.5; color: $gris; scroll-margin-top: 5rem; border-radius: 4px; }
 .inv-lista li:target { background: var(--c); }

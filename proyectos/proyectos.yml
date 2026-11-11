@@ -1,7 +1,9 @@
-# Proyectos y contratos. Fuente principal: CVN de Asun (completo, dic. 2025) y entradas del blog.
+# Proyectos y contratos. Ya no hay página Proyectos: cada entrada sale en Docencia, Divulgación o Investigación
+# según su `categoria`. Fuente principal: CVN de Asun (completo, dic. 2025) y entradas del blog.
 # Campos:
 #   title        nombre del proyecto
-#   categoria    Competencia digital | Innovación docente | Investigación | Contratos
+#   categoria    Innovación docente | Competencia digital (salen en Docencia) · Divulgación (sale en Divulgación)
+#                · Investigación | Contratos (salen en Investigación)
 #   estado       Activo | Histórico   (los activos salen también en la portada)
 #   anios        texto con las fechas ("2021-2022", "Desde 2022-23")
 #   orden        número para ordenar dentro de cada categoría (mayor = antes; usa el año de inicio)
@@ -55,7 +57,7 @@
 
 # =================== Innovación docente ===================
 - title: "Va de Dades!"
-  categoria: Innovación docente
+  categoria: Divulgación
   estado: Activo
   anios: "Desde 2022-23"
   orden: 2022.5
@@ -66,7 +68,7 @@
   mas_texto: "Curso IA generativa y estadística (CEFIRE Gandía, 2026)"
 
 - title: "Ayudas UMH para la difusión de la ciencia, la tecnología y la innovación"
-  categoria: Innovación docente
+  categoria: Divulgación
   estado: Histórico
   anios: "2021 y 2024"
   orden: 2024
@@ -158,7 +160,7 @@
   path: /blog/posts/2017-06-21-i-jornadas-de-innovacion-colaborativa-jic-umh/index.html
 
 - title: "El diseño de experimentos como herramienta óptima en la investigación"
-  categoria: Innovación docente
+  categoria: Divulgación
   estado: Histórico
   anios: "2016-2017"
   orden: 2016.5
@@ -167,7 +169,7 @@
   financiacion: "UMH, INNOVA+2016-DIVULGA/091"
 
 - title: "FeCiTElx, Feria de Ciencia y Tecnología en Elx"
-  categoria: Innovación docente
+  categoria: Divulgación
   estado: Histórico
   anios: "2015-2018, 4 ediciones"
   orden: 2015
@@ -176,7 +178,7 @@
   path: /blog/posts/2018-05-23-fecitelx-feria-de-ciencia-y-tecnologia-en-elche/index.html
 
 - title: "Escuela de Verano UMH en Estadística y Optimización"
-  categoria: Innovación docente
+  categoria: Divulgación
   estado: Histórico
   anios: "2007"
   orden: 2007
@@ -184,7 +186,7 @@
   financiacion: "Conselleria de Empresa, Universidad y Ciencia, AE07/028"
 
 - title: "Congresos de Estudiantes de Estadística (I a IV)"
-  categoria: Innovación docente
+  categoria: Divulgación
   estado: Histórico
   anios: "1998-2001"
   orden: 1998

@@ -36,14 +36,7 @@ Casada con otro estadístico de la UMH, tres hijos, dos perros y un proyecto de 
 - [1994–1997]{.anio} Becaria FPI del Ministerio.
 :::
 
-### Organización de eventos
-
-::: {.linea-tiempo}
-- [2017–2018]{.anio} Jornadas JIC de Innovación Colaborativa en la UMH (2 ediciones).
-- [2015–2018]{.anio} FeCiTElx, Feria de Ciencia y Tecnología en Elche, con la Jornada de Puertas Abiertas y Proyecta TÚ (4 ediciones).
-- [2009–2014]{.anio} Jornadas de Innovación Docente UMH (5 ediciones).
-- [2007–2008]{.anio} Outdoor Training on Business Intelligence y VENTE, Verano Estadístico en Elche (2 ediciones cada uno).
-:::
+La organización de ferias, concursos y jornadas está en [Divulgación](../divulgacion/index.qmd).
 
 :::
 

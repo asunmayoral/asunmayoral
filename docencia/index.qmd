@@ -1,6 +1,21 @@
 ---
 title: "Docencia"
-description: "Asignaturas de grado y postgrado, formación continua, formación del profesorado y dirección de trabajos. Los materiales de cada curso están en Recursos."
+description: "Asignaturas de grado y postgrado, formación continua y del profesorado, innovación docente y proyectos formativos. Los materiales de cada curso están en Recursos."
+listing:
+  - id: innovacion-docente
+    contents: ../proyectos/proyectos.yml
+    template: ../_templates/proyectos-lista.ejs
+    include:
+      categoria: Innovación docente
+    sort: "orden desc"
+    page-size: 500
+  - id: competencia-digital
+    contents: ../proyectos/proyectos.yml
+    template: ../_templates/proyectos-lista.ejs
+    include:
+      categoria: Competencia digital
+    sort: "orden desc"
+    page-size: 500
 ---
 
 Pulsa en cada apartado para desplegarlo.
@@ -99,7 +114,7 @@ Grado en Ciencia de Datos e Inteligencia Artificial.
 <details class="acordeon">
 <summary>Postgrado</summary>
 
-::: {.asig}
+::: {.asig #comunicacion-cientifica}
 [2023–2025]{.anio} **Comunicación científica** (16 h por edición) · [Comunicación Científica 4.0](https://sites.google.com/umh.es/comunicacioncientifica40/inicio) · [material del curso](https://docs.google.com/document/d/1yJtnQyxma5kDnb-RTHpcSVTh7wZ6kPbA_Mx5jpzXysk/edit?usp=sharing)
 
 ::: {.ediciones}
@@ -131,7 +146,7 @@ Grado en Ciencia de Datos e Inteligencia Artificial.
 ::: {.asig}
 [2015–2025]{.anio} **Estadística en Investigación Experimental y Clínica** y **Diseño y Ejecución de Procedimientos Experimentales con Animales**. Máster Universitario en Neuropsicofarmacología Traslacional (UMH).
 :::
-::: {.asig}
+::: {.asig #comunicacion-web}
 [2013–]{.anio} **Técnicas de comunicación y herramientas web para la investigación**. Máster Universitario en Investigación en Medicina Clínica (UMH). · [vídeos](https://www.youtube.com/playlist?list=PLClKgnzRFYe7VDKn29zwc-CgTMkD5qTD-)
 :::
 ::: {.asig}
@@ -188,6 +203,23 @@ Grado en Ciencia de Datos e Inteligencia Artificial.
 ::: {.asig}
 [2012–2013]{.anio} **Recursos web para la docencia** (niveles básico y avanzado, 15 h cada uno; tres ediciones) y **Recursos web para semipresencialidad** (15 h). UMH.
 :::
+
+</details>
+
+<details class="acordeon" id="innovacion">
+<summary>Innovación docente y proyectos formativos</summary>
+
+### Proyectos de innovación docente
+
+::: {#innovacion-docente}
+:::
+
+### Competencia digital y proyectos formativos
+
+::: {#competencia-digital}
+:::
+
+Algunos de estos proyectos dieron lugar a publicaciones: están en la línea «Educación, innovación y espacios educativos» de [Investigación](../investigacion/index.qmd#linea-educacion).
 
 </details>
 

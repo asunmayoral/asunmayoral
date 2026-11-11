@@ -40,11 +40,11 @@ listing:
 :::
 
 ::: {.puertas}
-[[Docencia]{.kicker} [Asignaturas, cursos y talleres]{.titulo} [Simulación de procesos, Mejora de procesos, Python para Machine Learning y comunicación científica en doctorado.]{.texto}](docencia/index.qmd){.puerta .docencia}
+[[Docencia]{.kicker} [Asignaturas, cursos e innovación]{.titulo} [Grado, postgrado y formación continua, con los proyectos de innovación docente y de competencia digital.]{.texto}](docencia/index.qmd){.puerta .docencia}
 
-[[Recursos]{.kicker} [Materiales propios y recomendados]{.titulo} [Webs de asignatura, libros, recopilatorios y vídeos, con buscador y filtros por tema y tipo.]{.texto}](recursos/index.qmd){.puerta .recursos}
+[[Investigación]{.kicker} [Líneas, publicaciones y proyectos]{.titulo} [La trayectoria en una línea temporal: métodos bayesianos, medio ambiente, salud, educación e inteligencia artificial.]{.texto}](investigacion/index.qmd){.puerta .investigacion}
 
-[[Blog]{.kicker} [Divulgación y notas]{.titulo} [Estadística, inteligencia artificial y comunicación científica, contadas con calma.]{.texto}](blog/index.qmd){.puerta .blog}
+[[Divulgación]{.kicker} [Concursos, ferias y jornadas]{.titulo} [Va de Dades!, ferias de ciencia, jornadas, congresos de estudiantes y cursos de comunicación científica.]{.texto}](divulgacion/index.qmd){.puerta .divulgacion}
 :::
 
 ::::: {.franja .blanca}
@@ -59,9 +59,9 @@ listing:
 :::::
 
 ::: {.seccion-cab style="margin-top: 3.5rem"}
-## Proyectos en marcha
+## En marcha
 
-[Todos los proyectos](proyectos/index.qmd)
+[Docencia](docencia/index.qmd) · [Investigación](investigacion/index.qmd) · [Divulgación](divulgacion/index.qmd)
 :::
 
 ::: {#proyectos-activos}

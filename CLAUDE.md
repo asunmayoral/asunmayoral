@@ -11,7 +11,8 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
 | `index.qmd` | Portada: banner, presentación, puertas, novedades, proyectos activos, últimas entradas |
 | `recursos/recursos.yml` | **Catálogo de recursos.** Una entrada por recurso |
 | `recursos/<tema>/index.qmd` | Páginas propias de recursos alojados aquí (p. ej. `bayesiana/`) |
-| `proyectos/proyectos.yml` | Proyectos y contratos, con `categoria`, `estado` (Activo/Histórico) y `orden` |
+| `proyectos/proyectos.yml` | Proyectos y contratos (solo datos; no hay página Proyectos). La `categoria` decide en qué página sale cada uno |
+| `divulgacion/index.qmd` | Divulgación: proyectos y eventos de divulgación, enlaces a los cursos de comunicación científica y entradas del blog con categoría Divulgación |
 | `blog/posts/AAAA-MM-DD-slug/index.qmd` | Entradas del Blog; imágenes en la misma carpeta |
 | `investigacion/index.qmd` | Perfil investigador: línea temporal, líneas de trabajo, publicaciones y entradas del blog relacionadas |
 | `investigacion/investigacion.yml` | Líneas, etapas profesionales, publicaciones y tesis (los proyectos salen de `proyectos/proyectos.yml`) |
@@ -49,7 +50,13 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
 
 ### Añadir o actualizar un proyecto
 Entrada en `proyectos/proyectos.yml` (los campos están descritos al principio del fichero).
-- `categoria`: Competencia digital | Innovación docente | Investigación | Contratos. Cada una es un acordeón en `proyectos/index.qmd`.
+- `categoria` decide la página (los tres perfiles del menú: Docencia, Investigación, Divulgación):
+  - `Innovación docente` y `Competencia digital` → acordeón «Innovación docente y proyectos formativos» de `docencia/index.qmd`.
+  - `Divulgación` (concursos, ferias, jornadas, congresos de estudiantes) → `divulgacion/index.qmd`.
+  - `Investigación` y `Contratos` → `investigacion/index.qmd`, dentro de su `linea` (sin `linea` van a «Otras ayudas»).
+  - Un proyecto docente que generó publicaciones lleva además `linea`, `desde` y `hasta` y aparece también en Investigación (ADAS, PIC, TFGi).
+- Regla general: cada cosa tiene **una sola casa** y desde las demás se enlaza, no se duplica. Los cursos sobre comunicación científica son docencia: viven en Docencia y Divulgación solo los enlaza (bloque «Enseñar a comunicar ciencia»).
+- `/proyectos/` redirige a Investigación (`aliases`).
 - `estado: Activo` añade la etiqueta «En marcha» y lo muestra en la portada. Si termina, cambia a `Histórico`.
 - `orden`: año de inicio (ordena de más reciente a más antiguo dentro de cada categoría).
 - Fuente de datos para completar: el CVN de Asun (no se sube nunca al repositorio: contiene datos personales).
@@ -60,17 +67,18 @@ Entrada en `proyectos/proyectos.yml` (los campos están descritos al principio d
 La página `investigacion/index.qmd` no se edita para añadir contenido: se genera con tres plantillas (`_templates/investigacion-*.ejs`) a partir de los datos.
 - **Publicación nueva**: entrada `clase: publicacion` en `investigacion/investigacion.yml` (`title`, `autores`, `fuente`, `anio`, `tipo`, `linea`, y opcionales `path` con el DOI y `blog` con la entrada relacionada). Aparece sola en la línea temporal y en la lista de su línea.
 - **Proyecto o contrato**: se añade en `proyectos/proyectos.yml`; si lleva `linea`, `desde` y `hasta` sale también en Investigación.
+- Cada línea es un acordeón (`details.acordeon.inv-linea`), cerrado por defecto; un script en la página lo abre al llegar desde la línea temporal.
 - **Líneas** (`clase: linea`): bayes, ambiente, salud, educacion, ia, sociedad. Una línea nueva necesita además su color en `styles/mystat.scss` (clase `.l-<id>`). `activa: true` la prolonga hasta hoy.
 - **Blog**: las entradas con categoría Investigación o Publicación se listan al final de la página (las ocho más recientes).
 - El texto de presentación sale del resumen del CVN; el CVN no se sube nunca (`CVN*.pdf` está en `.gitignore`).
 
 ### Docencia
-Edita `docencia/index.qmd`. Está organizada en cuatro acordeones (`<details class="acordeon">`: Grado, Postgrado, Formación continua, Formación del profesorado); solo Grado se abre por defecto (`open`). En Grado, las asignaturas actuales van como tarjetas en «Asignaturas que imparto» y las demás en «Asignaturas anteriores». Cada línea usa el bloque `::: {.asig}` con `[años]{.anio}`; lo más reciente arriba. Un curso con varias ediciones (como Comunicación científica) va en un solo bloque con su tabla de ediciones (`::: {.ediciones}`), ordenada del año más reciente al más antiguo. La organización de eventos está en `sobre-mi/index.qmd`, tras la trayectoria.
+Edita `docencia/index.qmd`. Está organizada en cuatro acordeones (`<details class="acordeon">`: Grado, Postgrado, Formación continua, Formación del profesorado); solo Grado se abre por defecto (`open`). En Grado, las asignaturas actuales van como tarjetas en «Asignaturas que imparto» y las demás en «Asignaturas anteriores». Cada línea usa el bloque `::: {.asig}` con `[años]{.anio}`; lo más reciente arriba. Un curso con varias ediciones (como Comunicación científica) va en un solo bloque con su tabla de ediciones (`::: {.ediciones}`), ordenada del año más reciente al más antiguo. La organización de eventos está en `divulgacion/index.qmd`.
 
 ## Estilo
 - Castellano, tono cercano y claro; primera persona cuando habla Asun.
 - Paleta: fondo crema `#FFFBF2`, tinta `#2F2A36`. Pastel solo para fondos y etiquetas; el texto siempre en tinta o en el tono profundo de cada color:
-  melocotón `#F8D5C2/#A8472A` (Docencia), menta `#CFE9DA/#2F6E50` (Recursos), mantequilla `#FBE8AE/#8A6200` (Proyectos), ciruela `#EBD3E4/#7B2D63` (Blog), cielo `#D3E7F4/#2C628A` (cursos Unidigital-Prodigital).
+  melocotón `#F8D5C2/#A8472A` (Docencia), menta `#CFE9DA/#2F6E50` (Recursos), mantequilla `#FBE8AE/#8A6200` (Divulgación), ciruela `#EBD3E4/#7B2D63` (Blog), cielo `#D3E7F4/#2C628A` (Investigación, cursos Unidigital-Prodigital).
 - Tipografías: Fraunces (títulos), Atkinson Hyperlegible (texto), JetBrains Mono (código), Limelight solo en el logotipo.
 - Nada de datos inventados: si falta un dato, se pregunta.
 

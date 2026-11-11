@@ -8,12 +8,14 @@ const esUrl = (u) => u && /^(https?:|\/)/.test(u);
   const lp = items.filter(p => p.clase === 'publicacion' && p.linea === l.id).sort((a, b) => Number(b.anio) - Number(a.anio));
   const lt = items.filter(p => p.clase === 'tesis' && p.linea === l.id).sort((a, b) => Number(b.anio) - Number(a.anio));
   const lq = items.filter(p => p.categoria && p.linea === l.id).sort((a, b) => Number(b.orden) - Number(a.orden));
+  const an = lp.concat(lt).map(p => Number(p.anio)).concat(lq.filter(q => q.desde).map(q => Number(q.desde)));
+  const fi = lp.concat(lt).map(p => Number(p.anio)).concat(lq.filter(q => q.desde).map(q => Number(q.hasta || q.desde)));
+  const periodo = Math.min(...an) + '–' + (l.activa ? 'hoy' : Math.max(...fi));
   const resumen = [lp.length ? lp.length + (lp.length === 1 ? ' publicación' : ' publicaciones') : '', lq.length ? lq.length + (lq.length === 1 ? ' proyecto o contrato' : ' proyectos y contratos') : '', lt.length ? lt.length + ' tesis' : ''].filter(Boolean).join(' · ');
 %>
-<section class="inv-linea l-<%= l.id %>" id="linea-<%= l.id %>">
-<h3><%= l.title %><% if (l.activa) { %> <span class="tag t-activo">En curso</span><% } %></h3>
-<p class="inv-resumen"><%= resumen %></p>
-<p><%= l.description %></p>
+<details class="acordeon inv-linea l-<%= l.id %>" id="linea-<%= l.id %>">
+<summary><span class="inv-sum"><span class="inv-tit"><%= l.title %><% if (l.activa) { %> <span class="tag t-activo">En curso</span><% } %></span><span class="inv-resumen"><%= periodo %> · <%= resumen %></span></span></summary>
+<p class="inv-desc"><%= l.description %></p>
 <% if (lp.length) { %>
 <h4>Publicaciones</h4>
 <ul class="inv-lista">
@@ -32,5 +34,13 @@ const esUrl = (u) => u && /^(https?:|\/)/.test(u);
 <% for (const q of lq) { %><li id="pro-<%= slug(q.title) %>"><span class="anio"><%= q.anios %></span> <strong><% if (esUrl(q.path)) { %><a href="<%- q.path %>"><%= q.title %></a><% } else { %><%= q.title %><% } %></strong>.<% if (q.categoria === 'Contratos') { %> <span class="tag tag-outline">Contrato</span><% } %><% if (q.papel || q.financiacion) { %> <span class="pie"><%= [q.papel, q.financiacion].filter(Boolean).join(' · ') %></span><% } %><% if (q.mas) { %> <a class="inv-blog" href="<%- q.mas %>"><%= q.mas_texto || 'Más información' %></a><% } %></li>
 <% } %></ul>
 <% } %>
-</section>
+</details>
+<% } %>
+<% const otros = items.filter(p => (p.categoria === 'Investigación' || p.categoria === 'Contratos') && !p.linea).sort((a, b) => Number(b.orden) - Number(a.orden)); if (otros.length) { %>
+<details class="acordeon inv-linea l-otros" id="linea-otros">
+<summary><span class="inv-sum"><span class="inv-tit">Otras ayudas</span><span class="inv-resumen"><%= otros.length %> sin línea asignada</span></span></summary>
+<ul class="inv-lista">
+<% for (const q of otros) { %><li id="pro-<%= slug(q.title) %>"><span class="anio"><%= q.anios %></span> <strong><%= q.title %></strong>. <%= q.description %><% if (q.papel || q.financiacion) { %> <span class="pie"><%= [q.papel, q.financiacion].filter(Boolean).join(' · ') %></span><% } %></li>
+<% } %></ul>
+</details>
 <% } %>

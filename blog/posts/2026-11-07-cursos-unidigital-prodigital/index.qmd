@@ -80,4 +80,4 @@ Cada módulo tiene un **PDF** (en el repositorio institucional RediUMH), un **v�
 </script>
 ```
 
-[Ver el proyecto Unidigital-Prodigital](../../../proyectos/index.qmd) · [Ver estos cursos en el catálogo de Recursos](../../../recursos/index.html?serie=Unidigital-Prodigital)
+[Ver el proyecto Unidigital-Prodigital](../../../docencia/index.qmd#innovacion) · [Ver estos cursos en el catálogo de Recursos](../../../recursos/index.html?serie=Unidigital-Prodigital)
