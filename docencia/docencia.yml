@@ -12,7 +12,8 @@
 #   enlaces    (opcional) lista de {texto, url}. Enlaces internos con ruta desde la raíz: /blog/posts/.../index.html
 #   corto      (opcional) nombre abreviado para la barra de la línea temporal
 #   id         (opcional) ancla fija, si otra página enlaza a esta entrada
-#   tarjeta    (opcional) true = sale además como tarjeta en «Asignaturas que imparto»; usa `titulacion` y `path`
+#   tarjeta    (opcional) true = sale además como tarjeta en «Asignaturas que imparto». No la marca como actual.
+#              `titulacion` (texto pequeño) y `path` (enlace del título) son opcionales
 #   ediciones  (opcional) lista de {anio, programa, universidad} para cursos con varias ediciones
 # El orden de las listas es automático: primero lo que está en curso y después de lo más reciente a lo más antiguo.
 
@@ -50,133 +51,73 @@
     - {texto: "vídeos", url: "http://bit.ly/2dk19NR"}
     - {texto: "libro (PDF)", url: "https://innovacionumh.es/editorial/Lean%20Seis%20Sigma%20para%20la%20mejora%20de%20procesos.pdf"}
 
-- title: "Modelos Estadísticos"
-  bloque: grado
-  desde: 2017
-  hasta: 2025
-  detalle: "Grado en Biotecnología"
-
-- title: "Introducción a la Estadística"
-  bloque: grado
-  desde: 2018
-  hasta: 2025
-  detalle: "Grado en Seguridad Pública y Privada"
-
-- title: "Estadística"
-  bloque: grado
-  desde: 2024
-  hasta: 2025
-  detalle: "Grado en Ingeniería Informática en Tecnologías de la Información"
-
-- title: "Estadística"
-  bloque: grado
-  desde: 2010
-  hasta: 2018
-  corto: "Estadística (Periodismo)"
-  detalle: "Grado en Periodismo"
-
 - title: "Análisis Exploratorio de Datos"
   bloque: grado
   desde: 2010
-  hasta: 2013
+  hasta: 2016
   corto: "AED"
   detalle: "Grado en Estadística Empresarial y Grado en ADE"
   enlaces:
     - {texto: "vídeos", url: "http://www.youtube.com/playlist?list=PLClKgnzRFYe6_q-BiaN0COs1Xc0wssTqM"}
 
 # =================== Licenciaturas y diplomaturas ===================
-- title: "Estadística e Introducción a la Econometría"
+- title: "Técnicas de Investigación Social"
   bloque: licenciatura
   desde: 2008
   hasta: 2014
-  corto: "Estadística y Econometría"
-  detalle: "Licenciatura en ADE, Elche Parque Industrial"
-
-- title: "Técnicas de Investigación Social"
-  bloque: licenciatura
-  desde: 2007
-  hasta: 2014
   corto: "TIS (ADE)"
-  detalle: "Licenciatura en ADE"
+  detalle: "Licenciatura en ADE, Elche Parque Industrial"
   enlaces:
     - {texto: "libro TIS", url: "https://www.dropbox.com/s/wcwdu4qw83rulr6/TIS%20a4.pdf"}
 
-- title: "Inferencia y Decisión"
+- title: "Estadística Actuarial II"
   bloque: licenciatura
-  desde: 2013
-  hasta: 2014
-  detalle: "Licenciatura en Ciencias y Técnicas Estadísticas"
-
-- title: "Análisis de Datos en Ciencias del Medio Ambiente"
-  bloque: licenciatura
-  desde: 2003
-  hasta: 2013
-  corto: "Análisis de Datos en Medio Ambiente"
-  detalle: "Licenciatura en Ciencias y Técnicas Estadísticas"
-
-- title: "Técnicas de Investigación Social y Técnicas Estadísticas en Periodismo"
-  bloque: licenciatura
-  desde: 2006
+  desde: 2002
   hasta: 2008
-  corto: "TIS (Periodismo)"
-  detalle: "Licenciatura en Periodismo"
-
-- title: "Estadística Actuarial I y II"
-  bloque: licenciatura
-  desde: 2003
-  hasta: 2007
   detalle: "Licenciatura en Ciencias Actuariales y Financieras"
   enlaces:
     - {texto: "Modelos para pérdidas y reclamaciones", url: "https://www.dropbox.com/s/nhjrlamuo8kcasd/A4%20Mod%20Estad%20p%20P%C3%A9rd%20y%20Reclamac.pdf"}
 
+- title: "Teoría de Colas"
+  bloque: licenciatura
+  desde: 2002
+  hasta: 2008
+  detalle: "Licenciatura en Ciencias y Técnicas Estadísticas"
+  enlaces:
+    - {texto: "Apuntes de Teoría de Colas", url: "https://www.dropbox.com/s/4jkbpjfvp1m762y/A4%20Apuntes%20de%20Teor%C3%ADa%20de%20Colas.pdf"}
+
+- title: "Métodos de Regresión"
+  bloque: licenciatura
+  desde: 2000
+  hasta: 2001
+  detalle: "Licenciatura en Ciencias y Técnicas Estadísticas"
+
 - title: "Diplomatura en Estadística"
   bloque: licenciatura
-  desde: 1997
+  desde: 2000
   hasta: 2007
-  detalle: "Técnicas de Investigación Social (1997–2002), Análisis Multivariante (2001–2007), Herramientas para la Ingeniería de Datos (2002–2004), Estadística Pública (2002–2003) y Modelos Lineales (2004–2007)"
-
-- title: "Matemática Aplicada"
-  bloque: licenciatura
-  desde: 2003
-  hasta: 2004
-  detalle: "Licenciatura en Farmacia"
+  detalle: "Técnicas de Investigación Social (2000–2001), Modelos Lineales (2000–2001), Análisis Multivariante (2000–2001), Fundamentos de Estadística Matemática (2002–2004) y Herramientas para la Ingeniería de Datos (2003–2007)"
 
 - title: "Introducción a la Econometría"
   bloque: licenciatura
-  desde: 2000
-  hasta: 2003
+  desde: 2001
+  hasta: 2002
   corto: "Econometría (ADE)"
-  detalle: "Licenciatura en ADE. También Técnicas de Investigación Social en la Licenciatura en Ciencias Políticas y de la Administración (2002–2003)"
-
-- title: "Análisis Multivariante Avanzado"
-  bloque: licenciatura
-  desde: 2000
-  hasta: 2003
-  corto: "Multivariante Avanzado"
-  detalle: "Licenciatura en Ciencias y Técnicas Estadísticas"
+  detalle: "Licenciatura en ADE. También Técnicas de Investigación Social en la Licenciatura en Ciencias Políticas y de la Administración (2001–2002)"
 
 - title: "Análisis Estadístico Multivariante"
   bloque: licenciatura
-  desde: 2000
-  hasta: 2002
+  desde: 2002
+  hasta: 2003
   corto: "Multivariante"
-  detalle: "Licenciatura en Investigación y Técnicas de Mercado. También Geografía Humana y Demografía en la Licenciatura en Antropología Social y Cultural"
-
-- title: "Modelos Lineales Generalizados y Estadística Bayesiana"
-  bloque: licenciatura
-  desde: 1998
-  hasta: 2002
-  corto: "MLG y Bayesiana"
-  detalle: "Licenciatura en Ciencias y Técnicas Estadísticas"
-  enlaces:
-    - {texto: "libro MLG", url: "https://www.dropbox.com/s/bcjt5ms5idtun2p/Modelos%20Lineales%20Generalizados.pdf"}
+  detalle: "Licenciatura en Investigación y Técnicas de Mercado, donde también impartí Técnicas de Investigación Social (2000–2001)"
 
 # =================== Postgrado ===================
 - title: "Comunicación científica"
   id: comunicacion-cientifica
   bloque: postgrado
   desde: 2023
-  hasta: 2025
+  tarjeta: true
   detalle: "16 h por edición"
   enlaces:
     - {texto: "Comunicación Científica 4.0", url: "https://sites.google.com/umh.es/comunicacioncientifica40/inicio"}
@@ -192,7 +133,7 @@
 - title: "Modelización Estadística Avanzada"
   bloque: postgrado
   desde: 2025
-  hasta: 2026
+  tarjeta: true
   corto: "Modelización"
   detalle: "16 h. Doctorado en IA aplicada a la Productividad Empresarial, Universidad O&M (República Dominicana)"
   enlaces:
@@ -201,8 +142,8 @@
 
 - title: "Diseño de Experimentos y Análisis Estadístico en Algoritmos con Python"
   bloque: postgrado
-  desde: 2025
-  hasta: 2027
+  desde: 2026
+  tarjeta: true
   corto: "DoE con Python"
   detalle: "10 h, en línea. Programa de Doctorado en Tecnologías Informáticas, Universidad de Castilla-La Mancha (UCLM). Cursos 2025-26 y 2026-27"
 
@@ -214,53 +155,40 @@
   enlaces:
     - {texto: "materiales y grabaciones", url: "/recursos/bayesiana/index.html"}
 
-- title: "Métodos Cuantitativos para la Toma de Decisiones"
-  bloque: postgrado
-  desde: 2020
-  hasta: 2025
-  corto: "Métodos Cuantitativos"
-  detalle: "Máster Universitario en Contabilidad y Finanzas Avanzadas (UMH)"
-
 - title: "Tecnologías de la información en Auditoría"
   bloque: postgrado
   desde: 2018
+  tarjeta: true
   corto: "TI en Auditoría"
   detalle: "Máster Universitario en Auditoría de Cuentas (UMH)"
   enlaces:
     - {texto: "Gestión digital en Auditoría", url: "https://sites.google.com/umh.es/gestioniaparaauditores/aprende"}
 
-- title: "Estadística en Investigación Experimental y Clínica y Diseño y Ejecución de Procedimientos Experimentales con Animales"
+- title: "Estadística en Investigación Experimental y Clínica"
   bloque: postgrado
   desde: 2015
-  hasta: 2025
-  corto: "Estadística en Investigación Experimental y Clínica"
+  tarjeta: true
   detalle: "Máster Universitario en Neuropsicofarmacología Traslacional (UMH)"
 
 - title: "Técnicas de comunicación y herramientas web para la investigación"
   id: comunicacion-web
   bloque: postgrado
   desde: 2013
+  tarjeta: true
   corto: "Comunicación y herramientas web para la investigación"
   detalle: "Máster Universitario en Investigación en Medicina Clínica (UMH)"
   enlaces:
     - {texto: "vídeos", url: "https://www.youtube.com/playlist?list=PLClKgnzRFYe7VDKn29zwc-CgTMkD5qTD-"}
 
-- title: "Tecnologías de la Información y la Comunicación aplicadas a la docencia y el aprendizaje e Innovación docente e iniciación a la investigación educativa"
+- title: "TICs para la docencia y el aprendizaje"
   bloque: postgrado
   desde: 2011
   hasta: 2020
-  corto: "TIC e innovación docente (Máster de Profesorado)"
-  detalle: "Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y EI (UMH), donde también participé en el Prácticum I y II, el Trabajo Fin de Máster y la docencia de las especialidades"
+  corto: "TICs para la docencia y el aprendizaje (Máster de Profesorado)"
+  detalle: "Tecnologías de la Información y la Comunicación aplicadas a la docencia y el aprendizaje. Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y EI (UMH)"
   enlaces:
     - {texto: "libro", url: "http://innovacionumh.es/editorial/TICS.pdf"}
     - {texto: "vídeos", url: "https://www.youtube.com/playlist?list=PLClKgnzRFYe5hwY17dxjRB_pJAeG4SqUF"}
-
-- title: "Diseño de Experimentos y Análisis de Datos (2009–2013) y Herramientas Metodológicas para la Investigación (2013–2020)"
-  bloque: postgrado
-  desde: 2009
-  hasta: 2020
-  corto: "Diseño de Experimentos y Herramientas Metodológicas"
-  detalle: "Máster Universitario en Gestión, Tratamiento y Valorización de Residuos Orgánicos (UMH)"
 
 # =================== Formación continua ===================
 - title: "Cursos abiertos Unidigital-Prodigital"

@@ -78,7 +78,9 @@ La página `investigacion/index.qmd` no se edita para añadir contenido: se gene
 La página `docencia/index.qmd` no se edita para añadir contenido: se genera con tres plantillas (`_templates/docencia-*.ejs`).
 - **Asignatura o curso nuevo**: una entrada en `docencia/docencia.yml` (los campos están descritos al principio del fichero): `title`, `bloque` (grado | licenciatura | postgrado | continua | profesorado | direccion), `desde`, `hasta`, `detalle`, `enlaces`.
 - Sin `hasta` (o con `hasta` posterior al año actual) la entrada está **en curso**: barra de tono fuerte en la línea temporal y etiqueta «En curso». Cuando deja de impartirse, se añade `hasta`.
-- `tarjeta: true` (con `titulacion` y `path`) la muestra además en «Asignaturas que imparto».
+- `tarjeta: true` la muestra además en «Asignaturas que imparto» (no la marca como actual: eso depende solo de `hasta`). `titulacion` y `path` son opcionales; sin ellos la tarjeta usa el nombre del bloque y el primer enlace.
+- La docencia oficial en la UMH se ajusta al CVN de docencia. Lo retirado y la versión anterior de lo corregido están en `docencia/docencia-retiradas.yml`, que ninguna página lee. La formación fuera de la UMH y en títulos propios no se contrasta con el CVN.
+- Del Máster de Formación del Profesorado solo se muestra «TICs para la docencia y el aprendizaje».
 - Un curso con varias ediciones lleva `ediciones` (lista de `anio`, `programa`, `universidad`) y sale con su tabla.
 - `corto` es el nombre abreviado de la barra; `id` fija el ancla si otra página enlaza a la entrada (Divulgación enlaza a `comunicacion-cientifica` y `comunicacion-web`).
 - El orden de las listas es automático (en curso primero; luego de lo más reciente a lo más antiguo).
