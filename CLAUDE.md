@@ -16,7 +16,9 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
 | `blog/posts/AAAA-MM-DD-slug/index.qmd` | Entradas del Blog; imágenes en la misma carpeta |
 | `investigacion/index.qmd` | Perfil investigador: línea temporal, líneas de trabajo, publicaciones y entradas del blog relacionadas |
 | `investigacion/investigacion.yml` | Líneas, etapas profesionales, publicaciones y tesis (los proyectos salen de `proyectos/proyectos.yml`) |
-| `docencia/`, `sobre-mi/` | Páginas fijas (contacto y perfiles de investigación están en Sobre mí) |
+| `docencia/index.qmd` | Docencia: tarjetas de lo que imparte, línea temporal y acordeones por nivel |
+| `docencia/docencia.yml` | Asignaturas, cursos y trabajos dirigidos (una entrada por cada uno) |
+| `sobre-mi/` | Página fija (contacto y perfiles) |
 | `404.qmd` | Página de «no encontrada» |
 | `_templates/*.ejs` | Plantillas de los listados (no tocar salvo para cambiar el diseño) |
 | `scripts/hero_cluster.py` | Genera `images/banner.svg` y `images/banner-suave.svg` |
@@ -67,13 +69,22 @@ Entrada en `proyectos/proyectos.yml` (los campos están descritos al principio d
 La página `investigacion/index.qmd` no se edita para añadir contenido: se genera con tres plantillas (`_templates/investigacion-*.ejs`) a partir de los datos.
 - **Publicación nueva**: entrada `clase: publicacion` en `investigacion/investigacion.yml` (`title`, `autores`, `fuente`, `anio`, `tipo`, `linea`, y opcionales `path` con el DOI y `blog` con la entrada relacionada). Aparece sola en la línea temporal y en la lista de su línea.
 - **Proyecto o contrato**: se añade en `proyectos/proyectos.yml`; si lleva `linea`, `desde` y `hasta` sale también en Investigación.
-- Cada línea es un acordeón (`details.acordeon.inv-linea`), cerrado por defecto; un script en la página lo abre al llegar desde la línea temporal.
+- Cada línea es un acordeón (`details.acordeon.inv-linea`), cerrado por defecto; se abre al llegar desde la línea temporal.
 - **Líneas** (`clase: linea`): bayes, ambiente, salud, educacion, ia, sociedad. Una línea nueva necesita además su color en `styles/mystat.scss` (clase `.l-<id>`). `activa: true` la prolonga hasta hoy.
 - **Blog**: las entradas con categoría Investigación o Publicación se listan al final de la página (las ocho más recientes).
 - El texto de presentación sale del resumen del CVN; el CVN no se sube nunca (`CVN*.pdf` está en `.gitignore`).
 
 ### Docencia
-Edita `docencia/index.qmd`. Está organizada en cuatro acordeones (`<details class="acordeon">`: Grado, Postgrado, Formación continua, Formación del profesorado); solo Grado se abre por defecto (`open`). En Grado, las asignaturas actuales van como tarjetas en «Asignaturas que imparto» y las demás en «Asignaturas anteriores». Cada línea usa el bloque `::: {.asig}` con `[años]{.anio}`; lo más reciente arriba. Un curso con varias ediciones (como Comunicación científica) va en un solo bloque con su tabla de ediciones (`::: {.ediciones}`), ordenada del año más reciente al más antiguo. La organización de eventos está en `divulgacion/index.qmd`.
+La página `docencia/index.qmd` no se edita para añadir contenido: se genera con tres plantillas (`_templates/docencia-*.ejs`).
+- **Asignatura o curso nuevo**: una entrada en `docencia/docencia.yml` (los campos están descritos al principio del fichero): `title`, `bloque` (grado | licenciatura | postgrado | continua | profesorado | direccion), `desde`, `hasta`, `detalle`, `enlaces`.
+- Sin `hasta` (o con `hasta` posterior al año actual) la entrada está **en curso**: barra de tono fuerte en la línea temporal y etiqueta «En curso». Cuando deja de impartirse, se añade `hasta`.
+- `tarjeta: true` (con `titulacion` y `path`) la muestra además en «Asignaturas que imparto».
+- Un curso con varias ediciones lleva `ediciones` (lista de `anio`, `programa`, `universidad`) y sale con su tabla.
+- `corto` es el nombre abreviado de la barra; `id` fija el ancla si otra página enlaza a la entrada (Divulgación enlaza a `comunicacion-cientifica` y `comunicacion-web`).
+- El orden de las listas es automático (en curso primero; luego de lo más reciente a lo más antiguo).
+- El acordeón «Innovación docente y proyectos formativos» y su fila de la línea temporal salen de `proyectos/proyectos.yml` (necesitan `desde` y `hasta`).
+- La organización de eventos está en `divulgacion/index.qmd`.
+- El script `_templates/acordeon.html` (incluido en todas las páginas desde `_quarto.yml`) abre el acordeón al que apunta un enlace `#ancla`.
 
 ## Estilo
 - Castellano, tono cercano y claro; primera persona cuando habla Asun.

@@ -45,28 +45,6 @@ Pulsa en cada línea para desplegar sus publicaciones, tesis, proyectos y contra
 ::: {#lineas}
 :::
 
-```{=html}
-<script>
-// Abre el acordeón de la línea cuando se llega a ella (o a una de sus fichas) desde la línea temporal o un enlace.
-(function () {
-  function abrir() {
-    var id = decodeURIComponent(location.hash.slice(1));
-    var el = id && document.getElementById(id);
-    if (!el) return;
-    var d = el.closest('details');
-    if (d && !d.open) d.open = true;
-    el.scrollIntoView({ block: el.tagName === 'DETAILS' ? 'start' : 'center' });
-  }
-  window.addEventListener('hashchange', abrir);
-  window.addEventListener('DOMContentLoaded', abrir);
-  document.addEventListener('click', function (e) {
-    var a = e.target.closest('a[href^="#"]');
-    if (a && a.getAttribute('href') === location.hash) abrir();
-  });
-})();
-</script>
-```
-
 ## En el blog
 
 Las entradas del [Blog](../blog/index.qmd) sobre resultados de investigación y publicaciones:

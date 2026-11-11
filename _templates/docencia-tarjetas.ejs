@@ -1,0 +1,10 @@
+<div class="tarjetas">
+<% for (const item of items.filter(i => i.tarjeta).sort((a, b) => Number(a.desde) - Number(b.desde))) { %>
+<div class="tarjeta">
+<span class="pie"><%= item.titulacion %> · desde <%= item.desde %></span>
+<h3><a href="<%- item.path %>"><%= item.title %></a></h3>
+<p class="desc"><%= item.detalle %>.</p>
+<% if (item.enlaces && item.enlaces.length) { %><p><%= item.enlaces.map(e => `<a href="${e.url}">${e.texto}</a>`).join(' · ') %></p><% } %>
+</div>
+<% } %>
+</div>

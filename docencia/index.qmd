@@ -2,241 +2,40 @@
 title: "Docencia"
 description: "Asignaturas de grado y postgrado, formación continua y del profesorado, innovación docente y proyectos formativos. Los materiales de cada curso están en Recursos."
 listing:
-  - id: innovacion-docente
-    contents: ../proyectos/proyectos.yml
-    template: ../_templates/proyectos-lista.ejs
-    include:
-      categoria: Innovación docente
-    sort: "orden desc"
+  - id: imparto
+    contents: docencia.yml
+    template: ../_templates/docencia-tarjetas.ejs
     page-size: 500
-  - id: competencia-digital
-    contents: ../proyectos/proyectos.yml
-    template: ../_templates/proyectos-lista.ejs
-    include:
-      categoria: Competencia digital
-    sort: "orden desc"
+  - id: doc-tiempo
+    contents:
+      - docencia.yml
+      - ../proyectos/proyectos.yml
+      - ../investigacion/investigacion.yml
+    template: ../_templates/docencia-tiempo.ejs
+    page-size: 500
+  - id: doc-bloques
+    contents:
+      - docencia.yml
+      - ../proyectos/proyectos.yml
+    template: ../_templates/docencia-bloques.ejs
     page-size: 500
 ---
 
+## Asignaturas que imparto
+
+::: {#imparto}
+:::
+
+## La docencia, de un vistazo
+
+Cada barra es una asignatura o un curso, colocada en los años en que la he impartido; las de tono fuerte siguen en marcha. Al pulsar en una barra, o en el nombre de la fila, se abre su ficha más abajo.
+
+::: {#doc-tiempo}
+:::
+
+## Toda la docencia
+
 Pulsa en cada apartado para desplegarlo.
 
-<details class="acordeon" open>
-<summary>Grado</summary>
-
-### Asignaturas que imparto
-
-:::: {.tarjetas}
-
-::: {.tarjeta}
-[Grado en Estadística Empresarial · desde 2021]{.pie}
-
-#### [Simulación de Procesos y Sistemas](https://umh1477.github.io/)
-
-Código 1477, 3.^er^ curso del Grado en Estadística Empresarial.
-
-[Web de la asignatura](https://umh1477.github.io/) · [Apuntes de Teoría de Colas](https://www.dropbox.com/s/4jkbpjfvp1m762y/A4%20Apuntes%20de%20Teor%C3%ADa%20de%20Colas.pdf)
+::: {#doc-bloques}
 :::
-
-::: {.tarjeta}
-[Grado en Ciencia de Datos e Inteligencia Artificial · desde 2026]{.pie}
-
-#### [Modelos Lineales Generalizados](https://asunmayoral.github.io/GLM/)
-
-Grado en Ciencia de Datos e Inteligencia Artificial.
-
-[Web de la asignatura](https://asunmayoral.github.io/GLM/)
-:::
-
-::::
-
-### Asignaturas anteriores
-
-::: {.asig}
-[2013–2026]{.anio} **Mejora de Procesos** (código 1479, Grado en Estadística Empresarial). Lean Six Sigma y metodologías activas. · [web de la asignatura](https://bookdown.org/asun_mayoral/book-l6s/) · [vídeos](http://bit.ly/2dk19NR) · [libro (PDF)](https://innovacionumh.es/editorial/Lean%20Seis%20Sigma%20para%20la%20mejora%20de%20procesos.pdf)
-:::
-::: {.asig}
-[2017–2025]{.anio} **Modelos Estadísticos** (Grado en Biotecnología)
-:::
-::: {.asig}
-[2018–2025]{.anio} **Introducción a la Estadística** (Grado en Seguridad Pública y Privada)
-:::
-::: {.asig}
-[2024–2025]{.anio} **Estadística** (Grado en Ingeniería Informática en Tecnologías de la Información)
-:::
-::: {.asig}
-[2010–2018]{.anio} **Estadística** (Grado en Periodismo)
-:::
-::: {.asig}
-[2010–2013]{.anio} **Análisis Exploratorio de Datos** (Grado en Estadística Empresarial y Grado en ADE) · [vídeos](http://www.youtube.com/playlist?list=PLClKgnzRFYe6_q-BiaN0COs1Xc0wssTqM)
-:::
-
-### Licenciaturas y diplomaturas
-
-::: {.asig}
-[2008–2014]{.anio} **Estadística** e **Introducción a la Econometría** (Licenciatura en ADE, Elche Parque Industrial)
-:::
-::: {.asig}
-[2007–2014]{.anio} **Técnicas de Investigación Social** (Licenciatura en ADE) · [libro TIS](https://www.dropbox.com/s/wcwdu4qw83rulr6/TIS%20a4.pdf)
-:::
-::: {.asig}
-[2013–2014]{.anio} **Inferencia y Decisión** (Licenciatura en Ciencias y Técnicas Estadísticas)
-:::
-::: {.asig}
-[2003–2013]{.anio} **Análisis de Datos en Ciencias del Medio Ambiente** (Licenciatura en Ciencias y Técnicas Estadísticas)
-:::
-::: {.asig}
-[2006–2008]{.anio} **Técnicas de Investigación Social** y **Técnicas Estadísticas en Periodismo** (Licenciatura en Periodismo)
-:::
-::: {.asig}
-[2003–2007]{.anio} **Estadística Actuarial I y II** (Licenciatura en Ciencias Actuariales y Financieras) · [Modelos para pérdidas y reclamaciones](https://www.dropbox.com/s/nhjrlamuo8kcasd/A4%20Mod%20Estad%20p%20P%C3%A9rd%20y%20Reclamac.pdf)
-:::
-::: {.asig}
-[1997–2007]{.anio} **Diplomatura en Estadística**: Técnicas de Investigación Social (1997–2002), Análisis Multivariante (2001–2007), Herramientas para la Ingeniería de Datos (2002–2004), Estadística Pública (2002–2003) y Modelos Lineales (2004–2007)
-:::
-::: {.asig}
-[2003–2004]{.anio} **Matemática Aplicada** (Licenciatura en Farmacia)
-:::
-::: {.asig}
-[2000–2003]{.anio} **Introducción a la Econometría** (Licenciatura en ADE) y **Técnicas de Investigación Social** (Licenciatura en Ciencias Políticas y de la Administración, 2002–2003)
-:::
-::: {.asig}
-[2000–2003]{.anio} **Análisis Multivariante Avanzado** (Licenciatura en Ciencias y Técnicas Estadísticas)
-:::
-::: {.asig}
-[2000–2002]{.anio} **Análisis Estadístico Multivariante** (Licenciatura en Investigación y Técnicas de Mercado) y **Geografía Humana y Demografía** (Licenciatura en Antropología Social y Cultural)
-:::
-::: {.asig}
-[1998–2002]{.anio} **Modelos Lineales Generalizados** y **Estadística Bayesiana** (Licenciatura en Ciencias y Técnicas Estadísticas) · [libro MLG](https://www.dropbox.com/s/bcjt5ms5idtun2p/Modelos%20Lineales%20Generalizados.pdf)
-:::
-
-</details>
-
-<details class="acordeon">
-<summary>Postgrado</summary>
-
-::: {.asig #comunicacion-cientifica}
-[2023–2025]{.anio} **Comunicación científica** (16 h por edición) · [Comunicación Científica 4.0](https://sites.google.com/umh.es/comunicacioncientifica40/inicio) · [material del curso](https://docs.google.com/document/d/1yJtnQyxma5kDnb-RTHpcSVTh7wZ6kPbA_Mx5jpzXysk/edit?usp=sharing)
-
-::: {.ediciones}
-| Año | Programa de doctorado | Universidad |
-| --- | --- | --- |
-| 2025 | Inteligencia Artificial y Aprendizaje Automático | UASD-UMH |
-| 2025 | Creación e Investigación Artísticas | UASD-UMH |
-| 2024 | IA aplicada a la Productividad Empresarial | Universidad O&M (República Dominicana) |
-| 2024 | Ciencias de la Salud | UASD-UMH |
-| 2023 | Medio Ambiente y Sostenibilidad | UASD-UMH |
-| 2023 | Ciencias Agroalimentarias | UASD-UMH |
-:::
-:::
-::: {.asig}
-[2025–2026]{.anio} **Modelización Estadística Avanzada** (16 h). Doctorado en IA aplicada a la Productividad Empresarial, Universidad O&M (República Dominicana). [Cohorte I (Marzo 2025)](https://sites.google.com/umh.es/modelizacion-avanzada), [Cohorte II (Octubre 2026)](https://asunmayoral.github.io/modelizacion_python/index.html).
-:::
-::: {.asig}
-[2025–2027]{.anio} **Diseño de Experimentos y Análisis Estadístico en Algoritmos con Python** (10 h, en línea). Programa de Doctorado en Tecnologías Informáticas, Universidad de Castilla-La Mancha (UCLM). Cursos 2025-26 y 2026-27.
-:::
-::: {.asig}
-[2022]{.anio} **Una primera aproximación a la Estadística Bayesiana** (10 h). Doctorado en Biología y Conservación de la Biodiversidad, Universidad de Salamanca. · [materiales y grabaciones](../recursos/bayesiana/index.qmd)
-:::
-::: {.asig}
-[2020–2025]{.anio} **Métodos Cuantitativos para la Toma de Decisiones**. Máster Universitario en Contabilidad y Finanzas Avanzadas (UMH).
-:::
-::: {.asig}
-[2018–]{.anio} **Tecnologías de la información en Auditoría**. Máster Universitario en Auditoría de Cuentas (UMH). · [Gestión digital en Auditoría](https://sites.google.com/umh.es/gestioniaparaauditores/aprende)
-:::
-::: {.asig}
-[2015–2025]{.anio} **Estadística en Investigación Experimental y Clínica** y **Diseño y Ejecución de Procedimientos Experimentales con Animales**. Máster Universitario en Neuropsicofarmacología Traslacional (UMH).
-:::
-::: {.asig #comunicacion-web}
-[2013–]{.anio} **Técnicas de comunicación y herramientas web para la investigación**. Máster Universitario en Investigación en Medicina Clínica (UMH). · [vídeos](https://www.youtube.com/playlist?list=PLClKgnzRFYe7VDKn29zwc-CgTMkD5qTD-)
-:::
-::: {.asig}
-[2011–2020]{.anio} **Tecnologías de la Información y la Comunicación aplicadas a la docencia y el aprendizaje** e **Innovación docente e iniciación a la investigación educativa**. Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y EI (UMH), donde también participé en el Prácticum I y II, el Trabajo Fin de Máster y la docencia de las especialidades. · [libro](http://innovacionumh.es/editorial/TICS.pdf) · [vídeos](https://www.youtube.com/playlist?list=PLClKgnzRFYe5hwY17dxjRB_pJAeG4SqUF)
-:::
-::: {.asig}
-[2009–2020]{.anio} **Diseño de Experimentos y Análisis de Datos** (2009–2013) y **Herramientas Metodológicas para la Investigación** (2013–2020). Máster Universitario en Gestión, Tratamiento y Valorización de Residuos Orgánicos (UMH).
-:::
-
-</details>
-
-<details class="acordeon">
-<summary>Formación continua</summary>
-
-::: {.asig}
-[2021–2022]{.anio} **Cursos abiertos Unidigital-Prodigital**: siete cursos (37 módulos, 18,5 h) para la competencia digital de la ciudadanía (DigComp) y la competencia digital docente (DigCompEdu). · [cursos y recursos](../blog/posts/2026-11-07-cursos-unidigital-prodigital/index.qmd)
-:::
-::: {.asig}
-[2025]{.anio} **Modelización Estadística con Python** (15 h). Certificado de Formación Continua, UMH.
-:::
-::: {.asig}
-[2025]{.anio} **Machine Learning para Clasificación con Python** (15 h). Certificado de Formación Continua, UMH.
-:::
-::: {.asig}
-[2024]{.anio} **Python Machine Learning** (30 h). Certificado de Formación Continua, UMH. · [Fundamentos de IA usando Python](../blog/posts/2024-02-29-fundamentos-de-ia-usando-python/index.qmd)
-:::
-
-</details>
-
-<details class="acordeon">
-<summary>Formación del profesorado</summary>
-
-::: {.asig}
-[2026]{.anio} **Integrando IA generativa y estadística en proyectos de investigación multidisciplinar**. CEFIRE de Gandía, abril de 2026. Vinculado al concurso Va de Dades!. · [web del curso](https://sites.google.com/umh.es/iaestadisticavadedades/inicio)
-:::
-::: {.asig}
-[2022–]{.anio} **Metodologías activas con aula invertida y gamificación** (10 h). Programa TECHEDU-UMH, edición anual.
-:::
-::: {.asig}
-[2020]{.anio} **Estrategias activas para la educación en ODS: gamificación y escape rooms** (20 h). · [entrada del blog](../blog/posts/2021-03-20-estrategias-activas-para-la-educacion-en-ods-gamificacion-y-escape-roo/index.qmd)
-:::
-::: {.asig}
-[2018]{.anio} **Crea tu videocurso** (20 h) y **Recursos web para la coordinación en orientación en IES de Elche: la web OrientaElx** (4 h). Cefire Elche.
-:::
-::: {.asig}
-[2016]{.anio} **Aprendizaje móvil** (20 h) y **Recursos y herramientas web para orientación educativa** (6 h). Cefire. · [recopilatorio](https://www.symbaloo.com/mix/mobilelearning7)
-:::
-::: {.asig}
-[2014–2017]{.anio} **Recursos de información** (20 h), módulo 5 del Título de Experto en Innovación Tecnológica (UMH). · [vídeos](https://www.youtube.com/playlist?list=PLClKgnzRFYe4AeUPDdS1e9cCNnFJQGnUz)
-:::
-::: {.asig}
-[2014]{.anio} **La planificación de la enseñanza universitaria**: guía docente UMH y recursos web para la enseñanza semipresencial y a distancia (4 h). Escuela Internacional de Protocolo.
-:::
-::: {.asig}
-[2012–2013]{.anio} **Recursos web para la docencia** (niveles básico y avanzado, 15 h cada uno; tres ediciones) y **Recursos web para semipresencialidad** (15 h). UMH.
-:::
-
-</details>
-
-<details class="acordeon" id="innovacion">
-<summary>Innovación docente y proyectos formativos</summary>
-
-### Proyectos de innovación docente
-
-::: {#innovacion-docente}
-:::
-
-### Competencia digital y proyectos formativos
-
-::: {#competencia-digital}
-:::
-
-Algunos de estos proyectos dieron lugar a publicaciones: están en la línea «Educación, innovación y espacios educativos» de [Investigación](../investigacion/index.qmd#linea-educacion).
-
-</details>
-
-<details class="acordeon">
-<summary>Dirección de tesis y trabajos fin de estudios</summary>
-
-::: {.asig}
-[2023]{.anio} **Estudio del perfil transcriptómico de muestras de glioblastoma humanas**. Trabajo fin de estudios de Nuria Termes Sabater.
-:::
-::: {.asig}
-[2023]{.anio} **Evolución estadística de separaciones, nulidades y divorcios en los años 2013-2020**. Trabajo fin de estudios de Jorge Pliego Marín.
-:::
-::: {.asig}
-[2011]{.anio} **Estimación de parámetros relacionados con la calidad del compost mediante espectroscopía en el infrarrojo cercano (NIRS)**. Proyecto fin de carrera de Luis Nazario Gálvez Sola (sobresaliente).
-:::
-::: {.asig}
-[2009]{.anio} **Modelos geoestadísticos para el estudio de índices bioclimáticos**. Tesis doctoral de Josep Xavier Barber Vallés, Programa de Doctorado en Estadística e Investigación Operativa, UMH (sobresaliente *cum laude*).
-:::
-
-</details>

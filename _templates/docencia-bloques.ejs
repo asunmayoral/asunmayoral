@@ -1,0 +1,42 @@
+<%
+// Acordeones de Docencia. Datos: docencia/docencia.yml y proyectos/proyectos.yml.
+const HOY = new Date().getFullYear();
+const slug = (t) => String(t).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40);
+const actual = (i) => !i.hasta || Number(i.hasta) > HOY;
+const fin = (i) => i.hasta ? Number(i.hasta) : 9999;
+const orden = (a, b) => (actual(b) - actual(a)) || (fin(b) - fin(a)) || (Number(a.desde) - Number(b.desde));
+const de = (b) => items.filter(i => i.bloque === b).sort(orden);
+const pro = (c) => items.filter(i => i.categoria === c).sort((a, b) => Number(b.orden) - Number(a.orden));
+const anios = (i) => i.anios || (i.hasta ? (Number(i.hasta) === Number(i.desde) ? String(i.desde) : i.desde + '–' + i.hasta) : i.desde + '–');
+const bloques = [
+  { id: 'grado', title: 'Grado', abierto: true, partes: [{ t: '', xs: de('grado') }, { t: 'Licenciaturas y diplomaturas', xs: de('licenciatura') }] },
+  { id: 'postgrado', title: 'Postgrado', partes: [{ t: '', xs: de('postgrado') }] },
+  { id: 'continua', title: 'Formación continua', partes: [{ t: '', xs: de('continua') }] },
+  { id: 'profesorado', title: 'Formación del profesorado', partes: [{ t: '', xs: de('profesorado') }] },
+  { id: 'innovacion', title: 'Innovación docente y proyectos formativos', partes: [{ t: 'Proyectos de innovación docente', ps: pro('Innovación docente') }, { t: 'Competencia digital y proyectos formativos', ps: pro('Competencia digital') }],
+    nota: 'Algunos de estos proyectos dieron lugar a publicaciones: están en la línea «Educación, innovación y espacios educativos» de <a href="../investigacion/index.html#linea-educacion">Investigación</a>.' },
+  { id: 'direccion', title: 'Dirección de tesis y trabajos fin de estudios', partes: [{ t: '', xs: de('direccion') }] }
+];
+%>
+<% for (const b of bloques) { %>
+<details class="acordeon d-<%= b.id %>" id="<%= b.id %>"<%= b.abierto ? ' open' : '' %>>
+<summary><%= b.title %></summary>
+<% for (const p of b.partes) { %>
+<% if (p.t) { %><h3><%= p.t %></h3><% } %>
+<% for (const i of (p.xs || [])) { %>
+<div class="asig" id="<%= i.id || ('doc-' + i.desde + '-' + slug(i.title)) %>">
+<p><span class="anio"><%= anios(i) %></span> <% if (actual(i) && i.bloque !== 'direccion') { %><span class="tag t-activo">En curso</span> <% } %><strong><%= i.title %></strong><% if (i.detalle) { %>. <%= i.detalle %><% } %>.<% for (const e of (i.enlaces || [])) { %> · <a href="<%- e.url %>"><%= e.texto %></a><% } %></p>
+<% if (i.ediciones && i.ediciones.length) { %><div class="ediciones"><table class="table"><thead><tr><th>Año</th><th>Programa de doctorado</th><th>Universidad</th></tr></thead><tbody><% for (const e of i.ediciones) { %><tr><td><%= e.anio %></td><td><%= e.programa %></td><td><%- e.universidad %></td></tr><% } %></tbody></table></div><% } %>
+</div>
+<% } %>
+<% for (const item of (p.ps || [])) { %>
+<div class="asig" id="pro-<%= slug(item.title) %>">
+<p><span class="anio"><%= item.anios %></span> <% if (item.estado === 'Activo') { %><span class="tag t-activo">En marcha</span> <% } %><strong><% if (item.path) { %><a href="<%- item.path %>"><%= item.title %></a><% } else { %><%= item.title %><% } %></strong>. <%= item.description %></p>
+<% if (item.detalle && item.detalle.length) { %><ul class="detalle"><% for (const d of item.detalle) { %><li><%= d %></li><% } %></ul><% } %>
+<% if (item.papel || item.financiacion || item.mas) { %><p class="pie"><%= [item.papel, item.financiacion].filter(Boolean).join(' · ') %><% if (item.mas) { %><% if (item.papel || item.financiacion) { %> · <% } %><a href="<%- item.mas %>"><%= item.mas_texto || 'Más información' %></a><% } %><% if (item.mas2) { %> · <a href="<%- item.mas2 %>"><%= item.mas2_texto || 'Más información' %></a><% } %></p><% } %>
+</div>
+<% } %>
+<% } %>
+<% if (b.nota) { %><p><%= b.nota %></p><% } %>
+</details>
+<% } %>

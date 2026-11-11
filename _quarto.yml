@@ -61,6 +61,7 @@ format:
     theme:
       light: [cosmo, styles/mystat.scss]
     toc: false
+    include-after-body: _templates/acordeon.html
     smooth-scroll: true
     link-external-newwindow: true
     link-external-icon: false
