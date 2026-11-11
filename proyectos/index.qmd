@@ -52,7 +52,7 @@ Pulsa en cada apartado para desplegarlo.
 ::: {#investigacion}
 :::
 
-Mi producción científica está en [Google Scholar](https://scholar.google.es/citations?user=8QU4Vp8AAAAJ&hl=es) y [ORCID](https://orcid.org/0000-0001-6944-7335).
+Las líneas de trabajo, las publicaciones y una línea temporal de mi trayectoria están en [Investigación](../investigacion/index.qmd).
 
 </details>
 

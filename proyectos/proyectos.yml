@@ -5,6 +5,9 @@
 #   estado       Activo | Histórico   (los activos salen también en la portada)
 #   anios        texto con las fechas ("2021-2022", "Desde 2022-23")
 #   orden        número para ordenar dentro de cada categoría (mayor = antes; usa el año de inicio)
+#   linea        (opcional) línea de investigación: bayes | ambiente | salud | educacion | ia | sociedad.
+#                Con `linea`, `desde` y `hasta` (años) el proyecto aparece también en la página Investigación
+#                y en su línea temporal.
 #   description  qué es, en una o dos frases
 #   papel        (opcional) equipo o IP (IP = quien figura como director en el CVN)
 #   financiacion (opcional) entidad y código de la convocatoria (sin importes)
@@ -77,6 +80,9 @@
   estado: Histórico
   anios: "2018-2022"
   orden: 2022
+  linea: educacion
+  desde: 2018
+  hasta: 2022
   description: "Programa de innovación educativa para que estudiantes de distintos grados resuelvan problemas reales en TFG interdisciplinares."
   papel: "IP: E. Barrajón-Catalán (6 participantes)"
   financiacion: "UMH, PIEU-A/2021/08 (2022)"
@@ -101,6 +107,9 @@
   estado: Histórico
   anios: "2020-2021"
   orden: 2020.5
+  linea: educacion
+  desde: 2020
+  hasta: 2021
   description: "Proyecto sobre espacios educativos diversos, activos y sostenibles, que permitió crear la web Espacios Educativos."
   financiacion: "SS0015IP"
   path: https://espacioseducativos.umh.es/
@@ -112,6 +121,9 @@
   estado: Histórico
   anios: "2020"
   orden: 2020
+  linea: educacion
+  desde: 2020
+  hasta: 2020
   description: "Desarrollando innovación, metodologías activas y competencias transversales en el Máster de Profesorado."
   financiacion: "UMH, PIEU/2019/04"
 
@@ -190,6 +202,9 @@
   estado: Histórico
   anios: "2020"
   orden: 2020.5
+  linea: educacion
+  desde: 2020
+  hasta: 2020
   description: "Localizar, identificar y visibilizar los proyectos educativos basados en los Objetivos de Desarrollo Sostenible en los centros de Elche y su entorno. Grupo de investigación en Innovación y Espacios Educativos Sostenibles."
   financiacion: "Valoración favorable del Consell Assessor del Mecenatge de la Comunitat Valenciana (CASMEC)"
   path: /blog/posts/2020-01-08-el-consell-assessor-del-mecenatge-de-la-comunitat-valenciana-valora-fa/index.html
@@ -199,6 +214,9 @@
   estado: Histórico
   anios: "2020"
   orden: 2020
+  linea: salud
+  desde: 2020
+  hasta: 2020
   description: "Colaboración con la Universidad de Alicante en un estudio nacional de la incidencia de la pandemia por departamento de salud y municipio. En la UMH, análisis y modelización de las tasas de incidencia."
   papel: "Con Javier Morales (UMH) y el equipo de la UA"
   path: https://drive.google.com/file/d/1u_WvCAwZiXVLITJK2iGtyCEiG3tgueaB/view?usp=sharing
@@ -210,6 +228,9 @@
   estado: Histórico
   anios: "2017-2022"
   orden: 2017.5
+  linea: educacion
+  desde: 2017
+  hasta: 2022
   description: "Estudio de los espacios educativos de los institutos de Secundaria (confort acústico, térmico y lumínico, ODS) que dio lugar a cinco publicaciones y a la tesis doctoral de Isabel Montiel (2022)."
   papel: "Con Isabel Montiel"
   path: https://espacioseducativos.umh.es/
@@ -221,6 +242,9 @@
   estado: Histórico
   anios: "2017-2019"
   orden: 2017
+  linea: ambiente
+  desde: 2017
+  hasta: 2019
   description: "Proyecto europeo del grupo de investigación IPOA sobre chía y quinoa en productos cárnicos saludables."
   papel: "Divulgación del proyecto y mantenimiento de su web"
   financiacion: "Unión Europea"
@@ -231,6 +255,9 @@
   estado: Histórico
   anios: "2014-2017"
   orden: 2014
+  linea: ambiente
+  desde: 2014
+  hasta: 2017
   description: "Proyecto del Plan Nacional, programa Retos de la Sociedad."
   papel: "IP: R. Moral"
   financiacion: "Ministerio de Economía y Competitividad, AGL2013-41612-R"
@@ -240,6 +267,9 @@
   estado: Histórico
   anios: "2007-2008"
   orden: 2007
+  linea: bayes
+  desde: 2007
+  hasta: 2008
   description: "Desarrollo en entorno Windows de una herramienta para análisis bayesianos."
   financiacion: "Conselleria de Empresa, Universidad y Ciencia, GV07/028"
 
@@ -248,6 +278,9 @@
   estado: Histórico
   anios: "2006"
   orden: 2006
+  linea: sociedad
+  desde: 2006
+  hasta: 2006
   description: "Proyecto de investigación aplicada."
   papel: "IP: F. J. del Campo"
   financiacion: "Conselleria de Empresa, Universidad y Ciencia, GVEMP06/019"
@@ -257,6 +290,9 @@
   estado: Histórico
   anios: "2004-2007"
   orden: 2004
+  linea: bayes
+  desde: 2004
+  hasta: 2007
   description: "Proyecto del Plan Nacional, con acción complementaria en 2006."
   financiacion: "MTM2004-03290 y ACOMP06/2005"
 
@@ -265,6 +301,9 @@
   estado: Histórico
   anios: "2005-2006"
   orden: 2005
+  linea: ambiente
+  desde: 2005
+  hasta: 2006
   description: "Proyecto de investigación sobre suelos mediterráneos."
   papel: "IP: J. Mataix-Solera"
   financiacion: "Conselleria de Empresa, Universidad y Ciencia, GV05/018"
@@ -274,6 +313,9 @@
   estado: Histórico
   anios: "2001-2004"
   orden: 2001.5
+  linea: bayes
+  desde: 2001
+  hasta: 2004
   description: "Proyecto del Plan Nacional."
   financiacion: "SAF2001-2931"
 
@@ -282,6 +324,9 @@
   estado: Histórico
   anios: "2000-2001"
   orden: 2000.5
+  linea: bayes
+  desde: 2000
+  hasta: 2001
   description: "Proyecto de investigación metodológica."
   papel: "IP: A. M. Mayoral"
   financiacion: "Conselleria de Cultura, Educación y Ciencia, GV99-159-1-01"
@@ -291,6 +336,9 @@
   estado: Histórico
   anios: "2000-2001"
   orden: 2000
+  linea: bayes
+  desde: 2000
+  hasta: 2001
   description: "Proyecto de investigación metodológica."
   papel: "IP: A. M. Mayoral"
   financiacion: "Conselleria de Cultura, Educación y Ciencia, INV00-01-22"
@@ -304,12 +352,148 @@
   papel: "IP: A. M. Mayoral"
   financiacion: "Fondos FEDER"
 
+- title: "Cátedra de Transformación del Modelo Económico"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2025"
+  orden: 2025
+  linea: sociedad
+  desde: 2025
+  hasta: 2025
+  description: "Convenio de colaboración entre la Generalitat, a través de la Conselleria de Hacienda y Economía, y la UMH para el funcionamiento de la cátedra."
+  papel: "IP: A. M. Mayoral y J. V. Segura"
+  financiacion: "Generalitat Valenciana, CONSELLHACIEN1.25X"
+
+- title: "Inteligencia artificial para el pronóstico cardiológico"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2022"
+  orden: 2022
+  linea: ia
+  desde: 2022
+  hasta: 2022
+  description: "Proyecto de investigación sobre modelos de inteligencia artificial aplicados al pronóstico en cardiología."
+  papel: "IP: A. M. Mayoral"
+  financiacion: "ILISABIO/2021/A05"
+
+- title: "Prospectiva en la Comunidad Valenciana en tres sectores socioeconómicos relevantes: sanidad, educación y turismo"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2012"
+  orden: 2012
+  linea: sociedad
+  desde: 2012
+  hasta: 2012
+  description: "Proyecto de la convocatoria UMH de investigación en Humanidades y Ciencias Sociales."
+  papel: "IP: J. Morales"
+  financiacion: "UMH, convocatoria 2011"
+
+- title: "Implementación de módulos para el análisis bayesiano objetivo y subjetivo, optimizados para la computación intensiva con programación en paralelo"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2011"
+  orden: 2011
+  linea: bayes
+  desde: 2011
+  hasta: 2011
+  description: "Proyecto del Plan Nacional, investigación fundamental no orientada."
+  papel: "IP: J. Morales"
+  financiacion: "Ministerio de Ciencia e Innovación, MTM2010-20540"
+
+- title: "Gestión agronómica de lodos de depuradora mediante espectroscopía en el infrarrojo cercano (NIR): programa Agroresources"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2010-2013"
+  orden: 2010
+  linea: ambiente
+  desde: 2010
+  hasta: 2013
+  description: "Proyecto del Plan Nacional, con ayudas complementarias de la Conselleria de Educación en 2010 y 2011."
+  papel: "IP: R. Moral"
+  financiacion: "Ministerio de Ciencia e Innovación, AGL2009-12371-C02-01; ACOMP/2010/177 y ACOMP/2011/092"
+
+- title: "Enfoque basado en modelo para la estimación y la previsión: actualización, consolidación y mejora del modelo AGROMET"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2009-2011"
+  orden: 2009
+  linea: ia
+  desde: 2009
+  hasta: 2011
+  description: "Proyecto de estimación y previsión con el modelo AGROMET."
+  papel: "IP: A. M. Mayoral"
+  financiacion: "DevStat Servicios de Consultoría Estadística y Comisión Europea, CE-DEVSTAT1.10X"
+
+- title: "GESTINFO: gestión de conocimiento para la planificación estratégica en la empresa"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2007-2008"
+  orden: 2007.5
+  linea: sociedad
+  desde: 2007
+  hasta: 2008
+  description: "Red de grupos y centros de investigación (9 participantes)."
+  papel: "IP: A. M. Mayoral"
+  financiacion: "Conselleria de Empresa, Universidad y Ciencia, ARVIV/2007/104"
+
+- title: "Evaluación de la calidad de suelos mediterráneos afectados por el fuego a medio y largo plazo. Aplicación de un índice de calidad ambiental"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2006-2009"
+  orden: 2006.6
+  linea: ambiente
+  desde: 2006
+  hasta: 2009
+  description: "Proyecto del Plan Nacional."
+  papel: "IP: J. Mataix"
+  financiacion: "Ministerio de Educación y Ciencia, CGL2006-11107-C02-01"
+
+- title: "Factores edáficos relacionados con la disponibilidad de metales pesados: implicaciones para la correcta gestión de la aplicación de lodos"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2006-2007"
+  orden: 2006.4
+  linea: ambiente
+  desde: 2006
+  hasta: 2007
+  description: "Proyecto de I+D medioambiental, en dos anualidades."
+  papel: "IP: I. Gómez"
+  financiacion: "Ministerio de Medio Ambiente, 021/2006/2-4.2 y A052/2007/1-04.2"
+
+- title: "Genes de resistencia a patógenos y mejora genética de patrones de cítricos"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2003-2008"
+  orden: 2003
+  linea: ambiente
+  desde: 2003
+  hasta: 2008
+  description: "Participación en dos proyectos consecutivos sobre genética de cítricos."
+  detalle:
+    - "2006-2008 · Mejora genética y diversificación de patrones de cítricos: tolerancia a Phytophthora citrophthora · RTA2006/00009-00-00"
+    - "2003-2005 · Localización y caracterización de genes de resistencia a patógenos en cítricos · AGL2002-02395"
+
+- title: "Papel toxicológico y biomonitorización de las carboxilesterasas solubles de sistema nervioso y la paraoxonasa sérica"
+  categoria: Investigación
+  estado: Histórico
+  anios: "2005"
+  orden: 2005.5
+  linea: salud
+  desde: 2005
+  hasta: 2005
+  description: "Estudio en modelo experimental y en una población laboralmente expuesta a plaguicidas."
+  papel: "IP: J. Barril"
+  financiacion: "Bancaja y UMH"
+
 # =================== Contratos ===================
 - title: "Informe técnico sobre el impacto del convenio laboral en los veterinarios colegiados en la provincia de Alicante"
   categoria: Contratos
   estado: Histórico
   anios: "2024"
   orden: 2024.5
+  linea: sociedad
+  desde: 2024
+  hasta: 2024
   description: "Contrato de asistencia técnica (163-24), de cuatro meses de duración desde marzo de 2024."
   papel: "IP: A. M. Mayoral"
   financiacion: "2024/S000000281"
@@ -319,6 +503,9 @@
   estado: Histórico
   anios: "2016-2026"
   orden: 2016
+  linea: salud
+  desde: 2016
+  hasta: 2026
   description: "Asistencia técnica, desde el ámbito estadístico y de la toma de decisiones, en la organización y planificación de los másteres de la Fundación, en especial de los Trabajos Fin de Máster."
   papel: "IP: J. V. Segura"
   detalle:
@@ -336,6 +523,9 @@
   estado: Histórico
   anios: "2020-2021"
   orden: 2020.5
+  linea: sociedad
+  desde: 2020
+  hasta: 2021
   description: "Estudio sobre los Centros Mujer de la Comunitat Valenciana durante 2020."
   papel: "Con Mª José Alarcón, Puri Heras y Ainara Nardi"
   financiacion: "Conselleria d'Igualtat i Polítiques Inclusives"
@@ -348,6 +538,9 @@
   estado: Histórico
   anios: "2019-2020"
   orden: 2019
+  linea: sociedad
+  desde: 2019
+  hasta: 2020
   description: "Colaboración con el Consejo Municipal de FP del Ayuntamiento de Elche para detectar los perfiles profesionales más demandados por las empresas y la formación que necesitan."
   path: /blog/posts/2020-03-23-colaboracion-con-el-consejo-municipal-de-fp/index.html
 
@@ -356,6 +549,9 @@
   estado: Histórico
   anios: "2006"
   orden: 2006.5
+  linea: sociedad
+  desde: 2006
+  hasta: 2006
   description: "Contrato de asesoramiento de seis meses (4 participantes)."
   financiacion: "Mutualidad de Levante, MUTUALEVANTE1.06A"
 
@@ -364,6 +560,69 @@
   estado: Histórico
   anios: "2006-2007"
   orden: 2006
+  linea: ambiente
+  desde: 2006
+  hasta: 2007
   description: "Contrato con el Ayuntamiento de Elche (6 participantes), de un año y cuatro meses."
   papel: "IP: A. M. Mayoral"
   financiacion: "Ayuntamiento de Elche, AYELCHE3.06X"
+
+- title: "Convenio de colaboración en materia de asesoramiento sobre la I+D+i de la Comunidad Valenciana"
+  categoria: Contratos
+  estado: Histórico
+  anios: "2006"
+  orden: 2006.7
+  linea: sociedad
+  desde: 2006
+  hasta: 2006
+  description: "Convenio de cuatro meses de duración."
+  papel: "IP: J. Sánchez Soriano"
+  financiacion: "Conselleria de Empresa, Universidad y Ciencia, CONSELLEM1.06X"
+
+- title: "Asesoría estadística para un estudio sobre trastornos de personalidad entre jugadores patológicos"
+  categoria: Contratos
+  estado: Histórico
+  anios: "2005"
+  orden: 2005
+  linea: salud
+  desde: 2005
+  hasta: 2005
+  description: "Asesoría sobre las modelizaciones y los análisis de una propuesta de estudio."
+  papel: "IP: A. M. Mayoral"
+  financiacion: "Vida Libre, Asociación Alicantina de Afectados por la Ludopatía"
+
+- title: "Trabajo de investigación para las estimaciones en pequeñas áreas"
+  categoria: Contratos
+  estado: Histórico
+  anios: "2001-2004"
+  orden: 2001
+  linea: ia
+  desde: 2001
+  hasta: 2004
+  description: "Convenio de colaboración de tres años."
+  papel: "IP: D. Morales"
+  financiacion: "Instituto Nacional de Estadística, INE1.01I"
+
+- title: "Estimación y proyección del consumo de gas natural canalizado en Cataluña"
+  categoria: Contratos
+  estado: Histórico
+  anios: "2000"
+  orden: 2000.5
+  linea: ia
+  desde: 2000
+  hasta: 2000
+  description: "Estudio de estimación y previsión del consumo."
+  papel: "IP: L. F. Escudero"
+  financiacion: "Mercados de Energía SA, MERCAENER1.00I"
+
+- title: "Estudio-diagnóstico de impacto de los trazados de la línea de alta velocidad Madrid-Castilla-La Mancha-Comunidad Valenciana-Región de Murcia"
+  categoria: Contratos
+  estado: Histórico
+  anios: "2000"
+  orden: 2000
+  linea: sociedad
+  desde: 2000
+  hasta: 2000
+  description: "Estudio sobre los trazados del estudio informativo de la línea."
+  papel: "IP: D. Morales"
+  financiacion: "Cámara Oficial de Comercio, Industria y Navegación de Alicante, CAMCOMER1.00I"

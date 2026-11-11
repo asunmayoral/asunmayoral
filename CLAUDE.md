@@ -13,6 +13,8 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
 | `recursos/<tema>/index.qmd` | Páginas propias de recursos alojados aquí (p. ej. `bayesiana/`) |
 | `proyectos/proyectos.yml` | Proyectos y contratos, con `categoria`, `estado` (Activo/Histórico) y `orden` |
 | `blog/posts/AAAA-MM-DD-slug/index.qmd` | Entradas del Blog; imágenes en la misma carpeta |
+| `investigacion/index.qmd` | Perfil investigador: línea temporal, líneas de trabajo, publicaciones y entradas del blog relacionadas |
+| `investigacion/investigacion.yml` | Líneas, etapas profesionales, publicaciones y tesis (los proyectos salen de `proyectos/proyectos.yml`) |
 | `docencia/`, `sobre-mi/` | Páginas fijas (contacto y perfiles de investigación están en Sobre mí) |
 | `404.qmd` | Página de «no encontrada» |
 | `_templates/*.ejs` | Plantillas de los listados (no tocar salvo para cambiar el diseño) |
@@ -53,6 +55,14 @@ Entrada en `proyectos/proyectos.yml` (los campos están descritos al principio d
 - Fuente de datos para completar: el CVN de Asun (no se sube nunca al repositorio: contiene datos personales).
 - IP = quien figura como «Director» en el CVN (si es Asun, «IP: A. M. Mayoral»). No se usa otra figura de dirección.
 - No se publican cuantías ni importes de proyectos o contratos.
+
+### Investigación
+La página `investigacion/index.qmd` no se edita para añadir contenido: se genera con tres plantillas (`_templates/investigacion-*.ejs`) a partir de los datos.
+- **Publicación nueva**: entrada `clase: publicacion` en `investigacion/investigacion.yml` (`title`, `autores`, `fuente`, `anio`, `tipo`, `linea`, y opcionales `path` con el DOI y `blog` con la entrada relacionada). Aparece sola en la línea temporal y en la lista de su línea.
+- **Proyecto o contrato**: se añade en `proyectos/proyectos.yml`; si lleva `linea`, `desde` y `hasta` sale también en Investigación.
+- **Líneas** (`clase: linea`): bayes, ambiente, salud, educacion, ia, sociedad. Una línea nueva necesita además su color en `styles/mystat.scss` (clase `.l-<id>`). `activa: true` la prolonga hasta hoy.
+- **Blog**: las entradas con categoría Investigación o Publicación se listan al final de la página (las ocho más recientes).
+- El texto de presentación sale del resumen del CVN; el CVN no se sube nunca (`CVN*.pdf` está en `.gitignore`).
 
 ### Docencia
 Edita `docencia/index.qmd`. Está organizada en cuatro acordeones (`<details class="acordeon">`: Grado, Postgrado, Formación continua, Formación del profesorado); solo Grado se abre por defecto (`open`). En Grado, las asignaturas actuales van como tarjetas en «Asignaturas que imparto» y las demás en «Asignaturas anteriores». Cada línea usa el bloque `::: {.asig}` con `[años]{.anio}`; lo más reciente arriba. Un curso con varias ediciones (como Comunicación científica) va en un solo bloque con su tabla de ediciones (`::: {.ediciones}`), ordenada del año más reciente al más antiguo. La organización de eventos está en `sobre-mi/index.qmd`, tras la trayectoria.

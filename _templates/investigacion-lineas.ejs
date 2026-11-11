@@ -1,0 +1,36 @@
+<%
+// Listas por línea de la página Investigación. Mismos datos que investigacion-tiempo.ejs.
+const slug = (t) => String(t).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40);
+const lineas = items.filter(i => i.clase === 'linea').sort((a, b) => Number(a.orden) - Number(b.orden));
+const esUrl = (u) => u && /^(https?:|\/)/.test(u);
+%>
+<% for (const l of lineas) {
+  const lp = items.filter(p => p.clase === 'publicacion' && p.linea === l.id).sort((a, b) => Number(b.anio) - Number(a.anio));
+  const lt = items.filter(p => p.clase === 'tesis' && p.linea === l.id).sort((a, b) => Number(b.anio) - Number(a.anio));
+  const lq = items.filter(p => p.categoria && p.linea === l.id).sort((a, b) => Number(b.orden) - Number(a.orden));
+  const resumen = [lp.length ? lp.length + (lp.length === 1 ? ' publicación' : ' publicaciones') : '', lq.length ? lq.length + (lq.length === 1 ? ' proyecto o contrato' : ' proyectos y contratos') : '', lt.length ? lt.length + ' tesis' : ''].filter(Boolean).join(' · ');
+%>
+<section class="inv-linea l-<%= l.id %>" id="linea-<%= l.id %>">
+<h3><%= l.title %><% if (l.activa) { %> <span class="tag t-activo">En curso</span><% } %></h3>
+<p class="inv-resumen"><%= resumen %></p>
+<p><%= l.description %></p>
+<% if (lp.length) { %>
+<h4>Publicaciones</h4>
+<ul class="inv-lista">
+<% for (const p of lp) { %><li id="pub-<%= p.anio %>-<%= slug(p.title) %>"><span class="anio"><%= p.anio %></span> <%= p.autores %> <strong><% if (esUrl(p.path)) { %><a href="<%- p.path %>"><%= p.title %></a><% } else { %><%= p.title %><% } %></strong>. <em><%= p.fuente %></em>.<% if (p.tipo && p.tipo !== 'Artículo') { %> <span class="tag tag-outline"><%= p.tipo %></span><% } %><% if (p.blog) { %> <a class="inv-blog" href="<%- p.blog %>">En el blog</a><% } %></li>
+<% } %></ul>
+<% } %>
+<% if (lt.length) { %>
+<h4>Tesis</h4>
+<ul class="inv-lista">
+<% for (const p of lt) { %><li id="pub-<%= p.anio %>-<%= slug(p.title) %>"><span class="anio"><%= p.anio %></span> <strong><%= p.title %></strong>. <%= p.autores %>. <em><%= p.fuente %></em>.<% if (p.blog) { %> <a class="inv-blog" href="<%- p.blog %>">En el blog</a><% } %></li>
+<% } %></ul>
+<% } %>
+<% if (lq.length) { %>
+<h4>Proyectos y contratos</h4>
+<ul class="inv-lista">
+<% for (const q of lq) { %><li id="pro-<%= slug(q.title) %>"><span class="anio"><%= q.anios %></span> <strong><% if (esUrl(q.path)) { %><a href="<%- q.path %>"><%= q.title %></a><% } else { %><%= q.title %><% } %></strong>.<% if (q.categoria === 'Contratos') { %> <span class="tag tag-outline">Contrato</span><% } %><% if (q.papel || q.financiacion) { %> <span class="pie"><%= [q.papel, q.financiacion].filter(Boolean).join(' · ') %></span><% } %><% if (q.mas) { %> <a class="inv-blog" href="<%- q.mas %>"><%= q.mas_texto || 'Más información' %></a><% } %></li>
+<% } %></ul>
+<% } %>
+</section>
+<% } %>

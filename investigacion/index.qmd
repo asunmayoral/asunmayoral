@@ -1,0 +1,51 @@
+---
+title: "Investigación"
+description: "Líneas de trabajo, publicaciones, proyectos y contratos: tres décadas aplicando la Estadística a problemas de ámbitos muy distintos."
+listing:
+  - id: trayectoria
+    contents:
+      - investigacion.yml
+      - ../proyectos/proyectos.yml
+    template: ../_templates/investigacion-tiempo.ejs
+    page-size: 500
+  - id: lineas
+    contents:
+      - investigacion.yml
+      - ../proyectos/proyectos.yml
+    template: ../_templates/investigacion-lineas.ejs
+    page-size: 500
+  - id: inv-blog
+    contents: "../blog/posts/*/index.qmd"
+    template: ../_templates/investigacion-blog.ejs
+    sort: "date desc"
+    date-format: "D MMM YYYY"
+    page-size: 500
+---
+
+Mi investigación ha recorrido varias líneas desde que terminé Matemáticas en la Universitat de València. Empecé con trabajos metodológicos: primero la replicación estadística desde el punto de vista bayesiano y después la entropía y las distancias, ya desde una perspectiva frecuentista. Hacia 2001 llegaron las colaboraciones con equipos multidisciplinares de agronomía, medio ambiente y salud. Entre 2007 y 2017, coincidiendo con mi etapa en la gestión universitaria, el ritmo bajó, y la vuelta fue por líneas relacionadas con la educación, la innovación y la tecnología educativas. Ahora trabajo en inteligencia artificial: investigación metodológica a partir de problemas con datos reales de salud y economía, buscando modelos de predicción eficaces con procedimientos automatizados.
+
+[Google Scholar](https://scholar.google.es/citations?user=8QU4Vp8AAAAJ&hl=es){.perfil}
+[ORCID](https://orcid.org/0000-0001-6944-7335){.perfil}
+[Scopus](https://www.scopus.com/authid/detail.uri?authorId=6602702428){.perfil}
+[ResearchGate](https://www.researchgate.net/profile/Asuncion-Mayoral){.perfil}
+
+## La trayectoria, de un vistazo
+
+Cada fila es una línea de trabajo. Los puntos son publicaciones y las barras finas, proyectos y contratos; al pulsar en cualquiera de ellos se llega a su ficha, más abajo.
+
+::: {#trayectoria}
+:::
+
+## Líneas de investigación
+
+::: {#lineas}
+:::
+
+## En el blog
+
+Las entradas del [Blog](../blog/index.qmd) sobre resultados de investigación y publicaciones:
+
+::: {#inv-blog}
+:::
+
+[Ir al blog](../blog/index.qmd){.btn-pill .line} [Todos los proyectos](../proyectos/index.qmd){.btn-pill .line}

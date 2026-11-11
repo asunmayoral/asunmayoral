@@ -30,6 +30,8 @@ website:
         href: recursos/index.qmd
       - text: Proyectos
         href: proyectos/index.qmd
+      - text: Investigación
+        href: investigacion/index.qmd
       - text: Blog
         href: blog/index.qmd
       - text: Sobre mí

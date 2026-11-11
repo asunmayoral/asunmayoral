@@ -14,3 +14,6 @@ listing:
   feed: true
   fields: [image, date, title, categories, description]
 ---
+
+Las entradas con la categoría *Investigación* o *Publicación* se recogen también, junto a las publicaciones y los proyectos, en [Investigación](../investigacion/index.qmd).
+

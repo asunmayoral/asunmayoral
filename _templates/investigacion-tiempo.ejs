@@ -1,0 +1,64 @@
+<%
+// Línea temporal de la página Investigación. Datos: investigacion/investigacion.yml y proyectos/proyectos.yml.
+const Y0 = 1993, Y1 = new Date().getFullYear() + 1, SPAN = Y1 - Y0;
+const pc = (y) => ((y - Y0) / SPAN * 100).toFixed(2);
+const slug = (t) => String(t).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40);
+const lineas = items.filter(i => i.clase === 'linea').sort((a, b) => Number(a.orden) - Number(b.orden));
+const etapas = items.filter(i => i.clase === 'etapa');
+const pubs = items.filter(i => i.clase === 'publicacion' || i.clase === 'tesis');
+const pros = items.filter(i => i.categoria && i.linea && i.desde);
+const nArt = pubs.filter(i => i.clase === 'publicacion').length;
+const nTes = pubs.filter(i => i.clase === 'tesis' && /dirigida/.test(i.autores || '')).length;
+const nPro = pros.filter(i => i.categoria !== 'Contratos').length;
+const nCon = pros.filter(i => i.categoria === 'Contratos').length;
+const gest = etapas.find(e => e.gestion);
+const marcas = []; for (let y = 1995; y < Y1; y += 5) marcas.push(y);
+const rejilla = marcas.map(y => `<span class="tl-g" style="left:${pc(y)}%"></span>`).join('') +
+  (gest ? `<span class="tl-gest" style="left:${pc(gest.desde)}%;width:${pc(Number(gest.hasta) - Number(gest.desde) + Y0)}%"></span>` : '');
+%>
+<p class="inv-cifras"><span><strong><%= nArt %></strong> publicaciones</span><span><strong><%= nPro %></strong> proyectos</span><span><strong><%= nCon %></strong> contratos y convenios</span><span><strong><%= nTes %></strong> tesis dirigidas</span><span><strong><%= lineas.length %></strong> líneas de trabajo</span></p>
+
+<div class="tl-wrap" tabindex="0" role="group" aria-label="Línea temporal de la trayectoria investigadora, de <%= Y0 %> a hoy. El mismo contenido está en las listas de cada línea, más abajo.">
+<div class="tl">
+
+<div class="tl-row tl-eje">
+<div class="tl-lab"></div>
+<div class="tl-track"><% for (const y of marcas) { %><span class="tl-anio" style="left:<%= pc(y) %>%"><%= y %></span><% } %></div>
+</div>
+
+<div class="tl-row tl-etapas">
+<div class="tl-lab"><strong>Etapas</strong></div>
+<div class="tl-track"><%= rejilla %>
+<% for (const e of etapas) { const d = Number(e.desde), h = e.hasta ? Number(e.hasta) : Y1; %>
+<% if (e.punto) { %><span class="tl-hito" style="left:<%= pc(d + 0.5) %>%" title="<%- d + ' · ' + e.title %>"><%= e.corto %></span>
+<% } else { %><span class="tl-etapa f<%= e.fila || 1 %><%= e.gestion ? ' gestion' : '' %>" style="left:<%= pc(d) %>%;width:<%= pc(h - d + Y0) %>%" title="<%- d + '–' + (e.hasta || 'hoy') + ' · ' + e.title %>"><%= e.corto %></span><% } %>
+<% } %>
+</div>
+</div>
+
+<% for (const l of lineas) {
+  const lp = pubs.filter(p => p.linea === l.id);
+  const lq = pros.filter(p => p.linea === l.id).sort((a, b) => Number(a.desde) - Number(b.desde));
+  const anios = lp.map(p => Number(p.anio)).concat(lq.map(p => Number(p.desde)));
+  const fines = lp.map(p => Number(p.anio) + 1).concat(lq.map(p => Number(p.hasta || p.desde) + 1));
+  const ini = Math.min(...anios), fin = l.activa ? Y1 : Math.min(Y1, Math.max(...fines));
+  const pila = {}; let alto = 1;
+  const puntos = lp.map(p => { const k = pila[p.anio] = (pila[p.anio] || 0) + 1; alto = Math.max(alto, k); return { p, k }; });
+  const filas = [];
+  const tramos = lq.map(q => { const d = Number(q.desde), h = Number(q.hasta || q.desde) + 1; let r = filas.findIndex(f => f <= d); if (r < 0) { r = filas.length; filas.push(0); } filas[r] = h; return { q, d, h, r }; });
+  const hP = alto * 15 + 8, hT = hP + filas.length * 10 + 10;
+%>
+<div class="tl-row l-<%= l.id %>">
+<div class="tl-lab"><a href="#linea-<%= l.id %>"><%= l.title %></a><span class="tl-per"><%= ini %>–<%= l.activa ? 'hoy' : fin - 1 %></span></div>
+<div class="tl-track" style="height:<%= hT %>px"><%= rejilla %>
+<span class="tl-banda<%= l.activa ? ' activa' : '' %>" style="left:<%= pc(ini) %>%;width:<%= pc(fin - ini + Y0) %>%"></span>
+<% for (const { p, k } of puntos) { %><a class="tl-p<%= p.clase === 'tesis' ? ' tesis' : '' %>" href="#pub-<%= p.anio %>-<%= slug(p.title) %>" style="left:<%= pc(Number(p.anio) + 0.5) %>%;top:<%= (alto - k) * 15 + 6 %>px" title="<%- p.anio + ' · ' + (p.clase === 'tesis' ? 'Tesis · ' : '') + p.title %>"><span class="visually-hidden"><%- p.anio + ' · ' + p.title %></span></a><% } %>
+<% for (const { q, d, h, r } of tramos) { %><a class="tl-s<%= q.categoria === 'Contratos' ? ' contrato' : '' %>" href="#pro-<%= slug(q.title) %>" style="left:<%= pc(d) %>%;width:<%= pc(h - d + Y0) %>%;top:<%= hP + 4 + r * 10 %>px" title="<%- q.anios + ' · ' + (q.categoria === 'Contratos' ? 'Contrato · ' : 'Proyecto · ') + q.title %>"><span class="visually-hidden"><%- q.anios + ' · ' + q.title %></span></a><% } %>
+</div>
+</div>
+<% } %>
+
+</div>
+</div>
+
+<p class="tl-leyenda"><span><i class="k-p"></i> publicación</span><span><i class="k-p tesis"></i> tesis</span><span><i class="k-s"></i> proyecto</span><span><i class="k-s contrato"></i> contrato o convenio</span><span><i class="k-g"></i> años de gestión universitaria</span></p>

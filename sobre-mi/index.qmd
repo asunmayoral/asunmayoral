@@ -15,7 +15,7 @@ Entre 1993 y 1997 fui becaria FPI en el Departament d'Estadística i Investigaci
 
 En 1997 inauguramos la Universidad Miguel Hernández de Elche y comencé a trabajar como Ayudante. Tras un recorrido completo como ayudante doctora y profesora de escuela universitaria, conseguí la titularidad de universidad en 2008. En 2007 me liaron en gestión universitaria como vicerrectora adjunta para innovación, y ahí estuve hasta 2019, aprendiendo muchísimo y evolucionando más. En 2010 pusimos en marcha el Máster en Formación del Profesorado de ESO, Bachillerato, FP y EI de la UMH, y ahí trabajamos una barbaridad y con muchísima ilusión por formar bien, aprendiendo también mucho de magníficos profesores de Secundaria.
 
-**Mi investigación** es multidisciplinar: siempre aplicando la Estadística para descubrir qué pasa en salud, genética, entorno natural, agricultura, economía, prospectiva, antropología, educación, sostenibilidad, espacios educativos… y lo que surja. Bayesiana de formación y corazón, sigo estudiando y evolucionando. Me gusta implicarme en proyectos diferentes y siempre a fondo. Disfruto con la docencia poco convencional y en continua actualización.
+**Mi investigación** es multidisciplinar: siempre aplicando la Estadística para descubrir qué pasa en salud, genética, entorno natural, agricultura, economía, prospectiva, antropología, educación, sostenibilidad, espacios educativos… y lo que surja. Bayesiana de formación y corazón, sigo estudiando y evolucionando. Me gusta implicarme en proyectos diferentes y siempre a fondo. Disfruto con la docencia poco convencional y en continua actualización. Las líneas de trabajo, las publicaciones y los proyectos están en [Investigación](../investigacion/index.qmd).
 
 Casada con otro estadístico de la UMH, tres hijos, dos perros y un proyecto de vida cerca de la naturaleza. Me gusta conservar la catalogación *4p* que me dio un gran jefe que espero conservar siempre como amigo: **pasión, perseverancia, pico y pala**.
 
@@ -64,6 +64,8 @@ Avda. de la Universidad s/n, 03202 Elche (Alicante)
 <i class="bi bi-telephone" aria-hidden="true"></i> (+34) 96 665 8818
 
 ### Investigación
+
+[Mi perfil investigador](../investigacion/index.qmd)
 
 [Google Scholar](https://scholar.google.es/citations?user=8QU4Vp8AAAAJ&hl=es){.perfil}
 [ORCID](https://orcid.org/0000-0001-6944-7335){.perfil}

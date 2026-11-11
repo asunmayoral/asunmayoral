@@ -1,0 +1,444 @@
+# Perfil investigador. Fuente: CVN de Asun (nov. 2026; no se sube al repositorio).
+# Este fichero alimenta la línea temporal y las listas de investigacion/index.qmd.
+# Los proyectos y contratos NO van aquí: salen de proyectos/proyectos.yml
+# (los que tienen los campos `linea`, `desde` y `hasta`).
+#
+# Cada entrada tiene un campo `clase`:
+#   linea        línea de investigación: id, title, description, orden, activa (true si sigue en curso)
+#   etapa        etapa profesional: title, corto (texto dentro de la barra), desde, hasta (vacío = hoy), fila (1 o 2)
+#                con `punto: true` es un hito puntual (solo `desde`)
+#   publicacion  title, autores, fuente, anio, tipo (Artículo | Capítulo | Actas | Libro | Informe | Divulgación),
+#                linea (id de la línea), path (DOI o enlace, opcional), blog (entrada relacionada, opcional)
+#   tesis        tesis dirigida o propia: title, autores, fuente, anio, linea, blog (opcional)
+# Ids de línea: bayes | ambiente | salud | educacion | ia | sociedad
+
+# =================== Líneas ===================
+- clase: linea
+  id: bayes
+  orden: 1
+  title: "Métodos bayesianos y teoría estadística"
+  description: "Mi punto de partida. Una tesis bayesiana sobre replicación de experimentos y meta-análisis, dirigida por M. J. Bayarri en la Universitat de València, seguida de trabajos metodológicos sobre entropía y distancias (estos desde una perspectiva frecuentista), diseño bayesiano en sistemas de colas, modelos jerárquicos espaciales y mapas genéticos."
+
+- clase: linea
+  id: ambiente
+  orden: 2
+  title: "Medio ambiente, agronomía y alimentación"
+  description: "Hacia 2001 empiezan las colaboraciones con equipos multidisciplinares: suelos mediterráneos afectados por incendios, compostaje y lodos de depuradora estudiados con espectroscopía en el infrarrojo cercano (NIR), genética de cítricos y productos cárnicos con chía y quinoa."
+
+- clase: linea
+  id: salud
+  orden: 3
+  activa: true
+  title: "Salud y epidemiología"
+  description: "Estadística con datos clínicos y epidemiológicos: hospitalizaciones de personas con VIH, incidencia de la COVID-19, meta-análisis en cardiología y asistencia estadística a los másteres de la Fundación Casa del Corazón."
+
+- clase: linea
+  id: educacion
+  orden: 4
+  title: "Educación, innovación y espacios educativos"
+  description: "Nace de mis años en la gestión de la innovación docente: competencia digital del futuro profesorado de Secundaria, espacios educativos sostenibles (confort acústico, térmico y lumínico, ODS), evaluación y trabajos interdisciplinares."
+
+- clase: linea
+  id: ia
+  orden: 5
+  activa: true
+  title: "Predicción e inteligencia artificial"
+  description: "La línea en la que trabajo ahora: investigación metodológica a partir de problemas con datos reales en salud y economía, buscando modelos de predicción eficaces con procedimientos automatizados. Tiene antecedentes en estudios de estimación y previsión."
+
+- clase: linea
+  id: sociedad
+  orden: 6
+  title: "Estudios y asesoría estadística"
+  description: "Convenios y contratos con administraciones, empresas y asociaciones para responder con datos a preguntas concretas."
+
+# =================== Etapas profesionales ===================
+- clase: etapa
+  title: "Licenciatura en Ciencias Matemáticas (Universitat de València)"
+  corto: "Licenciatura"
+  punto: true
+  desde: 1993
+- clase: etapa
+  title: "Doctorado en Estadística e Investigación Operativa (Universitat de València)"
+  corto: "Doctorado"
+  punto: true
+  desde: 1998
+- clase: etapa
+  title: "Becaria FPI (Universitat de València)"
+  corto: "Beca FPI"
+  fila: 1
+  desde: 1994
+  hasta: 1997
+- clase: etapa
+  title: "Ayudante y Ayudante Doctora (UMH)"
+  corto: "Ayudante"
+  fila: 1
+  desde: 1997
+  hasta: 2002
+- clase: etapa
+  title: "Profesora Titular de Escuela Universitaria (UMH)"
+  corto: "Titular de Escuela"
+  fila: 1
+  desde: 2002
+  hasta: 2008
+- clase: etapa
+  title: "Profesora Titular de Universidad (UMH)"
+  corto: "Profesora Titular de Universidad"
+  fila: 1
+  desde: 2008
+- clase: etapa
+  title: "Vicerrectora Adjunta para la Innovación (UMH)"
+  corto: "Vicerrectora Adjunta para la Innovación"
+  fila: 2
+  gestion: true
+  desde: 2007
+  hasta: 2019
+
+# =================== Tesis ===================
+- clase: tesis
+  title: "Tesis doctoral sobre replicación de experimentos y meta-análisis desde la perspectiva bayesiana"
+  autores: "Mayoral, A. M. Dirigida por M. J. Bayarri"
+  fuente: "Universitat de València"
+  anio: 1998
+  linea: bayes
+- clase: tesis
+  title: "Propuesta bayesiana para la elaboración de mapas genéticos"
+  autores: "Mónica Alacreu García (tesis dirigida)"
+  fuente: "Doctorado en Estadística e Investigación Operativa, Universitat de València"
+  anio: 2016
+  linea: bayes
+- clase: tesis
+  title: "Espacios educativos innovadores y sostenibles. Avanzando hacia los ODS. Estudio en el contexto de institutos de Educación Secundaria públicos en la Comunidad Valenciana"
+  autores: "Isabel Montiel Vaquer (tesis dirigida)"
+  fuente: "Doctorado en Medio Ambiente y Sostenibilidad, Universidad Miguel Hernández"
+  anio: 2022
+  linea: educacion
+  blog: /blog/posts/2022-04-07-tesis-en-espacios-educativos-innovadores-y-sostenibles/index.html
+
+# =================== Publicaciones ===================
+- clase: publicacion
+  title: "alPCA: An automatic software for the selection and combination of forecasts in monthly series"
+  autores: "García-Aroca, C.; Mayoral, A. M.; Morales, J.; Segura, J. V."
+  fuente: "Software Impacts, 20, 100644"
+  anio: 2024
+  tipo: Artículo
+  linea: ia
+  path: https://doi.org/10.1016/j.simpa.2024.100644
+- clase: publicacion
+  title: "An algorithm for automatic selection and combination of forecast models"
+  autores: "García-Aroca, C.; Mayoral, A. M.; Morales, J.; Segura, J. V."
+  fuente: "Expert Systems with Applications, 237, 1-11"
+  anio: 2024
+  tipo: Artículo
+  linea: ia
+  path: https://doi.org/10.1016/j.eswa.2023.121636
+- clase: publicacion
+  title: "Árboles de clasificación obtenidos mediante inteligencia artificial para la predicción de insuficiencia cardiaca tras el síndrome coronario agudo"
+  autores: "Cordero, A.; Bertomeu-González, V.; Segura, J. V.; Morales, J.; Álvarez-Álvarez, B.; Escribano, D.; Rodríguez-Manero, M.; Cid-Álvarez, B.; García-Acuña, J. M.; González-Juanatey, J. R.; Mayoral, A. M."
+  fuente: "Medicina Clínica, 163, 167-174"
+  anio: 2024
+  tipo: Artículo
+  linea: ia
+  path: https://doi.org/10.1016/j.medcli.2024.01.040
+- clase: publicacion
+  title: "DOAC versus VKA in patients with atrial fibrillation and bioprosthetic valves: a systematic review and meta-analysis"
+  autores: "Guardia Martínez, P.; Avilés Toscano, A. L.; Mayoral, A. M.; Moltó Miralles, J."
+  fuente: "Revista Española de Cardiología, 76(9), 690-699"
+  anio: 2023
+  tipo: Artículo
+  linea: salud
+  path: https://doi.org/10.1016/j.rec.2023.02.002
+- clase: publicacion
+  title: "PIC. Una propuesta interdisciplinar cooperativa para la formación de futuros docentes de Educación Secundaria"
+  autores: "Torres Soto, A.; González Calatayud, V.; Jiménez Hernández, D.; Mayoral, A. M.; Morales, J."
+  fuente: "Estudios Pedagógicos, 49(1), 343-360"
+  anio: 2023
+  tipo: Artículo
+  linea: educacion
+  path: https://doi.org/10.4067/S0718-07052023000100343
+- clase: publicacion
+  title: "Usefulness of open data to determine the incidence of COVID-19 and its relationship with atmospheric variables in Spain during the 2020 lockdown"
+  autores: "Zubcoff, J. J.; Olcina, J.; Morales, J.; Mazón, J. N.; Mayoral, A. M."
+  fuente: "Technological Forecasting and Social Change, 186-A, 122108"
+  anio: 2023
+  tipo: Artículo
+  linea: salud
+  path: https://doi.org/10.1016/j.techfore.2022.122108
+  blog: /blog/posts/2020-07-31-colaboracion-covid-ua-umh/index.html
+- clase: publicacion
+  title: "Así deberían diseñarse los colegios e institutos"
+  autores: "Navarro-Pedreño, J.; Montiel Vaquer, I.; Mayoral, A. M."
+  fuente: "The Conversation"
+  anio: 2022
+  tipo: Divulgación
+  linea: educacion
+  path: https://theconversation.com/asi-deberian-disenarse-los-colegios-e-institutos-181568
+- clase: publicacion
+  title: "Trends in hospitalizations and deaths in HIV-infected patients in Spain over two decades"
+  autores: "Ramos-Rincón, J. M.; Menchi-Elanzi, M.; Pinargote-Celorio, H.; Mayoral, A. M.; González-Alcaide, G.; De Mendoza, C.; Barreiro, P.; Gómez-Gallego, F.; Corral, O.; Soriano, V."
+  fuente: "AIDS, 36(2), 249-256"
+  anio: 2022
+  tipo: Artículo
+  linea: salud
+  path: https://doi.org/10.1097/QAD.0000000000003105
+- clase: publicacion
+  title: "Application of Chia Seed Coproduct in Dry-Cured Sausages: Effect Upon Its Physicochemical Properties"
+  autores: "Pérez-Álvarez, J. A.; García-Martín, J.; Roldán-Verdú, A.; Mayoral, A. M.; Navarro, C.; Sayas-Barberá, M. E.; Viuda, M.; Fernández-López, J."
+  fuente: "Proceedings (MDPI), 70, 87"
+  anio: 2021
+  tipo: Actas
+  linea: ambiente
+  path: https://doi.org/10.3390/foods_2020-07746
+- clase: publicacion
+  title: "Chia Oleogel as a Potential New Ingredient for Healthy Cooked Meat Sausages"
+  autores: "Pérez-Álvarez, J. A.; Roldán-Verdú, A.; Mayoral, A. M.; Sayas-Barberá, M. E.; Navarro, C.; Viuda, M.; Fernández-López, J."
+  fuente: "Proceedings (MDPI), 70(1), 76"
+  anio: 2021
+  tipo: Actas
+  linea: ambiente
+  path: https://doi.org/10.3390/foods_2020-07701
+- clase: publicacion
+  title: "Chiquimeats, un proyecto de investigación aplicada para la elaboración de productos cárnicos más saludables"
+  autores: "Pérez-Álvarez, J. A.; Viuda, M.; Lucas-González, R.; Botella-Martínez, C. M.; Roldán-Verdú, A.; Navarro, C.; Mayoral, A. M.; Sayas-Barberá, M. E.; Fernández-López, J."
+  fuente: "Tecnifood, 136, 1-5"
+  anio: 2021
+  tipo: Artículo
+  linea: ambiente
+  blog: /blog/posts/2017-03-23-chiquimeats/index.html
+- clase: publicacion
+  title: "La mejora de la competencia digital de los futuros docentes de secundaria: una experiencia en la Universidad Miguel Hernández"
+  autores: "Jiménez-Hernández, D.; González-Calatayud, V.; Mayoral, A. M.; Morales, J."
+  fuente: "Aloma, 40, 1-10"
+  anio: 2021
+  tipo: Artículo
+  linea: educacion
+- clase: publicacion
+  title: "Toxoplasma gondii infection in hospitalized people living with HIV in Spain, 1997 to 2015"
+  autores: "Menchi-Elanzi, M.; Mayoral, A. M.; Morales, J.; Pinargote-Celorio, H.; González-Alcaide, G.; Ramos-Rincón, J. M."
+  fuente: "Parasitology Research, 120, 755-761"
+  anio: 2021
+  tipo: Artículo
+  linea: salud
+  path: https://doi.org/10.1007/s00436-020-07007-5
+- clase: publicacion
+  title: "Transforming Learning Spaces on a Budget: Action Research and Service-Learning for Co-Creating Sustainable Spaces"
+  autores: "Montiel Vaquer, I.; Mayoral, A. M.; Navarro-Pedreño, J.; Maiques, S."
+  fuente: "Education Sciences, 11, 418"
+  anio: 2021
+  tipo: Artículo
+  linea: educacion
+  path: https://doi.org/10.3390/educsci11080418
+- clase: publicacion
+  title: "Formación transversal y Trabajos Fin de Grado interdisciplinares"
+  autores: "Herranz-López, M.; Mayoral, A. M.; Mora Rodríguez, C.; Quesada-Martínez, M.; Barrajón-Catalán, E.; Lillo-Navarro, M. C."
+  fuente: "En Nuevos retos educativos en la enseñanza superior frente al desafío COVID-19 (pp. 605-616). Octaedro"
+  anio: 2021
+  tipo: Capítulo
+  linea: educacion
+  path: https://octaedro.com/libro/nuevos-retos-educativos-en-la-ensenanza-superior-frente-al-desafio-covid-19/
+  blog: /blog/posts/2021-07-26-proyecto-tfgi/index.html
+- clase: publicacion
+  title: "Chemical and technological properties of bologna-type sausages with added black quinoa wet-milling coproducts as binder replacer"
+  autores: "Fernández-López, J.; Lucas-González, R.; Viuda, M.; Sayas-Barberá, M. E.; Ballester-Sánchez, J.; Haros, C. M.; Mayoral, A. M.; Pérez-Álvarez, J. A."
+  fuente: "Food Chemistry, 310, 1-7"
+  anio: 2020
+  tipo: Artículo
+  linea: ambiente
+- clase: publicacion
+  title: "Digital competence of future Secondary School teachers: differences according to gender, age, and branch of knowledge"
+  autores: "Jiménez-Hernández, D.; González-Calatayud, V.; Torres-Soto, A.; Mayoral, A. M.; Morales, J."
+  fuente: "Sustainability, 12, 9473"
+  anio: 2020
+  tipo: Artículo
+  linea: educacion
+  path: https://doi.org/10.3390/su12229473
+- clase: publicacion
+  title: "Linking sustainable development goals with thermal comfort and lighting conditions in educational environments"
+  autores: "Montiel Vaquer, I.; Mayoral, A. M.; Navarro-Pedreño, J.; Maiques, S.; Marco Dos Santos, G."
+  fuente: "Education Sciences, 10, 65"
+  anio: 2020
+  tipo: Artículo
+  linea: educacion
+  blog: /blog/posts/2020-04-14-education_sciences20/index.html
+- clase: publicacion
+  title: "La competencia digital de los futuros docentes de secundaria y su mejora a partir de la formación específica en TIC"
+  autores: "Torres Soto, A.; Jiménez Hernández, D.; González-Calatayud, V.; Mayoral, A. M.; Morales, J."
+  fuente: "En La docencia en la Enseñanza Superior. Nuevas aportaciones desde la investigación e innovación educativas (pp. 445-453). Octaedro"
+  anio: 2020
+  tipo: Capítulo
+  linea: educacion
+  path: https://rua.ua.es/dspace/bitstream/10045/110243/1/La-docencia-en-la-Ensenanza-Superior_84.pdf
+- clase: publicacion
+  title: "Acoustic Comfort in Learning Spaces: Moving Towards Sustainable Development Goals"
+  autores: "Montiel Vaquer, I.; Mayoral, A. M.; Navarro-Pedreño, J.; Maiques, S."
+  fuente: "Sustainability, 11(13), 3573"
+  anio: 2019
+  tipo: Artículo
+  linea: educacion
+  path: https://www.mdpi.com/2071-1050/11/13/3573
+  blog: /blog/posts/2019-07-11-el-confort-acustico-en-las-aulas/index.html
+- clase: publicacion
+  title: "Análisis de la prueba de evaluación clínica objetiva estructurada (ECOE) de sexto curso en la Facultad de Medicina de la Universidad Miguel Hernández de Elche"
+  autores: "Ramos-Rincón, J. M.; Mayoral, A. M.; Sánchez-Ferrer, F.; Morales, J.; Sempere, T.; Belinchón Romero, I.; Compañ, A."
+  fuente: "Educación Médica, 20, 29-36"
+  anio: 2019
+  tipo: Artículo
+  linea: educacion
+  path: https://doi.org/10.1016/j.edumed.2017.07.020
+- clase: publicacion
+  title: "Monográfico Innovación UMH 2017"
+  autores: "Mayoral, A. M.; Morales, J.; Pérez-Juan, J. A.; Robles, P. (eds.)"
+  fuente: "Editorial Electrónica de la Universidad Miguel Hernández de Elche"
+  anio: 2018
+  tipo: Libro
+  linea: educacion
+  path: http://editorial.edu.umh.es/2018/11/06/monografico-innovacion-umh-2017/
+  blog: /blog/posts/2018-12-12-monografico-de-innovacion-umh-2017/index.html
+- clase: publicacion
+  title: "Bayesian hierarchical models for analysing the spatial distribution of bioclimatic indices"
+  autores: "Barber, X.; Conesa, D.; López-Quílez, A.; Mayoral, A. M.; Morales, J.; Barber, A."
+  fuente: "SORT - Statistics and Operations Research Transactions, 41(2), 1-20"
+  anio: 2017
+  tipo: Artículo
+  linea: bayes
+- clase: publicacion
+  title: "Sewage sludge compost use in bioenergy production: a case study on the effects on Cynara cardunculus L energy crop"
+  autores: "Lag-Brotons, A.; Gómez, I.; Navarro-Pedreño, J.; Mayoral, A. M.; Curt, M. D."
+  fuente: "Journal of Cleaner Production, 79, 32-40"
+  anio: 2014
+  tipo: Artículo
+  linea: ambiente
+  path: http://www.sciencedirect.com/science/article/pii/S0959652614004818
+- clase: publicacion
+  title: "Estimation of parameters in sewage sludge by near-infrared reflectance spectroscopy (NIRS) using several regression tools"
+  autores: "Gálvez-Sola, L.; Morales, J.; Mayoral, A. M.; Paredes, C.; Bustamante, M. A.; Marhuenda-Egea, F. C.; Barber, X.; Moral, R."
+  fuente: "Talanta, 110, 81-88"
+  anio: 2013
+  tipo: Artículo
+  linea: ambiente
+- clase: publicacion
+  title: "Study of the Organic Fraction in Biosolids"
+  autores: "Torrecillas, C.; Martínez-Sabater, E.; Gálvez-Sola, L.; Agulló, E.; Pérez-Espinosa, A.; Morales, J.; Mayoral, A. M.; Moral, R."
+  fuente: "Communications in Soil Science and Plant Analysis, 44, 492-501"
+  anio: 2013
+  tipo: Artículo
+  linea: ambiente
+- clase: publicacion
+  title: "Estimation of phosphorus content and dynamics during composting: Use of near infrared spectroscopy"
+  autores: "Gálvez-Sola, L.; Morales, J.; Mayoral, A. M.; Marhuenda-Egea, F. C.; Martínez-Sabater, E.; Pérez-Murcia, M. D.; Bustamante, M. A.; Paredes, C.; Moral, R."
+  fuente: "Chemosphere, 78, 13-21"
+  anio: 2010
+  tipo: Artículo
+  linea: ambiente
+- clase: publicacion
+  title: "Study of the composting process of winery and distillery wastes using multivariate techniques"
+  autores: "Bustamante, M. A.; Paredes, C.; Morales, J.; Mayoral, A. M.; Moral, R."
+  fuente: "Bioresource Technology, 100, 4766-4772"
+  anio: 2009
+  tipo: Artículo
+  linea: ambiente
+- clase: publicacion
+  title: "The presence of ash as an interference factor in the estimation of the maximum temperatures reached on burned soils using near-infrared spectroscopy (NIR)"
+  autores: "Arcenegui, V.; Guerrero, C.; Mataix-Solera, J.; Mataix, J.; Zornoza, R.; Morales, J.; Mayoral, A. M."
+  fuente: "Catena, 74, 177-184"
+  anio: 2008
+  tipo: Artículo
+  linea: ambiente
+- clase: publicacion
+  title: "Bayesian design in queues: An application to aeronautic maintenance"
+  autores: "Morales, J.; Castellanos, M. E.; Mayoral, A. M.; Fried, R.; Armero, C."
+  fuente: "Journal of Statistical Planning and Inference, 137, 3058-3067"
+  anio: 2007
+  tipo: Artículo
+  linea: bayes
+- clase: publicacion
+  title: "Factors controlling the water repellency induced by fire in calcareous Mediterranean forest soils"
+  autores: "Arcenegui, V.; Mataix-Solera, J.; Guerrero, C.; Zornoza, R.; Mayoral, A. M.; Morales, J."
+  fuente: "European Journal of Soil Science, 58, 1254-1259"
+  anio: 2007
+  tipo: Artículo
+  linea: ambiente
+- clase: publicacion
+  title: "Soil properties under natural forest in the Alicante Province of Spain"
+  autores: "Zornoza, R.; Mataix-Solera, J.; Guerrero, C.; Arcenegui, V.; Mayoral, A. M.; Morales, J.; Mataix, J."
+  fuente: "Geoderma, 142, 334-341"
+  anio: 2007
+  tipo: Artículo
+  linea: ambiente
+- clase: publicacion
+  title: "Water repellency under different plant species in a calcareous forest soil in a semiarid Mediterranean environment"
+  autores: "Mataix-Solera, J.; Arcenegui, V.; Guerrero, C.; Mayoral, A. M.; Morales, J.; González, J.; García-Orenes, F.; Gómez, I."
+  fuente: "Hydrological Processes, 21, 2300-2309"
+  anio: 2007
+  tipo: Artículo
+  linea: ambiente
+- clase: publicacion
+  title: "On Bayesian design in finite source queues"
+  autores: "Morales, J.; Castellanos, M. E.; Mayoral, A. M.; Armero, C.; Fried, R."
+  fuente: "Proceedings of the 17th Compstat Symposium of the IASC (pp. 1381-1388). Physica-Verlag"
+  anio: 2006
+  tipo: Actas
+  linea: bayes
+- clase: publicacion
+  title: "Bayesian modelling of finite-source queueing systems"
+  autores: "Castellanos, M. E.; Mayoral, A. M.; Morales, J.; Fried, R.; Armero, C."
+  fuente: "Proceedings of the 21st International Workshop on Statistical Modelling (pp. 369-372). National University of Ireland"
+  anio: 2006
+  tipo: Actas
+  linea: bayes
+- clase: publicacion
+  title: "Modelling an index for soil quality evaluation based on natural forest soils under Mediterranean conditions"
+  autores: "Zornoza, R.; Mataix-Solera, J.; Guerrero, C.; Arcenegui, V.; Mataix, J.; Morales, J.; Mayoral, A. M."
+  fuente: "Geophysical Research Abstracts, 8, 5-6"
+  anio: 2006
+  tipo: Actas
+  linea: ambiente
+- clase: publicacion
+  title: "The use of near infrared spectroscopy (NIR) for soil quality and soil degradation assessment"
+  autores: "Zornoza, R.; Guerrero, C.; Mataix-Solera, J.; Mataix, J.; Gómez, I.; Morales, J.; Mayoral, A. M."
+  fuente: "Geophysical Research Abstracts, 8, 3-4"
+  anio: 2006
+  tipo: Actas
+  linea: ambiente
+- clase: publicacion
+  title: "On efficiency of estimation and testing with data quantized to fixed numbers of cells"
+  autores: "Mayoral, A. M.; Morales, D.; Morales, J.; Vajda, I."
+  fuente: "Metrika, 57, 1-27"
+  anio: 2003
+  tipo: Artículo
+  linea: bayes
+- clase: publicacion
+  title: "Bayesian design of «successful» replications"
+  autores: "Bayarri, M. J.; Mayoral, A. M."
+  fuente: "The American Statistician, 56(3), 207-214"
+  anio: 2002
+  tipo: Artículo
+  linea: bayes
+- clase: publicacion
+  title: "Análisis de las preferencias en vino de los consumidores alicantinos. Una perspectiva desde la hostelería"
+  autores: "Martínez-Carrasco, L.; Martínez, A.; Brugarolas, M.; Del Campo, F. J."
+  fuente: "Agrícola Vergel, 238, 559-567"
+  anio: 2001
+  tipo: Artículo
+  linea: ambiente
+- clase: publicacion
+  title: "Modelos lineales generalizados"
+  autores: "Mayoral, A. M.; Morales, J."
+  fuente: "Universidad Miguel Hernández"
+  anio: 2001
+  tipo: Libro
+  linea: bayes
+- clase: publicacion
+  title: "Estimación y proyección del consumo de gas natural canalizado en Catalunya"
+  autores: "Escudero, L.; Almiñana, M.; Martínez-Mayoral, A.; Molina, E.; Morales, D.; Morales, J.; Santamaría, L."
+  fuente: "Informe técnico"
+  anio: 2001
+  tipo: Informe
+  linea: ia
+- clase: publicacion
+  title: "Libro de actas de la XX Conferencia Española de Bioestadística"
+  autores: "Aixalà Perelló, L.; Barber Vallés, J. X.; Casaña Escriche, E.; Campos Sánchez, I.; González Monsalve, J. A.; López Mengual, I.; Mayoral, A. M.; Morales Socuéllamos, J.; Muñoz Sánchez, R.; Navarrete Muñoz, E. M.; Noce, M. P.; Valera Gran, D. (eds.)"
+  fuente: "Universidad Miguel Hernández"
+  anio: 2025
+  tipo: Libro
+  linea: salud
+  path: https://editorial.umh.es/2025/07/28/libro-de-actas-de-xx-conferencia-espanola-de-bioestadistica/
