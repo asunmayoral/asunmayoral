@@ -21,3 +21,9 @@ CVN*.pdf
 # Copias de trabajo de Asun (no se publican)
 docencia/* copia.yml
 docencia/docencia-cvn gestor_umh.yml
+
+# Listados de TFG y TFM dirigidos (contienen DNI y notas de estudiantes)
+files/tfgs_dirigidos*.pdf
+files/tfms_dirigidos*.pdf
+files/*TFG*.xlsx
+files/*TFM*.xlsx

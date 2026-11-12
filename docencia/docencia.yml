@@ -2,11 +2,12 @@
 # «Asignaturas que imparto», la línea temporal y las listas de los acordeones de docencia/index.qmd.
 # (El acordeón «Innovación docente y proyectos formativos» sale de proyectos/proyectos.yml.)
 # Grado, licenciaturas y másteres de la UMH: confirmados por Asun a partir del CVN de docencia (nov. 2026).
-# Las tesis doctorales dirigidas NO van aquí: están en investigacion/investigacion.yml (clase: tesis).
+# Los TFG y TFM dirigidos NO van aquí: salen de docencia/trabajos.yml, que genera scripts/trabajos_desde_excel.py
+# a partir de fuentes/TFG_TFM_dirigidos.xlsx. Las tesis dirigidas están en investigacion/investigacion.yml.
 #
 # Campos:
 #   title      nombre de la asignatura o curso (o título del trabajo dirigido)
-#   bloque     grado | licenciatura | postgrado | continua | profesorado | direccion
+#   bloque     grado | licenciatura | postgrado | continua | profesorado
 #   desde      año de inicio (número)
 #   hasta      año final (número). Sin `hasta` = se sigue impartiendo: sale destacada y con la etiqueta «En curso»
 #   anios      (opcional) texto de años si no vale el automático «desde–hasta»
@@ -18,8 +19,7 @@
 #              La tarjeta pone arriba la titulación (el `detalle` hasta el primer punto) y debajo el resto.
 #              `path` (enlace del título) es opcional: sin él se usa el primer enlace
 #   ediciones  (opcional) lista de {anio, programa, universidad} para cursos con varias ediciones
-#   Solo en `bloque: direccion` (trabajos fin de grado):
-#   estudiante, calificacion, repositorio (enlace al trabajo en RediUMH; vacío hasta que lo tengas)
+#   cursos     (opcional) lista de {anio, title, horas} para un programa que agrupa varios cursos (p. ej. IA4legos)
 # El orden de las listas es automático: primero lo que está en curso y después de lo más reciente a lo más antiguo.
 
 # =================== Grado ===================
@@ -80,7 +80,7 @@
   corto: "TIS (ADE, Elche Parque Industrial)"
   detalle: "Licenciatura en Administración y Dirección de Empresas, Elche Parque Industrial"
   enlaces:
-    - {texto: "libro TIS", url: "/files/libros/tis-tecnicas-de-investigacion-social.pdf"}
+    - {texto: "TIS: Técnicas de Investigación Social", url: "/files/libros/tis-tecnicas-de-investigacion-social.pdf"}
 
 - title: "Estadística Actuarial II"
   bloque: licenciatura
@@ -88,7 +88,7 @@
   hasta: 2008
   detalle: "Licenciatura en Ciencias Actuariales y Financieras"
   enlaces:
-    - {texto: "Modelos para pérdidas y reclamaciones", url: "/files/libros/modelos-estadisticos-perdidas-reclamaciones.pdf"}
+    - {texto: "Modelos estadísticos para pérdidas y reclamaciones", url: "/files/libros/modelos-estadisticos-perdidas-reclamaciones.pdf"}
 
 - title: "Teoría de Colas"
   bloque: licenciatura
@@ -111,6 +111,8 @@
   hasta: 2004
   corto: "Fundamentos"
   detalle: "Diplomatura en Estadística"
+  enlaces:
+    - {texto: "Análisis Estadísticos con R", url: "/files/libros/analisis-estadisticos-con-r.pdf"}
 
 - title: "Análisis Estadístico Multivariante"
   bloque: licenciatura
@@ -125,6 +127,8 @@
   hasta: 2002
   corto: "Econometría"
   detalle: "Licenciatura en Administración y Dirección de Empresas"
+  enlaces:
+    - {texto: "Modelos Lineales en Econometría", url: "/files/libros/modelos-lineales-en-econometria.pdf"}
 
 - title: "Técnicas de Investigación Social"
   bloque: licenciatura
@@ -133,7 +137,7 @@
   corto: "TIS (Ciencias Políticas)"
   detalle: "Licenciatura en Ciencias Políticas y de la Administración"
   enlaces:
-    - {texto: "libro TIS", url: "/files/libros/tis-tecnicas-de-investigacion-social.pdf"}
+    - {texto: "TIS: Técnicas de Investigación Social", url: "/files/libros/tis-tecnicas-de-investigacion-social.pdf"}
 
 - title: "Análisis Multivariante"
   bloque: licenciatura
@@ -147,6 +151,8 @@
   desde: 2000
   hasta: 2001
   detalle: "Diplomatura en Estadística"
+  enlaces:
+    - {texto: "Modelos Lineales en Econometría", url: "/files/libros/modelos-lineales-en-econometria.pdf"}
 
 - title: "Estadística Bayesiana"
   bloque: licenciatura
@@ -161,6 +167,8 @@
   hasta: 2001
   corto: "Regresión"
   detalle: "Licenciatura en Ciencias y Técnicas Estadísticas"
+  enlaces:
+    - {texto: "Modelos Lineales Generalizados", url: "/files/libros/modelos-lineales-generalizados.pdf"}
 
 - title: "Técnicas de Investigación Social"
   bloque: licenciatura
@@ -169,7 +177,7 @@
   corto: "TIS (Diplomatura)"
   detalle: "Diplomatura en Estadística"
   enlaces:
-    - {texto: "libro TIS", url: "/files/libros/tis-tecnicas-de-investigacion-social.pdf"}
+    - {texto: "TIS: Técnicas de Investigación Social", url: "/files/libros/tis-tecnicas-de-investigacion-social.pdf"}
 
 - title: "Técnicas de Investigación Social"
   bloque: licenciatura
@@ -180,7 +188,7 @@
 
 # =================== Postgrado: másteres oficiales de la UMH ===================
   enlaces:
-    - {texto: "libro TIS", url: "/files/libros/tis-tecnicas-de-investigacion-social.pdf"}
+    - {texto: "TIS: Técnicas de Investigación Social", url: "/files/libros/tis-tecnicas-de-investigacion-social.pdf"}
 
 - title: "Tecnologías de la Información en Auditoría"
   bloque: postgrado
@@ -290,29 +298,24 @@
   desde: 2021
   hasta: 2022
   corto: "Prodigital"
-  detalle: "Proyecto Unidigital, UMH. Siete cursos (37 módulos, 18,5 h) para la competencia digital de la ciudadanía (DigComp) y la competencia digital docente (DigCompEdu)"
+  detalle: "Proyecto Prodigital, Unidigital UMH. Siete cursos (37 módulos, 18,5 h) para la competencia digital de la ciudadanía (DigComp) y la competencia digital docente (DigCompEdu)"
   enlaces:
     - {texto: "cursos y recursos", url: "/blog/posts/2026-11-07-cursos-unidigital-prodigital/index.html"}
 
-- title: "Modelización Estadística con Python"
+- title: "Programa formativo IA4legos"
   bloque: continua
-  desde: 2025
+  desde: 2023
   hasta: 2025
-  detalle: "Certificado de Formación Continua, UMH. 15 h"
-
-- title: "Machine Learning para Clasificación con Python"
-  bloque: continua
-  desde: 2025
-  hasta: 2025
-  detalle: "Certificado de Formación Continua, UMH. 15 h"
-
-- title: "Python Machine Learning"
-  bloque: continua
-  desde: 2024
-  hasta: 2024
-  detalle: "Certificado de Formación Continua, UMH. 30 h"
+  corto: "IA4legos"
+  detalle: "Formación continua, UMH. Programa de formación en inteligencia artificial y ciencia de datos con Python para públicos diversos, con cursos que dan Certificado de Formación Continua de la UMH"
   enlaces:
+    - {texto: "web de IA4legos", url: "https://ia4legos.umh.es/"}
+    - {texto: "IA para todos en IA4LEGOS", url: "/blog/posts/2024-01-10-ia-para-todos-en-ia4legos/index.html"}
     - {texto: "Fundamentos de IA usando Python", url: "/blog/posts/2024-02-29-fundamentos-de-ia-usando-python/index.html"}
+  cursos:
+    - {anio: 2025, title: "Modelización Estadística con Python", horas: "15 h"}
+    - {anio: 2025, title: "Machine Learning para Clasificación con Python", horas: "15 h"}
+    - {anio: 2024, title: "Python Machine Learning", horas: "30 h"}
 
 # =================== Formación del profesorado ===================
 - title: "Integrando IA generativa y estadística en proyectos de investigación multidisciplinar"
@@ -406,139 +409,3 @@
   enlaces:
     - {texto: "web del título", url: "https://iteumh.umh.es/presentacion/"}
     - {texto: "vídeos", url: "https://www.youtube.com/playlist?list=PLClKgnzRFYe4AeUPDdS1e9cCNnFJQGnUz"}
-
-# =================== Trabajos fin de grado dirigidos ===================
-- title: "Modelización de la vulnerabilidad en salud mental asociada al comportamiento digital mediante aprendizaje automático: un enfoque basado en componentes principales y bosques aleatorios"
-  bloque: direccion
-  desde: 2026
-  hasta: 2026
-  detalle: "Trabajo fin de grado"
-  estudiante: "Cristina Climent Torró"
-  calificacion: "sobresaliente"
-  repositorio: ""
-
-- title: "Optimización de campañas de marketing mediante técnicas de clasificación"
-  bloque: direccion
-  desde: 2025
-  hasta: 2025
-  detalle: "Trabajo fin de grado"
-  estudiante: "Ángela Mellado Salinas"
-  calificacion: "sobresaliente"
-  repositorio: ""
-
-- title: "Desarrollo de un sistema de recomendación de canciones basado en análisis de componentes principales y métodos de clasificación avanzados"
-  bloque: direccion
-  desde: 2025
-  hasta: 2025
-  detalle: "Trabajo fin de grado"
-  estudiante: "Rocío Pérez Jiménez"
-  calificacion: "notable"
-  repositorio: ""
-
-- title: "VisorAnalytica: una plataforma R/Shiny para el análisis y predicción del comportamiento del consumidor para la toma de decisiones estratégicas"
-  bloque: direccion
-  desde: 2025
-  hasta: 2025
-  detalle: "Trabajo fin de grado"
-  estudiante: "Aarón Aznar Valero"
-  calificacion: "sobresaliente"
-  repositorio: ""
-
-- title: "Ictus bajo la lupa: analizando riesgos con Machine Learning"
-  bloque: direccion
-  desde: 2025
-  hasta: 2025
-  detalle: "Trabajo fin de grado"
-  estudiante: "Carlos Pomares Guirao"
-  calificacion: "notable"
-  repositorio: ""
-
-- title: "Automatización de informes estadísticos con Google Colab y Python"
-  bloque: direccion
-  desde: 2025
-  hasta: 2025
-  detalle: "Trabajo fin de grado"
-  estudiante: "Mario Goñi Arrivi"
-  calificacion: "sobresaliente"
-  repositorio: ""
-
-- title: "Explorando los factores del éxito y fracaso en startups"
-  bloque: direccion
-  desde: 2025
-  hasta: 2025
-  detalle: "Trabajo fin de grado"
-  estudiante: "Silvia Samper Perujo"
-  calificacion: "notable"
-  repositorio: ""
-
-- title: "Análisis de las tendencias de compra a lo largo del tiempo: estudio de los datos de un mercado estadounidense"
-  bloque: direccion
-  desde: 2025
-  hasta: 2025
-  detalle: "Trabajo fin de grado"
-  estudiante: "Aitana Bataller García"
-  calificacion: "aprobado"
-  repositorio: ""
-
-- title: "Clasificación automática de patologías tiroideas mediante Random Forest: estrategia de imputación y balanceo de clases"
-  bloque: direccion
-  desde: 2024
-  hasta: 2024
-  detalle: "Trabajo fin de grado"
-  estudiante: "Rebeca Mai Ferrández Ueba"
-  calificacion: "sobresaliente"
-  repositorio: ""
-
-- title: "Sistemas de recomendación en R y aplicación a datos reales"
-  bloque: direccion
-  desde: 2024
-  hasta: 2024
-  detalle: "Trabajo fin de grado"
-  estudiante: "Alba Lerma Micó"
-  calificacion: "sobresaliente"
-  repositorio: ""
-
-- title: "Análisis de predicción en inversiones de deuda pública"
-  bloque: direccion
-  desde: 2024
-  hasta: 2024
-  detalle: "Trabajo fin de grado"
-  estudiante: "Alicia Díaz-Roncero Catalá"
-  calificacion: "sobresaliente"
-  repositorio: ""
-
-- title: "Análisis sobre la evolución de la enfermedad del párkinson"
-  bloque: direccion
-  desde: 2024
-  hasta: 2024
-  detalle: "Trabajo fin de grado"
-  estudiante: "Inmaculada Ramírez López"
-  calificacion: "notable"
-  repositorio: ""
-
-- title: "El cáncer de mama. Análisis, representación y clasificación según varios modelos de Machine Learning sobre una base de datos"
-  bloque: direccion
-  desde: 2023
-  hasta: 2023
-  detalle: "Trabajo fin de grado"
-  estudiante: "José Javier Lucena Muñoz"
-  calificacion: "sobresaliente"
-  repositorio: ""
-
-- title: "Evolución estadística de separaciones, nulidades y divorcios en los años 2013-2020"
-  bloque: direccion
-  desde: 2023
-  hasta: 2023
-  detalle: "Trabajo fin de grado"
-  estudiante: "Jorge Pliego Marín"
-  calificacion: "aprobado"
-  repositorio: ""
-
-- title: "Impacto del agotamiento emocional en los estudiantes del grado de Medicina"
-  bloque: direccion
-  desde: 2023
-  hasta: 2023
-  detalle: "Trabajo fin de grado"
-  estudiante: "Vidal Ocaña Alonso"
-  calificacion: "sobresaliente"
-  repositorio: ""

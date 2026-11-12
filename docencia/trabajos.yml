@@ -1,0 +1,902 @@
+# Generado por scripts/trabajos_desde_excel.py a partir de fuentes/TFG_TFM_dirigidos.xlsx.
+# No editar a mano: corrige la hoja de cálculo y vuelve a ejecutar el script.
+- clase: tfg
+  bloque: direccion
+  title: 'Modelización de la vulnerabilidad en salud mental asociada al comportamiento digital mediante aprendizaje automático: un enfoque basado en componentes principales y bosques aleatorios'
+  estudiante: Cristina Climent Torró
+  curso: 2025/2026
+  desde: 2026
+  hasta: 2026
+  fecha: '2026-07-27'
+- clase: tfg
+  bloque: direccion
+  title: 'Clasificación automática de patologías tiroideas mediante Random Forest: estrategia de imputación y balanceo de clases'
+  estudiante: Rebeca Mai Ferrández Ueba
+  curso: 2025/2026
+  desde: 2026
+  hasta: 2026
+  fecha: '2026-07-06'
+- clase: tfg
+  bloque: direccion
+  title: Optimización de campañas de marketing mediante técnicas de clasificación
+  estudiante: Ángela Mellado Salinas
+  curso: 2025/2026
+  desde: 2025
+  hasta: 2025
+  fecha: '2025-12-12'
+- clase: tfg
+  bloque: direccion
+  title: Desarrollo de un sistema de recomendación de canciones basado en análisis de componentes principales y métodos de clasificación avanzados
+  estudiante: Rocío Pérez Jiménez
+  curso: 2024/2025
+  desde: 2025
+  hasta: 2025
+  fecha: '2025-07-25'
+- clase: tfg
+  bloque: direccion
+  title: 'VisorAnalytica: una plataforma R/Shiny para el análisis y predicción del comportamiento del consumidor para la toma de decisiones estratégicas'
+  estudiante: Aarón Aznar Valero
+  curso: 2024/2025
+  desde: 2025
+  hasta: 2025
+  fecha: '2025-06-27'
+- clase: tfg
+  bloque: direccion
+  title: 'Sistema de automatización y procesamiento inteligente para la traducción y maquetación de documentos bilingües: un enfoque basado en inteligencia artificial'
+  estudiante: Raúl Fuster Martínez
+  curso: 2024/2025
+  desde: 2025
+  hasta: 2025
+  fecha: '2025-06-27'
+  codirigido: true
+- clase: tfg
+  bloque: direccion
+  title: Automatización de informes estadísticos con Google Colab y Python
+  estudiante: Mario Goñi Arrivi
+  curso: 2024/2025
+  desde: 2025
+  hasta: 2025
+  fecha: '2025-06-27'
+- clase: tfg
+  bloque: direccion
+  title: 'Ictus bajo la lupa: analizando riesgos con Machine Learning'
+  estudiante: Carlos Pomares Guirao
+  curso: 2024/2025
+  desde: 2025
+  hasta: 2025
+  fecha: '2025-06-27'
+- clase: tfg
+  bloque: direccion
+  title: Explorando los factores del éxito y fracaso en startups
+  estudiante: Silvia Samper Perujo
+  curso: 2024/2025
+  desde: 2025
+  hasta: 2025
+  fecha: '2025-06-27'
+- clase: tfg
+  bloque: direccion
+  title: 'Análisis de las tendencias de compra a lo largo del tiempo: estudio de los datos de un mercado estadounidense'
+  estudiante: Aitana Bataller García
+  curso: 2024/2025
+  desde: 2025
+  hasta: 2025
+  fecha: '2025-02-27'
+- clase: tfg
+  bloque: direccion
+  title: Sistemas de recomendación en R y aplicación a datos reales
+  estudiante: Alba Lerma Micó
+  curso: 2023/2024
+  desde: 2024
+  hasta: 2024
+  fecha: '2024-07-05'
+- clase: tfg
+  bloque: direccion
+  title: Análisis de predicción en inversiones de deuda pública
+  estudiante: Alicia Díaz-Roncero Catalá
+  curso: 2023/2024
+  desde: 2024
+  hasta: 2024
+  fecha: '2024-07-05'
+- clase: tfg
+  bloque: direccion
+  title: Análisis sobre la evolución de la enfermedad del párkinson
+  estudiante: Inmaculada Ramírez López
+  curso: 2023/2024
+  desde: 2024
+  hasta: 2024
+  fecha: '2024-07-05'
+- clase: tfg
+  bloque: direccion
+  title: El cáncer de mama. Análisis, representación y clasificación según varios modelos de Machine Learning sobre una base de datos
+  estudiante: José Javier Lucena Muñoz
+  curso: 2022/2023
+  desde: 2023
+  hasta: 2023
+  fecha: '2023-07-07'
+- clase: tfg
+  bloque: direccion
+  title: Impacto del agotamiento emocional en los estudiantes del grado de Medicina
+  estudiante: Vidal Ocaña Alonso
+  curso: 2022/2023
+  desde: 2023
+  hasta: 2023
+  fecha: '2023-07-07'
+- clase: tfg
+  bloque: direccion
+  title: Evolución estadística de separaciones, nulidades y divorcios en los años 2013-2020
+  estudiante: Jorge Pliego Marín
+  curso: 2022/2023
+  desde: 2023
+  hasta: 2023
+  fecha: '2023-07-07'
+- clase: tfg
+  bloque: direccion
+  title: Aprendizaje automático para predecir cancelaciones hoteleras
+  estudiante: Inés Teresa Hernández Pastor
+  curso: 2021/2022
+  desde: 2022
+  hasta: 2022
+  fecha: '2022-07-05'
+- clase: tfg
+  bloque: direccion
+  title: 'Gamificación con Azure Kinect para la mejora de la condición física en personas de la tercera edad: uso de la inteligencia artificial en vídeos'
+  estudiante: Lidia Cecilia Madera Guerrón
+  curso: 2021/2022
+  desde: 2022
+  hasta: 2022
+  fecha: '2022-03-03'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 3º ESO
+  especialidad: Física y Química
+  curso: 2019/2020
+  id: tfm-2019-2020
+  desde: 2020
+  hasta: 2020
+  fecha: '2020-07-21'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 3º ESO
+  especialidad: Física y Química
+  curso: 2019/2020
+  id: tfm-2019-2020
+  desde: 2020
+  hasta: 2020
+  fecha: '2020-07-21'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 3° ESO
+  especialidad: Física y Química
+  curso: 2019/2020
+  id: tfm-2019-2020
+  desde: 2020
+  hasta: 2020
+  fecha: '2020-07-21'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 4º ESO
+  especialidad: Física y Química
+  curso: 2019/2020
+  id: tfm-2019-2020
+  desde: 2020
+  hasta: 2020
+  fecha: '2020-07-21'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 2º ESO
+  especialidad: Física y Química
+  curso: 2019/2020
+  id: tfm-2019-2020
+  desde: 2020
+  hasta: 2020
+  fecha: '2020-07-21'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 3º ESO
+  especialidad: Física y Química
+  curso: 2019/2020
+  id: tfm-2019-2020
+  desde: 2020
+  hasta: 2020
+  fecha: '2020-07-21'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 4º ESO
+  especialidad: Física y Química
+  curso: 2019/2020
+  id: tfm-2019-2020
+  desde: 2020
+  hasta: 2020
+  fecha: '2020-07-21'
+- clase: tfm
+  bloque: direccion
+  title: 'Programació didàctica Valencià: Llengua i Literatura. 4º ESO'
+  especialidad: Valenciano
+  curso: 2019/2020
+  id: tfm-2019-2020
+  desde: 2020
+  hasta: 2020
+  fecha: '2020-07-21'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 4º ESO
+  especialidad: Física y Química
+  curso: 2018/2019
+  id: tfm-2018-2019
+  desde: 2019
+  hasta: 2019
+  fecha: '2019-07-04'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Biología y Geología. 3º ESO
+  especialidad: Biología y Geología
+  curso: 2018/2019
+  id: tfm-2018-2019
+  desde: 2019
+  hasta: 2019
+  fecha: '2019-07-04'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 4º ESO
+  especialidad: Física y Química
+  curso: 2018/2019
+  id: tfm-2018-2019
+  desde: 2019
+  hasta: 2019
+  fecha: '2019-07-04'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Biología y Geología. 1º Bach.
+  especialidad: Biología y Geología
+  curso: 2018/2019
+  id: tfm-2018-2019
+  desde: 2019
+  hasta: 2019
+  fecha: '2019-07-04'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física. 2º Bachiller
+  especialidad: Física y Química
+  curso: 2018/2019
+  id: tfm-2018-2019
+  desde: 2019
+  hasta: 2019
+  fecha: '2019-07-04'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 4º ESO
+  especialidad: Física y Química
+  curso: 2017/2018
+  id: tfm-2017-2018
+  desde: 2018
+  hasta: 2018
+  fecha: '2018-09-19'
+- clase: tfg
+  bloque: direccion
+  title: Análisis del alumnado y resultados entre 2009 y 2016 para el Máster Universitario en Formación del Profesorado de ESO, Bach., FP y EI de la Universidad Miguel Hernández
+  estudiante: Javier Domingo Corbi
+  curso: 2018/2019
+  desde: 2018
+  hasta: 2018
+  fecha: '2018-09-18'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 3º ESO
+  especialidad: Física y Química
+  curso: 2017/2018
+  id: tfm-2017-2018
+  desde: 2018
+  hasta: 2018
+  fecha: '2018-07-09'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 3º ESO
+  especialidad: Física y Química
+  curso: 2017/2018
+  id: tfm-2017-2018
+  desde: 2018
+  hasta: 2018
+  fecha: '2018-07-09'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 3º ESO "Ida y vuelta a la materia"
+  especialidad: Física y Química
+  curso: 2017/2018
+  id: tfm-2017-2018
+  desde: 2018
+  hasta: 2018
+  fecha: '2018-07-09'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 3º ESO
+  especialidad: Física y Química
+  curso: 2017/2018
+  id: tfm-2017-2018
+  desde: 2018
+  hasta: 2018
+  fecha: '2018-07-09'
+- clase: tfm
+  bloque: direccion
+  title: Programació didàctica Física. 2º Batxillerat
+  especialidad: Física y Química
+  curso: 2017/2018
+  id: tfm-2017-2018
+  desde: 2018
+  hasta: 2018
+  fecha: '2018-07-09'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 3º ESO
+  especialidad: Física y Química
+  curso: 2017/2018
+  id: tfm-2017-2018
+  desde: 2018
+  hasta: 2018
+  fecha: '2018-07-09'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 3º ESO
+  especialidad: Física y Química
+  curso: 2017/2018
+  id: tfm-2017-2018
+  desde: 2018
+  hasta: 2018
+  fecha: '2018-07-09'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 2º ESO
+  especialidad: Física y Química
+  curso: 2016/2017
+  id: tfm-2016-2017
+  desde: 2017
+  hasta: 2017
+  fecha: '2017-09-19'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 3º ESO
+  especialidad: Física y Química
+  curso: 2016/2017
+  id: tfm-2016-2017
+  desde: 2017
+  hasta: 2017
+  fecha: '2017-09-19'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 1º Bachillerato
+  especialidad: Física y Química
+  curso: 2016/2017
+  id: tfm-2016-2017
+  desde: 2017
+  hasta: 2017
+  fecha: '2017-09-19'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 4º ESO
+  especialidad: Física y Química
+  curso: 2016/2017
+  id: tfm-2016-2017
+  desde: 2017
+  hasta: 2017
+  fecha: '2017-09-19'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 4º ESO
+  especialidad: Física y Química
+  curso: 2016/2017
+  id: tfm-2016-2017
+  desde: 2017
+  hasta: 2017
+  fecha: '2017-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programació didàctica Física i Química. 3º ESO
+  especialidad: Física y Química
+  curso: 2016/2017
+  id: tfm-2016-2017
+  desde: 2017
+  hasta: 2017
+  fecha: '2017-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 4º ESO "Ciencia, cultura de la duda"
+  especialidad: Física y Química
+  curso: 2016/2017
+  id: tfm-2016-2017
+  desde: 2017
+  hasta: 2017
+  fecha: '2017-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica de Física y Química. 1º Bachillerato
+  especialidad: Física y Química
+  curso: 2016/2017
+  id: tfm-2016-2017
+  desde: 2017
+  hasta: 2017
+  fecha: '2017-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 4º ESO
+  especialidad: Física y Química
+  curso: 2016/2017
+  id: tfm-2016-2017
+  desde: 2017
+  hasta: 2017
+  fecha: '2017-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 3º ESO
+  especialidad: Física y Química
+  curso: 2016/2017
+  id: tfm-2016-2017
+  desde: 2017
+  hasta: 2017
+  fecha: '2017-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Ciencias de la Tierra y el Medio Ambiente. 2º Bachillerato
+  especialidad: Biología y Geología
+  curso: 2016/2017
+  id: tfm-2016-2017
+  desde: 2017
+  hasta: 2017
+  fecha: '2017-03-01'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 1º Bachillerato
+  especialidad: Física y Química
+  curso: 2015/2016
+  id: tfm-2015-2016
+  desde: 2016
+  hasta: 2016
+  fecha: '2016-09-19'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 1º Bachillerato
+  especialidad: Física y Química
+  curso: 2015/2016
+  id: tfm-2015-2016
+  desde: 2016
+  hasta: 2016
+  fecha: '2016-07-08'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 3º ESO
+  especialidad: Física y Química
+  curso: 2015/2016
+  id: tfm-2015-2016
+  desde: 2016
+  hasta: 2016
+  fecha: '2016-07-08'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 1º Bachillerato
+  especialidad: Física y Química
+  curso: 2015/2016
+  id: tfm-2015-2016
+  desde: 2016
+  hasta: 2016
+  fecha: '2016-07-08'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 4º ESO
+  especialidad: Física y Química
+  curso: 2015/2016
+  id: tfm-2015-2016
+  desde: 2016
+  hasta: 2016
+  fecha: '2016-07-08'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 2º ESO
+  especialidad: Física y Química
+  curso: 2015/2016
+  id: tfm-2015-2016
+  desde: 2016
+  hasta: 2016
+  fecha: '2016-07-08'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 4º ESO "Ámbito científico"
+  especialidad: Física y Química
+  curso: 2015/2016
+  id: tfm-2015-2016
+  desde: 2016
+  hasta: 2016
+  fecha: '2016-07-08'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 3º ESO
+  especialidad: Física y Química
+  curso: 2015/2016
+  id: tfm-2015-2016
+  desde: 2016
+  hasta: 2016
+  fecha: '2016-07-08'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 4º ESO
+  especialidad: Física y Química
+  curso: 2014/2015
+  id: tfm-2014-2015
+  desde: 2015
+  hasta: 2015
+  fecha: '2015-07-14'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 4º ESO
+  especialidad: Física y Química
+  curso: 2014/2015
+  id: tfm-2014-2015
+  desde: 2015
+  hasta: 2015
+  fecha: '2015-07-14'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Matemáticas. 1º Bachillerato
+  especialidad: Matemáticas
+  curso: 2014/2015
+  id: tfm-2014-2015
+  desde: 2015
+  hasta: 2015
+  fecha: '2015-07-14'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 3º ESO
+  especialidad: Física y Química
+  curso: 2014/2015
+  id: tfm-2014-2015
+  desde: 2015
+  hasta: 2015
+  fecha: '2015-07-14'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 4º ESO
+  especialidad: Física y Química
+  curso: 2014/2015
+  id: tfm-2014-2015
+  desde: 2015
+  hasta: 2015
+  fecha: '2015-07-14'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Biología y Geología. 3º ESO
+  especialidad: Biología y Geología
+  curso: 2014/2015
+  id: tfm-2014-2015
+  desde: 2015
+  hasta: 2015
+  fecha: '2015-07-14'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Matemáticas. 2º ESO
+  especialidad: Matemáticas
+  curso: 2014/2015
+  id: tfm-2014-2015
+  desde: 2015
+  hasta: 2015
+  fecha: '2015-07-14'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Biología y Geología. 3º ESO
+  especialidad: Biología y Geología
+  curso: 2014/2015
+  id: tfm-2014-2015
+  desde: 2015
+  hasta: 2015
+  fecha: '2015-07-14'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Biología y Geología. 1º Bachillerato
+  especialidad: Biología y Geología
+  curso: 2014/2015
+  id: tfm-2014-2015
+  desde: 2015
+  hasta: 2015
+  fecha: '2015-07-14'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 4º ESO
+  especialidad: Física y Química
+  curso: 2014/2015
+  id: tfm-2014-2015
+  desde: 2015
+  hasta: 2015
+  fecha: '2015-07-14'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 4º ESO
+  especialidad: Física y Química
+  curso: 2014/2015
+  id: tfm-2014-2015
+  desde: 2015
+  hasta: 2015
+  fecha: '2015-07-14'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Matemáticas. 1º Bachillerato
+  especialidad: Matemáticas
+  curso: 2014/2015
+  id: tfm-2014-2015
+  desde: 2015
+  hasta: 2015
+  fecha: '2015-07-14'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Lengua y Literatura Castellana. 1º e…
+  especialidad: Lengua Castellana y Literatura
+  curso: 2013/2014
+  id: tfm-2013-2014
+  desde: 2014
+  hasta: 2014
+  fecha: '2014-07-07'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Lengua y Literatura Castellana. 4º …
+  especialidad: Lengua Castellana y Literatura
+  curso: 2013/2014
+  id: tfm-2013-2014
+  desde: 2014
+  hasta: 2014
+  fecha: '2014-07-07'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Lengua y Literatura Castellana. 1º e…
+  especialidad: Lengua Castellana y Literatura
+  curso: 2013/2014
+  id: tfm-2013-2014
+  desde: 2014
+  hasta: 2014
+  fecha: '2014-07-07'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Lengua y Literatura Castellana. 4º …
+  especialidad: Lengua Castellana y Literatura
+  curso: 2013/2014
+  id: tfm-2013-2014
+  desde: 2014
+  hasta: 2014
+  fecha: '2014-07-07'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Educación Física. 3º ESO
+  especialidad: Educación Física
+  curso: 2013/2014
+  id: tfm-2013-2014
+  desde: 2014
+  hasta: 2014
+  fecha: '2014-07-07'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Educación Física. 3º ESO
+  especialidad: Educación Física
+  curso: 2013/2014
+  id: tfm-2013-2014
+  desde: 2014
+  hasta: 2014
+  fecha: '2014-07-07'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Educación Física. 4º ESO
+  especialidad: Educación Física
+  curso: 2013/2014
+  id: tfm-2013-2014
+  desde: 2014
+  hasta: 2014
+  fecha: '2014-07-07'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Lengua y Literatura Castellana. 4º …
+  especialidad: Lengua Castellana y Literatura
+  curso: 2013/2014
+  id: tfm-2013-2014
+  desde: 2014
+  hasta: 2014
+  fecha: '2014-07-07'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Lengua y Literatura Castellana. 4º …
+  especialidad: Lengua Castellana y Literatura
+  curso: 2013/2014
+  id: tfm-2013-2014
+  desde: 2014
+  hasta: 2014
+  fecha: '2014-07-07'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Lengua y Literatura Castellana. 2º e…
+  especialidad: Lengua Castellana y Literatura
+  curso: 2013/2014
+  id: tfm-2013-2014
+  desde: 2014
+  hasta: 2014
+  fecha: '2014-07-07'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Lengua y Literatura Castellana. 4º …
+  especialidad: Lengua Castellana y Literatura
+  curso: 2013/2014
+  id: tfm-2013-2014
+  desde: 2014
+  hasta: 2014
+  fecha: '2014-07-07'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Educación Física. 3º ESO
+  especialidad: Educación Física
+  curso: 2012/2013
+  id: tfm-2012-2013
+  desde: 2013
+  hasta: 2013
+  fecha: '2013-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Educación Física. 4º ESO
+  especialidad: Educación Física
+  curso: 2012/2013
+  id: tfm-2012-2013
+  desde: 2013
+  hasta: 2013
+  fecha: '2013-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Educación Física. 4º ESO
+  especialidad: Educación Física
+  curso: 2012/2013
+  id: tfm-2012-2013
+  desde: 2013
+  hasta: 2013
+  fecha: '2013-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Educación Física. 4º ESO
+  especialidad: Educación Física
+  curso: 2012/2013
+  id: tfm-2012-2013
+  desde: 2013
+  hasta: 2013
+  fecha: '2013-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Educación Física. 4º ESO
+  especialidad: Educación Física
+  curso: 2012/2013
+  id: tfm-2012-2013
+  desde: 2013
+  hasta: 2013
+  fecha: '2013-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Educación Física. 1º ESO
+  especialidad: Educación Física
+  curso: 2012/2013
+  id: tfm-2012-2013
+  desde: 2013
+  hasta: 2013
+  fecha: '2013-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Educación Física. 4º ESO
+  especialidad: Educación Física
+  curso: 2012/2013
+  id: tfm-2012-2013
+  desde: 2013
+  hasta: 2013
+  fecha: '2013-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Educación Física. 4º ESO
+  especialidad: Educación Física
+  curso: 2012/2013
+  id: tfm-2012-2013
+  desde: 2013
+  hasta: 2013
+  fecha: '2013-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Educación Física. 1º ESO
+  especialidad: Educación Física
+  curso: 2011/2012
+  id: tfm-2011-2012
+  desde: 2012
+  hasta: 2012
+  fecha: '2012-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Biología y Geología 3º ESO
+  especialidad: Biología y Geología
+  curso: 2011/2012
+  id: tfm-2011-2012
+  desde: 2012
+  hasta: 2012
+  fecha: '2012-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Educación Física. 3º ESO
+  especialidad: Educación Física
+  curso: 2011/2012
+  id: tfm-2011-2012
+  desde: 2012
+  hasta: 2012
+  fecha: '2012-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica módulo Comunicación y Expresión…
+  especialidad: Formación Profesional
+  curso: 2011/2012
+  id: tfm-2011-2012
+  desde: 2012
+  hasta: 2012
+  fecha: '2012-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Educación Plástica y Visual. 3º ESO
+  especialidad: Dibujo y Educación Plástica
+  curso: 2011/2012
+  id: tfm-2011-2012
+  desde: 2012
+  hasta: 2012
+  fecha: '2012-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica módulo Formación y Orientación L…
+  especialidad: Formación Profesional
+  curso: 2011/2012
+  id: tfm-2011-2012
+  desde: 2012
+  hasta: 2012
+  fecha: '2012-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica módulo Dispensación de Producto…
+  especialidad: Formación Profesional
+  curso: 2011/2012
+  id: tfm-2011-2012
+  desde: 2012
+  hasta: 2012
+  fecha: '2012-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Orientación Educativa e Intervenci…
+  especialidad: Orientación Educativa
+  curso: 2011/2012
+  id: tfm-2011-2012
+  desde: 2012
+  hasta: 2012
+  fecha: '2012-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Educación Plástica y Visual 1º ESO
+  especialidad: Dibujo y Educación Plástica
+  curso: 2011/2012
+  id: tfm-2011-2012
+  desde: 2012
+  hasta: 2012
+  fecha: '2012-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Biología y Geología. 3º ESO
+  especialidad: Biología y Geología
+  curso: 2011/2012
+  id: tfm-2011-2012
+  desde: 2012
+  hasta: 2012
+  fecha: '2012-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Física y Química. 4º ESO
+  especialidad: Física y Química
+  curso: 2011/2012
+  id: tfm-2011-2012
+  desde: 2012
+  hasta: 2012
+  fecha: '2012-07-10'
+- clase: tfm
+  bloque: direccion
+  title: Programación didáctica Filosofía y Ciudadanía. ESO y bachil…
+  especialidad: Filosofía
+  curso: 2011/2012
+  id: tfm-2011-2012
+  desde: 2012
+  hasta: 2012
+  fecha: '2012-07-10'

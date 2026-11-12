@@ -4,14 +4,14 @@
 const HOY = new Date().getFullYear(), Y0 = 1993, Y1 = HOY + 1, SPAN = Y1 - Y0;
 const pc = (y) => ((y - Y0) / SPAN * 100).toFixed(2);
 const slug = (t) => String(t).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40);
-const esPro = (i) => i.categoria === 'Innovación docente' || i.categoria === 'Competencia digital';
+const esPro = (i) => i.categoria === 'Innovación docente' || i.categoria === 'Materiales formativos';
 const filas = [
   { id: 'grado', title: 'Grado y licenciaturas', sel: (i) => i.bloque === 'grado' || i.bloque === 'licenciatura' },
   { id: 'postgrado', title: 'Postgrado', sel: (i) => i.bloque === 'postgrado' },
   { id: 'continua', title: 'Formación continua', sel: (i) => i.bloque === 'continua' },
   { id: 'profesorado', title: 'Formación del profesorado', sel: (i) => i.bloque === 'profesorado' },
   { id: 'innovacion', title: 'Innovación y proyectos formativos', sel: (i) => esPro(i) && i.desde },
-  { id: 'direccion', title: 'Trabajos fin de grado', sel: (i) => i.bloque === 'direccion', puntos: true }
+  { id: 'direccion', title: 'Trabajos fin de estudios dirigidos', sel: (i) => i.bloque === 'direccion', puntos: true }
 ];
 const etapas = items.filter(i => i.clase === 'etapa');
 const gest = etapas.find(e => e.gestion);
@@ -23,7 +23,8 @@ const norma = (i) => {
   const actual = pro ? i.estado === 'Activo' : (!i.hasta || Number(i.hasta) > HOY);
   let h = pro ? (i.hasta ? Number(i.hasta) + 1 : (actual ? Y1 : d + 1)) : (i.hasta ? Math.max(Number(i.hasta), d + 1) : Y1);
   h = Math.min(h, Y1);
-  const anios = i.anios || (pro || i.hasta ? (Number(i.hasta || d) === d ? String(d) : d + '–' + i.hasta) : d + '–hoy');
+  const hh = Number(i.hasta || d);
+  const anios = (!pro && i.anios) || (i.hasta || pro ? (hh === d ? String(d) : d + '–' + hh) : d + '–hoy') + (pro && actual ? '–hoy' : '');
   return { i, d, h, actual, anios, href: '#' + (i.id || (pro ? 'pro-' + slug(i.title) : 'doc-' + d + '-' + slug(i.title))) };
 };
 %>
@@ -49,13 +50,13 @@ const norma = (i) => {
   const xs = items.filter(f.sel).map(norma).sort((a, b) => a.d - b.d || b.h - a.h);
   if (!xs.length) continue;
   const fin = [];
-  if (f.puntos) { const pila = {}; for (const x of xs) { x.r = pila[x.d] = (pila[x.d] || 0) + 1; } const alto = Math.max(...Object.values(pila)); fin.length = 0; for (let k = 0; k < Math.ceil(alto * 13 / 21); k++) fin.push(0); f.alto = alto; }
+  if (f.puntos) { xs.sort((a, b) => a.d - b.d || (a.i.clase === 'tfg' ? -1 : 1)); const pila = {}; for (const x of xs) { x.r = pila[x.d] = (pila[x.d] || 0) + 1; } const alto = Math.max(...Object.values(pila)); fin.length = 0; for (let k = 0; k < Math.ceil(alto * 13 / 21); k++) fin.push(0); f.alto = alto; }
   else for (const x of xs) { let r = fin.findIndex(v => v <= x.d); if (r < 0) { r = fin.length; fin.push(0); } fin[r] = x.h; x.r = r; }
 %>
 <div class="tl-row d-<%= f.id %>">
 <div class="tl-lab"><a href="#<%= f.id %>"><%= f.title %></a><span class="tl-per"><%= Math.min(...xs.map(x => x.d)) %>–<%= xs.some(x => x.actual) ? 'hoy' : Math.max(...xs.map(x => x.h)) - 1 %></span></div>
 <div class="tl-track" style="height:<%= fin.length * 21 + 3 %>px"><%= rejilla %>
-<% if (f.puntos) { for (const x of xs) { %><a class="tl-p" href="<%- x.href %>" style="left:<%= pc(x.d + 0.5) %>%;top:<%= (f.alto - x.r) * 13 + 4 %>px" title="<%- x.d + ' · ' + x.i.title + (x.i.estudiante ? ' (' + x.i.estudiante + ')' : '') %>"><span class="visually-hidden"><%- x.d + ' · ' + x.i.title %></span></a><% } } else { %><% for (const x of xs) { %><a class="dl-b<%= x.actual ? ' actual' : '' %>" href="<%- x.href %>" style="left:<%= pc(x.d) %>%;width:<%= pc(x.h - x.d + Y0) %>%;top:<%= x.r * 21 + 2 %>px" title="<%- x.anios + ' · ' + x.i.title %>"><% if (x.h - x.d >= 3) { %><%= x.i.corto || x.i.title %><% } else { %><span class="visually-hidden"><%- x.anios + ' · ' + x.i.title %></span><% } %><% } %></a><% } %>
+<% if (f.puntos) { for (const x of xs) { %><a class="tl-p<%= x.i.clase === 'tfm' ? ' tfm' : '' %>" href="<%- x.href %>" style="left:<%= pc(x.d + 0.5) %>%;top:<%= (f.alto - x.r) * 13 + 4 %>px" title="<%- x.d + ' · ' + (x.i.clase === 'tfm' ? 'TFM · ' : 'TFG · ') + x.i.title + (x.i.estudiante ? ' (' + x.i.estudiante + ')' : '') %>"><span class="visually-hidden"><%- x.d + ' · ' + x.i.title %></span></a><% } } else { %><% for (const x of xs) { %><a class="dl-b<%= x.actual ? ' actual' : '' %>" href="<%- x.href %>" style="left:<%= pc(x.d) %>%;width:<%= pc(x.h - x.d + Y0) %>%;top:<%= x.r * 21 + 2 %>px" title="<%- x.anios + ' · ' + x.i.title %>"><% if (x.h - x.d >= 3) { %><%= x.i.corto || x.i.title %><% } else { %><span class="visually-hidden"><%- x.anios + ' · ' + x.i.title %></span><% } %><% } %></a><% } %>
 </div>
 </div>
 <% } %>
@@ -63,4 +64,4 @@ const norma = (i) => {
 </div>
 </div>
 
-<p class="tl-leyenda"><span><i class="k-b actual"></i> en curso</span><span><i class="k-b"></i> impartida en años anteriores</span><span><i class="k-p"></i> trabajo fin de grado</span><span><i class="k-g"></i> años de gestión universitaria</span></p>
+<p class="tl-leyenda"><span><i class="k-b actual"></i> en curso</span><span><i class="k-b"></i> impartida en años anteriores</span><span><i class="k-p"></i> TFG dirigido</span><span><i class="k-p tfm"></i> TFM dirigido</span><span><i class="k-g"></i> años de gestión universitaria</span></p>

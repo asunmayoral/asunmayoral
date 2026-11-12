@@ -23,8 +23,8 @@ Casada con otro estadístico de la UMH, tres hijos, dos perros y un proyecto de 
 
 ::: {.linea-tiempo}
 - [2022–]{.anio} Coordinación desde la UMH, en colaboración con la UV y con el patrocinio del IVE, del Concurso Valenciano de Estadística para la Ciencia de Datos, [Va de Dades!](https://vadedades.umh.es/)
-- [2021–]{.anio} Integración en el proyecto [IA4legos](https://ia4legos.umh.es/) para la formación en Inteligencia Artificial y Ciencia de Datos con Python.
-- [2021–2022]{.anio} Coordinación desde la UMH del proyecto [Unidigital-Prodigital](https://unidigital.umh.es/prodigital) para la capacitación digital docente y de la ciudadanía (fondos UE Unidigital).
+- [2023–2025]{.anio} Cursos de formación continua en la UMH dentro del programa [IA4legos](https://ia4legos.umh.es/), de formación en inteligencia artificial y ciencia de datos con Python.
+- [2021–2022]{.anio} IP en la UMH del proyecto [Prodigital](https://unidigital.umh.es/prodigital/) y participación en [IASAC](https://unidigital.umh.es/iasac/) y [Simustat](https://unidigitalsimustat.umh.es/proyecto/), dentro de [Unidigital UMH](https://unidigital.umh.es/): materiales formativos para la competencia digital, la inteligencia artificial y la estadística con Python (fondos UE del Plan de Recuperación).
 - [2020–]{.anio} De nuevo solo profesora que disfruta aprendiendo.
 - [2014–2017]{.anio} Directora del Título de Experto Universitario UMH en Innovación Tecnológica en Educación.
 - [2011–2020]{.anio} Coordinadora de la asignatura TICs para la docencia y el aprendizaje en Secundaria, Máster de Profesorado.

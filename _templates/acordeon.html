@@ -7,7 +7,7 @@
     if (!el) return;
     var d = el.closest('details');
     if (!d) return;
-    if (!d.open) d.open = true;
+    for (var p = d; p; p = p.parentElement && p.parentElement.closest('details')) p.open = true;
     el.scrollIntoView({ block: el.tagName === 'DETAILS' ? 'start' : 'center' });
   }
   window.addEventListener('hashchange', abrir);

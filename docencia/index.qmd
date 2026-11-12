@@ -9,6 +9,7 @@ listing:
   - id: doc-tiempo
     contents:
       - docencia.yml
+      - trabajos.yml
       - ../proyectos/proyectos.yml
       - ../investigacion/investigacion.yml
     template: ../_templates/docencia-tiempo.ejs
@@ -16,6 +17,7 @@ listing:
   - id: doc-bloques
     contents:
       - docencia.yml
+      - trabajos.yml
       - ../proyectos/proyectos.yml
     template: ../_templates/docencia-bloques.ejs
     page-size: 500

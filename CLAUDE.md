@@ -56,7 +56,7 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
 ### Añadir o actualizar un proyecto
 Entrada en `proyectos/proyectos.yml` (los campos están descritos al principio del fichero).
 - `categoria` decide la página (los tres perfiles del menú: Docencia, Investigación, Divulgación):
-  - `Innovación docente` y `Competencia digital` → acordeón «Innovación docente y proyectos formativos» de `docencia/index.qmd`.
+  - `Innovación docente` y `Materiales formativos` → acordeón «Innovación docente y proyectos formativos» de `docencia/index.qmd`. `Materiales formativos` son los proyectos de generación de materiales de Unidigital UMH (fondos UE del Plan de Recuperación, 2021-2022): Prodigital (IP), IASAC y Simustat. IA4legos es un programa de cursos y está en Docencia › Formación continua (2023-2025).
   - `Divulgación` (concursos, ferias, jornadas, congresos de estudiantes) → `divulgacion/index.qmd`.
   - `Investigación` y `Contratos` → `investigacion/index.qmd`, dentro de su `linea` (sin `linea` van a «Otras ayudas»).
   - Un proyecto docente que generó publicaciones lleva además `linea`, `desde` y `hasta` y aparece también en Investigación (ADAS, PIC, TFGi).
@@ -80,7 +80,7 @@ La página `investigacion/index.qmd` no se edita para añadir contenido: se gene
 ### Docencia
 La página `docencia/index.qmd` no se edita para añadir contenido: se genera con tres plantillas (`_templates/docencia-*.ejs`).
 - Grado, licenciaturas y másteres de la UMH están confirmados por Asun con el CVN de docencia (nov. 2026); no se añaden asignaturas UMH que no estén ahí sin preguntar.
-- **Trabajos fin de grado**: `bloque: direccion` con `estudiante`, `calificacion` y `repositorio` (enlace a RediUMH, vacío si aún no lo hay). En la línea temporal salen como puntos.
+- **TFG y TFM dirigidos**: la fuente es `fuentes/TFG_TFM_dirigidos.xlsx` (excluida de git: tiene notas). Pestañas TFG y TFM; las columnas «Título (web)» y «Estudiante (web)» son lo que se publica. Tras cambiar la hoja: `python3 scripts/trabajos_desde_excel.py`, que regenera `docencia/trabajos.yml` (no se edita a mano). Se publica: TFG con título, estudiante, curso, codirección y enlace a RediUMH (columna «Repositorio (RediUMH)»); TFM solo resumidos por especialidad y con la lista de títulos por curso, sin nombres. Nunca se publican notas. En la línea temporal salen como puntos (TFG rellenos, TFM huecos).
 - **Tesis doctorales dirigidas**: no van en Docencia, sino en `investigacion/investigacion.yml` (`clase: tesis`, `autores: "Nombre (tesis dirigida)"`); el acordeón de TFG enlaza a Investigación.
 - **Asignatura o curso nuevo**: una entrada en `docencia/docencia.yml` (los campos están descritos al principio del fichero): `title`, `bloque` (grado | licenciatura | postgrado | continua | profesorado | direccion), `desde`, `hasta`, `detalle`, `enlaces`.
 - Sin `hasta` (o con `hasta` posterior al año actual) la entrada está **en curso**: barra de tono fuerte en la línea temporal y etiqueta «En curso». Cuando deja de impartirse, se añade `hasta`.
@@ -89,6 +89,7 @@ La página `docencia/index.qmd` no se edita para añadir contenido: se genera co
 - La docencia oficial en la UMH se ajusta al CVN de docencia. Lo retirado y la versión anterior de lo corregido están en `docencia/docencia-retiradas.yml`, que ninguna página lee. La formación fuera de la UMH y en títulos propios no se contrasta con el CVN.
 - Del Máster de Formación del Profesorado solo se muestra «TICs para la docencia y el aprendizaje».
 - `docencia/docencia-cvn.yml` es la docencia tal como figura en el CVN de docencia UMH, con el mismo esquema más `en_web` y `cvn` (datos de ayuda). Sirve para revisar; ninguna página lo lee. Se regenera con `scripts/cvn_docencia.py` (instrucciones al principio del script).
+- Un programa que agrupa varios cursos (IA4legos) lleva `cursos` (lista de `anio`, `title`, `horas`).
 - Un curso con varias ediciones lleva `ediciones` (lista de `anio`, `programa`, `universidad`) y sale con su tabla.
 - `corto` es el nombre abreviado de la barra; `id` fija el ancla si otra página enlaza a la entrada (Divulgación enlaza a `comunicacion-cientifica` y `comunicacion-web`).
 - El orden de las listas es automático (en curso primero; luego de lo más reciente a lo más antiguo).

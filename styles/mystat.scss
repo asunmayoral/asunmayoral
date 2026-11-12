@@ -354,3 +354,13 @@ details.acordeon[class*="d-"] { scroll-margin-top: 5rem; }
 .tag.t-lenguaje { font-family: "JetBrains Mono", monospace; font-size: .76rem; background: #fff; border: 1.5px solid currentColor; }
 .tag.t-r { color: #2C628A; }
 .tag.t-python { color: #2F6E50; }
+
+// Trabajos fin de estudios
+.tl-p.tfm { background: #fff; border: 2px solid var(--p); }
+.tl-leyenda .k-p.tfm { background: #fff; border: 2px solid $tinta; width: 10px; height: 10px; }
+table.tfm-esp { width: auto; min-width: 18rem; font-size: .92rem; margin: .4rem 0 1rem; }
+table.tfm-esp td:last-child, table.tfm-esp th:last-child { text-align: right; padding-left: 2rem; }
+details.tfm-lista { border: 1px solid $linea; border-radius: .5rem; padding: .5rem 1rem; margin: 0 0 1rem; background: #fff; }
+details.tfm-lista > summary { cursor: pointer; font-weight: 700; color: var(--p, $tinta); }
+details.tfm-lista h4 { font-size: 1rem; margin: 1rem 0 .3rem; }
+details.tfm-lista ul { margin: 0; padding-left: 1.2rem; font-size: .92rem; color: $gris; }

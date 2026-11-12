@@ -6,6 +6,11 @@ const actual = (i) => !i.hasta || Number(i.hasta) > HOY;
 const fin = (i) => i.hasta ? Number(i.hasta) : 9999;
 const orden = (a, b) => (actual(b) - actual(a)) || (fin(b) - fin(a)) || (Number(a.desde) - Number(b.desde));
 const de = (b) => items.filter(i => i.bloque === b).sort(orden);
+const tfg = items.filter(i => i.clase === 'tfg').sort((a, b) => String(b.fecha).localeCompare(String(a.fecha)));
+const tfm = items.filter(i => i.clase === 'tfm');
+const cursosTfm = [...new Set(tfm.map(i => i.curso))].sort().reverse();
+const esps = Object.entries(tfm.reduce((m, i) => (m[i.especialidad] = (m[i.especialidad] || 0) + 1, m), {})).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+const aniosTodos = items.filter(i => i.bloque === 'direccion').map(i => Number(i.desde));
 const pro = (c) => items.filter(i => i.categoria === c).sort((a, b) => Number(b.orden) - Number(a.orden));
 const anios = (i) => i.anios || (i.hasta ? (Number(i.hasta) === Number(i.desde) ? String(i.desde) : i.desde + '–' + i.hasta) : i.desde + '–');
 const bloques = [
@@ -13,10 +18,10 @@ const bloques = [
   { id: 'postgrado', title: 'Postgrado', partes: [{ t: '', xs: de('postgrado') }] },
   { id: 'continua', title: 'Formación continua', partes: [{ t: '', xs: de('continua') }] },
   { id: 'profesorado', title: 'Formación del profesorado', partes: [{ t: '', xs: de('profesorado') }] },
-  { id: 'innovacion', title: 'Innovación docente y proyectos formativos', partes: [{ t: 'Proyectos de innovación docente', ps: pro('Innovación docente') }, { t: 'Competencia digital y proyectos formativos', ps: pro('Competencia digital') }],
+  { id: 'innovacion', title: 'Innovación docente y proyectos formativos', partes: [{ t: 'Proyectos de innovación docente', ps: pro('Innovación docente') }, { t: 'Proyectos de generación de materiales formativos', ps: pro('Materiales formativos'),
+      intro: 'Prodigital, IASAC y Simustat forman parte de <a href="https://unidigital.umh.es/">Unidigital UMH</a>, la parte de la UMH del Plan UniDigital: el programa nacional, con fondos europeos de recuperación, para modernizar y digitalizar la universidad pública.' }],
     nota: 'Algunos de estos proyectos dieron lugar a publicaciones: están en la línea «Educación, innovación y espacios educativos» de <a href="../investigacion/index.html#linea-educacion">Investigación</a>.' },
-  { id: 'direccion', title: 'Trabajos fin de grado dirigidos', partes: [{ t: '', xs: de('direccion') }],
-    nota: 'Las tesis doctorales que he dirigido están en <a href="../investigacion/index.html">Investigación</a>, dentro de su línea de trabajo.' }
+  { id: 'direccion', title: 'Dirección de trabajos fin de estudios', trabajos: true, partes: [] }
 ];
 %>
 <% for (const b of bloques) { %>
@@ -24,9 +29,11 @@ const bloques = [
 <summary><%= b.title %></summary>
 <% for (const p of b.partes) { %>
 <% if (p.t) { %><h3><%= p.t %></h3><% } %>
+<% if (p.intro) { %><p><%= p.intro %></p><% } %>
 <% for (const i of (p.xs || [])) { %>
 <div class="asig" id="<%= i.id || ('doc-' + i.desde + '-' + slug(i.title)) %>">
 <p><span class="anio"><%= anios(i) %></span> <% if (actual(i) && i.bloque !== 'direccion') { %><span class="tag t-activo">En curso</span> <% } %><strong><%= i.title %></strong><% if (i.detalle) { %>. <%= i.detalle %><% } %><% if (i.estudiante) { %> de <%= i.estudiante %><% } %><% if (i.calificacion) { %> (<%= i.calificacion %>)<% } %>.<% if (i.repositorio) { %> · <a href="<%- i.repositorio %>">repositorio</a><% } %><% for (const e of (i.enlaces || []).filter(e => e.url)) { %> · <a href="<%- e.url %>"><%= e.texto %></a><% } %></p>
+<% if (i.cursos && i.cursos.length) { %><ul class="detalle"><% for (const c of i.cursos) { %><li><%= c.anio %> · <%= c.title %><% if (c.horas) { %> (<%= c.horas %>)<% } %></li><% } %></ul><% } %>
 <% if (i.ediciones && i.ediciones.length) { %><div class="ediciones"><table class="table"><thead><tr><th>Año</th><th>Programa de doctorado</th><th>Universidad</th></tr></thead><tbody><% for (const e of i.ediciones) { %><tr><td><%= e.anio %></td><td><%= e.programa %></td><td><%- e.universidad %></td></tr><% } %></tbody></table></div><% } %>
 </div>
 <% } %>
@@ -39,5 +46,25 @@ const bloques = [
 <% } %>
 <% } %>
 <% if (b.nota) { %><p><%= b.nota %></p><% } %>
+<% if (b.trabajos) { %>
+<p class="inv-cifras"><span><strong><%= tfg.length %></strong> TFG</span><span><strong><%= tfm.length %></strong> TFM</span><span><strong><%= Math.min(...aniosTodos) %>–<%= Math.max(...aniosTodos) %></strong></span></p>
+<h3>Trabajos fin de grado</h3>
+<% for (const i of tfg) { %>
+<div class="asig" id="doc-<%= i.desde %>-<%= slug(i.title) %>">
+<p><span class="anio"><%= i.curso %></span> <strong><%= i.title %></strong>. <%= i.estudiante %><% if (i.codirigido) { %> (codirección)<% } %>.<% if (i.repositorio) { %> · <a href="<%- i.repositorio %>">repositorio</a><% } %></p>
+</div>
+<% } %>
+<h3>Trabajos fin de máster</h3>
+<p>Los <%= tfm.length %> TFM son del Máster Universitario en Formación del Profesorado de ESO y Bachillerato, FP y Enseñanzas de Idiomas (UMH), entre los cursos <%= cursosTfm[cursosTfm.length - 1] %> y <%= cursosTfm[0] %>. Casi todos son programaciones didácticas.</p>
+<table class="table tfm-esp"><thead><tr><th>Especialidad</th><th>TFM</th></tr></thead><tbody><% for (const [e, k] of esps) { %><tr><td><%= e %></td><td><%= k %></td></tr><% } %></tbody></table>
+<details class="tfm-lista">
+<summary>Ver los <%= tfm.length %> títulos, por curso</summary>
+<% for (const c of cursosTfm) { const ts = tfm.filter(i => i.curso === c); %>
+<h4 id="tfm-<%= c.replace('/', '-') %>"><%= c %> <span class="pie">(<%= ts.length %>)</span></h4>
+<ul><% for (const i of ts) { %><li><%= i.title %></li><% } %></ul>
+<% } %>
+</details>
+<p>Las tesis doctorales que he dirigido están en <a href="../investigacion/index.html">Investigación</a>, dentro de su línea de trabajo.</p>
+<% } %>
 </details>
 <% } %>

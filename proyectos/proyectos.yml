@@ -2,7 +2,7 @@
 # según su `categoria`. Fuente principal: CVN de Asun (completo, dic. 2025) y entradas del blog.
 # Campos:
 #   title        nombre del proyecto
-#   categoria    Innovación docente | Competencia digital (salen en Docencia) · Divulgación (sale en Divulgación)
+#   categoria    Innovación docente | Materiales formativos (salen en Docencia) · Divulgación (sale en Divulgación)
 #                · Investigación | Contratos (salen en Investigación)
 #   estado       Activo | Histórico   (los activos salen también en la portada)
 #   anios        texto con las fechas ("2021-2022", "Desde 2022-23")
@@ -21,47 +21,46 @@
 #   mas_texto    (opcional) texto de ese segundo enlace
 #   mas2, mas2_texto (opcional) un tercer enlace y su texto
 
-# =================== Competencia digital ===================
-- title: "Unidigital-Prodigital"
-  categoria: Competencia digital
+# =================== Materiales formativos (Unidigital UMH) ===================
+- title: "Prodigital (Unidigital UMH)"
+  categoria: Materiales formativos
   estado: Histórico
   anios: "2021-2022"
-  orden: 2021
+  orden: 2021.5
   desde: 2021
   hasta: 2022
-  description: "Proyecto interuniversitario de generación de recursos de aprendizaje en abierto para el desarrollo de la competencia digital de la ciudadanía (DigComp) y de la competencia digital docente (DigCompEdu). En la UMH desarrollamos el área 2 de ambos marcos: comunicación y colaboración, y contenidos digitales. Con las contribuciones de todas las universidades valencianas participantes se construyó la plataforma común Prodigital."
-  papel: "Coordinación desde la UMH, con F. Botella, F. Montiel y J. Américo"
-  financiacion: "Fondos UE Unidigital, Plan de Recuperación, Transformación y Resiliencia"
-  path: https://unidigital.umh.es/prodigital
-  mas: https://uni-prodigital.es/prodigital-api/rest/inicio
-  mas_texto: "Plataforma Prodigital de las universidades valencianas"
+  description: "«Evaluación, desarrollo y certificación de la competencia digital de la comunidad universitaria», proyecto interuniversitario coordinado por la Universitat Jaume I. En la UMH generamos recursos de aprendizaje en abierto para la competencia digital de la ciudadanía (DigComp) y la competencia digital docente (DigCompEdu), en el área 2 de ambos marcos: comunicación y colaboración, y contenidos digitales. Con las contribuciones de las universidades participantes se construyó la plataforma común Prodigital."
+  papel: "IP en la UMH: A. M. Mayoral, con F. Botella, F. Montiel y J. Américo"
+  financiacion: "Unidigital UMH, fondos UE del Plan de Recuperación, Transformación y Resiliencia"
+  path: https://unidigital.umh.es/prodigital/
+  mas: https://uni-prodigital.es/
+  mas_texto: "Plataforma Prodigital"
   mas2: /blog/posts/2026-11-07-cursos-unidigital-prodigital/index.html
   mas2_texto: "Nuestros cursos y recursos"
 
-- title: "Simustat"
-  categoria: Competencia digital
+- title: "IASAC: Inteligencia Artificial y Sistemas Autónomos Cognitivos (Unidigital UMH)"
+  categoria: Materiales formativos
   estado: Histórico
-  anios: "Unidigital"
-  orden: 2022
-  desde: 2022
+  anios: "2021-2022"
+  orden: 2021.4
+  desde: 2021
+  hasta: 2022
+  description: "Proyecto interuniversitario coordinado por la Universidad de Zaragoza para enseñar inteligencia artificial en todas las disciplinas, no solo en informática. En la UMH se elaboraron materiales formativos de Machine Learning y Deep Learning."
+  papel: "Colaboración"
+  financiacion: "Unidigital UMH, fondos UE del Plan de Recuperación, Transformación y Resiliencia"
+  path: https://unidigital.umh.es/iasac/
+
+- title: "Simustat (Unidigital UMH)"
+  categoria: Materiales formativos
+  estado: Histórico
+  anios: "2021-2022"
+  orden: 2021.3
+  desde: 2021
   hasta: 2022
   description: "Proyecto abierto de contenidos formativos sobre programación y estadística con Python."
   papel: "Con F. Borrás, F. Botella, J. Moltó, J. Morales e I. Hernández"
-  financiacion: "Fondos europeos Unidigital"
+  financiacion: "Unidigital UMH, fondos UE del Plan de Recuperación, Transformación y Resiliencia"
   path: https://unidigitalsimustat.umh.es/proyecto/
-
-- title: "IA4legos"
-  categoria: Competencia digital
-  estado: Histórico
-  anios: "Iniciado en 2021"
-  orden: 2021
-  desde: 2021
-  hasta: 2021
-  description: "Formación en Inteligencia Artificial y Ciencia de Datos con Python para públicos diversos."
-  papel: "Equipo docente"
-  path: https://ia4legos.umh.es/
-  mas: /blog/posts/2024-01-10-ia-para-todos-en-ia4legos/index.html
-  mas_texto: "IA para todos en IA4LEGOS"
 
 # =================== Innovación docente ===================
 - title: "Va de Dades!"
