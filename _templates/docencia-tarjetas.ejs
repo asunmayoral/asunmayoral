@@ -1,16 +1,17 @@
 <%
 // Tarjetas de «Asignaturas que imparto»: entradas de docencia.yml con `tarjeta: true`.
-// `titulacion` y `path` son opcionales: sin ellos se usa el nombre del bloque y el primer enlace de la entrada.
+// Arriba va la titulación (lo que hay en `detalle` antes del primer punto, o `titulacion` si existe) y debajo el resto del detalle.
+// `path` es opcional: sin él, el título enlaza al primer enlace de la entrada.
 const nombres = { grado: 'Grado', licenciatura: 'Licenciatura', postgrado: 'Postgrado', continua: 'Formación continua', profesorado: 'Formación del profesorado' };
 const ordenB = ['grado', 'postgrado', 'continua', 'profesorado'];
 const sel = items.filter(i => i.tarjeta).sort((a, b) => (ordenB.indexOf(a.bloque) - ordenB.indexOf(b.bloque)) || (Number(a.desde) - Number(b.desde)));
 %>
 <div class="tarjetas">
-<% for (const item of sel) { const url = item.path || (item.enlaces && item.enlaces.length ? item.enlaces[0].url : ''); %>
+<% for (const item of sel) { const url = item.path || (item.enlaces && item.enlaces.length ? item.enlaces[0].url : ''); const det = String(item.detalle || ''); const k = det.indexOf('. '); const tit = item.titulacion || (k > 0 ? det.slice(0, k) : det) || nombres[item.bloque] || ''; const resto = item.titulacion ? det : (k > 0 ? det.slice(k + 2) : ''); %>
 <div class="tarjeta">
-<span class="pie"><%= item.titulacion || nombres[item.bloque] || '' %> · desde <%= item.desde %></span>
+<span class="pie"><%= tit %> · desde <%= item.desde %></span>
 <h3><% if (url) { %><a href="<%- url %>"><%= item.title %></a><% } else { %><%= item.title %><% } %></h3>
-<% if (item.detalle) { %><p class="desc"><%= item.detalle %>.</p><% } %>
+<p class="desc"><% if (resto) { %><%= resto %>.<% } %></p>
 <% if (item.enlaces && item.enlaces.length) { %><p><%= item.enlaces.map(e => `<a href="${e.url}">${e.texto}</a>`).join(' · ') %></p><% } %>
 </div>
 <% } %>

@@ -17,3 +17,7 @@ CVN*.pdf
 
 # Hojas de cálculo de origen (datos internos)
 /fuentes/
+
+# Copias de trabajo de Asun (no se publican)
+docencia/* copia.yml
+docencia/docencia-cvn gestor_umh.yml

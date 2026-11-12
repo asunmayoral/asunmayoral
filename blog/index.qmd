@@ -3,7 +3,10 @@ title: "Blog"
 description: "Notas y divulgación sobre estadística, inteligencia artificial, docencia y comunicación científica."
 listing:
   contents: posts
-  type: default
+  type: grid
+  grid-columns: 3
+  image-height: 150px
+  max-description-length: 110
   sort: "date desc"
   categories: true
   sort-ui: false
@@ -12,7 +15,7 @@ listing:
   date-format: "D MMM YYYY"
   image-placeholder: ../images/favicon.svg
   feed: true
-  fields: [image, date, title, categories, description]
+  fields: [image, date, title, description, categories]
 ---
 
 Las entradas con la categoría *Investigación* o *Publicación* se recogen también, junto a las publicaciones y los proyectos, en [Investigación](../investigacion/index.qmd).

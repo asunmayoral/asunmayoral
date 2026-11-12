@@ -15,7 +15,8 @@ const bloques = [
   { id: 'profesorado', title: 'Formación del profesorado', partes: [{ t: '', xs: de('profesorado') }] },
   { id: 'innovacion', title: 'Innovación docente y proyectos formativos', partes: [{ t: 'Proyectos de innovación docente', ps: pro('Innovación docente') }, { t: 'Competencia digital y proyectos formativos', ps: pro('Competencia digital') }],
     nota: 'Algunos de estos proyectos dieron lugar a publicaciones: están en la línea «Educación, innovación y espacios educativos» de <a href="../investigacion/index.html#linea-educacion">Investigación</a>.' },
-  { id: 'direccion', title: 'Dirección de tesis y trabajos fin de estudios', partes: [{ t: '', xs: de('direccion') }] }
+  { id: 'direccion', title: 'Trabajos fin de grado dirigidos', partes: [{ t: '', xs: de('direccion') }],
+    nota: 'Las tesis doctorales que he dirigido están en <a href="../investigacion/index.html">Investigación</a>, dentro de su línea de trabajo.' }
 ];
 %>
 <% for (const b of bloques) { %>
@@ -25,7 +26,7 @@ const bloques = [
 <% if (p.t) { %><h3><%= p.t %></h3><% } %>
 <% for (const i of (p.xs || [])) { %>
 <div class="asig" id="<%= i.id || ('doc-' + i.desde + '-' + slug(i.title)) %>">
-<p><span class="anio"><%= anios(i) %></span> <% if (actual(i) && i.bloque !== 'direccion') { %><span class="tag t-activo">En curso</span> <% } %><strong><%= i.title %></strong><% if (i.detalle) { %>. <%= i.detalle %><% } %>.<% for (const e of (i.enlaces || [])) { %> · <a href="<%- e.url %>"><%= e.texto %></a><% } %></p>
+<p><span class="anio"><%= anios(i) %></span> <% if (actual(i) && i.bloque !== 'direccion') { %><span class="tag t-activo">En curso</span> <% } %><strong><%= i.title %></strong><% if (i.detalle) { %>. <%= i.detalle %><% } %><% if (i.estudiante) { %> de <%= i.estudiante %><% } %><% if (i.calificacion) { %> (<%= i.calificacion %>)<% } %>.<% if (i.repositorio) { %> · <a href="<%- i.repositorio %>">repositorio</a><% } %><% for (const e of (i.enlaces || []).filter(e => e.url)) { %> · <a href="<%- e.url %>"><%= e.texto %></a><% } %></p>
 <% if (i.ediciones && i.ediciones.length) { %><div class="ediciones"><table class="table"><thead><tr><th>Año</th><th>Programa de doctorado</th><th>Universidad</th></tr></thead><tbody><% for (const e of i.ediciones) { %><tr><td><%= e.anio %></td><td><%= e.programa %></td><td><%- e.universidad %></td></tr><% } %></tbody></table></div><% } %>
 </div>
 <% } %>

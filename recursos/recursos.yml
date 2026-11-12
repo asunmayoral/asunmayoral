@@ -1,7 +1,8 @@
 # Catálogo de recursos. Una entrada por recurso.
 # Campos:
 #   title        título
-#   description  una o dos frases
+#   description  una o dos frases (completa; se usa en el buscador)
+#   resumen      (opcional) versión corta para la tarjeta, si `description` pasa de unos 110 caracteres
 #   path         enlace (externo o interno)
 #   date         AAAA-MM-DD aproximada (ordena el catálogo; si solo sabes el año, usa el 1 de enero)
 #   anio         lo que se muestra como fecha (texto libre: "2022", "2023-24", "Web")
@@ -34,6 +35,7 @@
 
 - title: "Lean Six Sigma para la mejora de procesos (web)"
   description: "Contenidos de la asignatura Mejora de Procesos (1479), de 4.º del Grado en Estadística Empresarial. Web vinculada al libro de Editorial UMH."
+  resumen: "Web de Mejora de Procesos (1479), Grado en Estadística Empresarial, vinculada al libro de Editorial UMH."
   path: https://bookdown.org/asun_mayoral/book-l6s/
   date: 2021-12-01
   anio: "2021"
@@ -44,6 +46,7 @@
 
 - title: "Simustat"
   description: "Proyecto abierto, financiado con fondos europeos Unidigital, de contenidos formativos sobre programación y estadística con Python."
+  resumen: "Contenidos abiertos de programación y estadística con Python, con fondos Unidigital."
   path: https://unidigitalsimustat.umh.es/proyecto/
   date: 2022-06-01
   anio: "Unidigital"
@@ -84,6 +87,7 @@
 
 - title: "Enlaces Data Labs"
   description: "Recopilación propia, ordenada por temas, de tutoriales, libros en línea, itinerarios de DataCamp, fuentes de datos y herramientas para aprender estadística y ciencia de datos con R."
+  resumen: "Tutoriales, libros, fuentes de datos y herramientas para aprender estadística y ciencia de datos con R."
   path: /recursos/datalabs/index.html
   mas: https://docs.google.com/spreadsheets/d/e/2PACX-1vQLYXQY74Cmd4x-pdv9L7tvVJg9G8ek7I0D7JJLLfGlbASCGvFA-15jk0j8QMBFBWw06QYjiZb53kzl/pubhtml
   mas_texto: "Hoja de cálculo original"
@@ -114,6 +118,7 @@
 # ---------- Cursos y talleres ----------
 - title: "Integrando IA generativa y estadística en proyectos de investigación multidisciplinar"
   description: "Curso de formación del profesorado impartido con el CEFIRE de Gandía en abril de 2026, vinculado al concurso Va de Dades!."
+  resumen: "Formación del profesorado con el CEFIRE de Gandía (2026), vinculada a Va de Dades!."
   path: https://sites.google.com/umh.es/iaestadisticavadedades/inicio
   date: 2026-04-01
   anio: "2026"
@@ -124,6 +129,7 @@
 
 - title: "Modelización Estadística Avanzada"
   description: "Curso de doctorado de 16 horas en la Universidad O&M (República Dominicana), Doctorado en IA aplicada a la Productividad Empresarial. Cohorte I (Marzo 2025)."
+  resumen: "Curso de doctorado de 16 h, Universidad O&M (República Dominicana). Cohorte I (marzo 2025)."
   path: https://sites.google.com/umh.es/modelizacion-avanzada
   date: 2025-03-01
   anio: "2025"
@@ -133,6 +139,7 @@
   
 - title: "Modelización Estadística Avanzada"
   description: "Curso de doctorado de 16 horas en la Universidad O&M (República Dominicana), Doctorado en IA aplicada a la Productividad Empresarial. Cohorte II (Octubre 2026)."
+  resumen: "Curso de doctorado de 16 h, Universidad O&M (República Dominicana). Cohorte II (octubre 2026)."
   path: https://asunmayoral.github.io/modelizacion_python/index.html
   date: 2026-10-01
   anio: "2026"
@@ -142,6 +149,7 @@
 
 - title: "Gestión digital en Auditoría"
   description: "Recursos de gestión digital e inteligencia artificial para auditores, de la asignatura Tecnologías de la información en Auditoría (Máster Universitario en Auditoría de Cuentas, UMH)."
+  resumen: "Gestión digital e IA para auditores. Máster Universitario en Auditoría de Cuentas (UMH)."
   path: https://sites.google.com/umh.es/gestioniaparaauditores/aprende
   date: 2025-02-01
   anio: "2025"
@@ -151,6 +159,7 @@
 
 - title: "Una primera aproximación a la Estadística Bayesiana"
   description: "Taller de 10 horas para el Programa de Doctorado en Biología y Conservación de la Biodiversidad de la Universidad de Salamanca."
+  resumen: "Taller de doctorado de 10 h. Universidad de Salamanca."
   path: /recursos/bayesiana/index.html
   date: 2022-11-01
   anio: "2022"
@@ -160,6 +169,7 @@
 
 - title: "Comunicación Científica 4.0"
   description: "Recomendaciones y herramientas tecnológicas para la divulgación científica efectiva. Curso de doctorado impartido en la República Dominicana (UASD-UMH y Universidad O&M)."
+  resumen: "Herramientas tecnológicas para la divulgación científica. Curso de doctorado (UASD-UMH y Universidad O&M)."
   path: https://sites.google.com/umh.es/comunicacioncientifica40/inicio
   mas: https://docs.google.com/document/d/1yJtnQyxma5kDnb-RTHpcSVTh7wZ6kPbA_Mx5jpzXysk/edit?usp=sharing
   mas_texto: "Documento del curso (2023-24)"
@@ -211,6 +221,7 @@
 
 - title: "Equipos eficaces"
   description: "Taller de competencias transversales del proyecto TFGi (TFG interdisciplinares). Cursos 2019-20, 2021-22 y 2022-23."
+  resumen: "Taller de competencias transversales del proyecto TFGi (TFG interdisciplinares)."
   path: https://docs.google.com/presentation/d/1IyqUnvz1HjkQRTRhXtSzEvBBbne7jqxN8e37JANwjjs/edit?usp=sharing
   date: 2022-10-01
   anio: "2019-23"
@@ -220,6 +231,7 @@
 
 - title: "Aprendizaje móvil"
   description: "Aplicaciones y herramientas para enseñar y aprender con tabletas y móviles. Curso en línea de 20 horas, CEFIRE de Orihuela (2016)."
+  resumen: "Herramientas para enseñar y aprender con tabletas y móviles. CEFIRE de Orihuela (2016)."
   path: https://www.symbaloo.com/mix/mobilelearning7
   date: 2016-04-01
   anio: "2016"
@@ -278,6 +290,7 @@
 
 - title: "TICs para la docencia y el aprendizaje"
   description: "Mª A. Martínez Mayoral, J. Morales, J. Aparicio, L. Ortiz y M. Quesada. Editorial electrónica UMH. ISBN 978-84-16024-82-7."
+  resumen: "Libro de la asignatura del Máster de Profesorado, con J. Morales, J. Aparicio, L. Ortiz y M. Quesada."
   path: http://innovacionumh.es/editorial/TICS.pdf
   mas: https://play.google.com/store/books/details?id=2EvEDwAAQBAJ
   mas_texto: "Google Play"
@@ -290,6 +303,7 @@
 
 - title: "Monográfico Innovación UMH 2017"
   description: "Recopilación revisada de experiencias de innovación docente en la UMH. Eds.: A. M. Mayoral, J. Morales, J. A. Pérez-Juan y P. Robles. Editorial electrónica UMH. ISBN 978-84-16024-55-1."
+  resumen: "Experiencias de innovación docente en la UMH, editadas con J. Morales, J. A. Pérez-Juan y P. Robles."
   path: http://editorial.umh.es/2018/11/06/monografico-innovacion-umh-2017/
   mas: https://play.google.com/store/books/details?id=lm12DwAAQBAJ
   mas_texto: "Google Play"
@@ -302,6 +316,7 @@
 
 - title: "Apuntes de Teoría de Colas"
   description: "Simulación y análisis de sistemas de espera. A. M. Mayoral, J. Morales, X. Barber y J. Aparicio. Universidad Miguel Hernández. ISBN 978-84-96297-76-0."
+  resumen: "Simulación y análisis de sistemas de espera. Con J. Morales, X. Barber y J. Aparicio (UMH)."
   path: https://www.dropbox.com/s/4jkbpjfvp1m762y/A4%20Apuntes%20de%20Teor%C3%ADa%20de%20Colas.pdf
   date: 2007-01-01
   anio: "2007"
@@ -311,6 +326,7 @@
 
 - title: "Modelos estadísticos para pérdidas y reclamaciones"
   description: "A. M. Mayoral, J. Morales, X. Barber y J. Aparicio. Universidad Miguel Hernández. ISBN 978-84-96297-78-4."
+  resumen: "Libro docente de Estadística Actuarial. Con J. Morales, X. Barber y J. Aparicio (UMH)."
   path: https://www.dropbox.com/s/nhjrlamuo8kcasd/A4%20Mod%20Estad%20p%20P%C3%A9rd%20y%20Reclamac.pdf
   date: 2007-01-02
   anio: "2007"
@@ -338,6 +354,7 @@
 
 - title: "Pràctiques d'Estadística Matemàtica"
   description: "J. J. Abellán, R. Álvarez-Valdés, S. Aniceto, C. Armero, M. J. Bayarri, A. M. Mayoral, J. Morales, E. Mota, M. T. Rabena y S. Sanmatías. Servei de Publicacions de la Universitat de València. ISBN 84-370-4450-2."
+  resumen: "Libro de prácticas con M. J. Bayarri, C. Armero y otros. Servei de Publicacions de la Universitat de València."
   date: 2000-01-01
   anio: "2000"
   tipo: Libro

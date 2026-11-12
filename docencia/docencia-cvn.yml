@@ -1,0 +1,638 @@
+# Docencia según el CVN de docencia UMH (files/CVN140_docencia_umh.pdf, generado el 11/11/2026).
+# Fichero ALTERNATIVO para revisar y depurar: ninguna página lo lee. Generado por
+# scripts/cvn_docencia.py a partir de 120 registros de «Formación académica impartida»
+# y 5 de «Dirección de tesis doctorales y/o proyectos fin de carrera».
+#
+# Mismo esquema que docencia.yml (title, bloque, desde, hasta, detalle) más dos campos de ayuda:
+#   en_web   true si ya hay una entrada equivalente en docencia.yml (comparación por palabras; revísalo)
+#   cvn      datos del CVN agregados: tipo de docencia, nº de registros, periodos, tipos de clase,
+#            créditos u horas sumados y centro. Se quita al pasar la entrada a docencia.yml.
+#            Los créditos son la suma de lo que declara cada registro; un registro puede abarcar varios cursos
+#            (p. ej. 2013–2026), así que sirven para comparar pesos, no como total exacto.
+# Una entrada por asignatura y titulación. Se unifican los dos planes del Máster de Profesorado
+# y las dos grafías de la asignatura de TIC. Los nombres van con mayúscula inicial y con las tildes
+# que faltan en el CVN (Técnicas, Investigación, Análisis...).
+# desde/hasta: primer año de inicio y último año de finalización que da el CVN (2025–2026 = curso 2025-26).
+
+# =================== Grado ===================
+
+- title: Simulación de Procesos y Sistemas
+  bloque: grado
+  desde: 2021
+  hasta: 2026
+  detalle: Grado en Estadística Empresarial
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Grado
+    registros: 3
+    periodos: [2021–2026, 2025–2026]
+    tipos: [Prácticas de Laboratorio, Práctica (Aula-Problemas), Teórica presencial]
+    creditos: 18.0
+    centro: Fac. CC. Sociales y Jurídicas Elche
+
+- title: Mejora de Procesos
+  bloque: grado
+  desde: 2013
+  hasta: 2026
+  detalle: Grado en Estadística Empresarial
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Grado
+    registros: 3
+    periodos: [2013–2026, 2020–2026]
+    tipos: [Prácticas de Laboratorio, Teórica presencial, Práctica (Aula-Problemas)]
+    creditos: 74.0
+    centro: Fac. CC. Sociales y Jurídicas Elche
+
+- title: Análisis Exploratorio de Datos
+  bloque: grado
+  desde: 2010
+  hasta: 2016
+  detalle: Grado en Estadística Empresarial
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Grado
+    registros: 3
+    periodos: [2010–2013, 2015–2016]
+    tipos: [Práctica (Aula-Problemas), Teórica presencial]
+    centro: Fac. CC. Sociales y Jurídicas Elche
+
+- title: Análisis Exploratorio de Datos
+  bloque: grado
+  desde: 2010
+  hasta: 2016
+  detalle: Grado en Administración y Dirección de Empresas
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Grado
+    registros: 3
+    periodos: [2010–2013, 2015–2016]
+    tipos: [Teórica presencial, Prácticas de Laboratorio]
+    creditos: 18.0
+    centro: Fac. CC. Sociales y Jurídicas Elche
+
+# =================== Licenciaturas y diplomaturas ===================
+
+- title: Técnicas de Investigación Social
+  bloque: licenciatura
+  desde: 2008
+  hasta: 2014
+  detalle: Licenciado en Administración y Dirección de Empresas Elche Parque Industrial
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Licenciatura
+    registros: 6
+    periodos: [2008–2010, 2010–2012, 2013–2014]
+    tipos: [Actividad Práctica Tutorizada no presencial, Actividad Teórica Tutorizada no presencial, Prácticas de Laboratorio, Teórica presencial]
+    creditos: 15.0
+    centro: Fac. CC. Sociales y Jurídicas Orihuela 22 9341f6ebea3dcce480bdecce4ca113d9; Fac. CC. Sociales y Jurídicas Orihuela
+
+- title: Estadística Actuarial II
+  bloque: licenciatura
+  desde: 2002
+  hasta: 2008
+  detalle: Licenciado en Ciencias Actuariales y Financieras
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Licenciatura
+    registros: 2
+    periodos: [2002–2008]
+    tipos: [Teórica presencial, Prácticas de Laboratorio]
+    creditos: 36.0
+    centro: Fac. CC. Sociales y Jurídicas Elche
+
+- title: Teoría de Colas
+  bloque: licenciatura
+  desde: 2002
+  hasta: 2008
+  detalle: Licenciado en Ciencias y Técnicas Estadísticas
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Licenciatura
+    registros: 2
+    periodos: [2002–2007, 2002–2008]
+    tipos: [Teórica presencial, Prácticas de Laboratorio]
+    creditos: 33.0
+    centro: Facultad de Ciencias Experimentales
+
+- title: Herramientas para la Ingeniería de Datos
+  bloque: licenciatura
+  desde: 2003
+  hasta: 2007
+  detalle: Diplomado en Estadística
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Diplomatura
+    registros: 3
+    periodos: [2003–2004, 2005–2007]
+    tipos: [Teórica presencial, Prácticas de Laboratorio]
+    creditos: 15.0
+    centro: Facultad de Ciencias Experimentales
+
+- title: Fundamentos de Estadística Matemática
+  bloque: licenciatura
+  desde: 2002
+  hasta: 2004
+  detalle: Diplomado en Estadística
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Diplomatura
+    registros: 1
+    periodos: [2002–2004]
+    tipos: [Prácticas de Laboratorio]
+    creditos: 6.0
+    centro: Facultad de Ciencias Experimentales 30 9341f6ebea3dcce480bdecce4ca113d9
+
+- title: Análisis Estadístico Multivariante
+  bloque: licenciatura
+  desde: 2002
+  hasta: 2003
+  detalle: Licenciado en Investigación y Técnicas de Mercado
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Licenciatura
+    registros: 1
+    periodos: [2002–2003]
+    tipos: [Prácticas de Laboratorio]
+    creditos: 3.0
+    centro: Fac. CC. Sociales y Jurídicas Elche
+
+- title: Introducción a la Econometría
+  bloque: licenciatura
+  desde: 2001
+  hasta: 2002
+  detalle: Licenciado en Administración y Dirección de Empresas
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Licenciatura
+    registros: 2
+    periodos: [2001–2002]
+    tipos: [Prácticas de Laboratorio, Teórica presencial]
+    creditos: 9.0
+    centro: Fac. CC. Sociales y Jurídicas Orihuela
+
+- title: Técnicas de Investigación Social
+  bloque: licenciatura
+  desde: 2001
+  hasta: 2002
+  detalle: Licenciado en Ciencias Políticas y de Administración
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Licenciatura
+    registros: 2
+    periodos: [2001–2002]
+    tipos: [Prácticas de Laboratorio, Teórica presencial]
+    creditos: 12.0
+    centro: Fac. CC. Sociales y Jurídicas Orihuela
+
+- title: Análisis Multivariante
+  bloque: licenciatura
+  desde: 2000
+  hasta: 2001
+  detalle: Diplomado en Estadística
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Diplomatura
+    registros: 2
+    periodos: [2000–2001]
+    tipos: [Prácticas de Laboratorio, Teórica presencial]
+    creditos: 7.5
+    centro: Facultad de Ciencias Experimentales
+
+- title: Modelos Lineales
+  bloque: licenciatura
+  desde: 2000
+  hasta: 2001
+  detalle: Diplomado en Estadística
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Diplomatura
+    registros: 1
+    periodos: [2000–2001]
+    tipos: [Prácticas de Laboratorio]
+    creditos: 3.0
+    centro: Facultad de Ciencias Experimentales
+
+- title: Métodos de Regresión
+  bloque: licenciatura
+  desde: 2000
+  hasta: 2001
+  detalle: Licenciado en Ciencias y Técnicas Estadísticas
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Licenciatura
+    registros: 2
+    periodos: [2000–2001]
+    tipos: [Teórica presencial, Prácticas de Laboratorio]
+    creditos: 7.5
+    centro: Facultad de Ciencias Experimentales
+
+- title: Técnicas de Investigación Social
+  bloque: licenciatura
+  desde: 2000
+  hasta: 2001
+  detalle: Diplomado en Estadística
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Diplomatura
+    registros: 1
+    periodos: [2000–2001]
+    tipos: [Prácticas de Laboratorio]
+    creditos: 3.0
+    centro: Facultad de Ciencias Experimentales
+
+- title: Técnicas de Investigación Social
+  bloque: licenciatura
+  desde: 2000
+  hasta: 2001
+  detalle: Licenciado en Investigación y Técnicas de Mercado
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Licenciatura
+    registros: 1
+    periodos: [2000–2001]
+    tipos: [Prácticas de Laboratorio]
+    creditos: 3.0
+    centro: Fac. CC. Sociales y Jurídicas Elche
+
+# =================== Postgrado (másteres oficiales y títulos propios) ===================
+
+- title: Tecnologías de la Información en Auditoría
+  bloque: postgrado
+  desde: 2018
+  hasta: 2026
+  detalle: Máster Universitario en Auditoría de Cuentas
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Máster oficial
+    registros: 3
+    periodos: [2018–2019, 2019–2026, 2020–2026]
+    tipos: [Prácticas de Laboratorio, Teórica presencial]
+    creditos: 6.35
+    centro: Fac. CC. Sociales y Jurídicas Elche
+
+- title: Estadística en Investigación Experimental y Clínica
+  bloque: postgrado
+  desde: 2015
+  hasta: 2026
+  detalle: Máster Universitario en Neuropsicofarmacología Traslacional
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Máster oficial
+    registros: 1
+    periodos: [2015–2026]
+    tipos: [Actividad Teórica Tutorizada no presencial]
+    creditos: 11.0
+    centro: Facultad de Farmacia
+
+- title: Técnicas de Comunicación y Herramientas Web en Investigación
+  bloque: postgrado
+  desde: 2013
+  hasta: 2026
+  detalle: Máster Universitario en Investigación en Medicina Clínica
+  en_web: true
+  cvn:
+    docencia: Docencia oficial
+    programa: Máster oficial
+    registros: 2
+    periodos: [2013–2026, 2014–2026]
+    tipos: [Actividad Teórica Tutorizada no presencial, Actividad Práctica Tutorizada no presencial]
+    creditos: 52.5
+    centro: Facultad de Medicina
+
+
+- title: La Investigación e Innovación Educativa y la Gestión del Cambio
+  bloque: postgrado
+  desde: 2018
+  hasta: 2020
+  detalle: Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y Enseñanza de Idiomas
+  en_web: false
+  cvn:
+    docencia: Coordinación de seminarios.
+    programa: Máster oficial
+    registros: 11
+    periodos: [2010–2020]
+    tipos: [Seminarios]
+    creditos: 10
+    centro: Fac. CC. Sociales y Jurídicas Orihuela
+
+- title: Tecnologías de la Información y Comunicación Aplicadas a Docencia y Aprendizaje
+  bloque: postgrado
+  desde: 2011
+  hasta: 2020
+  detalle: 
+    - {texto: "Titulación", titulo: "Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y Enseñanza de Idiomas"}
+    - {texto: "libro", url: "http://innovacionumh.es/editorial/TICS.pdf"}
+    - {texto: "vídeos", url: "https://www.youtube.com/playlist?list=PLClKgnzRFYe5hwY17dxjRB_pJAeG4SqUF"}
+  en_web: true
+  cvn:
+    docencia: Docencia oficial. Coordinación de asignatura.
+    programa: Máster oficial
+    registros: 10
+    periodos: [2011–2012, 2011–2016, 2011–2019, 2011–2020, 2012–2013, 2012–2016, 2012–2020, 2013–2020, 2016–2019, 2019–2020]
+    tipos: [Seminario, Actividad Teórica Tutorizada presencial/no presencial, Actividad Práctica Tutorizada presencial/no presencial]
+    creditos: 68.45
+    centro: Fac. CC. Sociales y Jurídicas Orihuela; Fac. CC. Sociales y Jurídicas Orihuela
+
+- title: Trabajo Fin de Máster
+  bloque: postgrado
+  desde: 2010
+  hasta: 2020
+  detalle: Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y Enseñanza de Idiomas
+  en_web: false
+  cvn:
+    docencia: Docencia oficial
+    programa: Máster oficial
+    registros: 11
+    periodos: [2010–2011, 2011-2012, 2012–2013, 2013–2014, 2014–2015, 2015–2016, 2016-2017, 2017-2018, 2018-2019, 2019-2020]
+    tipos: [Actividad Práctica Tutorizada presencial/no presencial]
+    creditos: 27.9
+    centro: Fac. CC. Sociales y Jurídicas Orihuela
+
+- title: Dirección académica
+  bloque: postgrado
+  desde: 2014
+  hasta: 2016
+  detalle: Experto Universitario en Innovación Tecnológica en Educación
+  en_web: true
+  cvn:
+    docencia: Docencia no oficial. Dirección
+    programa: 'Estudio postgrado: Experto (40 horas)'
+    registros: 3
+    periodos: ['2014', '2015', '2016']
+  enlaces:
+      - {texto: "Web", url: "https://iteumh.umh.es/presentacion/"}
+        
+- title: Recursos web de información (módulo 5) 
+  bloque: postgrado
+  desde: 2014
+  hasta: 2016
+  detalle: Experto Universitario en Innovación Tecnológica en Educación
+  en_web: true
+  cvn:
+    docencia: Docencia no oficial. 
+    programa: 'Estudio postgrado: Experto (40 horas)'
+    registros: 3
+    periodos: ['2014', '2015', '2016']
+ enlaces:
+      - {texto: "Web", url: "https://iteumh.umh.es/presentacion/"}
+    
+- title: Practicum I
+  bloque: postgrado
+  desde: 2010
+  hasta: 2020
+  detalle: Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y Enseñanza de Idiomas
+  en_web: false
+  cvn:
+    docencia: Docencia oficial
+    programa: Máster oficial
+    registros: 2
+    periodos: [2010–2011]
+    tipos: [Actividad Práctica Tutorizada no presencial, Actividad Teórica Tutorizada no presencial]
+    creditos: 45.0
+    centro: Fac. CC. Sociales y Jurídicas Orihuela
+
+# =================== Dirección de tesis y trabajos fin de estudios ===================
+
+- title: El cáncer de mama. Análisis, representación y clasificación según varios modelos de Machine Learning sobre una base de datos
+  bloque: direccion
+  desde: 2023
+  hasta: 2023
+  detalle: Trabajo fin de grado
+  en_web: false
+  cvn: {defensa: 03/07/2023}
+  detalle:
+      - {texto: "Autor", estudiante: "José Javier Lucena Muñoz"}
+      - {texto: "Calificación", nota: "sobresaliente"}
+      - {texto: "Repositorio", url: ""}  
+
+- title: Evolución estadística de separaciones, nulidades y divorcios en los años 2013-2020
+  bloque: direccion
+  desde: 2023
+  hasta: 2023
+  detalle: Trabajo fin de grado
+  en_web: true
+  cvn: {defensa: 03/07/2023}
+  detalle:
+      - {texto: "Autor", estudiante: "Jorge Pliego Marín"}
+      - {texto: "Calificación", nota: "aprobado"}
+      - {texto: "Repositorio", url: ""}  
+
+- title: Impacto del agotamiento emocional en los estudiantes del grado de medicina
+  bloque: direccion
+  desde: 2023
+  hasta: 2023
+  detalle: Trabajo fin de grado
+  en_web: true
+  cvn: {defensa: 03/07/2023}
+  detalle:
+      - {texto: "Autor", estudiante: "Vidal Ocaña Alonso"}
+      - {texto: "Calificación", nota: "sobresaliente"}
+      - {texto: "Repositorio", url: ""}  
+
+      
+- title: Modelización de la vulnerabilidad en salud mental asociada al comportamiento digital
+mediante aprendizaje automático: un enfoque basado en componentes principales y bosques aleatorios.
+  bloque: direccion
+  desde: 2026
+  hasta: 2026
+  detalle: Trabajo fin de grado
+  en_web: true
+  cvn: {defensa: 30/06/2026}
+  detalle:
+      - {texto: "Autor", estudiante: "Cristina Climent Torró"}
+      - {texto: "Calificación", nota: "sobresaliente"}
+      - {texto: "Repositorio", url: ""}  
+
+- title: Clasificación automática de patologías tiroideas mediante Random forest: estrategia de imputación y balanceo de clases
+  bloque: direccion
+  desde: 2024
+  hasta: 2024
+  detalle: Trabajo fin de grado
+  en_web: true
+  cvn: {defensa: 14/06/2024}
+  detalle:
+      - {texto: "Autor", estudiante: "Rebeca Mai Ferrández Ueba"}
+      - {texto: "Calificación", nota: "sobresaliente"}
+      - {texto: "Repositorio", url: ""}  
+
+- title: Sistemas de recomendación en R y aplicación a datos reales
+  bloque: direccion
+  desde: 2024
+  hasta: 2024
+  detalle: Trabajo fin de grado
+  en_web: true
+  cvn: {defensa: 14/06/2024}
+  detalle:
+      - {texto: "Autor", estudiante: "Alba Lerma Micó"}
+      - {texto: "Calificación", nota: "sobresaliente"}
+      - {texto: "Repositorio", url: ""}  
+
+- title: Análisis de predicción en inversiones de deuda pública
+  bloque: direccion
+  desde: 2024
+  hasta: 2024
+  detalle: Trabajo fin de grado
+  en_web: true
+  cvn: {defensa: 14/06/2024}
+  detalle:
+      - {texto: "Autor", estudiante: "Alicia Díaz-Roncero Catalá"}
+      - {texto: "Calificación", nota: "sobresaliente"}
+      - {texto: "Repositorio", url: ""}  
+
+- title: Análisis sobre la evolución de la enfermedad del párkinson
+  bloque: direccion
+  desde: 2024
+  hasta: 2024
+  detalle: Trabajo fin de grado
+  en_web: true
+  cvn: {defensa: 14/06/2024}
+  detalle:
+      - {texto: "Autor", estudiante: "Inmaculada Ramírez López"}
+      - {texto: "Calificación", nota: "notable"}
+      - {texto: "Repositorio", url: ""}  
+
+
+- title: Análisis de las tendencias de compra a lo largo del tiempo: Estudio de los datos de un mercado estadounidense.
+  bloque: direccion
+  desde: 2025
+  hasta: 2025
+  detalle: Trabajo fin de grado
+  en_web: true
+  cvn: {defensa: 21/02/2025}
+  detalle:
+      - {texto: "Autor", estudiante: "Aitana Bataller García"}
+      - {texto: "Calificación", nota: "aprobado"}
+      - {texto: "Repositorio", url: ""}  
+
+- title: Ictus bajo la lupa: analizando riesgos con Machine Learning
+  bloque: direccion
+  desde: 2025
+  hasta: 2025
+  detalle: Trabajo fin de grado
+  en_web: true
+  cvn: {defensa: 25/06/2025}
+  detalle:
+      - {texto: "Autor", estudiante: "Carlos Pomares Guirao"}
+      - {texto: "Calificación", nota: "notable"}
+      - {texto: "Repositorio", url: ""}  
+
+- title: Automatización de informes estadísticos con Google Colab y Python
+  bloque: direccion
+  desde: 2025
+  hasta: 2025
+  detalle: Trabajo fin de grado
+  en_web: true
+  cvn: {defensa: 25/06/2025}
+  detalle:
+      - {texto: "Autor", estudiante: "Mario Goñi Arrivi"}
+      - {texto: "Calificación", nota: "sobresaliente"}
+      - {texto: "Repositorio", url: ""}  
+      
+- title: Explorando los Factores del Éxito y Fracaso en Startups
+  bloque: direccion
+  desde: 2025
+  hasta: 2025
+  detalle: Trabajo fin de grado
+  en_web: true
+  cvn: {defensa: 25/06/2025}
+  detalle:
+      - {texto: "Autor", estudiante: "Silvia Samper Perujo"}
+      - {texto: "Calificación", nota: "notable"}
+      - {texto: "Repositorio", url: ""}  
+      
+- title: Desarrollo de un Sistema de Recomendación de Canciones Basado en Análisis de Componentes Principales y Métodos de Clasificación Avanzados
+  bloque: direccion
+  desde: 2025
+  hasta: 2025
+  detalle: Trabajo fin de grado
+  en_web: true
+  cvn: {defensa: 23/07/2025}
+  detalle:
+      - {texto: "Autor", estudiante: "Rocío Pérez Jiménez"}
+      - {texto: "Calificación", nota: "notable"}
+      - {texto: "Repositorio", url: ""} 
+ 
+- title: Optimización de campañas de marketing mediante técnicas de clasificación  
+  bloque: direccion
+  desde: 2025
+  hasta: 2025
+  detalle: Trabajo fin de grado
+  en_web: true
+  cvn: {defensa: 04/12/2025}
+  detalle:
+      - {texto: "Autor", estudiante: "Ángela Mellado Salinas"}
+      - {texto: "Calificación", nota: "sobresaliente"}
+      - {texto: "Repositorio", url: ""} 
+ 
+ - title: VisorAnalytica: Una Plataforma R/Shiny para el Análisis y Predicción del Comportamiento del Consumidor para la Toma de Decisiones Estratégicas  
+  bloque: direccion
+  desde: 2025
+  hasta: 2025
+  detalle: Trabajo fin de grado
+  en_web: true
+  cvn: {defensa: 25/06/2025}
+  detalle:
+      - {texto: "Autor", estudiante: "Aarón Aznar Valero"}
+      - {texto: "Calificación", nota: "sobresaliente"}
+      - {texto: "Repositorio", url: ""} 
+    
+
+- title: Espacios educativos innovadores y sostenibles. Avanzando hacia los ODS. Estudio en el contexto de institutos de Educación Secundaria públicos en la Comunidad Valenciana, España
+  bloque: direccion
+  desde: 2022
+  hasta: 2022
+  detalle: Tesis doctoral
+  en_web: true
+  cvn: {defensa: 04/04/2022}
+  detalle:
+      - {texto: "Programa", doctorado: "Doctorado en Medio Ambiente y Sostenibilidad. Universidad Miguel Hernández de Elche"}
+      - {texto: "Autor", estudiante: "Isabel Montiel Vaquer"}
+      - {texto: "Calificación", nota: "sobresaliente cum laude"}
+      - {texto: "Repositorio", url: ""} 
+
+- title: Propuesta Bayesiana para la elaboración de mapas genéticos
+  bloque: direccion
+  desde: 2016
+  hasta: 2016
+  detalle: Tesis doctoral
+  en_web: true
+  cvn: {defensa: 10/02/2016}
+  detalle:
+      - {texto: "Programa", doctorado: "Doctorado en Estadística e Investigación Operativa. Universitat de València"}
+      - {texto: "Autor", estudiante: "Mónica Alacreu García"}
+      - {texto: "Calificación", nota: "sobresaliente"}
+      - {texto: "Repositorio", url: ""} 
+ 
+- title: Optimización del rendimiento predictivo mediante la selección de configuraciones de modelos: un enfoque de conjunto
+  bloque: direccion
+  desde: 2026
+  hasta: 2026
+  detalle: Tesis doctoral
+  en_web: true
+  cvn: {defensa: 10/02/2016}
+  detalle:
+      - {texto: "Programa", doctorado: "Doctorado en Estadística, Optimización y Matemática Aplicada. Universidad Miguel Hernández de Elche"}
+      - {texto: "Autor", estudiante: "Carlos García Aroca"}
+      - {texto: "Calificación", nota: "sobresaliente cum laude"}
+      - {texto: "Repositorio", url: ""} 
+

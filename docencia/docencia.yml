@@ -1,6 +1,8 @@
 # Docencia. Una entrada por asignatura, curso o trabajo dirigido. De aquí salen las tarjetas de
 # «Asignaturas que imparto», la línea temporal y las listas de los acordeones de docencia/index.qmd.
 # (El acordeón «Innovación docente y proyectos formativos» sale de proyectos/proyectos.yml.)
+# Grado, licenciaturas y másteres de la UMH: confirmados por Asun a partir del CVN de docencia (nov. 2026).
+# Las tesis doctorales dirigidas NO van aquí: están en investigacion/investigacion.yml (clase: tesis).
 #
 # Campos:
 #   title      nombre de la asignatura o curso (o título del trabajo dirigido)
@@ -8,13 +10,16 @@
 #   desde      año de inicio (número)
 #   hasta      año final (número). Sin `hasta` = se sigue impartiendo: sale destacada y con la etiqueta «En curso»
 #   anios      (opcional) texto de años si no vale el automático «desde–hasta»
-#   detalle    (opcional) titulación, horas, lugar... Una o dos frases, sin punto final. Admite HTML sencillo
+#   detalle    titulación y, tras un punto, lo demás (horas, papel, código...). Sin punto final. Admite HTML sencillo
 #   enlaces    (opcional) lista de {texto, url}. Enlaces internos con ruta desde la raíz: /blog/posts/.../index.html
 #   corto      (opcional) nombre abreviado para la barra de la línea temporal
 #   id         (opcional) ancla fija, si otra página enlaza a esta entrada
 #   tarjeta    (opcional) true = sale además como tarjeta en «Asignaturas que imparto». No la marca como actual.
-#              `titulacion` (texto pequeño) y `path` (enlace del título) son opcionales
+#              La tarjeta pone arriba la titulación (el `detalle` hasta el primer punto) y debajo el resto.
+#              `path` (enlace del título) es opcional: sin él se usa el primer enlace
 #   ediciones  (opcional) lista de {anio, programa, universidad} para cursos con varias ediciones
+#   Solo en `bloque: direccion` (trabajos fin de grado):
+#   estudiante, calificacion, repositorio (enlace al trabajo en RediUMH; vacío hasta que lo tengas)
 # El orden de las listas es automático: primero lo que está en curso y después de lo más reciente a lo más antiguo.
 
 # =================== Grado ===================
@@ -22,10 +27,8 @@
   bloque: grado
   desde: 2021
   tarjeta: true
-  titulacion: "Grado en Estadística Empresarial"
-  path: https://umh1477.github.io/
   corto: "Simulación de Procesos"
-  detalle: "Código 1477, 3.<sup>er</sup> curso del Grado en Estadística Empresarial"
+  detalle: "Grado en Estadística Empresarial. Código 1477, 3.<sup>er</sup> curso"
   enlaces:
     - {texto: "Web de la asignatura", url: "https://umh1477.github.io/"}
     - {texto: "Apuntes de Teoría de Colas", url: "https://www.dropbox.com/s/4jkbpjfvp1m762y/A4%20Apuntes%20de%20Teor%C3%ADa%20de%20Colas.pdf"}
@@ -34,7 +37,6 @@
   bloque: grado
   desde: 2026
   tarjeta: true
-  titulacion: "Grado en Ciencia de Datos e Inteligencia Artificial"
   path: https://asunmayoral.github.io/GLM/
   corto: "MLG"
   detalle: "Grado en Ciencia de Datos e Inteligencia Artificial"
@@ -45,7 +47,7 @@
   bloque: grado
   desde: 2013
   hasta: 2026
-  detalle: "Código 1479, Grado en Estadística Empresarial. Lean Six Sigma y metodologías activas"
+  detalle: "Grado en Estadística Empresarial. Código 1479; Lean Six Sigma y metodologías activas"
   enlaces:
     - {texto: "web de la asignatura", url: "https://bookdown.org/asun_mayoral/book-l6s/"}
     - {texto: "vídeos", url: "http://bit.ly/2dk19NR"}
@@ -55,8 +57,17 @@
   bloque: grado
   desde: 2010
   hasta: 2016
-  corto: "AED"
-  detalle: "Grado en Estadística Empresarial y Grado en ADE"
+  corto: "AED (Estadística Empresarial)"
+  detalle: "Grado en Estadística Empresarial"
+  enlaces:
+    - {texto: "vídeos", url: "http://www.youtube.com/playlist?list=PLClKgnzRFYe6_q-BiaN0COs1Xc0wssTqM"}
+
+- title: "Análisis Exploratorio de Datos"
+  bloque: grado
+  desde: 2010
+  hasta: 2016
+  corto: "AED (ADE)"
+  detalle: "Grado en Administración y Dirección de Empresas"
   enlaces:
     - {texto: "vídeos", url: "http://www.youtube.com/playlist?list=PLClKgnzRFYe6_q-BiaN0COs1Xc0wssTqM"}
 
@@ -65,8 +76,8 @@
   bloque: licenciatura
   desde: 2008
   hasta: 2014
-  corto: "TIS (ADE)"
-  detalle: "Licenciatura en ADE, Elche Parque Industrial"
+  corto: "TIS (ADE, Elche Parque Industrial)"
+  detalle: "Licenciatura en Administración y Dirección de Empresas, Elche Parque Industrial"
   enlaces:
     - {texto: "libro TIS", url: "https://www.dropbox.com/s/wcwdu4qw83rulr6/TIS%20a4.pdf"}
 
@@ -86,39 +97,160 @@
   enlaces:
     - {texto: "Apuntes de Teoría de Colas", url: "https://www.dropbox.com/s/4jkbpjfvp1m762y/A4%20Apuntes%20de%20Teor%C3%ADa%20de%20Colas.pdf"}
 
-- title: "Métodos de Regresión"
+- title: "Herramientas para la Ingeniería de Datos"
   bloque: licenciatura
-  desde: 2000
-  hasta: 2001
-  detalle: "Licenciatura en Ciencias y Técnicas Estadísticas"
-
-- title: "Diplomatura en Estadística"
-  bloque: licenciatura
-  desde: 2000
+  desde: 2003
   hasta: 2007
-  detalle: "Técnicas de Investigación Social (2000–2001), Modelos Lineales (2000–2001), Análisis Multivariante (2000–2001), Fundamentos de Estadística Matemática (2002–2004) y Herramientas para la Ingeniería de Datos (2003–2007)"
+  corto: "Ingeniería de Datos"
+  detalle: "Diplomatura en Estadística"
 
-- title: "Introducción a la Econometría"
+- title: "Fundamentos de Estadística Matemática"
   bloque: licenciatura
-  desde: 2001
-  hasta: 2002
-  corto: "Econometría (ADE)"
-  detalle: "Licenciatura en ADE. También Técnicas de Investigación Social en la Licenciatura en Ciencias Políticas y de la Administración (2001–2002)"
+  desde: 2002
+  hasta: 2004
+  corto: "Fundamentos"
+  detalle: "Diplomatura en Estadística"
 
 - title: "Análisis Estadístico Multivariante"
   bloque: licenciatura
   desde: 2002
   hasta: 2003
-  corto: "Multivariante"
-  detalle: "Licenciatura en Investigación y Técnicas de Mercado, donde también impartí Técnicas de Investigación Social (2000–2001)"
+  corto: "Multivariante (ITM)"
+  detalle: "Licenciatura en Investigación y Técnicas de Mercado"
 
-# =================== Postgrado ===================
+- title: "Introducción a la Econometría"
+  bloque: licenciatura
+  desde: 2001
+  hasta: 2002
+  corto: "Econometría"
+  detalle: "Licenciatura en Administración y Dirección de Empresas"
+
+- title: "Técnicas de Investigación Social"
+  bloque: licenciatura
+  desde: 2001
+  hasta: 2002
+  corto: "TIS (Ciencias Políticas)"
+  detalle: "Licenciatura en Ciencias Políticas y de la Administración"
+
+- title: "Análisis Multivariante"
+  bloque: licenciatura
+  desde: 2000
+  hasta: 2001
+  corto: "Multivariante"
+  detalle: "Diplomatura en Estadística"
+
+- title: "Modelos Lineales"
+  bloque: licenciatura
+  desde: 2000
+  hasta: 2001
+  detalle: "Diplomatura en Estadística"
+
+- title: "Métodos de Regresión"
+  bloque: licenciatura
+  desde: 2000
+  hasta: 2001
+  corto: "Regresión"
+  detalle: "Licenciatura en Ciencias y Técnicas Estadísticas"
+
+- title: "Técnicas de Investigación Social"
+  bloque: licenciatura
+  desde: 2000
+  hasta: 2001
+  corto: "TIS (Diplomatura)"
+  detalle: "Diplomatura en Estadística"
+
+- title: "Técnicas de Investigación Social"
+  bloque: licenciatura
+  desde: 2000
+  hasta: 2001
+  corto: "TIS (ITM)"
+  detalle: "Licenciatura en Investigación y Técnicas de Mercado"
+
+# =================== Postgrado: másteres oficiales de la UMH ===================
+- title: "Tecnologías de la Información en Auditoría"
+  bloque: postgrado
+  desde: 2018
+  tarjeta: true
+  corto: "TI en Auditoría"
+  detalle: "Máster Universitario en Auditoría de Cuentas"
+  enlaces:
+    - {texto: "Gestión digital en Auditoría", url: "https://sites.google.com/umh.es/gestioniaparaauditores/aprende"}
+
+- title: "Estadística en Investigación Experimental y Clínica"
+  bloque: postgrado
+  desde: 2015
+  tarjeta: true
+  corto: "Estadística en Investigación Experimental"
+  detalle: "Máster Universitario en Neuropsicofarmacología Traslacional"
+
+- title: "Técnicas de Comunicación y Herramientas Web en Investigación"
+  id: comunicacion-web
+  bloque: postgrado
+  desde: 2013
+  tarjeta: true
+  corto: "Comunicación y herramientas web"
+  detalle: "Máster Universitario en Investigación en Medicina Clínica"
+  enlaces:
+    - {texto: "vídeos", url: "https://www.youtube.com/playlist?list=PLClKgnzRFYe7VDKn29zwc-CgTMkD5qTD-"}
+
+- title: "Tecnologías de la Información y Comunicación Aplicadas a Docencia y Aprendizaje"
+  bloque: postgrado
+  desde: 2011
+  hasta: 2020
+  corto: "TICs para la docencia y el aprendizaje"
+  detalle: "Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y Enseñanza de Idiomas. Coordinación de la asignatura"
+  enlaces:
+    - {texto: "libro", url: "http://innovacionumh.es/editorial/TICS.pdf"}
+    - {texto: "vídeos", url: "https://www.youtube.com/playlist?list=PLClKgnzRFYe5hwY17dxjRB_pJAeG4SqUF"}
+
+- title: "La Investigación e Innovación Educativa y la Gestión del Cambio"
+  bloque: postgrado
+  desde: 2010
+  hasta: 2020
+  corto: "Investigación e Innovación Educativa"
+  detalle: "Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y Enseñanza de Idiomas. Coordinación de seminarios"
+
+- title: "Trabajo Fin de Máster"
+  bloque: postgrado
+  desde: 2010
+  hasta: 2020
+  corto: "TFM (Máster de Profesorado)"
+  detalle: "Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y Enseñanza de Idiomas. Tutorización de trabajos"
+
+- title: "Practicum I"
+  bloque: postgrado
+  desde: 2010
+  hasta: 2020
+  corto: "Practicum I (Máster de Profesorado)"
+  detalle: "Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y Enseñanza de Idiomas"
+
+# =================== Postgrado: títulos propios de la UMH ===================
+- title: "Dirección académica"
+  bloque: postgrado
+  desde: 2014
+  hasta: 2016
+  corto: "Dirección del Experto en Innovación Tecnológica"
+  detalle: "Experto Universitario en Innovación Tecnológica en Educación, título propio de la UMH"
+  enlaces:
+    - {texto: "web del título", url: "https://iteumh.umh.es/presentacion/"}
+
+- title: "Recursos web de información"
+  bloque: postgrado
+  desde: 2014
+  hasta: 2016
+  corto: "Recursos web de información"
+  detalle: "Experto Universitario en Innovación Tecnológica en Educación, título propio de la UMH. Módulo 5"
+  enlaces:
+    - {texto: "web del título", url: "https://iteumh.umh.es/presentacion/"}
+    - {texto: "vídeos", url: "https://www.youtube.com/playlist?list=PLClKgnzRFYe4AeUPDdS1e9cCNnFJQGnUz"}
+
+# =================== Postgrado: cursos de doctorado en otras universidades ===================
 - title: "Comunicación científica"
   id: comunicacion-cientifica
   bloque: postgrado
   desde: 2023
   tarjeta: true
-  detalle: "16 h por edición"
+  detalle: "Programas de doctorado de la UASD-UMH y de la Universidad O&M (República Dominicana). 16 h por edición"
   enlaces:
     - {texto: "Comunicación Científica 4.0", url: "https://sites.google.com/umh.es/comunicacioncientifica40/inicio"}
     - {texto: "material del curso", url: "https://docs.google.com/document/d/1yJtnQyxma5kDnb-RTHpcSVTh7wZ6kPbA_Mx5jpzXysk/edit?usp=sharing"}
@@ -134,8 +266,8 @@
   bloque: postgrado
   desde: 2025
   tarjeta: true
-  corto: "Modelización"
-  detalle: "16 h. Doctorado en IA aplicada a la Productividad Empresarial, Universidad O&M (República Dominicana)"
+  corto: "Modelización Avanzada"
+  detalle: "Doctorado en IA aplicada a la Productividad Empresarial, Universidad O&M (República Dominicana). 16 h"
   enlaces:
     - {texto: "Cohorte I (marzo 2025)", url: "https://sites.google.com/umh.es/modelizacion-avanzada"}
     - {texto: "Cohorte II (octubre 2026)", url: "https://asunmayoral.github.io/modelizacion_python/index.html"}
@@ -145,50 +277,16 @@
   desde: 2026
   tarjeta: true
   corto: "DoE con Python"
-  detalle: "10 h, en línea. Programa de Doctorado en Tecnologías Informáticas, Universidad de Castilla-La Mancha (UCLM). Cursos 2025-26 y 2026-27"
+  detalle: "Programa de Doctorado en Tecnologías Informáticas, Universidad de Castilla-La Mancha. 10 h, en línea; cursos 2025-26 y 2026-27"
 
 - title: "Una primera aproximación a la Estadística Bayesiana"
   bloque: postgrado
   desde: 2022
   hasta: 2022
-  detalle: "10 h. Doctorado en Biología y Conservación de la Biodiversidad, Universidad de Salamanca"
+  corto: "Estadística Bayesiana"
+  detalle: "Doctorado en Biología y Conservación de la Biodiversidad, Universidad de Salamanca. 10 h"
   enlaces:
     - {texto: "materiales y grabaciones", url: "/recursos/bayesiana/index.html"}
-
-- title: "Tecnologías de la información en Auditoría"
-  bloque: postgrado
-  desde: 2018
-  tarjeta: true
-  corto: "TI en Auditoría"
-  detalle: "Máster Universitario en Auditoría de Cuentas (UMH)"
-  enlaces:
-    - {texto: "Gestión digital en Auditoría", url: "https://sites.google.com/umh.es/gestioniaparaauditores/aprende"}
-
-- title: "Estadística en Investigación Experimental y Clínica"
-  bloque: postgrado
-  desde: 2015
-  tarjeta: true
-  detalle: "Máster Universitario en Neuropsicofarmacología Traslacional (UMH)"
-
-- title: "Técnicas de comunicación y herramientas web para la investigación"
-  id: comunicacion-web
-  bloque: postgrado
-  desde: 2013
-  tarjeta: true
-  corto: "Comunicación y herramientas web para la investigación"
-  detalle: "Máster Universitario en Investigación en Medicina Clínica (UMH)"
-  enlaces:
-    - {texto: "vídeos", url: "https://www.youtube.com/playlist?list=PLClKgnzRFYe7VDKn29zwc-CgTMkD5qTD-"}
-
-- title: "TICs para la docencia y el aprendizaje"
-  bloque: postgrado
-  desde: 2011
-  hasta: 2020
-  corto: "TICs para la docencia y el aprendizaje (Máster de Profesorado)"
-  detalle: "Tecnologías de la Información y la Comunicación aplicadas a la docencia y el aprendizaje. Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y EI (UMH)"
-  enlaces:
-    - {texto: "libro", url: "http://innovacionumh.es/editorial/TICS.pdf"}
-    - {texto: "vídeos", url: "https://www.youtube.com/playlist?list=PLClKgnzRFYe5hwY17dxjRB_pJAeG4SqUF"}
 
 # =================== Formación continua ===================
 - title: "Cursos abiertos Unidigital-Prodigital"
@@ -196,7 +294,7 @@
   desde: 2021
   hasta: 2022
   corto: "Prodigital"
-  detalle: "Siete cursos (37 módulos, 18,5 h) para la competencia digital de la ciudadanía (DigComp) y la competencia digital docente (DigCompEdu)"
+  detalle: "Proyecto Unidigital, UMH. Siete cursos (37 módulos, 18,5 h) para la competencia digital de la ciudadanía (DigComp) y la competencia digital docente (DigCompEdu)"
   enlaces:
     - {texto: "cursos y recursos", url: "/blog/posts/2026-11-07-cursos-unidigital-prodigital/index.html"}
 
@@ -204,19 +302,19 @@
   bloque: continua
   desde: 2025
   hasta: 2025
-  detalle: "15 h. Certificado de Formación Continua, UMH"
+  detalle: "Certificado de Formación Continua, UMH. 15 h"
 
 - title: "Machine Learning para Clasificación con Python"
   bloque: continua
   desde: 2025
   hasta: 2025
-  detalle: "15 h. Certificado de Formación Continua, UMH"
+  detalle: "Certificado de Formación Continua, UMH. 15 h"
 
 - title: "Python Machine Learning"
   bloque: continua
   desde: 2024
   hasta: 2024
-  detalle: "30 h. Certificado de Formación Continua, UMH"
+  detalle: "Certificado de Formación Continua, UMH. 30 h"
   enlaces:
     - {texto: "Fundamentos de IA usando Python", url: "/blog/posts/2024-02-29-fundamentos-de-ia-usando-python/index.html"}
 
@@ -225,7 +323,8 @@
   bloque: profesorado
   desde: 2026
   hasta: 2026
-  detalle: "CEFIRE de Gandía, abril de 2026. Vinculado al concurso Va de Dades!"
+  corto: "IA generativa y estadística"
+  detalle: "CEFIRE de Gandía. Abril de 2026; vinculado al concurso Va de Dades!"
   enlaces:
     - {texto: "web del curso", url: "https://sites.google.com/umh.es/iaestadisticavadedades/inicio"}
 
@@ -233,72 +332,198 @@
   bloque: profesorado
   desde: 2022
   corto: "Metodologías activas (TECHEDU)"
-  detalle: "10 h. Programa TECHEDU-UMH, edición anual"
+  detalle: "Programa TECHEDU-UMH. 10 h, edición anual"
 
 - title: "Estrategias activas para la educación en ODS: gamificación y escape rooms"
   bloque: profesorado
   desde: 2020
   hasta: 2020
-  detalle: "20 h"
+  corto: "Educación en ODS"
+  detalle: "Formación del profesorado. 20 h"
   enlaces:
     - {texto: "entrada del blog", url: "/blog/posts/2021-03-20-estrategias-activas-para-la-educacion-en-ods-gamificacion-y-escape-roo/index.html"}
 
-- title: "Crea tu videocurso (20 h) y Recursos web para la coordinación en orientación en IES de Elche: la web OrientaElx (4 h)"
+- title: "Crea tu videocurso"
   bloque: profesorado
   desde: 2018
   hasta: 2018
-  detalle: "Cefire Elche"
+  detalle: "Cefire Elche. 20 h"
 
-- title: "Aprendizaje móvil (20 h) y Recursos y herramientas web para orientación educativa (6 h)"
+- title: "Recursos web para la coordinación en orientación en IES de Elche: la web OrientaElx"
+  bloque: profesorado
+  desde: 2018
+  hasta: 2018
+  corto: "OrientaElx"
+  detalle: "Cefire Elche. 4 h"
+
+- title: "Aprendizaje móvil"
   bloque: profesorado
   desde: 2016
   hasta: 2016
-  detalle: "Cefire"
+  detalle: "Cefire. 20 h"
   enlaces:
     - {texto: "recopilatorio", url: "https://www.symbaloo.com/mix/mobilelearning7"}
 
-- title: "Recursos de información"
+- title: "Recursos y herramientas web para orientación educativa"
   bloque: profesorado
-  desde: 2014
-  hasta: 2017
-  detalle: "20 h, módulo 5 del Título de Experto en Innovación Tecnológica (UMH)"
-  enlaces:
-    - {texto: "vídeos", url: "https://www.youtube.com/playlist?list=PLClKgnzRFYe4AeUPDdS1e9cCNnFJQGnUz"}
+  desde: 2016
+  hasta: 2016
+  corto: "Herramientas web para orientación"
+  detalle: "Cefire. 6 h"
 
 - title: "La planificación de la enseñanza universitaria"
   bloque: profesorado
   desde: 2014
   hasta: 2014
-  detalle: "Guía docente UMH y recursos web para la enseñanza semipresencial y a distancia (4 h). Escuela Internacional de Protocolo"
+  corto: "Planificación de la enseñanza"
+  detalle: "Escuela Internacional de Protocolo. 4 h; guía docente UMH y recursos web para la enseñanza semipresencial y a distancia"
 
-- title: "Recursos web para la docencia y Recursos web para semipresencialidad"
+- title: "Recursos web para la docencia"
   bloque: profesorado
   desde: 2012
   hasta: 2013
-  corto: "Recursos web"
-  detalle: "Recursos web para la docencia: niveles básico y avanzado, 15 h cada uno, tres ediciones. Recursos web para semipresencialidad: 15 h. UMH"
+  corto: "Recursos web para la docencia"
+  detalle: "Formación del profesorado, UMH. Niveles básico y avanzado, 15 h cada uno; tres ediciones"
 
-# =================== Dirección de tesis y trabajos fin de estudios ===================
-- title: "Estudio del perfil transcriptómico de muestras de glioblastoma humanas"
+- title: "Recursos web para semipresencialidad"
+  bloque: profesorado
+  desde: 2012
+  hasta: 2013
+  corto: "Semipresencialidad"
+  detalle: "Formación del profesorado, UMH. 15 h"
+
+# =================== Trabajos fin de grado dirigidos ===================
+- title: "Modelización de la vulnerabilidad en salud mental asociada al comportamiento digital mediante aprendizaje automático: un enfoque basado en componentes principales y bosques aleatorios"
+  bloque: direccion
+  desde: 2026
+  hasta: 2026
+  detalle: "Trabajo fin de grado"
+  estudiante: "Cristina Climent Torró"
+  calificacion: "sobresaliente"
+  repositorio: ""
+
+- title: "Optimización de campañas de marketing mediante técnicas de clasificación"
+  bloque: direccion
+  desde: 2025
+  hasta: 2025
+  detalle: "Trabajo fin de grado"
+  estudiante: "Ángela Mellado Salinas"
+  calificacion: "sobresaliente"
+  repositorio: ""
+
+- title: "Desarrollo de un sistema de recomendación de canciones basado en análisis de componentes principales y métodos de clasificación avanzados"
+  bloque: direccion
+  desde: 2025
+  hasta: 2025
+  detalle: "Trabajo fin de grado"
+  estudiante: "Rocío Pérez Jiménez"
+  calificacion: "notable"
+  repositorio: ""
+
+- title: "VisorAnalytica: una plataforma R/Shiny para el análisis y predicción del comportamiento del consumidor para la toma de decisiones estratégicas"
+  bloque: direccion
+  desde: 2025
+  hasta: 2025
+  detalle: "Trabajo fin de grado"
+  estudiante: "Aarón Aznar Valero"
+  calificacion: "sobresaliente"
+  repositorio: ""
+
+- title: "Ictus bajo la lupa: analizando riesgos con Machine Learning"
+  bloque: direccion
+  desde: 2025
+  hasta: 2025
+  detalle: "Trabajo fin de grado"
+  estudiante: "Carlos Pomares Guirao"
+  calificacion: "notable"
+  repositorio: ""
+
+- title: "Automatización de informes estadísticos con Google Colab y Python"
+  bloque: direccion
+  desde: 2025
+  hasta: 2025
+  detalle: "Trabajo fin de grado"
+  estudiante: "Mario Goñi Arrivi"
+  calificacion: "sobresaliente"
+  repositorio: ""
+
+- title: "Explorando los factores del éxito y fracaso en startups"
+  bloque: direccion
+  desde: 2025
+  hasta: 2025
+  detalle: "Trabajo fin de grado"
+  estudiante: "Silvia Samper Perujo"
+  calificacion: "notable"
+  repositorio: ""
+
+- title: "Análisis de las tendencias de compra a lo largo del tiempo: estudio de los datos de un mercado estadounidense"
+  bloque: direccion
+  desde: 2025
+  hasta: 2025
+  detalle: "Trabajo fin de grado"
+  estudiante: "Aitana Bataller García"
+  calificacion: "aprobado"
+  repositorio: ""
+
+- title: "Clasificación automática de patologías tiroideas mediante Random Forest: estrategia de imputación y balanceo de clases"
+  bloque: direccion
+  desde: 2024
+  hasta: 2024
+  detalle: "Trabajo fin de grado"
+  estudiante: "Rebeca Mai Ferrández Ueba"
+  calificacion: "sobresaliente"
+  repositorio: ""
+
+- title: "Sistemas de recomendación en R y aplicación a datos reales"
+  bloque: direccion
+  desde: 2024
+  hasta: 2024
+  detalle: "Trabajo fin de grado"
+  estudiante: "Alba Lerma Micó"
+  calificacion: "sobresaliente"
+  repositorio: ""
+
+- title: "Análisis de predicción en inversiones de deuda pública"
+  bloque: direccion
+  desde: 2024
+  hasta: 2024
+  detalle: "Trabajo fin de grado"
+  estudiante: "Alicia Díaz-Roncero Catalá"
+  calificacion: "sobresaliente"
+  repositorio: ""
+
+- title: "Análisis sobre la evolución de la enfermedad del párkinson"
+  bloque: direccion
+  desde: 2024
+  hasta: 2024
+  detalle: "Trabajo fin de grado"
+  estudiante: "Inmaculada Ramírez López"
+  calificacion: "notable"
+  repositorio: ""
+
+- title: "El cáncer de mama. Análisis, representación y clasificación según varios modelos de Machine Learning sobre una base de datos"
   bloque: direccion
   desde: 2023
   hasta: 2023
-  detalle: "Trabajo fin de estudios de Nuria Termes Sabater"
+  detalle: "Trabajo fin de grado"
+  estudiante: "José Javier Lucena Muñoz"
+  calificacion: "sobresaliente"
+  repositorio: ""
 
 - title: "Evolución estadística de separaciones, nulidades y divorcios en los años 2013-2020"
   bloque: direccion
   desde: 2023
   hasta: 2023
-  detalle: "Trabajo fin de estudios de Jorge Pliego Marín"
+  detalle: "Trabajo fin de grado"
+  estudiante: "Jorge Pliego Marín"
+  calificacion: "aprobado"
+  repositorio: ""
 
-- title: "Estimación de parámetros relacionados con la calidad del compost mediante espectroscopía en el infrarrojo cercano (NIRS)"
+- title: "Impacto del agotamiento emocional en los estudiantes del grado de Medicina"
   bloque: direccion
-  desde: 2011
-  hasta: 2011
-  detalle: "Proyecto fin de carrera de Luis Nazario Gálvez Sola (sobresaliente)"
-
-- title: "Modelos geoestadísticos para el estudio de índices bioclimáticos"
-  bloque: direccion
-  desde: 2009
-  hasta: 2009
-  detalle: "Tesis doctoral de Josep Xavier Barber Vallés, Programa de Doctorado en Estadística e Investigación Operativa, UMH (sobresaliente <em>cum laude</em>)"
+  desde: 2023
+  hasta: 2023
+  detalle: "Trabajo fin de grado"
+  estudiante: "Vidal Ocaña Alonso"
+  calificacion: "sobresaliente"
+  repositorio: ""

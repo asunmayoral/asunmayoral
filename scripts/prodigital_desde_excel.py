@@ -31,6 +31,16 @@ TITULOS = {
     "CDCE2.3": "Protección, gestión y compartición de contenidos digitales",
 }
 MARCOS = {"DIGCOMP": "DigComp", "DIGCOMPEDU": "DigCompEdu"}
+# Resumen corto para la tarjeta del catálogo de Recursos (la descripción completa queda en la entrada del blog)
+RESUMENES = {
+    "Interacción digital": "Cómo comunicarse de forma eficaz y saludable en redes sociales, mensajería y videoconferencia.",
+    "Compartir en la red": "Herramientas web para almacenar, organizar y compartir contenidos digitales.",
+    "Identidad digital, participación ciudadana y comportamiento en la red": "Identidad, huella y reputación digital, trámites en línea con la Administración y navegación segura.",
+    "Creación colaborativa en la red": "Colaboración virtual eficaz: planificación de proyectos, herramientas de cocreación y Wikipedia.",
+    "Búsqueda y selección de contenidos digitales": "Estrategias de búsqueda, criterios de selección de contenidos fiables y repositorios para docencia e investigación.",
+    "Creación y modificación de contenidos digitales": "Herramientas para crear y modificar contenidos educativos digitales en formatos diversos.",
+    "Protección, gestión y compartición de contenidos digitales": "Licencias y Creative Commons, catalogación y pautas para gestionar y compartir contenidos educativos.",
+}
 
 
 def limpio(v):
@@ -131,6 +141,7 @@ for c in salida:
     catalogo.append({
         "title": c["title"],
         "description": f"{c['description']} {c['n_modulos']} módulos, {c['horas']}.",
+        **({"resumen": f"{RESUMENES[c['title']]} {c['n_modulos']} módulos, {c['horas']}."} if c["title"] in RESUMENES else {}),
         "path": f"/{ENTRADA}/index.html#{c['ancla']}",
         "date": "2022-06-01",
         "anio": f"{c['marco']} · 2021-22",

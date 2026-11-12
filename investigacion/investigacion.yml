@@ -113,6 +113,12 @@
   anio: 2022
   linea: educacion
   blog: /blog/posts/2022-04-07-tesis-en-espacios-educativos-innovadores-y-sostenibles/index.html
+- clase: tesis
+  title: "Optimización del rendimiento predictivo mediante la selección de configuraciones de modelos: un enfoque de conjunto"
+  autores: "Carlos García Aroca (tesis dirigida)"
+  fuente: "Doctorado en Estadística, Optimización y Matemática Aplicada, Universidad Miguel Hernández"
+  anio: 2026
+  linea: ia
 
 # =================== Publicaciones ===================
 - clase: publicacion

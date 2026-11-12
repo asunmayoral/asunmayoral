@@ -104,7 +104,7 @@ a { text-underline-offset: 3px; }
 .tarjetas { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.25rem; }
 .tarjeta { display: flex; flex-direction: column; gap: .6rem; padding: 1.4rem; border: 1px solid $linea; border-radius: .75rem; background: #fff; }
 .tarjeta h3 { font-size: 1.3rem; line-height: 1.2; margin: 0; }
-.tarjeta h3 a { color: $tinta; text-decoration: none; }
+.tarjeta h3 a { color: $tinta; text-decoration: none; font-weight: inherit; }
 .tarjeta h3 a:hover { text-decoration: underline; }
 .tarjeta p { margin: 0; color: $gris; font-size: .97rem; line-height: 1.5; }
 .tarjeta .desc { flex-grow: 1; }
@@ -331,3 +331,21 @@ details.acordeon[class*="d-"] .asig .anio { color: var(--p); }
 details.acordeon[class*="d-"] { scroll-margin-top: 5rem; }
 .asig { scroll-margin-top: 5rem; }
 .asig:target { background: #F6F1E7; box-shadow: -.6rem 0 0 #F6F1E7, .6rem 0 0 #F6F1E7; }
+
+.d-direccion .tl-p { width: 10px; height: 10px; margin-left: -5px; }
+
+// ---------- Recursos: tarjetas compactas (el resumen nunca pasa de 4 líneas) ----------
+.recursos-page .tarjeta .desc { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+
+// ---------- Blog en rejilla ----------
+.quarto-listing-container-grid .list.grid { gap: 1.25rem; }
+.quarto-grid-item.card { border: 1px solid $linea; border-radius: .75rem; background: #fff; overflow: hidden; transition: box-shadow .15s; }
+.quarto-grid-item.card:hover { box-shadow: 0 4px 14px rgba(47,42,54,.10); }
+.quarto-grid-item .card-img-top { border-bottom: 1px solid $linea; }
+.quarto-grid-item .card-img-top img.thumbnail-image { width: 100% !important; object-fit: cover; display: block; }
+.quarto-grid-item img.thumbnail-image[src$=".svg"] { object-fit: contain; padding: 1.5rem; background: $ciruela; }
+.quarto-grid-item .card-body { padding: .9rem 1rem 1rem; }
+.quarto-grid-item .card-title { font-family: "Fraunces", Georgia, serif; font-size: 1.12rem; font-weight: 600; line-height: 1.25; margin-bottom: .4rem; }
+.quarto-grid-item .card-text { font-size: .92rem; color: $gris; line-height: 1.45; }
+.quarto-grid-item .listing-date, .quarto-grid-item .card-attribution { font-size: .82rem; color: $gris; }
+.quarto-grid-item .listing-categories .listing-category { font-size: .72rem; }

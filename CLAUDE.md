@@ -34,6 +34,7 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
    - `tipo`: Curso/Taller, Libro, Recopilatorio, Vídeo, Datos, Juego
    - `temas`: Estadística-CC Datos, IA, Python, R, Bayesiana, Mejora de procesos, Innovación educativa, Comunicación científica, Competencia digital
    - `origen`: Propio (hecho por Asun, sola o en equipo) | Recomendado (de otras personas)
+   Si `description` pasa de unos 110 caracteres, añade `resumen` (una frase corta): es lo que muestra la tarjeta; la descripción completa sigue sirviendo al buscador y la información detallada está en el destino del enlace.
 4. Libros: van en el catálogo con `tipo: Libro`; campos opcionales `portada` (imagen pequeña en `images/libros/`, ruta `/images/libros/...`) y `mas` / `mas_texto` (enlace extra, p. ej. Google Play). La antigua página Publicaciones ya no existe: redirige a Recursos.
 5. Campo opcional `serie`: colección o proyecto al que pertenece (p. ej. `Unidigital-Prodigital`); se muestra como etiqueta y como filtro «Colección».
 6. Las tres entradas con `date` más reciente aparecen en la portada.
@@ -41,7 +42,7 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
 ### Cursos Unidigital-Prodigital
 - Entrada del blog: `blog/posts/2026-11-07-cursos-unidigital-prodigital/` (un acordeón por curso, fichas de módulo con PDF, vídeo, cuestionario, infografía y ficha en RediUMH, y buscador).
 - Los datos salen de la hoja de cálculo del proyecto, guardada en `fuentes/CURSOS_Y_RECURSOS.xlsx` (excluida de git porque tiene columnas internas).
-- Tras cambiar la hoja: `python scripts/prodigital_desde_excel.py`. Regenera `cursos.yml` de la entrada y `recursos/recursos-prodigital.yml` (las 7 fichas del catálogo). No se editan a mano.
+- Tras cambiar la hoja: `python scripts/prodigital_desde_excel.py`. Los resúmenes de las tarjetas están en el diccionario `RESUMENES` del script. Regenera `cursos.yml` de la entrada y `recursos/recursos-prodigital.yml` (las 7 fichas del catálogo). No se editan a mano.
 - Se enlaza desde Recursos (filtro Colección), Docencia › Formación continua y el proyecto Unidigital-Prodigital.
 
 ### Escribir una entrada del blog
@@ -76,11 +77,16 @@ La página `investigacion/index.qmd` no se edita para añadir contenido: se gene
 
 ### Docencia
 La página `docencia/index.qmd` no se edita para añadir contenido: se genera con tres plantillas (`_templates/docencia-*.ejs`).
+- Grado, licenciaturas y másteres de la UMH están confirmados por Asun con el CVN de docencia (nov. 2026); no se añaden asignaturas UMH que no estén ahí sin preguntar.
+- **Trabajos fin de grado**: `bloque: direccion` con `estudiante`, `calificacion` y `repositorio` (enlace a RediUMH, vacío si aún no lo hay). En la línea temporal salen como puntos.
+- **Tesis doctorales dirigidas**: no van en Docencia, sino en `investigacion/investigacion.yml` (`clase: tesis`, `autores: "Nombre (tesis dirigida)"`); el acordeón de TFG enlaza a Investigación.
 - **Asignatura o curso nuevo**: una entrada en `docencia/docencia.yml` (los campos están descritos al principio del fichero): `title`, `bloque` (grado | licenciatura | postgrado | continua | profesorado | direccion), `desde`, `hasta`, `detalle`, `enlaces`.
 - Sin `hasta` (o con `hasta` posterior al año actual) la entrada está **en curso**: barra de tono fuerte en la línea temporal y etiqueta «En curso». Cuando deja de impartirse, se añade `hasta`.
-- `tarjeta: true` la muestra además en «Asignaturas que imparto» (no la marca como actual: eso depende solo de `hasta`). `titulacion` y `path` son opcionales; sin ellos la tarjeta usa el nombre del bloque y el primer enlace.
+- `tarjeta: true` la muestra además en «Asignaturas que imparto» (no la marca como actual: eso depende solo de `hasta`). La tarjeta pone arriba la titulación (el `detalle` hasta el primer punto) y debajo el resto; el título enlaza a `path` o, si no hay, al primer enlace.
+- Formato homogéneo de `detalle`: «Titulación o entidad. Resto (horas, papel, código…)», sin punto final.
 - La docencia oficial en la UMH se ajusta al CVN de docencia. Lo retirado y la versión anterior de lo corregido están en `docencia/docencia-retiradas.yml`, que ninguna página lee. La formación fuera de la UMH y en títulos propios no se contrasta con el CVN.
 - Del Máster de Formación del Profesorado solo se muestra «TICs para la docencia y el aprendizaje».
+- `docencia/docencia-cvn.yml` es la docencia tal como figura en el CVN de docencia UMH, con el mismo esquema más `en_web` y `cvn` (datos de ayuda). Sirve para revisar; ninguna página lo lee. Se regenera con `scripts/cvn_docencia.py` (instrucciones al principio del script).
 - Un curso con varias ediciones lleva `ediciones` (lista de `anio`, `programa`, `universidad`) y sale con su tabla.
 - `corto` es el nombre abreviado de la barra; `id` fija el ancla si otra página enlaza a la entrada (Divulgación enlaza a `comunicacion-cientifica` y `comunicacion-web`).
 - El orden de las listas es automático (en curso primero; luego de lo más reciente a lo más antiguo).
