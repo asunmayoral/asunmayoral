@@ -22,7 +22,7 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
 | `404.qmd` | Página de «no encontrada» |
 | `_templates/*.ejs` | Plantillas de los listados (no tocar salvo para cambiar el diseño) |
 | `scripts/hero_cluster.py` | Genera `images/banner.svg` y `images/banner-suave.svg` |
-| `files/` | PDFs y otros ficheros descargables |
+| `files/` | PDFs y otros ficheros descargables (`files/libros/`: copias de los libros de Asun) |
 
 ## Tareas habituales
 
@@ -37,6 +37,7 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
    - `origen`: Propio (hecho por Asun, sola o en equipo) | Recomendado (de otras personas)
    Si `description` pasa de unos 110 caracteres, añade `resumen` (una frase corta): es lo que muestra la tarjeta; la descripción completa sigue sirviendo al buscador y la información detallada está en el destino del enlace.
 4. Libros: van en el catálogo con `tipo: Libro`; campos opcionales `portada` (imagen pequeña en `images/libros/`, ruta `/images/libros/...`) y `mas` / `mas_texto` (enlace extra, p. ej. Google Play). La antigua página Publicaciones ya no existe: redirige a Recursos.
+   Copias de los libros: los PDF están en `files/libros/` (nombres en minúscula, sin espacios ni tildes, con guiones). En `recursos.yml`, `path` apunta a la Editorial UMH si el libro está allí (es prioritaria) y el campo `pdf: /files/libros/<fichero>.pdf` añade el enlace «Copia en PDF»; si no hay página de la editorial, `path` apunta directamente al PDF. En `docencia.yml` se enlaza igual: editorial si existe, si no la copia. Para sustituir un libro, Asun reemplaza el PDF con el mismo nombre y sube el cambio; los enlaces no cambian. GitHub rechaza ficheros de más de 100 MB.
 5. Campo opcional `serie`: colección o proyecto al que pertenece (p. ej. `Unidigital-Prodigital`); se muestra como etiqueta y como filtro «Colección».
 6. Las tres entradas con `date` más reciente aparecen en la portada.
 

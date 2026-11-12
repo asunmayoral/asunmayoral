@@ -72,7 +72,7 @@ data-texto="<%= [item.title, item.description, item.autoria, item.serie, (item.t
 <h3><% if (item.path) { %><a href="<%- item.path %>"><%= item.title %></a><% } else { %><%= item.title %><% } %></h3>
 <p class="desc"><%= item.resumen || item.description %></p>
 <% if (item.autoria) { %><p class="pie"><%= item.autoria %></p><% } %>
-<% if (item.mas) { %><p class="pie"><a href="<%- item.mas %>"><%= item.mas_texto || 'Más información' %></a></p><% } %>
+<% if (item.mas || (item.pdf && item.pdf !== item.path)) { %><p class="pie"><%= [item.mas ? `<a href="${item.mas}">${item.mas_texto || 'Más información'}</a>` : '', (item.pdf && item.pdf !== item.path) ? `<a href="${item.pdf}">Copia en PDF</a>` : ''].filter(Boolean).join(' · ') %></p><% } %>
 <% if (item.nota) { %><p class="pie"><em><%= item.nota %></em></p><% } %>
 <p class="pie"><%= (item.temas || []).join(' · ') %><% if (item.anio) { %> · <%= item.anio %><% } %></p>
 </article>

@@ -82,3 +82,11 @@ así que los enlaces viejos seguirán funcionando.
 ## Cómo está organizado
 
 Ver `CLAUDE.md`: estructura, campos de cada fichero de datos, valores permitidos y estilo.
+
+## Libros en PDF
+
+Las copias de los libros están en `files/libros/` y se publican en `https://asunmayoral.umh.es/files/libros/<nombre>.pdf`.
+
+- **Actualizar un libro**: sustituye el PDF por la versión nueva con el mismo nombre de fichero y sube el cambio con GitHub Desktop. Los enlaces de la web siguen funcionando.
+- **Añadir un libro**: copia el PDF en `files/libros/` con un nombre en minúsculas, sin espacios ni tildes (p. ej. `modelos-de-regresion.pdf`) y pide a Claude que lo añada al catálogo de Recursos.
+- GitHub no admite ficheros de más de 100 MB; por encima de 50 MB avisa, pero los acepta.

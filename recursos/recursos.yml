@@ -297,12 +297,14 @@
   origen: Recomendado
 
 # ---------- Libros ----------
-# Campos extra para libros: portada (imagen pequeña en images/libros/), mas / mas_texto (enlace adicional)
+# Campos extra para libros: portada (imagen pequeña en images/libros/), mas / mas_texto (enlace adicional),
+# pdf (copia propia en files/libros/). `path` apunta a la Editorial UMH si existe; si no, a la copia en PDF.
 - title: "Lean Seis Sigma para la Mejora de Procesos"
   description: "A. M. Mayoral y J. Morales. Editorial electrónica UMH. ISBN 978-84-18177-14-9."
-  path: https://innovacionumh.es/editorial/Lean%20Seis%20Sigma%20para%20la%20mejora%20de%20procesos.pdf
+  path: https://editorial.umh.es/2022/01/13/lean-seis-sigma-para-la-mejora-de-procesos/
   mas: https://play.google.com/store/books/details?id=jKVYEAAAQBAJ
   mas_texto: "Google Play"
+  pdf: /files/libros/lean-seis-sigma-mejora-de-procesos.pdf
   date: 2022-01-13
   anio: "2022"
   tipo: Libro
@@ -312,9 +314,10 @@
 - title: "TICs para la docencia y el aprendizaje"
   description: "Mª A. Martínez Mayoral, J. Morales, J. Aparicio, L. Ortiz y M. Quesada. Editorial electrónica UMH. ISBN 978-84-16024-82-7."
   resumen: "Libro de la asignatura del Máster de Profesorado, con J. Morales, J. Aparicio, L. Ortiz y M. Quesada."
-  path: http://innovacionumh.es/editorial/TICS.pdf
+  path: https://editorial.umh.es/2019/12/16/tics-para-la-docencia-y-el-aprendizaje/
   mas: https://play.google.com/store/books/details?id=2EvEDwAAQBAJ
   mas_texto: "Google Play"
+  pdf: /files/libros/tics-docencia-aprendizaje.pdf
   portada: /images/libros/tics.webp
   date: 2019-12-16
   anio: "2019"
@@ -325,9 +328,10 @@
 - title: "Monográfico Innovación UMH 2017"
   description: "Recopilación revisada de experiencias de innovación docente en la UMH. Eds.: A. M. Mayoral, J. Morales, J. A. Pérez-Juan y P. Robles. Editorial electrónica UMH. ISBN 978-84-16024-55-1."
   resumen: "Experiencias de innovación docente en la UMH, editadas con J. Morales, J. A. Pérez-Juan y P. Robles."
-  path: http://editorial.umh.es/2018/11/06/monografico-innovacion-umh-2017/
+  path: https://editorial.umh.es/2018/11/06/monografico-innovacion-umh-2017/
   mas: https://play.google.com/store/books/details?id=lm12DwAAQBAJ
   mas_texto: "Google Play"
+  pdf: /files/libros/monografico-innovacion-umh-2017.pdf
   portada: /images/libros/monografico-2017.webp
   date: 2018-11-06
   anio: "2018"
@@ -338,7 +342,7 @@
 - title: "Apuntes de Teoría de Colas"
   description: "Simulación y análisis de sistemas de espera. A. M. Mayoral, J. Morales, X. Barber y J. Aparicio. Universidad Miguel Hernández. ISBN 978-84-96297-76-0."
   resumen: "Simulación y análisis de sistemas de espera. Con J. Morales, X. Barber y J. Aparicio (UMH)."
-  path: https://www.dropbox.com/s/4jkbpjfvp1m762y/A4%20Apuntes%20de%20Teor%C3%ADa%20de%20Colas.pdf
+  path: /files/libros/apuntes-teoria-de-colas.pdf
   date: 2007-01-01
   anio: "2007"
   tipo: Libro
@@ -348,7 +352,7 @@
 - title: "Modelos estadísticos para pérdidas y reclamaciones"
   description: "A. M. Mayoral, J. Morales, X. Barber y J. Aparicio. Universidad Miguel Hernández. ISBN 978-84-96297-78-4."
   resumen: "Libro docente de Estadística Actuarial. Con J. Morales, X. Barber y J. Aparicio (UMH)."
-  path: https://www.dropbox.com/s/nhjrlamuo8kcasd/A4%20Mod%20Estad%20p%20P%C3%A9rd%20y%20Reclamac.pdf
+  path: /files/libros/modelos-estadisticos-perdidas-reclamaciones.pdf
   date: 2007-01-02
   anio: "2007"
   tipo: Libro
@@ -357,7 +361,7 @@
 
 - title: "Modelos Lineales Generalizados (apuntes)"
   description: "A. M. Mayoral y J. Morales. Universidad Miguel Hernández. ISBN 84-95893-01-0."
-  path: https://www.dropbox.com/s/bcjt5ms5idtun2p/Modelos%20Lineales%20Generalizados.pdf
+  path: /files/libros/modelos-lineales-generalizados.pdf
   date: 2002-01-01
   anio: "Libro"
   tipo: Libro
@@ -365,9 +369,29 @@
   lenguaje: [R]
   origen: Propio
 
+- title: "Análisis Estadísticos con R"
+  description: "Mª A. Martínez Mayoral y J. Morales. Apuntes no publicados (94 páginas) para aprender análisis estadístico con R."
+  path: /files/libros/analisis-estadisticos-con-r.pdf
+  date: 2005-01-01
+  anio: "Apuntes"
+  tipo: Libro
+  temas: [Estadística-CC Datos]
+  lenguaje: [R]
+  origen: Propio
+
+- title: "Modelos Lineales en Econometría"
+  description: "J. Aparicio, Mª A. Martínez Mayoral y J. Morales. Apuntes no publicados (88 páginas): introducción a la econometría y modelos lineales con R."
+  path: /files/libros/modelos-lineales-en-econometria.pdf
+  date: 2005-01-02
+  anio: "Apuntes"
+  tipo: Libro
+  temas: [Estadística-CC Datos]
+  lenguaje: [R]
+  origen: Propio
+
 - title: "TIS: Técnicas de Investigación Social"
   description: "M. Landete y A. M. Mayoral. Universidad Miguel Hernández. ISBN 84-95315-90-4."
-  path: https://www.dropbox.com/s/wcwdu4qw83rulr6/TIS%20a4.pdf
+  path: /files/libros/tis-tecnicas-de-investigacion-social.pdf
   date: 2001-01-01
   anio: "2001"
   tipo: Libro

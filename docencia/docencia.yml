@@ -32,7 +32,7 @@
   enlaces:
     - {texto: "Web de la asignatura (R)", url: "https://umh1477.github.io/"}
     - {texto: "Web de la asignatura (Python)", url: "https://sites.google.com/umh.es/simcm/inicio"}
-    - {texto: "Apuntes de Teoría de Colas", url: "https://www.dropbox.com/s/4jkbpjfvp1m762y/A4%20Apuntes%20de%20Teor%C3%ADa%20de%20Colas.pdf"}
+    - {texto: "Apuntes de Teoría de Colas", url: "/files/libros/apuntes-teoria-de-colas.pdf"}
 
 - title: "Modelos Lineales Generalizados"
   bloque: grado
@@ -52,7 +52,7 @@
   enlaces:
     - {texto: "web de la asignatura", url: "https://bookdown.org/asun_mayoral/book-l6s/"}
     - {texto: "vídeos", url: "http://bit.ly/2dk19NR"}
-    - {texto: "libro (PDF)", url: "https://innovacionumh.es/editorial/Lean%20Seis%20Sigma%20para%20la%20mejora%20de%20procesos.pdf"}
+    - {texto: "libro (Editorial UMH)", url: "https://editorial.umh.es/2022/01/13/lean-seis-sigma-para-la-mejora-de-procesos/"}
 
 - title: "Análisis Exploratorio de Datos"
   bloque: grado
@@ -80,7 +80,7 @@
   corto: "TIS (ADE, Elche Parque Industrial)"
   detalle: "Licenciatura en Administración y Dirección de Empresas, Elche Parque Industrial"
   enlaces:
-    - {texto: "libro TIS", url: "https://www.dropbox.com/s/wcwdu4qw83rulr6/TIS%20a4.pdf"}
+    - {texto: "libro TIS", url: "/files/libros/tis-tecnicas-de-investigacion-social.pdf"}
 
 - title: "Estadística Actuarial II"
   bloque: licenciatura
@@ -88,7 +88,7 @@
   hasta: 2008
   detalle: "Licenciatura en Ciencias Actuariales y Financieras"
   enlaces:
-    - {texto: "Modelos para pérdidas y reclamaciones", url: "https://www.dropbox.com/s/nhjrlamuo8kcasd/A4%20Mod%20Estad%20p%20P%C3%A9rd%20y%20Reclamac.pdf"}
+    - {texto: "Modelos para pérdidas y reclamaciones", url: "/files/libros/modelos-estadisticos-perdidas-reclamaciones.pdf"}
 
 - title: "Teoría de Colas"
   bloque: licenciatura
@@ -96,7 +96,7 @@
   hasta: 2008
   detalle: "Licenciatura en Ciencias y Técnicas Estadísticas"
   enlaces:
-    - {texto: "Apuntes de Teoría de Colas", url: "https://www.dropbox.com/s/4jkbpjfvp1m762y/A4%20Apuntes%20de%20Teor%C3%ADa%20de%20Colas.pdf"}
+    - {texto: "Apuntes de Teoría de Colas", url: "/files/libros/apuntes-teoria-de-colas.pdf"}
 
 - title: "Herramientas para la Ingeniería de Datos"
   bloque: licenciatura
@@ -132,6 +132,8 @@
   hasta: 2002
   corto: "TIS (Ciencias Políticas)"
   detalle: "Licenciatura en Ciencias Políticas y de la Administración"
+  enlaces:
+    - {texto: "libro TIS", url: "/files/libros/tis-tecnicas-de-investigacion-social.pdf"}
 
 - title: "Análisis Multivariante"
   bloque: licenciatura
@@ -166,6 +168,8 @@
   hasta: 2001
   corto: "TIS (Diplomatura)"
   detalle: "Diplomatura en Estadística"
+  enlaces:
+    - {texto: "libro TIS", url: "/files/libros/tis-tecnicas-de-investigacion-social.pdf"}
 
 - title: "Técnicas de Investigación Social"
   bloque: licenciatura
@@ -175,6 +179,9 @@
   detalle: "Licenciatura en Investigación y Técnicas de Mercado"
 
 # =================== Postgrado: másteres oficiales de la UMH ===================
+  enlaces:
+    - {texto: "libro TIS", url: "/files/libros/tis-tecnicas-de-investigacion-social.pdf"}
+
 - title: "Tecnologías de la Información en Auditoría"
   bloque: postgrado
   desde: 2018
@@ -208,7 +215,8 @@
   corto: "TICs para la docencia y el aprendizaje"
   detalle: "Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y Enseñanza de Idiomas. Coordinación de la asignatura"
   enlaces:
-    - {texto: "libro", url: "http://innovacionumh.es/editorial/TICS.pdf"}
+    - {texto: "libro", url: "https://editorial.umh.es/2019/12/16/tics-para-la-docencia-y-el-aprendizaje/"}
+    - {texto: "libro-Google Play", url: "https://play.google.com/store/books/details?id=2EvEDwAAQBAJ&pli=1"}
     - {texto: "vídeos", url: "https://www.youtube.com/playlist?list=PLClKgnzRFYe5hwY17dxjRB_pJAeG4SqUF"}
 
 - title: "La Investigación e Innovación Educativa y la Gestión del Cambio"
@@ -231,26 +239,6 @@
   hasta: 2020
   corto: "Practicum I (Máster de Profesorado)"
   detalle: "Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y Enseñanza de Idiomas"
-
-# =================== Postgrado: títulos propios de la UMH ===================
-- title: "Dirección académica"
-  bloque: postgrado
-  desde: 2014
-  hasta: 2016
-  corto: "Dirección del Experto en Innovación Tecnológica"
-  detalle: "Experto Universitario en Innovación Tecnológica en Educación, título propio de la UMH"
-  enlaces:
-    - {texto: "web del título", url: "https://iteumh.umh.es/presentacion/"}
-
-- title: "Recursos web de información"
-  bloque: postgrado
-  desde: 2014
-  hasta: 2016
-  corto: "Recursos web de información"
-  detalle: "Experto Universitario en Innovación Tecnológica en Educación, título propio de la UMH. Módulo 5"
-  enlaces:
-    - {texto: "web del título", url: "https://iteumh.umh.es/presentacion/"}
-    - {texto: "vídeos", url: "https://www.youtube.com/playlist?list=PLClKgnzRFYe4AeUPDdS1e9cCNnFJQGnUz"}
 
 # =================== Postgrado: cursos de doctorado en otras universidades ===================
 - title: "Comunicación científica"
@@ -399,6 +387,25 @@
   hasta: 2013
   corto: "Semipresencialidad"
   detalle: "Formación del profesorado, UMH. 15 h"
+
+- title: "Dirección académica"
+  bloque: profesorado
+  desde: 2014
+  hasta: 2017
+  corto: "Dirección del Experto en Innovación Tecnológica"
+  detalle: "Experto Universitario en Innovación Tecnológica en Educación, formación del profesorado de la UMH"
+  enlaces:
+    - {texto: "web del título", url: "https://iteumh.umh.es/presentacion/"}
+
+- title: "Recursos web de información"
+  bloque: profesorado
+  desde: 2014
+  hasta: 2017
+  corto: "Recursos web de información"
+  detalle: "Experto Universitario en Innovación Tecnológica en Educación, formación del profesorado de la UMH. Módulo 5"
+  enlaces:
+    - {texto: "web del título", url: "https://iteumh.umh.es/presentacion/"}
+    - {texto: "vídeos", url: "https://www.youtube.com/playlist?list=PLClKgnzRFYe4AeUPDdS1e9cCNnFJQGnUz"}
 
 # =================== Trabajos fin de grado dirigidos ===================
 - title: "Modelización de la vulnerabilidad en salud mental asociada al comportamiento digital mediante aprendizaje automático: un enfoque basado en componentes principales y bosques aleatorios"
