@@ -17,13 +17,14 @@
 #   nota         (opcional) aviso breve, p. ej. acceso restringido
 
 # ---------- Estadística y ciencia de datos ----------
-- title: "Modelos Lineales Generalizados"
+- title: "Modelos Lineales Generalizados (R)"
   description: "Web de la asignatura del Grado en Ciencia de Datos e Inteligencia Artificial."
   path: https://asunmayoral.github.io/GLM/
   date: 2026-09-01
   anio: "2026"
   tipo: Curso/Taller
   temas: [Estadística-CC Datos]
+  lenguaje: [R]
   origen: Propio
 
 - title: "Simulación de procesos y sistemas (R)"
@@ -192,8 +193,6 @@
   description: "Recomendaciones y herramientas tecnológicas para la divulgación científica efectiva. Curso de los programas de doctorado espejo UMH-UASD y UMH-O&M (República Dominicana)."
   resumen: "Herramientas tecnológicas para la divulgación científica. Doctorados espejo UMH-UASD y UMH-O&M (República Dominicana)."
   path: https://sites.google.com/umh.es/comunicacioncientifica40/inicio
-  mas: https://docs.google.com/document/d/1yJtnQyxma5kDnb-RTHpcSVTh7wZ6kPbA_Mx5jpzXysk/edit?usp=sharing
-  mas_texto: "Documento del curso (2023-24)"
   date: 2026-07-01
   anio: "2023-26"
   tipo: Curso/Taller
@@ -310,6 +309,7 @@
   tipo: Libro
   temas: [Mejora de procesos]
   origen: Propio
+  lenguaje: [R]
 
 - title: "TICs para la docencia y el aprendizaje"
   description: "Mª A. Martínez Mayoral, J. Morales, J. Aparicio, L. Ortiz y M. Quesada. Editorial electrónica UMH. ISBN 978-84-16024-82-7."

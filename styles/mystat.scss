@@ -364,3 +364,6 @@ details.tfm-lista { border: 1px solid $linea; border-radius: .5rem; padding: .5r
 details.tfm-lista > summary { cursor: pointer; font-weight: 700; color: var(--p, $tinta); }
 details.tfm-lista h4 { font-size: 1rem; margin: 1rem 0 .3rem; }
 details.tfm-lista ul { margin: 0; padding-left: 1.2rem; font-size: .92rem; color: $gris; }
+
+.tf-titulacion { font-size: 1rem; margin: 1rem 0 .2rem; }
+details.tfm-lista .tf-autor { color: $tinta; }

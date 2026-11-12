@@ -5,8 +5,8 @@ Uso:
 
 Por defecto lee fuentes/TFG_TFM_dirigidos.xlsx (carpeta excluida de git: tiene notas de estudiantes).
 Pestañas TFG y TFM, con la fila 1 de cabeceras. Se publican solo:
-  TFG: título (columna «Título (web)»), estudiante («Estudiante (web)»), curso, codirección y enlace al repositorio.
-  TFM: título («Título (web)»), curso y especialidad. Sin nombres ni notas.
+  TFG: título (columna «Título (web)»), estudiante («Estudiante (web)»), titulación, curso, codirección y enlace al repositorio.
+  TFM: título («Título (web)»), estudiante («Estudiante (web)»), curso y especialidad. Nunca notas.
 Requiere: openpyxl y pyyaml.
 """
 import sys, datetime as dt
@@ -39,7 +39,7 @@ for x in filas(wb["TFG"]):
     f = fecha(x["Fecha de evaluación"])
     est = x.get("Estudiante (web)") or x["Estudiante"]
     e = {"clase": "tfg", "bloque": "direccion", "title": x.get("Título (web)") or bonito(x["Título"]),
-         "estudiante": est, "curso": curso(f), "desde": f.year, "hasta": f.year, "fecha": f.strftime("%Y-%m-%d")}
+         "estudiante": est, "titulacion": x.get("Titulación") or "", "curso": curso(f), "desde": f.year, "hasta": f.year, "fecha": f.strftime("%Y-%m-%d")}
     if str(x.get("Dirección") or "").lower().startswith("codirig"): e["codirigido"] = True
     if x.get("Repositorio (RediUMH)"): e["repositorio"] = str(x["Repositorio (RediUMH)"]).strip()
     out.append(e)
@@ -47,7 +47,7 @@ for x in filas(wb["TFM"]):
     f = fecha(x["Fecha de evaluación"])
     c = str(x.get("Curso académico") or curso(f))
     out.append({"clase": "tfm", "bloque": "direccion", "title": x.get("Título (web)") or bonito(x["Título"]),
-                "especialidad": x["Especialidad"], "curso": c, "id": "tfm-" + c.replace("/", "-"),
+                "especialidad": x["Especialidad"], "estudiante": x.get("Estudiante (web)") or "", "curso": c, "id": "tfm-" + c.replace("/", "-"),
                 "desde": f.year, "hasta": f.year, "fecha": f.strftime("%Y-%m-%d")})
 out.sort(key=lambda e: e["fecha"], reverse=True)
 

@@ -49,19 +49,22 @@ const bloques = [
 <% if (b.trabajos) { %>
 <p class="inv-cifras"><span><strong><%= tfg.length %></strong> TFG</span><span><strong><%= tfm.length %></strong> TFM</span><span><strong><%= Math.min(...aniosTodos) %>–<%= Math.max(...aniosTodos) %></strong></span></p>
 <h3>Trabajos fin de grado</h3>
-<% for (const i of tfg) { %>
+<% for (const tit of [...new Set(tfg.map(i => i.titulacion || ''))]) { %>
+<% if (tit) { %><h4 class="tf-titulacion"><%= tit %> <span class="pie">(<%= tfg.filter(i => (i.titulacion || '') === tit).length %>)</span></h4><% } %>
+<% for (const i of tfg.filter(i => (i.titulacion || '') === tit)) { %>
 <div class="asig" id="doc-<%= i.desde %>-<%= slug(i.title) %>">
 <p><span class="anio"><%= i.curso %></span> <strong><%= i.title %></strong>. <%= i.estudiante %><% if (i.codirigido) { %> (codirección)<% } %>.<% if (i.repositorio) { %> · <a href="<%- i.repositorio %>">repositorio</a><% } %></p>
 </div>
 <% } %>
+<% } %>
 <h3>Trabajos fin de máster</h3>
-<p>Los <%= tfm.length %> TFM son del Máster Universitario en Formación del Profesorado de ESO y Bachillerato, FP y Enseñanzas de Idiomas (UMH), entre los cursos <%= cursosTfm[cursosTfm.length - 1] %> y <%= cursosTfm[0] %>. Casi todos son programaciones didácticas.</p>
+<p>Los <%= tfm.length %> TFM son del Máster Universitario en Formación del Profesorado de ESO y Bachillerato, FP y Enseñanzas de Idiomas (UMH), entre los cursos <%= cursosTfm[cursosTfm.length - 1] %> y <%= cursosTfm[0] %>. Todos son programaciones didácticas, el tipo de trabajo que pedía el máster como TFM.</p>
 <table class="table tfm-esp"><thead><tr><th>Especialidad</th><th>TFM</th></tr></thead><tbody><% for (const [e, k] of esps) { %><tr><td><%= e %></td><td><%= k %></td></tr><% } %></tbody></table>
 <details class="tfm-lista">
 <summary>Ver los <%= tfm.length %> títulos, por curso</summary>
 <% for (const c of cursosTfm) { const ts = tfm.filter(i => i.curso === c); %>
 <h4 id="tfm-<%= c.replace('/', '-') %>"><%= c %> <span class="pie">(<%= ts.length %>)</span></h4>
-<ul><% for (const i of ts) { %><li><%= i.title %></li><% } %></ul>
+<ul><% for (const i of ts) { %><li><%= i.title %><% if (i.estudiante) { %>. <span class="tf-autor"><%= i.estudiante %></span><% } %></li><% } %></ul>
 <% } %>
 </details>
 <p>Las tesis doctorales que he dirigido están en <a href="../investigacion/index.html">Investigación</a>, dentro de su línea de trabajo.</p>

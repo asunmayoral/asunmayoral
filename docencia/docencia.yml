@@ -28,7 +28,7 @@
   desde: 2021
   tarjeta: true
   corto: "Simulación de Procesos"
-  detalle: "Grado en Estadística Empresarial. Código 1477, 3.<sup>er</sup> curso"
+  detalle: "Grado en Estadística Empresarial"
   enlaces:
     - {texto: "Web de la asignatura (R)", url: "https://umh1477.github.io/"}
     - {texto: "Web de la asignatura (Python)", url: "https://sites.google.com/umh.es/simcm/inicio"}
@@ -42,17 +42,17 @@
   corto: "MLG"
   detalle: "Grado en Ciencia de Datos e Inteligencia Artificial"
   enlaces:
-    - {texto: "Web de la asignatura", url: "https://asunmayoral.github.io/GLM/"}
+    - {texto: "Web de la asignatura (R)", url: "https://asunmayoral.github.io/GLM/"}
 
 - title: "Mejora de Procesos"
   bloque: grado
   desde: 2013
   hasta: 2026
-  detalle: "Grado en Estadística Empresarial. Código 1479; Lean Six Sigma y metodologías activas"
+  detalle: "Grado en Estadística Empresarial. Lean Six Sigma y metodologías activas"
   enlaces:
-    - {texto: "web de la asignatura", url: "https://bookdown.org/asun_mayoral/book-l6s/"}
+    - {texto: "web de la asignatura (R)", url: "https://bookdown.org/asun_mayoral/book-l6s/"}
     - {texto: "vídeos", url: "http://bit.ly/2dk19NR"}
-    - {texto: "libro (Editorial UMH)", url: "https://editorial.umh.es/2022/01/13/lean-seis-sigma-para-la-mejora-de-procesos/"}
+    - {texto: "libro (R, Editorial UMH)", url: "https://editorial.umh.es/2022/01/13/lean-seis-sigma-para-la-mejora-de-procesos/"}
 
 - title: "Análisis Exploratorio de Datos"
   bloque: grado
@@ -62,6 +62,7 @@
   detalle: "Grado en Estadística Empresarial"
   enlaces:
     - {texto: "vídeos", url: "http://www.youtube.com/playlist?list=PLClKgnzRFYe6_q-BiaN0COs1Xc0wssTqM"}
+    - {texto: "Análisis Estadísticos con R", url: "/files/libros/analisis-estadisticos-con-r.pdf"}
 
 - title: "Análisis Exploratorio de Datos"
   bloque: grado
@@ -71,6 +72,7 @@
   detalle: "Grado en Administración y Dirección de Empresas"
   enlaces:
     - {texto: "vídeos", url: "http://www.youtube.com/playlist?list=PLClKgnzRFYe6_q-BiaN0COs1Xc0wssTqM"}
+    - {texto: "Análisis Estadísticos con R", url: "/files/libros/analisis-estadisticos-con-r.pdf"}
 
 # =================== Licenciaturas y diplomaturas ===================
 - title: "Técnicas de Investigación Social"
@@ -257,7 +259,6 @@
   detalle: "Programas de doctorado espejo UMH-UASD (República Dominicana) y UMH-O&M (República Dominicana). 16 h por edición"
   enlaces:
     - {texto: "Comunicación Científica 4.0", url: "https://sites.google.com/umh.es/comunicacioncientifica40/inicio"}
-    - {texto: "material del curso", url: "https://docs.google.com/document/d/1yJtnQyxma5kDnb-RTHpcSVTh7wZ6kPbA_Mx5jpzXysk/edit?usp=sharing"}
   ediciones:
     - {anio: 2026, programa: "Gestión Empresarial y Liderazgo", universidad: "UMH-UASD (República Dominicana)"}
     - {anio: 2025, programa: "Inteligencia Artificial y Aprendizaje Automático", universidad: "UMH-UASD (República Dominicana)"}
@@ -283,6 +284,9 @@
   tarjeta: true
   corto: "DoE con Python"
   detalle: "Programa de Doctorado en Tecnologías Informáticas, Universidad de Castilla-La Mancha. 10 h, en línea; cursos 2025-26 y 2026-27"
+  enlaces:
+    - {texto: "web del curso 2026-27", url: "https://sites.google.com/umh.es/disenyodeexperimentos/inicio"}
+    - {texto: "web del curso 2025-26 (Colab)", url: "https://colab.research.google.com/drive/1pSgawq-hdNPK-VdS5Vvtsj-K_6mw-EIt"}
 
 - title: "Una primera aproximación a la Estadística Bayesiana"
   bloque: postgrado
