@@ -26,7 +26,7 @@ listing:
 ---
 
 ::: {.home-banner}
-![](images/banner.svg){fig-alt="Diagrama de dispersión con tendencia cúbica: tres grupos de un análisis cluster y una curva de suavizado"}
+![](images/banner.svg){fig-alt="Pantalla de cristal con paneles flotantes de estadística e IA: regresión, distribuciones, red neuronal, árbol de decisión, curva ROC, control de procesos, fórmulas, código en R y Python y un asistente que anota los gráficos"}
 :::
 
 ::: {.hero}

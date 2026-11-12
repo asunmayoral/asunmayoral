@@ -42,7 +42,7 @@ quarto preview
 Se abre la web en el navegador y se recarga sola al guardar cambios. Para pararla, pulsa Ctrl + C.
 Necesita Quarto 1.4 o posterior (instalador en quarto.org › Get Started); para publicar no hace falta.
 
-El banner de la cabecera se regenera con `python scripts/hero_cluster.py` (necesita `numpy` y `scikit-learn`).
+El banner de la cabecera se regenera con `python3 scripts/pizarra_ia.py` (necesita `numpy`).
 
 ## Configuración inicial (ya hecha)
 

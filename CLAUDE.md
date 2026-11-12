@@ -21,7 +21,7 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
 | `sobre-mi/` | Página fija (contacto y perfiles) |
 | `404.qmd` | Página de «no encontrada» |
 | `_templates/*.ejs` | Plantillas de los listados (no tocar salvo para cambiar el diseño) |
-| `scripts/hero_cluster.py` | Genera `images/banner.svg` y `images/banner-suave.svg` |
+| `scripts/pizarra_ia.py` | Genera `images/banner.svg` (pantalla de cristal con paneles de estadística e IA) y `images/banner-suave.svg` (versión atenuada para las páginas interiores). Para cambiar el contenido, edita `PANELES` y `ANOTA` y ejecuta `python3 scripts/pizarra_ia.py` |
 | `files/` | PDFs y otros ficheros descargables (`files/libros/`: copias de los libros de Asun) |
 
 ## Tareas habituales
