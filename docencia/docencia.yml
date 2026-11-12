@@ -30,7 +30,8 @@
   corto: "Simulación de Procesos"
   detalle: "Grado en Estadística Empresarial. Código 1477, 3.<sup>er</sup> curso"
   enlaces:
-    - {texto: "Web de la asignatura", url: "https://umh1477.github.io/"}
+    - {texto: "Web de la asignatura (R)", url: "https://umh1477.github.io/"}
+    - {texto: "Web de la asignatura (Python)", url: "https://sites.google.com/umh.es/simcm/inicio"}
     - {texto: "Apuntes de Teoría de Colas", url: "https://www.dropbox.com/s/4jkbpjfvp1m762y/A4%20Apuntes%20de%20Teor%C3%ADa%20de%20Colas.pdf"}
 
 - title: "Modelos Lineales Generalizados"
@@ -145,16 +146,23 @@
   hasta: 2001
   detalle: "Diplomatura en Estadística"
 
+- title: "Estadística Bayesiana"
+  bloque: licenciatura
+  desde: 1997
+  hasta: 2001
+  corto: "Bayesiana"
+  detalle: "Licenciatura en Ciencias y Técnicas Estadísticas"
+
 - title: "Métodos de Regresión"
   bloque: licenciatura
-  desde: 2000
+  desde: 1997
   hasta: 2001
   corto: "Regresión"
   detalle: "Licenciatura en Ciencias y Técnicas Estadísticas"
 
 - title: "Técnicas de Investigación Social"
   bloque: licenciatura
-  desde: 2000
+  desde: 1997
   hasta: 2001
   corto: "TIS (Diplomatura)"
   detalle: "Diplomatura en Estadística"

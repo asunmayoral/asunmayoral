@@ -7,8 +7,10 @@
 #   date         AAAA-MM-DD aproximada (ordena el catálogo; si solo sabes el año, usa el 1 de enero)
 #   anio         lo que se muestra como fecha (texto libre: "2022", "2023-24", "Web")
 #   tipo         uno de: Asignatura, Curso, Taller, Libro, Apuntes y prácticas, Recopilatorio, Vídeo, Datos, Juego
-#   temas        lista con valores de: Estadística, Ciencia de datos, IA, Python, R, Bayesiana,
-#                Mejora de procesos, Innovación educativa, Comunicación científica, Competencia digital
+#   temas        lista con valores de: Estadística-CC Datos, IA, Bayesiana, Mejora de procesos,
+#                Innovación educativa, Comunicación científica, Competencia digital (la materia, no el lenguaje)
+#   lenguaje     (opcional) lista con R y/o Python, si el recurso usa código. Si un curso tiene materiales
+#                separados en R y en Python, una entrada por lenguaje con «(R)» / «(Python)» en el título
 #   origen       Propio | Recomendado
 #   autoria      (opcional) coautoría o autoría ajena
 #   serie        (opcional) proyecto o colección al que pertenece (se muestra como etiqueta), p. ej. Unidigital-Prodigital
@@ -24,14 +26,27 @@
   temas: [Estadística-CC Datos]
   origen: Propio
 
-- title: "Simulación de procesos y sistemas"
-  description: "Contenidos de la asignatura 1477, de 3.º del Grado en Estadística Empresarial."
+- title: "Simulación de procesos y sistemas (R)"
+  description: "Manual práctico de la asignatura 1477, de 3.º del Grado en Estadística Empresarial: probabilidad, cadenas de Markov, procesos de Poisson y sistemas de colas, resueltos mediante simulación en R (simmer)."
+  resumen: "Manual práctico de la asignatura 1477 (Grado en Estadística Empresarial): Markov, Poisson y colas, con simulación en R."
   path: https://umh1477.github.io/
   date: 2022-09-01
   anio: "2022"
   tipo: Curso/Taller
-  temas: [Estadística-CC Datos, Python]
+  temas: [Estadística-CC Datos]
+  lenguaje: [R]
   origen: Propio
+
+- title: "Simulación de procesos y sistemas (Python)"
+  description: "Materiales de la asignatura 1477, de 3.º del Grado en Estadística Empresarial, en Python."
+  path: https://sites.google.com/umh.es/simcm/inicio
+  date: 2022-09-01
+  anio: "Web"
+  tipo: Curso/Taller
+  temas: [Estadística-CC Datos]
+  lenguaje: [Python]
+  origen: Propio
+  nota: "Acceso con cuenta de la UMH"
 
 - title: "Lean Six Sigma para la mejora de procesos (web)"
   description: "Contenidos de la asignatura Mejora de Procesos (1479), de 4.º del Grado en Estadística Empresarial. Web vinculada al libro de Editorial UMH."
@@ -40,7 +55,8 @@
   date: 2021-12-01
   anio: "2021"
   tipo: Curso/Taller
-  temas: [Mejora de procesos, R]
+  temas: [Mejora de procesos]
+  lenguaje: [R]
   origen: Propio
   autoria: "Con Javier Morales"
 
@@ -51,7 +67,8 @@
   date: 2022-06-01
   anio: "Unidigital"
   tipo: Curso/Taller
-  temas: [Python, Estadística-CC Datos]
+  temas: [Estadística-CC Datos]
+  lenguaje: [Python]
   origen: Propio
   autoria: "Con Fernando Borrás, Federico Botella, Josep Moltó, Javier Morales e Inés Hernández"
 
@@ -61,7 +78,8 @@
   date: 2021-01-01
   anio: "Web"
   tipo: Curso/Taller
-  temas: [Python, Estadística-CC Datos]
+  temas: [Estadística-CC Datos]
+  lenguaje: [Python]
   origen: Propio
   autoria: "Con Javier Morales"
 
@@ -71,7 +89,8 @@
   date: 2021-01-01
   anio: "Web"
   tipo: Curso/Taller
-  temas: [R, Estadística-CC Datos]
+  temas: [Estadística-CC Datos]
+  lenguaje: [R]
   origen: Recomendado
   autoria: "Javier Morales"
 
@@ -134,7 +153,8 @@
   date: 2025-03-01
   anio: "2025"
   tipo: Curso/Taller
-  temas: [Estadística-CC Datos, Python]
+  temas: [Estadística-CC Datos]
+  lenguaje: [Python]
   origen: Propio
   
 - title: "Modelización Estadística Avanzada"
@@ -144,7 +164,8 @@
   date: 2026-10-01
   anio: "2026"
   tipo: Curso/Taller
-  temas: [Estadística-CC Datos, Python]
+  temas: [Estadística-CC Datos]
+  lenguaje: [Python]
   origen: Propio
 
 - title: "Gestión digital en Auditoría"
@@ -340,7 +361,8 @@
   date: 2002-01-01
   anio: "Libro"
   tipo: Libro
-  temas: [Estadística-CC Datos, R]
+  temas: [Estadística-CC Datos]
+  lenguaje: [R]
   origen: Propio
 
 - title: "TIS: Técnicas de Investigación Social"

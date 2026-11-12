@@ -230,7 +230,7 @@ a.perfil { display: inline-flex; align-items: center; gap: .35rem; min-height: 4
 a.perfil:hover { background: $tinta; color: $crema; }
 
 // Filtros compactos del catálogo (una fila de desplegables)
-.filtros-fila { display: grid; grid-template-columns: minmax(220px, 2fr) repeat(auto-fit, minmax(150px, 1fr)); gap: .75rem 1rem; align-items: end; }
+.filtros-fila { display: grid; grid-template-columns: minmax(200px, 1.6fr) repeat(auto-fit, minmax(120px, 1fr)); gap: .75rem .8rem; align-items: end; }
 .filtros-fila label { font-weight: 700; font-size: .85rem; display: block; margin-bottom: .3rem; }
 .filtros-fila input[type=search], .filtros-fila select { width: 100%; max-width: none; height: 44px; padding: 0 .8rem; border: 1.5px solid #CFC3B0; border-radius: 22px; background: #fff; font: inherit; font-size: .95rem; color: $tinta; }
 .filtros-fila select { appearance: none; padding-right: 2rem; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%232F2A36' stroke-width='1.6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right .8rem center; }
@@ -349,3 +349,8 @@ details.acordeon[class*="d-"] { scroll-margin-top: 5rem; }
 .quarto-grid-item .card-text { font-size: .92rem; color: $gris; line-height: 1.45; }
 .quarto-grid-item .listing-date, .quarto-grid-item .card-attribution { font-size: .82rem; color: $gris; }
 .quarto-grid-item .listing-categories .listing-category { font-size: .72rem; }
+
+// Etiquetas de lenguaje en Recursos
+.tag.t-lenguaje { font-family: "JetBrains Mono", monospace; font-size: .76rem; background: #fff; border: 1.5px solid currentColor; }
+.tag.t-r { color: #2C628A; }
+.tag.t-python { color: #2F6E50; }

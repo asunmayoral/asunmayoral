@@ -32,7 +32,8 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
    `title`, `description`, `path`, `date` (AAAA-MM-DD; si solo hay año, 1 de enero), `anio` (texto que se muestra), `tipo`, `temas`, `origen`, y opcionalmente `autoria` y `nota`.
 3. Valores permitidos (no inventes otros sin preguntar):
    - `tipo`: Curso/Taller, Libro, Recopilatorio, Vídeo, Datos, Juego
-   - `temas`: Estadística-CC Datos, IA, Python, R, Bayesiana, Mejora de procesos, Innovación educativa, Comunicación científica, Competencia digital
+   - `temas`: Estadística-CC Datos, IA, Bayesiana, Mejora de procesos, Innovación educativa, Comunicación científica, Competencia digital (la materia)
+   - `lenguaje` (opcional): lista con R y/o Python. Tiene su propio filtro y etiqueta. Si un curso tiene materiales separados en R y en Python, una entrada por lenguaje con «(R)» o «(Python)» en el título; si están en la misma web, una entrada con `lenguaje: [R, Python]`. En Docencia, el texto del enlace lleva el lenguaje: «Web de la asignatura (R)».
    - `origen`: Propio (hecho por Asun, sola o en equipo) | Recomendado (de otras personas)
    Si `description` pasa de unos 110 caracteres, añade `resumen` (una frase corta): es lo que muestra la tarjeta; la descripción completa sigue sirviendo al buscador y la información detallada está en el destino del enlace.
 4. Libros: van en el catálogo con `tipo: Libro`; campos opcionales `portada` (imagen pequeña en `images/libros/`, ruta `/images/libros/...`) y `mas` / `mas_texto` (enlace extra, p. ej. Google Play). La antigua página Publicaciones ya no existe: redirige a Recursos.
