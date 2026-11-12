@@ -255,7 +255,6 @@
   id: comunicacion-cientifica
   bloque: postgrado
   desde: 2023
-  tarjeta: true
   detalle: "Programas de doctorado espejo UMH-UASD (República Dominicana) y UMH-O&M (República Dominicana). 16 h por edición"
   enlaces:
     - {texto: "Comunicación Científica 4.0", url: "https://sites.google.com/umh.es/comunicacioncientifica40/inicio"}
@@ -271,7 +270,6 @@
 - title: "Modelización Estadística Avanzada"
   bloque: postgrado
   desde: 2025
-  tarjeta: true
   corto: "Modelización Avanzada"
   detalle: "Programa de doctorado espejo UMH-O&M (República Dominicana). Doctorado en IA aplicada a la Productividad Empresarial, 16 h"
   enlaces:
@@ -281,7 +279,6 @@
 - title: "Diseño de Experimentos y Análisis Estadístico en Algoritmos con Python"
   bloque: postgrado
   desde: 2026
-  tarjeta: true
   corto: "DoE con Python"
   detalle: "Programa de Doctorado en Tecnologías Informáticas, Universidad de Castilla-La Mancha. 10 h, en línea; cursos 2025-26 y 2026-27"
   enlaces:

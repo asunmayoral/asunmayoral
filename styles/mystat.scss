@@ -237,12 +237,6 @@ a.perfil:hover { background: $tinta; color: $crema; }
 .filtros-fila select:focus-visible, .filtros-fila input:focus-visible { outline: 3px solid $menta-p; outline-offset: 1px; }
 @media (max-width: 767px) { .filtros-fila { grid-template-columns: 1fr 1fr; } .filtros-fila .f-buscar { grid-column: 1 / -1; } }
 
-// Enlaces Data Labs: acordeón en menta (Recursos)
-details.acordeon.datalabs[open] > summary { background: $menta; }
-details.acordeon.datalabs > summary::after { color: $menta-p; }
-details.acordeon.datalabs > summary:focus-visible { outline-color: $menta-p; }
-details.acordeon.datalabs ul, details.acordeon.datalabs ol { margin-bottom: 1rem; }
-details.acordeon.datalabs li { margin: .25rem 0; }
 
 // ---------- Investigación: línea temporal y listas por línea ----------
 .l-bayes { --c: #{$ciruela}; --p: #{$ciruela-p}; }
@@ -367,3 +361,16 @@ details.tfm-lista ul { margin: 0; padding-left: 1.2rem; font-size: .92rem; color
 
 .tf-titulacion { font-size: 1rem; margin: 1rem 0 .2rem; }
 details.tfm-lista .tf-autor { color: $tinta; }
+
+// Página de curso con sesiones (p. ej. recursos/bayesiana), en verde Recursos
+.bayes .curso-meta { display: block; font-size: 1rem; margin: .2rem 0 1rem; }
+.bayes-materiales { margin-bottom: .6rem; }
+.bayes a.rec { display: inline-flex; align-items: center; min-height: 40px; padding: 0 .9rem; border-radius: 20px; background: $menta; color: $tinta; font-weight: 700; font-size: .9rem; text-decoration: none; }
+.bayes a.rec:hover { background: $menta-p; color: #fff; }
+.bayes a.rec-sec { background: #fff; border: 1px solid $linea; font-weight: 400; }
+ol.sesiones { list-style: none; padding: 0; margin: .5rem 0 2rem; }
+ol.sesiones li { display: grid; grid-template-columns: 2.2rem 1fr auto; align-items: center; gap: .4rem 1rem; padding: .7rem 0; border-bottom: 1px solid $linea; }
+.ses-num { font-family: "JetBrains Mono", monospace; font-size: .9rem; color: $menta-p; font-weight: 700; }
+.ses-fecha { display: block; font-size: .88rem; color: $gris; }
+.ses-rec { display: flex; flex-wrap: wrap; gap: .4rem; justify-content: flex-end; }
+@media (max-width: 700px) { ol.sesiones li { grid-template-columns: 2.2rem 1fr; } .ses-rec { grid-column: 2; justify-content: flex-start; } }

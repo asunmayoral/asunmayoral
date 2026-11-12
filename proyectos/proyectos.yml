@@ -20,6 +20,7 @@
 #   mas          (opcional) segundo enlace, p. ej. la entrada del blog
 #   mas_texto    (opcional) texto de ese segundo enlace
 #   mas2, mas2_texto (opcional) un tercer enlace y su texto
+#   mas3, mas3_texto (opcional) un cuarto enlace y su texto
 
 # =================== Materiales formativos (Unidigital UMH) ===================
 - title: "Prodigital (Unidigital UMH)"
@@ -49,6 +50,12 @@
   papel: "Colaboración"
   financiacion: "Unidigital UMH, fondos UE del Plan de Recuperación, Transformación y Resiliencia"
   path: https://unidigital.umh.es/iasac/
+  mas: https://unidigitaliasac.unizar.es/
+  mas_texto: "Plataforma IASAC"
+  mas2: https://unidigitaliasac.unizar.es/ficha/librerias-machine-learning-nivel-intermedio
+  mas2_texto: "Librerías Machine Learning"
+  mas3: https://unidigitaliasac.unizar.es/ficha/librerias-de-deep-learning
+  mas3_texto: "Librerías de Deep Learning"
 
 - title: "Simustat (Unidigital UMH)"
   categoria: Materiales formativos
@@ -57,10 +64,17 @@
   orden: 2021.3
   desde: 2021
   hasta: 2022
-  description: "Proyecto abierto de contenidos formativos sobre programación y estadística con Python."
+  description: "Proyecto abierto de contenidos formativos sobre programación y estadística con Python, en cuadernos de Google Colab pensados para clases de 60 a 90 minutos; cada unidad acaba con un reto de análisis de datos completo. Tras un módulo 0 de Ciencia Abierta y Reproducible, el curso tiene cuatro módulos:"
+  detalle:
+    - "Módulo 1. Descubriendo Python: primeros pasos, programación, funciones, texto, ficheros, matplotlib y NumPy."
+    - "Módulo 2. Procesado inicial de datos: preparación y depuración, análisis exploratorio y visualización con matplotlib y Seaborn."
+    - "Módulo 3. Probabilidad: cálculo de probabilidades, pruebas diagnósticas, distribuciones, simulación de Monte Carlo y distribuciones muestrales."
+    - "Módulo 4. Generalización de conclusiones: estimación, intervalos de confianza, contrastes, datos categóricos, comparación de medias y regresión lineal y logística."
   papel: "Con F. Borrás, F. Botella, J. Moltó, J. Morales e I. Hernández"
   financiacion: "Unidigital UMH, fondos UE del Plan de Recuperación, Transformación y Resiliencia"
   path: https://unidigitalsimustat.umh.es/proyecto/
+  mas: https://unidigitalsimustat.umh.es/contenidos/
+  mas_texto: "Contenidos formativos"
 
 # =================== Innovación docente ===================
 - title: "Va de Dades!"

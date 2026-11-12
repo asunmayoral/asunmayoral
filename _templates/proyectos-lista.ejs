@@ -2,6 +2,6 @@
 <div class="asig">
 <p><span class="anio"><%= item.anios %></span> <% if (item.estado === 'Activo') { %><span class="tag t-activo">En marcha</span> <% } %><strong><% if (item.path) { %><a href="<%- item.path %>"><%= item.title %></a><% } else { %><%= item.title %><% } %></strong>. <%= item.description %></p>
 <% if (item.detalle && item.detalle.length) { %><ul class="detalle"><% for (const d of item.detalle) { %><li><%= d %></li><% } %></ul><% } %>
-<% if (item.papel || item.financiacion || item.mas) { %><p class="pie"><%= [item.papel, item.financiacion].filter(Boolean).join(' · ') %><% if (item.mas) { %><% if (item.papel || item.financiacion) { %> · <% } %><a href="<%- item.mas %>"><%= item.mas_texto || 'Más información' %></a><% } %><% if (item.mas2) { %> · <a href="<%- item.mas2 %>"><%= item.mas2_texto || 'Más información' %></a><% } %></p><% } %>
+<% if (item.papel || item.financiacion || item.mas) { %><p class="pie"><%= [item.papel, item.financiacion].filter(Boolean).join(' · ') %><% if (item.mas) { %><% if (item.papel || item.financiacion) { %> · <% } %><a href="<%- item.mas %>"><%= item.mas_texto || 'Más información' %></a><% } %><% if (item.mas2) { %> · <a href="<%- item.mas2 %>"><%= item.mas2_texto || 'Más información' %></a><% } %><% if (item.mas3) { %> · <a href="<%- item.mas3 %>"><%= item.mas3_texto || 'Más información' %></a><% } %></p><% } %>
 </div>
 <% } %>
