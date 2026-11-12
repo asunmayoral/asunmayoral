@@ -147,8 +147,8 @@
   serie: Va de Dades!
 
 - title: "Modelización Estadística Avanzada"
-  description: "Curso de doctorado de 16 horas en la Universidad O&M (República Dominicana), Doctorado en IA aplicada a la Productividad Empresarial. Cohorte I (Marzo 2025)."
-  resumen: "Curso de doctorado de 16 h, Universidad O&M (República Dominicana). Cohorte I (marzo 2025)."
+  description: "Curso de doctorado de 16 horas del programa de doctorado espejo UMH-O&M (República Dominicana), Doctorado en IA aplicada a la Productividad Empresarial. Cohorte I (Marzo 2025)."
+  resumen: "Curso de 16 h del doctorado espejo UMH-O&M (República Dominicana). Cohorte I (marzo 2025)."
   path: https://sites.google.com/umh.es/modelizacion-avanzada
   date: 2025-03-01
   anio: "2025"
@@ -158,8 +158,8 @@
   origen: Propio
   
 - title: "Modelización Estadística Avanzada"
-  description: "Curso de doctorado de 16 horas en la Universidad O&M (República Dominicana), Doctorado en IA aplicada a la Productividad Empresarial. Cohorte II (Octubre 2026)."
-  resumen: "Curso de doctorado de 16 h, Universidad O&M (República Dominicana). Cohorte II (octubre 2026)."
+  description: "Curso de doctorado de 16 horas del programa de doctorado espejo UMH-O&M (República Dominicana), Doctorado en IA aplicada a la Productividad Empresarial. Cohorte II (Octubre 2026)."
+  resumen: "Curso de 16 h del doctorado espejo UMH-O&M (República Dominicana). Cohorte II (octubre 2026)."
   path: https://asunmayoral.github.io/modelizacion_python/index.html
   date: 2026-10-01
   anio: "2026"
@@ -189,13 +189,13 @@
   origen: Propio
 
 - title: "Comunicación Científica 4.0"
-  description: "Recomendaciones y herramientas tecnológicas para la divulgación científica efectiva. Curso de doctorado impartido en la República Dominicana (UASD-UMH y Universidad O&M)."
-  resumen: "Herramientas tecnológicas para la divulgación científica. Curso de doctorado (UASD-UMH y Universidad O&M)."
+  description: "Recomendaciones y herramientas tecnológicas para la divulgación científica efectiva. Curso de los programas de doctorado espejo UMH-UASD y UMH-O&M (República Dominicana)."
+  resumen: "Herramientas tecnológicas para la divulgación científica. Doctorados espejo UMH-UASD y UMH-O&M (República Dominicana)."
   path: https://sites.google.com/umh.es/comunicacioncientifica40/inicio
   mas: https://docs.google.com/document/d/1yJtnQyxma5kDnb-RTHpcSVTh7wZ6kPbA_Mx5jpzXysk/edit?usp=sharing
   mas_texto: "Documento del curso (2023-24)"
-  date: 2025-01-01
-  anio: "2023-25"
+  date: 2026-07-01
+  anio: "2023-26"
   tipo: Curso/Taller
   temas: [Comunicación científica]
   origen: Propio

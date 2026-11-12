@@ -254,24 +254,25 @@
   bloque: postgrado
   desde: 2023
   tarjeta: true
-  detalle: "Programas de doctorado de la UASD-UMH y de la Universidad O&M (República Dominicana). 16 h por edición"
+  detalle: "Programas de doctorado espejo UMH-UASD (República Dominicana) y UMH-O&M (República Dominicana). 16 h por edición"
   enlaces:
     - {texto: "Comunicación Científica 4.0", url: "https://sites.google.com/umh.es/comunicacioncientifica40/inicio"}
     - {texto: "material del curso", url: "https://docs.google.com/document/d/1yJtnQyxma5kDnb-RTHpcSVTh7wZ6kPbA_Mx5jpzXysk/edit?usp=sharing"}
   ediciones:
-    - {anio: 2025, programa: "Inteligencia Artificial y Aprendizaje Automático", universidad: "UASD-UMH"}
-    - {anio: 2025, programa: "Creación e Investigación Artísticas", universidad: "UASD-UMH"}
-    - {anio: 2024, programa: "IA aplicada a la Productividad Empresarial", universidad: "Universidad O&M (República Dominicana)"}
-    - {anio: 2024, programa: "Ciencias de la Salud", universidad: "UASD-UMH"}
-    - {anio: 2023, programa: "Medio Ambiente y Sostenibilidad", universidad: "UASD-UMH"}
-    - {anio: 2023, programa: "Ciencias Agroalimentarias", universidad: "UASD-UMH"}
+    - {anio: 2026, programa: "Gestión Empresarial y Liderazgo", universidad: "UMH-UASD (República Dominicana)"}
+    - {anio: 2025, programa: "Inteligencia Artificial y Aprendizaje Automático", universidad: "UMH-UASD (República Dominicana)"}
+    - {anio: 2025, programa: "Creación e Investigación Artísticas", universidad: "UMH-UASD (República Dominicana)"}
+    - {anio: 2024, programa: "IA aplicada a la Productividad Empresarial", universidad: "UMH-O&M (República Dominicana)"}
+    - {anio: 2024, programa: "Ciencias de la Salud", universidad: "UMH-UASD (República Dominicana)"}
+    - {anio: 2023, programa: "Medio Ambiente y Sostenibilidad", universidad: "UMH-UASD (República Dominicana)"}
+    - {anio: 2023, programa: "Ciencias Agroalimentarias", universidad: "UMH-UASD (República Dominicana)"}
 
 - title: "Modelización Estadística Avanzada"
   bloque: postgrado
   desde: 2025
   tarjeta: true
   corto: "Modelización Avanzada"
-  detalle: "Doctorado en IA aplicada a la Productividad Empresarial, Universidad O&M (República Dominicana). 16 h"
+  detalle: "Programa de doctorado espejo UMH-O&M (República Dominicana). Doctorado en IA aplicada a la Productividad Empresarial, 16 h"
   enlaces:
     - {texto: "Cohorte I (marzo 2025)", url: "https://sites.google.com/umh.es/modelizacion-avanzada"}
     - {texto: "Cohorte II (octubre 2026)", url: "https://asunmayoral.github.io/modelizacion_python/index.html"}

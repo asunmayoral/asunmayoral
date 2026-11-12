@@ -34,7 +34,7 @@ const bloques = [
 <div class="asig" id="<%= i.id || ('doc-' + i.desde + '-' + slug(i.title)) %>">
 <p><span class="anio"><%= anios(i) %></span> <% if (actual(i) && i.bloque !== 'direccion') { %><span class="tag t-activo">En curso</span> <% } %><strong><%= i.title %></strong><% if (i.detalle) { %>. <%= i.detalle %><% } %><% if (i.estudiante) { %> de <%= i.estudiante %><% } %><% if (i.calificacion) { %> (<%= i.calificacion %>)<% } %>.<% if (i.repositorio) { %> · <a href="<%- i.repositorio %>">repositorio</a><% } %><% for (const e of (i.enlaces || []).filter(e => e.url)) { %> · <a href="<%- e.url %>"><%= e.texto %></a><% } %></p>
 <% if (i.cursos && i.cursos.length) { %><ul class="detalle"><% for (const c of i.cursos) { %><li><%= c.anio %> · <%= c.title %><% if (c.horas) { %> (<%= c.horas %>)<% } %></li><% } %></ul><% } %>
-<% if (i.ediciones && i.ediciones.length) { %><div class="ediciones"><table class="table"><thead><tr><th>Año</th><th>Programa de doctorado</th><th>Universidad</th></tr></thead><tbody><% for (const e of i.ediciones) { %><tr><td><%= e.anio %></td><td><%= e.programa %></td><td><%- e.universidad %></td></tr><% } %></tbody></table></div><% } %>
+<% if (i.ediciones && i.ediciones.length) { %><div class="ediciones"><table class="table"><thead><tr><th>Año</th><th>Programa de doctorado</th><th>Doctorado espejo</th></tr></thead><tbody><% for (const e of i.ediciones) { %><tr><td><%= e.anio %></td><td><%= e.programa %></td><td><%- e.universidad %></td></tr><% } %></tbody></table></div><% } %>
 </div>
 <% } %>
 <% for (const item of (p.ps || [])) { %>
