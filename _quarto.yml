@@ -42,6 +42,7 @@ website:
   page-footer:
     background: "#2F2A36"
     left: |
+      <a href="https://www.umh.es/"><img src="/images/logo_umh_claro.png" alt="Universidad Miguel Hernández de Elche" class="logo-umh-pie"></a><br>
       **My Stat Space** · Mª Asunción Martínez Mayoral<br>
       Área de Estadística e Investigación Operativa · Departamento de Estadística, Matemáticas e Informática<br>
       Instituto Universitario de Investigación en Matemáticas, Ciencia de Datos e Inteligencia Artificial, i-MInD<br>
