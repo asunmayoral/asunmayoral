@@ -69,7 +69,7 @@
   date: 2022-06-01
   anio: "Unidigital"
   tipo: Curso-Taller
-  temas: [Estadística-CCDatos, Competencia Digital]
+  temas: [Estadística-CCDatos, Competencia Digital, IA]
   lenguaje: [Python]
   origen: Propio
   autoria: "Con Fernando Borrás, Federico Botella, Josep Moltó, Javier Morales e Inés Hernández"
@@ -120,7 +120,7 @@
   date: 2022-06-01
   anio: "Unidigital"
   tipo: Curso-Taller
-  temas: [Estadística-CCDatos, Competencia Digital]
+  temas: [Estadística-CCDatos, Competencia Digital, IA]
   lenguaje: [Python]
   origen: Propio
   autoria: "Con Fernando Borrás, Federico Botella, Inés Hernández, Josep Moltó y Javier Morales"
@@ -133,7 +133,7 @@
   date: 2022-06-01
   anio: "Unidigital"
   tipo: Curso-Taller
-  temas: [Estadística-CCDatos, Competencia Digital]
+  temas: [Estadística-CCDatos, IA]
   lenguaje: [Python]
   origen: Propio
   autoria: "Con Fernando Borrás, Federico Botella, Inés Hernández, Josep Moltó y Javier Morales"
@@ -147,7 +147,7 @@
   date: 2026-04-01
   anio: "2026"
   tipo: Curso-Taller
-  temas: [Estadística-CCDatos, Aprendizaje Activo]
+  temas: [Estadística-CCDatos, Aprendizaje Activo, IA]
   origen: Propio
   serie: Va de Dades!
 
@@ -180,7 +180,7 @@
   date: 2025-02-01
   anio: "2025"
   tipo: Curso-Taller
-  temas: [Competencia Digital]
+  temas: [Competencia Digital, IA]
   origen: Propio
 
 - title: "Una primera aproximación a la Estadística Bayesiana"
@@ -190,7 +190,7 @@
   date: 2022-11-01
   anio: "2022"
   tipo: Curso-Taller
-  temas: [Estadística-CCDatos]
+  temas: [Estadística-CCDatos, Bayes]
   origen: Propio
   lenguaje: [R]
 
@@ -201,7 +201,7 @@
   date: 2006-05-05
   anio: "2006"
   tipo: Curso-Taller
-  temas: [Estadística-CCDatos]
+  temas: [Estadística-CCDatos, Bayes]
   origen: Propio
   autoria: "Con Javier Morales"
   lenguaje: [R]
@@ -233,7 +233,7 @@
   date: 2019-09-01
   anio: "2019-20"
   tipo: Curso-Taller
-  temas: [Competencia Digital]
+  temas: [Competencia Digital, Aprendizaje Activo]
   origen: Propio
   autoria: "Con el equipo docente de la asignatura"
 
@@ -275,7 +275,7 @@
   date: 2016-04-01
   anio: "2016"
   tipo: Curso-Taller
-  temas: [Competencia Digital]
+  temas: [Competencia Digital, Aprendizaje Activo]
   origen: Propio
 
 - title: "Recursos TIC para la evaluación"
@@ -284,7 +284,7 @@
   date: 2018-01-01
   anio: "Web"
   tipo: Recopilatorio
-  temas: [Competencia Digital]
+  temas: [Competencia Digital, Aprendizaje Activo]
   origen: Propio
 
 - title: "El aprendizaje cooperativo en el aula"
@@ -320,8 +320,6 @@
 - title: "Lean Seis Sigma para la Mejora de Procesos"
   description: "A. M. Mayoral y J. Morales. Editorial electrónica UMH. ISBN 978-84-18177-14-9."
   path: https://editorial.umh.es/2022/01/13/lean-seis-sigma-para-la-mejora-de-procesos/
-  mas: https://play.google.com/store/books/details?id=jKVYEAAAQBAJ
-  mas_texto: "Google Play"
   pdf: /files/libros/lean-seis-sigma-mejora-de-procesos.pdf
   portada: /images/libros/lean-seis-sigma.webp
   date: 2022-01-13
@@ -335,8 +333,6 @@
   description: "Mª A. Martínez Mayoral, J. Morales, J. Aparicio, L. Ortiz y M. Quesada. Editorial electrónica UMH. ISBN 978-84-16024-82-7."
   resumen: "Libro de la asignatura del Máster de Profesorado, con J. Morales, J. Aparicio, L. Ortiz y M. Quesada."
   path: https://editorial.umh.es/2019/12/16/tics-para-la-docencia-y-el-aprendizaje/
-  mas: https://play.google.com/store/books/details?id=2EvEDwAAQBAJ
-  mas_texto: "Google Play"
   pdf: /files/libros/tics-docencia-aprendizaje.pdf
   portada: /images/libros/tics.webp
   date: 2019-12-16
@@ -424,6 +420,7 @@
 
 - title: "Pràctiques d'Estadística Matemàtica"
   description: "J. J. Abellán, R. Álvarez-Valdés, S. Aniceto, C. Armero, M. J. Bayarri, A. M. Mayoral, J. Morales, E. Mota, M. T. Rabena y S. Sanmatías. Servei de Publicacions de la Universitat de València. ISBN 84-370-4450-2."
+  path: https://puv.uv.es/llibre/practiques-d-estadistica-matematica.html
   resumen: "Libro de prácticas con M. J. Bayarri, C. Armero y otros. Servei de Publicacions de la Universitat de València."
   date: 2000-01-01
   anio: "2000"
@@ -465,7 +462,7 @@
   date: 2014-01-01
   anio: "2014"
   tipo: Vídeo
-  temas: [Competencia Digital]
+  temas: [Competencia Digital, Aprendizaje Activo]
   origen: Propio
 
 - title: "Herramientas web en investigación (umh3389, 2013-14)"
