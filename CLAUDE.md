@@ -8,7 +8,7 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
 | --- | --- |
 | `_quarto.yml` | Menú, pie, buscador, tema, ancho de página |
 | `styles/mystat.scss` | Paleta, tipografías y componentes (tarjetas, puertas, etiquetas, chips) |
-| `index.qmd` | Portada: banner, presentación (saludo, lema «Aprender, enseñar y contar con Estadística e IA» y una línea con el logo UMH `images/logo_umh_rojo.png` y el cargo (en el pie, sobre fondo oscuro, se usa `images/logo_umh_claro.png`, la misma marca con el texto en crema); la ficha completa con departamento e instituto va en Sobre mí), puertas, novedades, proyectos activos, últimas entradas |
+| `index.qmd` | Portada: banner, presentación (saludo, lema «Estadística + IA para aprender, enseñar y divulgar»; en las descripciones para buscadores va con «e» en lugar de «+» y una línea con el logo UMH `images/logo_umh_rojo.png` y el cargo (en el pie, sobre fondo oscuro, se usa `images/logo_umh_claro.png`, la misma marca con el texto en crema); la ficha completa con departamento e instituto va en Sobre mí), puertas, novedades, proyectos activos, últimas entradas |
 | `recursos/recursos.yml` | **Catálogo de recursos.** Una entrada por recurso |
 | `recursos/<tema>/index.qmd` | Páginas propias de recursos alojados aquí (p. ej. `bayesiana/`) |
 | `proyectos/proyectos.yml` | Proyectos y contratos (solo datos; no hay página Proyectos). La `categoria` decide en qué página sale cada uno |

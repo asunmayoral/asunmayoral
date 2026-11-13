@@ -1,6 +1,6 @@
 ---
 pagetitle: "Asun M. Mayoral · My Stat Space"
-description: "Aprender, enseñar y contar con Estadística e IA. Un espacio para compartir."
+description: "Estadística e IA para aprender, enseñar y divulgar. Un espacio para compartir."
 page-layout: full
 title-block-banner: false
 listing:
@@ -32,7 +32,7 @@ listing:
 ::: {.hero}
 [Hola, soy Asun Martínez Mayoral, y esta es mi web: un espacio para compartir.]{.saludo}
 
-# Aprender, enseñar y contar con Estadística e IA
+# Estadística + IA para aprender, enseñar y divulgar
 
 [[![](images/logo_umh_rojo.png){.logo-umh fig-alt="Universidad Miguel Hernández de Elche"}](https://www.umh.es/) [Profesora Titular de Estadística e Investigación Operativa]{.cargo}]{.filiacion}
 

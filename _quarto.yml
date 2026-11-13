@@ -14,7 +14,7 @@ lang: es
 
 website:
   title: "My Stat Space"
-  description: "Asun M. Mayoral. Aprender, enseñar y contar con Estadística e IA."
+  description: "Asun M. Mayoral. Estadística e IA para aprender, enseñar y divulgar."
   site-url: "https://asunmayoral.umh.es"
   favicon: images/favicon.svg
   open-graph: true
