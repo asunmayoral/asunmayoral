@@ -1,6 +1,6 @@
 ---
 title: "Sobre mí"
-description: "Profesora Titular de Estadística e Investigación Operativa en la Universidad Miguel Hernández de Elche."
+description: "María Asunción Martínez Mayoral"
 ---
 
 :::: {.grid}
