@@ -22,20 +22,9 @@ listing:
 Pulsa en cada apartado para desplegarlo.
 
 <details class="acordeon proyectos" id="proyectos" open>
-<summary>Proyectos y eventos</summary>
+<summary>Concursos, ferias y jornadas</summary>
 
 ::: {#div-proyectos}
-:::
-
-</details>
-
-<details class="acordeon proyectos" id="otras-jornadas">
-<summary>Otras jornadas que he organizado</summary>
-
-::: {.linea-tiempo}
-- [2017–2018]{.anio} [Jornadas JIC de Innovación Colaborativa en la UMH](jic/index.qmd) (2 ediciones): programas, libros de actas, carteles y notas de prensa.
-- [2009–2014]{.anio} Jornadas de Innovación Docente UMH (5 ediciones).
-- [2007–2008]{.anio} Outdoor Training on Business Intelligence (2 ediciones).
 :::
 
 </details>

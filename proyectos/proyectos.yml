@@ -176,26 +176,30 @@
   papel: "IP: L. Ortiz"
   financiacion: "UMH, PIEU2017/18"
 
-- title: "I Jornadas de Innovación Colaborativa UMH, JIC2017"
-  categoria: Innovación docente
-  estado: Histórico
-  anios: "2017"
-  orden: 2017
-  desde: 2017
-  hasta: 2017
-  description: "Organización de las primeras Jornadas de Innovación Colaborativa de la UMH."
-  papel: "IP: A. M. Mayoral"
-  financiacion: "UMH, INDICO2017-DIVULGA/089"
-  path: /blog/posts/2017-06-21-i-jornadas-de-innovacion-colaborativa-jic-umh/index.html
-
 - title: "El diseño de experimentos como herramienta óptima en la investigación"
-  categoria: Divulgación
+  categoria: Innovación docente
   estado: Histórico
   anios: "2016-2017"
   orden: 2016.5
+  desde: 2016
+  hasta: 2017
   description: "Proyecto de divulgación del programa INNOVA+ de la UMH."
   papel: "IP: A. M. Mayoral"
   financiacion: "UMH, INNOVA+2016-DIVULGA/091"
+
+- title: "Jornadas de Innovación Colaborativa UMH (JIC)"
+  categoria: Divulgación
+  estado: Histórico
+  anios: "2017-2018, 2 ediciones"
+  orden: 2017
+  description: "Dos ediciones de las jornadas en las que docentes de todos los niveles educativos compartieron sus experiencias de innovación."
+  papel: "Organización"
+  detalle:
+    - "2018 · II Jornadas, JIC2018"
+    - "2017 · I Jornadas, JIC2017 · UMH, INDICO2017-DIVULGA/089 · IP: A. M. Mayoral"
+  path: /divulgacion/jic/index.html
+  mas: /blog/posts/2017-06-21-i-jornadas-de-innovacion-colaborativa-jic-umh/index.html
+  mas_texto: "Entrada del blog"
 
 - title: "FeCiTElx, Feria de Ciencia y Tecnología en Elx"
   categoria: Divulgación
@@ -204,9 +208,30 @@
   orden: 2015
   description: "Proyecto institucional de la UMH, junto con las Jornadas de Puertas Abiertas en el Campus de Elche y Proyecta TÚ, para promover la divulgación científica desde colegios e institutos."
   papel: "Creación y organización"
+  detalle:
+    - "2014-2015 · Proyecto «Todos hacemos Ciencia y Tecnología. Feria en Elche», para FeCiTElx 2015 · FECYT, Programa de Cultura Científica y de la Innovación 2014, FCT-14-9230 · IP: F. Borrás"
   path: /divulgacion/fecitelx/index.html
   mas: /blog/posts/2018-05-23-fecitelx-feria-de-ciencia-y-tecnologia-en-elche/index.html
   mas_texto: "Entrada del blog"
+
+- title: "Jornadas de Innovación Docente UMH"
+  categoria: Divulgación
+  estado: Histórico
+  anios: "2009-2014, 5 ediciones"
+  orden: 2009
+  description: "Organización de cinco ediciones de las jornadas de innovación docente de la universidad."
+
+- title: "Outdoor Training on Business Intelligence"
+  categoria: Divulgación
+  estado: Histórico
+  anios: "2007-2009, 2 ediciones"
+  orden: 2007.5
+  description: "Organización de dos ediciones de estas jornadas, vinculadas a la red de investigación GESTINFO y a una ayuda para la organización de jornadas."
+  detalle:
+    - "2009 · 2nd Outdoor Training on Business Intelligence · Conselleria de Educación, AORG/2009/009 · IP: J. Morales"
+    - "2007-2008 · Red GESTINFO: gestión de conocimiento para la planificación estratégica en la empresa · Conselleria de Empresa, Universidad y Ciencia, ARVIV/2007/104 · IP: A. M. Mayoral"
+  mas: /investigacion/index.html#pro-gestinfo-gestion-de-conocimiento-para-la
+  mas_texto: "Red GESTINFO en Investigación"
 
 - title: "Escuela de Verano UMH en Estadística y Optimización"
   categoria: Divulgación
@@ -214,6 +239,7 @@
   anios: "2007"
   orden: 2007
   description: "Organización de la escuela de verano (VENTE, Verano Estadístico en Elche)."
+  papel: "IP: A. M. Mayoral"
   financiacion: "Conselleria de Empresa, Universidad y Ciencia, AE07/028"
 
 - title: "Congresos de Estudiantes de Estadística (I a IV)"
@@ -221,8 +247,8 @@
   estado: Histórico
   anios: "1998-2001"
   orden: 1998
-  description: "Organización de cuatro ediciones del Congreso de Estudiantes de Estadística en la UMH, con convenios y ayudas para su celebración."
-  papel: "IP: A. M. Mayoral"
+  description: "Cuatro ediciones del Congreso de Estudiantes de Estadística en la UMH, con convenios y ayudas para su celebración."
+  papel: "Miembro del comité organizador"
   detalle:
     - "2001 · IV Congreso · Convenio Instituto Juan Gil Albert, ayuda Conselleria ORG01-07-31 y Bancaja"
     - "2000 · III Congreso · Convenio Instituto Juan Gil Albert y ayuda Conselleria ORG00-01-103"
@@ -465,7 +491,7 @@
   linea: sociedad
   desde: 2007
   hasta: 2008
-  description: "Red de grupos y centros de investigación (9 participantes)."
+  description: "Red de grupos y centros de investigación (9 participantes). En su marco organizamos las jornadas Outdoor Training on Business Intelligence, recogidas en Divulgación."
   papel: "IP: A. M. Mayoral"
   financiacion: "Conselleria de Empresa, Universidad y Ciencia, ARVIV/2007/104"
 

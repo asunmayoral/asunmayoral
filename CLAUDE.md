@@ -12,7 +12,7 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
 | `recursos/recursos.yml` | **Catálogo de recursos.** Una entrada por recurso |
 | `recursos/<tema>/index.qmd` | Páginas propias de recursos alojados aquí (p. ej. `bayesiana/`) |
 | `proyectos/proyectos.yml` | Proyectos y contratos (solo datos; no hay página Proyectos). La `categoria` decide en qué página sale cada uno |
-| `divulgacion/index.qmd` | Divulgación: tres acordeones (`details.acordeon.proyectos`, escritos en el propio qmd: Proyectos y eventos, Otras jornadas, Enseñar a comunicar ciencia) y el recuadro del blog |
+| `divulgacion/index.qmd` | Divulgación: dos acordeones (`details.acordeon.proyectos`, escritos en el propio qmd): «Concursos, ferias y jornadas», que lista todo lo que hay en `proyectos.yml` con `categoria: Divulgación` (no hay lista aparte de jornadas escrita a mano), y «Enseñar a comunicar ciencia»; debajo, el recuadro del blog |
 | `divulgacion/jic/`, `divulgacion/fecitelx/` | Páginas de eventos por ediciones (Jornadas JIC 2017-2018 y FeCiTElx 2015-2018) con sus documentos. Cada edición es un bloque `.edicion` (con chapa redonda `.edicion-chapa` o logotipo apaisado `.con-logo` / `.edicion-logo`), datos en `.edicion-dato` y documentos como enlaces `.perfil`. Sus PDF son la excepción a la regla `*.pdf` de `.gitignore` y se publican por `resources` de `_quarto.yml`; una página nueva de este tipo necesita añadir su carpeta en los dos sitios |
 | `blog/posts/AAAA-MM-DD-slug/index.qmd` | Entradas del Blog; imágenes en la misma carpeta |
 | `investigacion/index.qmd` | Perfil investigador: línea temporal, líneas de trabajo, publicaciones y entradas del blog relacionadas |
