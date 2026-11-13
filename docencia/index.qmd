@@ -21,6 +21,12 @@ listing:
       - ../proyectos/proyectos.yml
     template: ../_templates/docencia-bloques.ejs
     page-size: 500
+  - id: doc-blog
+    contents: "../blog/posts/*/index.qmd"
+    template: ../_templates/docencia-blog.ejs
+    sort: "date desc"
+    date-format: "D MMM YYYY"
+    page-size: 500
 ---
 
 ## Asignaturas que imparto
@@ -40,4 +46,13 @@ Cada barra es una asignatura o un curso, colocada en los años en que la he impa
 Pulsa en cada apartado para desplegarlo.
 
 ::: {#doc-bloques}
+:::
+
+::: {.blog-caja}
+## En el blog
+
+[Todas las entradas](../blog/index.qmd){.blog-caja-mas}
+
+::: {#doc-blog}
+:::
 :::

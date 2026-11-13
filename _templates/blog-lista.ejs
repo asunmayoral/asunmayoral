@@ -1,8 +1,12 @@
-<div class="cuaderno-lista">
+<%
+// Portada, franja «Del blog»: últimas entradas en fichas compactas con miniatura.
+// El número de entradas lo fija `max-items` del listado `ultimas` en index.qmd.
+%>
+<div class="blog-mini">
 <% for (const item of items) { %>
-<div class="entrada">
-<a href="<%- item.path %>"><%= item.title %></a>
-<span class="meta"><%= item.date %><% if (item.categories && item.categories.length) { %> · <%= item.categories.join(' · ') %><% } %></span>
-</div>
+<a class="blog-mini-ficha" href="<%- item.path %>">
+<% if (item.image) { %><img src="<%- item.image %>" alt="" loading="lazy"><% } else { %><span class="sin-imagen" aria-hidden="true"></span><% } %>
+<span class="texto"><span class="titulo"><%= item.title %></span><span class="meta"><%= item.date %></span></span>
+</a>
 <% } %>
 </div>

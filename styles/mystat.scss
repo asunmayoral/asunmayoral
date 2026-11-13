@@ -384,6 +384,7 @@ a.blog-caja-mas::after { content: " →"; }
 a.blog-caja-mas:hover { text-decoration: underline; }
 .blog-mini { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: .7rem; }
 .blog-mini > p { margin: 0; }
+.franja .blog-mini { grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }  // portada: tres columnas
 a.blog-mini-ficha { display: flex; height: 100%; align-items: center; gap: .75rem; padding: .5rem; background: $crema; border: 1px solid $linea; border-radius: .6rem; color: $tinta; text-decoration: none; transition: box-shadow .15s, border-color .15s; }
 a.blog-mini-ficha:hover { border-color: $ciruela-p; box-shadow: 0 3px 10px rgba(47,42,54,.10); }
 .blog-mini-ficha img, .blog-mini-ficha .sin-imagen { flex: 0 0 64px; width: 64px; height: 64px; border-radius: .4rem; object-fit: cover; background: $ciruela; }

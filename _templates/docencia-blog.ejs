@@ -1,0 +1,13 @@
+<%
+// Recuadro «En el blog»: entradas con la categoría Docencia o Innovación (las 6 más recientes),
+// en rejilla compacta de fichas con miniatura. Para mostrar más o menos, cambia el número de slice().
+const sel = items.filter(i => (i.categories || []).some(c => c === 'Docencia' || c === 'Innovación')).slice(0, 6);
+%>
+<div class="blog-mini">
+<% for (const item of sel) { %>
+<a class="blog-mini-ficha" href="<%- item.path %>">
+<% if (item.image) { %><img src="<%- item.image %>" alt="" loading="lazy"><% } else { %><span class="sin-imagen" aria-hidden="true"></span><% } %>
+<span class="texto"><span class="titulo"><%= item.title %></span><span class="meta"><%= item.date %></span></span>
+</a>
+<% } %>
+</div>

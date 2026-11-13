@@ -5,15 +5,30 @@ aliases:
   - /docencia/publicaciones-docentes/
 description: "Materiales que he preparado, sola o con compañeros y compañeras, y otros que recomiendo. Sobre todo de Estadística y Ciencia de Datos; también de innovación educativa y comunicación científica."
 listing:
-  id: catalogo
-  contents:
-    - recursos.yml
-    - recursos-prodigital.yml
-  template: ../_templates/recursos-catalogo.ejs
-  sort: "date desc"
+  - id: catalogo
+    contents:
+      - recursos.yml
+      - recursos-prodigital.yml
+    template: ../_templates/recursos-catalogo.ejs
+    sort: "date desc"
+  - id: rec-blog
+    contents: "../blog/posts/*/index.qmd"
+    template: ../_templates/recursos-blog.ejs
+    sort: "date desc"
+    date-format: "D MMM YYYY"
+    page-size: 500
 ---
 
 ::: {#catalogo}
 :::
 
 ¿Te interesa algún recurso o tema en particular? Escríbeme a [asun.mayoral@umh.es](mailto:asun.mayoral@umh.es).
+
+::: {.blog-caja}
+## En el blog
+
+[Todas las entradas](../blog/index.qmd){.blog-caja-mas}
+
+::: {#rec-blog}
+:::
+:::

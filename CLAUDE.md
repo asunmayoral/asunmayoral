@@ -75,7 +75,7 @@ La página `investigacion/index.qmd` no se edita para añadir contenido: se gene
 - **Proyecto o contrato**: se añade en `proyectos/proyectos.yml`; si lleva `linea`, `desde` y `hasta` sale también en Investigación.
 - Cada línea es un acordeón (`details.acordeon.inv-linea`), cerrado por defecto; se abre al llegar desde la línea temporal.
 - **Líneas** (`clase: linea`): bayes, ambiente, salud, educacion, ia, sociedad. Una línea nueva necesita además su color en `styles/mystat.scss` (clase `.l-<id>`). `activa: true` la prolonga hasta hoy.
-- **Blog**: las entradas con categoría Investigación o Publicación salen al final de la página en el recuadro «En el blog» (`.blog-caja`): rejilla compacta de fichas con miniatura, las seis más recientes. Divulgación usa el mismo recuadro con su categoría. El número se cambia en el `slice()` de `_templates/investigacion-blog.ejs` y `divulgacion-blog.ejs`.
+- **Blog**: recuadro «En el blog» (`.blog-caja`) al final de las páginas principales, con las seis entradas más recientes de sus categorías en fichas compactas con miniatura: Investigación (Investigación, Publicación), Divulgación (Divulgación), Docencia (Docencia, Innovación) y Recursos (Recursos). Cada página tiene su plantilla `_templates/<pagina>-blog.ejs`; las categorías y el número (`slice()`) se cambian ahí. La portada usa las mismas fichas en la franja «Del blog» (`_templates/blog-lista.ejs`, sin filtro; el número es `max-items` en `index.qmd`). Blog y Sobre mí no llevan recuadro.
 - El texto de presentación sale del resumen del CVN; el CVN no se sube nunca (`CVN*.pdf` está en `.gitignore`).
 
 ### Docencia
