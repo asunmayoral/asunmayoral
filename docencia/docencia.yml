@@ -225,6 +225,7 @@
   corto: "TICs para la docencia y el aprendizaje"
   detalle: "Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y Enseñanza de Idiomas. Coordinación de la asignatura"
   enlaces:
+    - {texto: "guía docente y diapositivas (2019-20)", url: "/recursos/tics-masterprof-2019/index.html"}
     - {texto: "libro", url: "https://editorial.umh.es/2019/12/16/tics-para-la-docencia-y-el-aprendizaje/"}
     - {texto: "libro-Google Play", url: "https://play.google.com/store/books/details?id=2EvEDwAAQBAJ&pli=1"}
     - {texto: "vídeos", url: "https://www.youtube.com/playlist?list=PLClKgnzRFYe5hwY17dxjRB_pJAeG4SqUF"}

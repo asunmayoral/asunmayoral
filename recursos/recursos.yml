@@ -227,6 +227,17 @@
   origen: Propio
 
 # ---------- Innovación educativa ----------
+- title: "TICs para la docencia y el aprendizaje en Secundaria"
+  description: "Asignatura del Máster en Formación del Profesorado de la UMH (curso 2019-20), organizada según el Marco Común de Competencia Digital Docente: guía docente y diapositivas de los ocho temas, con el libro que salió de ella."
+  resumen: "Máster de Profesorado, UMH. Guía docente, diapositivas de 8 temas y libro."
+  path: /recursos/tics-masterprof-2019/index.html
+  date: 2019-09-01
+  anio: "2019-20"
+  tipo: Curso/Taller
+  temas: [Innovación educativa, Competencia digital]
+  origen: Propio
+  autoria: "Con el equipo docente de la asignatura"
+
 - title: "Una experiencia educativa gamificada"
   description: "Curso de 20 horas para la Oficina de Cooperación UMH, impartido en febrero de 2021."
   path: https://sites.google.com/umh.es/gamificacion/p%C3%A1gina-principal

@@ -23,7 +23,7 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
 | `404.qmd` | Página de «no encontrada» |
 | `_templates/*.ejs` | Plantillas de los listados (no tocar salvo para cambiar el diseño) |
 | `scripts/pizarra_ia.py` | Genera `images/banner.svg` (pantalla de cristal con paneles de estadística e IA) y `images/banner-suave.svg` (versión atenuada para las páginas interiores). Para cambiar el contenido, edita `PANELES` y `ANOTA` y ejecuta `python3 scripts/pizarra_ia.py` |
-| `files/` | PDFs y otros ficheros descargables (`files/libros/`: copias de los libros de Asun) |
+| `files/` | PDFs y otros ficheros descargables (`files/libros/`: copias de los libros de Asun; `files/cursos/<slug>/`: diapositivas y documentos de cursos con página propia en `recursos/<slug>/`, p. ej. `bayes-pdi-2006`, `tics-masterprof-2019`. Las páginas de curso nuevas envuelven el contenido en `::: {.curso-pag}` y listan temas o sesiones con `ol.sesiones`; nombres de fichero en minúscula, sin tildes y con guiones) |
 
 ## Tareas habituales
 

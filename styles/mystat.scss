@@ -370,11 +370,11 @@ details.tfm-lista ul { margin: 0; padding-left: 1.2rem; font-size: .92rem; color
 details.tfm-lista .tf-autor { color: $tinta; }
 
 // Página de curso con sesiones (p. ej. recursos/bayesiana), en verde Recursos
-.bayes .curso-meta { display: block; font-size: 1rem; margin: .2rem 0 1rem; }
+.bayes .curso-meta, .curso-pag .curso-meta { display: block; font-size: 1rem; margin: .2rem 0 1rem; }
 .bayes-materiales { margin-bottom: .6rem; }
-.bayes a.rec { display: inline-flex; align-items: center; min-height: 40px; padding: 0 .9rem; border-radius: 20px; background: $menta; color: $tinta; font-weight: 700; font-size: .9rem; text-decoration: none; }
-.bayes a.rec:hover { background: $menta-p; color: #fff; }
-.bayes a.rec-sec { background: #fff; border: 1px solid $linea; font-weight: 400; }
+.bayes a.rec, .curso-pag a.rec { display: inline-flex; align-items: center; min-height: 40px; padding: 0 .9rem; border-radius: 20px; background: $menta; color: $tinta; font-weight: 700; font-size: .9rem; text-decoration: none; }
+.bayes a.rec:hover, .curso-pag a.rec:hover { background: $menta-p; color: #fff; }
+.bayes a.rec-sec, .curso-pag a.rec-sec { background: #fff; border: 1px solid $linea; font-weight: 400; }
 ol.sesiones { list-style: none; padding: 0; margin: .5rem 0 2rem; }
 ol.sesiones li { display: grid; grid-template-columns: 2.2rem 1fr auto; align-items: center; gap: .4rem 1rem; padding: .7rem 0; border-bottom: 1px solid $linea; }
 .ses-num { font-family: "JetBrains Mono", monospace; font-size: .9rem; color: $menta-p; font-weight: 700; }
