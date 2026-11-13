@@ -238,10 +238,11 @@
   origen: Propio
   autoria: "Con el equipo docente de la asignatura"
 
-- title: "Una experiencia educativa gamificada"
-  description: "Curso de 20 horas para la Oficina de Cooperación UMH, impartido en febrero de 2021."
-  path: https://sites.google.com/umh.es/gamificacion/p%C3%A1gina-principal
-  date: 2021-02-01
+- title: "Estrategias activas para la educación en ODS: gamificación y escape rooms"
+  description: "Curso de formación del profesorado universitario financiado por el Programa de Cooperación Universitaria al Desarrollo 2019 de la Universidad Miguel Hernández de Elche. Introduce los conceptos básicos de la gamificación educativa y la ofrece como recurso para diseñar actividades de aprendizaje que integren los Objetivos de Desarrollo Sostenible de modo transversal en materias curriculares de cualquier plan de estudios, a través del aprendizaje basado en proyectos (ABP)."
+  resumen: "Gamificación y escape rooms para integrar los ODS en cualquier materia. Profesorado universitario, UMH, 20 h."
+  path: https://sites.google.com/umh.es/gamificacion/
+  date: 2021-02-15
   anio: "2021"
   tipo: Curso/Taller
   temas: [Innovación educativa]

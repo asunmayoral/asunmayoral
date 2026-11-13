@@ -8,7 +8,7 @@ aliases:
 ---
 Durante este curso 2020-2021,  Manuel Quesada y yo hemos preparado e impartido un curso para mostrar a otros compañeros docentes, cómo introducir la gamificación en sus aulas, y además introducir además los ODS en su práctica docente. El curso lo iniciamos con un breakout-edu digital, y a lo largo de 3 sesiones más en el mes de febrero y marzo de 2021, fuimos descubriendo fundamentos y especialmente recursos para implementar la gamificación. El resultado fue espectacular, con magníficos sites de gamificación creados por nuestros estudiantes-profesores y que compartimos también en el site del curso. Os invitamos a visitarlo y descubrir sus propuestas… y también a jugar tú mismo con el breakout-edu que propusimos. Esperamos que te guste y te resulte útil para empezar a gamificar.
 
-Visita nuestra [WEB DEL CURSO](https://sites.google.com/umh.es/gamificacion/p%C3%A1gina-principal) impartido los días 15, 17, 18 de febrero y 2 de marzo de 2021 (20 horas).
+Visita nuestra [WEB DEL CURSO](https://sites.google.com/umh.es/gamificacion/) impartido los días 15, 17, 18 de febrero y 2 de marzo de 2021 (20 horas).
 
 ::: {.aviso-migrada}
 Entrada publicada originalmente el 20/3/2021 en el blog anterior de esta web.

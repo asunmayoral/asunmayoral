@@ -225,9 +225,8 @@
   corto: "TICs para la docencia y el aprendizaje"
   detalle: "Máster Universitario en Formación del Profesorado de ESO, Bachillerato, FP y Enseñanza de Idiomas. Coordinación de la asignatura"
   enlaces:
-    - {texto: "guía docente y diapositivas (2019-20)", url: "/recursos/tics-masterprof-2019/index.html"}
+    - {texto: "Curso 2019-20", url: "/recursos/tics-masterprof-2019/index.html"}
     - {texto: "libro", url: "https://editorial.umh.es/2019/12/16/tics-para-la-docencia-y-el-aprendizaje/"}
-    - {texto: "libro-Google Play", url: "https://play.google.com/store/books/details?id=2EvEDwAAQBAJ&pli=1"}
     - {texto: "vídeos", url: "https://www.youtube.com/playlist?list=PLClKgnzRFYe5hwY17dxjRB_pJAeG4SqUF"}
 
 - title: "La Investigación e Innovación Educativa y la Gestión del Cambio"
@@ -338,11 +337,12 @@
 
 - title: "Estrategias activas para la educación en ODS: gamificación y escape rooms"
   bloque: profesorado
-  desde: 2020
-  hasta: 2020
+  desde: 2021
+  hasta: 2021
   corto: "Educación en ODS"
-  detalle: "Formación del profesorado. 20 h"
+  detalle: "Formación del profesorado universitario, UMH. 20 h, con Manuel Quesada; financiado por el Programa de Cooperación Universitaria al Desarrollo 2019"
   enlaces:
+    - {texto: "web del curso", url: "https://sites.google.com/umh.es/gamificacion/"}
     - {texto: "entrada del blog", url: "/blog/posts/2021-03-20-estrategias-activas-para-la-educacion-en-ods-gamificacion-y-escape-roo/index.html"}
 
 - title: "Crea tu videocurso"
