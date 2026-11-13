@@ -195,6 +195,18 @@
   origen: Propio
   lenguaje: [R]
 
+- title: "Sacar el máximo provecho a tus datos: la Estadística Bayesiana"
+  description: "Taller de 8 horas del Plan de Formación del PDI de la UMH (mayo de 2006): aprendizaje bayesiano, estimación, contraste, predicción y modelos jerárquicos, con ejemplos en R. Descripción del curso y diapositivas."
+  resumen: "Taller de 8 h para el PDI de la UMH. Diapositivas y programa."
+  path: /recursos/bayes-pdi-2006/index.html
+  date: 2006-05-05
+  anio: "2006"
+  tipo: Curso/Taller
+  temas: [Bayesiana, Estadística-CC Datos]
+  origen: Propio
+  autoria: "Con Javier Morales"
+  lenguaje: [R]
+
 - title: "Comunicación Científica 4.0"
   description: "Recomendaciones y herramientas tecnológicas para la divulgación científica efectiva. Curso de los programas de doctorado espejo UMH-UASD y UMH-O&M (República Dominicana)."
   resumen: "Herramientas tecnológicas para la divulgación científica. Doctorados espejo UMH-UASD y UMH-O&M (República Dominicana)."

@@ -1,0 +1,41 @@
+---
+title: "Sacar el máximo provecho a tus datos: la Estadística Bayesiana"
+description: "Taller de 8 horas del Plan de Formación del PDI de la UMH (curso 2005-2006), con Javier Morales. Mayo de 2006."
+categories: [Bayesiana, Estadística, R, Taller]
+---
+
+::: {.bayes}
+
+[Con Javier Morales (Centro de Investigación Operativa, UMH) · dos sesiones de 4 horas, 5 y 12 de mayo de 2006, en Elche · ejemplos en R]{.curso-meta}
+
+::: {.mod-rec .bayes-materiales}
+[Diapositivas, parte 1 (PDF)](/files/cursos/bayes-pdi-2006/diapositivas-parte-1.pdf){.rec} [Diapositivas, parte 2 (PDF)](/files/cursos/bayes-pdi-2006/diapositivas-parte-2.pdf){.rec} [Programa de los talleres (PDF)](/files/cursos/bayes-pdi-2006/programa-talleres-pdi-2006.pdf){.rec .rec-sec}
+:::
+
+## En qué consistió
+
+Fue uno de los talleres del Programa de Formación Continua del Plan de Formación del PDI de la UMH, en el segundo trimestre del curso 2005-2006. Estaba abierto a todo el personal docente e investigador, y pensado sobre todo para quien quisiera analizar datos aprovechando la información previa disponible o sacar conclusiones en términos de probabilidades.
+
+Los objetivos eran:
+
+- entender la metodología bayesiana para el análisis estadístico de datos;
+- conocer qué puede aportar la Estadística Bayesiana a problemas estadísticos habituales en ciencia;
+- manejar comandos básicos de R para hacer análisis bayesianos sencillos;
+- interpretar bien los resultados de estos análisis y de cualquier otro análisis bayesiano.
+
+Las clases presentaban las ideas básicas sobre ejemplos concretos, con diapositivas, y se completaban con R: el profesorado entregaba los ficheros con los comandos para que cada persona pudiera repetir los análisis durante el taller o después.
+
+El programa de los talleres es el folleto original del Plan de Formación (incluye también los demás talleres del trimestre); este curso es el primero.
+
+## Materiales
+
+```{=html}
+<ol class="sesiones">
+<li><span class="ses-num">P1</span><span class="ses-tit"><strong>El proceso de aprendizaje bayesiano</strong> <span class="ses-fecha">Análisis frecuentista frente a bayesiano; modelo, distribución a priori (no informativa, de expertos, de estudios previos) y posterior; estimación, contraste de hipótesis y predicción; transformaciones; el modelo normal. Ejemplos: una técnica quirúrgica en dos hospitales y el rendimiento de dos variedades de plantas</span></span><span class="ses-rec"><a class="rec" href="/files/cursos/bayes-pdi-2006/diapositivas-parte-1.pdf">Diapositivas (PDF)</a></span></li>
+<li><span class="ses-num">P2</span><span class="ses-tit"><strong>Modelos jerárquicos bayesianos</strong> <span class="ses-fecha">Regresión logística y dosis letal (escarabajos, Bliss 1935), regresión con efectos aleatorios (crecimiento de ratas, Gelfand et al. 1990) y modelo logit de efectos aleatorios (germinación de semillas, Crowder 1978)</span></span><span class="ses-rec"><a class="rec" href="/files/cursos/bayes-pdi-2006/diapositivas-parte-2.pdf">Diapositivas (PDF)</a></span></li>
+</ol>
+```
+
+:::
+
+[← Volver a Recursos](../index.qmd)

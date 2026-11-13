@@ -393,6 +393,15 @@
   corto: "Semipresencialidad"
   detalle: "Formación del profesorado, UMH. 15 h"
 
+- title: "Sacar el máximo provecho a tus datos: la Estadística Bayesiana"
+  bloque: profesorado
+  desde: 2006
+  hasta: 2006
+  corto: "Estadística Bayesiana (PDI)"
+  detalle: "Plan de Formación del PDI, UMH. 8 h, con Javier Morales"
+  enlaces:
+    - {texto: "descripción y diapositivas", url: "/recursos/bayes-pdi-2006/index.html"}
+
 - title: "Dirección académica"
   bloque: profesorado
   desde: 2014
