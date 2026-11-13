@@ -75,6 +75,12 @@ a { text-underline-offset: 3px; }
 .hero .saludo { color: $ciruela-p; font-weight: 700; font-size: 1.1rem; margin-bottom: .6rem; }
 .hero h1 { font-size: clamp(2.2rem, 4.5vw, 3.3rem); line-height: 1.08; margin: 0 0 1rem; }
 .hero p.lead { color: $gris; font-size: 1.2rem; }
+// Filiación en la portada: logo UMH y cargo en una línea
+.hero .filiacion { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1.2rem; color: $gris; font-size: 1.2rem; }
+.hero .filiacion .cargo { padding-left: 1.2rem; border-left: 2px solid $linea; }
+img.logo-umh { height: 46px; width: auto; }
+.tarjeta-contacto img.logo-umh { height: 52px; margin-bottom: .4rem; }
+@media (max-width: 600px) { .hero .filiacion .cargo { padding-left: 0; border-left: 0; } }
 .btn-pill { display: inline-flex; align-items: center; min-height: 48px; padding: 0 1.4rem; border-radius: 24px; font-weight: 700; text-decoration: none; margin: .4rem .6rem 0 0; }
 .btn-pill.solid { background: $tinta; color: $crema; }
 .btn-pill.solid:hover { background: $ciruela-p; color: $crema; }

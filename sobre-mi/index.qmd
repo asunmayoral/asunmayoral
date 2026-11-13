@@ -47,10 +47,12 @@ La organización de ferias, concursos y jornadas está en [Divulgación](../divu
 ::: {.tarjeta-contacto}
 ## Contacto
 
+[![](../images/logo_umh_rojo.png){.logo-umh fig-alt="Universidad Miguel Hernández de Elche"}](https://www.umh.es/)
+
 **Mª Asunción Martínez Mayoral**<br>
-Profesora Titular de Universidad<br>
-Área de Estadística e Investigación Operativa<br>
-Universidad Miguel Hernández de Elche
+Profesora Titular de Estadística e Investigación Operativa<br>
+Departamento de Estadística, Matemáticas e Informática<br>
+Instituto Universitario de Investigación en Matemáticas, Ciencia de Datos e Inteligencia Artificial, i-MInD
 
 Edificio Torrepinet, planta 1, despacho 25<br>
 Avda. de la Universidad s/n, 03202 Elche (Alicante)

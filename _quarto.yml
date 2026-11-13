@@ -14,7 +14,7 @@ lang: es
 
 website:
   title: "My Stat Space"
-  description: "Asun M. Mayoral. Estadística, ciencia de datos e IA para aprender y enseñar."
+  description: "Asun M. Mayoral. Aprender, enseñar y contar con Estadística e IA."
   site-url: "https://asunmayoral.umh.es"
   favicon: images/favicon.svg
   open-graph: true
@@ -43,7 +43,9 @@ website:
     background: "#2F2A36"
     left: |
       **My Stat Space** · Mª Asunción Martínez Mayoral<br>
-      Área de Estadística e Investigación Operativa · Universidad Miguel Hernández de Elche<br>
+      Área de Estadística e Investigación Operativa · Departamento de Estadística, Matemáticas e Informática<br>
+      Instituto Universitario de Investigación en Matemáticas, Ciencia de Datos e Inteligencia Artificial, i-MInD<br>
+      Universidad Miguel Hernández de Elche<br>
       Edificio Torrepinet, planta 1, despacho 25 · [asun.mayoral@umh.es](mailto:asun.mayoral@umh.es)
     right:
       - text: Google Scholar
