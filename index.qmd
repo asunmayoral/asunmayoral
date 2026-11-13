@@ -34,7 +34,7 @@ listing:
 
 # Estadística + IA para aprender, enseñar y divulgar
 
-[[![](images/logo_umh_rojo.png){.logo-umh fig-alt="Universidad Miguel Hernández de Elche"}](https://www.umh.es/) [Profesora Titular de Estadística e Investigación Operativa]{.cargo}]{.filiacion}
+[[![](images/logo_umh_rojo.png){.logo-umh fig-alt="Universidad Miguel Hernández de Elche"}](https://www.umh.es/) [Enseñando y aprendiendo en la UMH desde 1997]{.cargo}]{.filiacion}
 
 [Explorar recursos](recursos/index.qmd){.btn-pill .solid} [Leer el blog](blog/index.qmd){.btn-pill .line}
 :::
