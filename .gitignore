@@ -11,6 +11,7 @@ __pycache__/
 # Documentos personales: nunca al repositorio público
 *.pdf
 !files/**/*.pdf
+!divulgacion/jic/**/*.pdf
 sobre-mi/CVN*
 CVN*.pdf
 **/CVN*.pdf

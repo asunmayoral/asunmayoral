@@ -374,3 +374,34 @@ ol.sesiones li { display: grid; grid-template-columns: 2.2rem 1fr auto; align-it
 .ses-fecha { display: block; font-size: .88rem; color: $gris; }
 .ses-rec { display: flex; flex-wrap: wrap; gap: .4rem; justify-content: flex-end; }
 @media (max-width: 700px) { ol.sesiones li { grid-template-columns: 2.2rem 1fr; } .ses-rec { grid-column: 2; justify-content: flex-start; } }
+
+// ---------- Recuadro «En el blog» (Investigación y Divulgación) ----------
+.blog-caja { position: relative; margin: 3rem 0 1rem; padding: 1.25rem 1.4rem 1.4rem; background: #F7EDF4; border: 1px solid $ciruela; border-radius: .9rem; }
+.blog-caja h2 { margin: 0 0 1rem; padding: 0; border: 0; font-size: 1.35rem; color: $ciruela-p; }
+.blog-caja p:has(> a.blog-caja-mas) { position: absolute; top: 1.25rem; right: 1.4rem; margin: 0; }
+a.blog-caja-mas { font-size: .92rem; font-weight: 700; color: $ciruela-p; text-decoration: none; }
+a.blog-caja-mas::after { content: " →"; }
+a.blog-caja-mas:hover { text-decoration: underline; }
+.blog-mini { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: .7rem; }
+.blog-mini > p { margin: 0; }
+a.blog-mini-ficha { display: flex; height: 100%; align-items: center; gap: .75rem; padding: .5rem; background: $crema; border: 1px solid $linea; border-radius: .6rem; color: $tinta; text-decoration: none; transition: box-shadow .15s, border-color .15s; }
+a.blog-mini-ficha:hover { border-color: $ciruela-p; box-shadow: 0 3px 10px rgba(47,42,54,.10); }
+.blog-mini-ficha img, .blog-mini-ficha .sin-imagen { flex: 0 0 64px; width: 64px; height: 64px; border-radius: .4rem; object-fit: cover; background: $ciruela; }
+.blog-mini-ficha .sin-imagen { display: flex; align-items: center; justify-content: center; }
+.blog-mini-ficha .sin-imagen::before { content: "σ"; font-family: "Fraunces", Georgia, serif; font-size: 1.7rem; color: $ciruela-p; opacity: .55; }
+.blog-mini-ficha .texto { display: flex; flex-direction: column; gap: .15rem; min-width: 0; }
+.blog-mini-ficha .titulo { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: .98rem; line-height: 1.22; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.blog-mini-ficha .meta { font-size: .8rem; color: $gris; }
+
+// ---------- Jornadas JIC (divulgacion/jic) ----------
+.jic-edicion { display: grid; grid-template-columns: 170px 1fr; gap: 1.8rem; align-items: start; margin: 2rem 0; padding: 1.5rem; background: #fff; border: 1px solid $linea; border-top: 5px solid $mantequilla; border-radius: .9rem; scroll-margin-top: 5rem; }
+.jic-edicion > p:first-child { margin: 0; }
+.jic-edicion img.jic-chapa { width: 170px; height: 170px; border-radius: 50%; border: 1px solid $linea; box-shadow: 0 3px 10px rgba(47,42,54,.15); }
+.jic-cuerpo h2 { margin: 0 0 .6rem; padding: 0; border: 0; }
+.jic-cuerpo p:has(> .jic-dato) { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: 1rem; }
+.jic-dato { display: inline-block; padding: .15rem .7rem; border-radius: 1rem; font-size: .85rem; font-weight: 700; background: $mantequilla; color: $tinta; }
+@media (max-width: 700px) {
+  .jic-edicion { grid-template-columns: 1fr; }
+  .jic-edicion img.jic-chapa { width: 130px; height: 130px; }
+  .blog-caja p:has(> a.blog-caja-mas) { position: static; margin: -.6rem 0 .9rem; }
+}

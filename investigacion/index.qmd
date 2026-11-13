@@ -45,11 +45,11 @@ Pulsa en cada línea para desplegar sus publicaciones, tesis, proyectos y contra
 ::: {#lineas}
 :::
 
+::: {.blog-caja}
 ## En el blog
 
-Las entradas del [Blog](../blog/index.qmd) sobre resultados de investigación y publicaciones:
+[Todas las entradas](../blog/index.qmd){.blog-caja-mas}
 
 ::: {#inv-blog}
 :::
-
-[Ir al blog](../blog/index.qmd){.btn-pill .line}
+:::

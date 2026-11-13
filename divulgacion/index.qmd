@@ -27,7 +27,7 @@ listing:
 ### Otras jornadas que he organizado
 
 ::: {.linea-tiempo}
-- [2017–2018]{.anio} Jornadas JIC de Innovación Colaborativa en la UMH (2 ediciones).
+- [2017–2018]{.anio} [Jornadas JIC de Innovación Colaborativa en la UMH](jic/index.qmd) (2 ediciones): programas, libros de actas, carteles y notas de prensa.
 - [2009–2014]{.anio} Jornadas de Innovación Docente UMH (5 ediciones).
 - [2007–2008]{.anio} Outdoor Training on Business Intelligence (2 ediciones).
 :::
@@ -45,9 +45,11 @@ Además de divulgar, enseño a hacerlo. Estos cursos son docencia y por eso vive
 
 [Recursos de comunicación científica](../recursos/index.html?tema=Comunicación%20científica){.btn-pill .line}
 
+::: {.blog-caja}
 ## En el blog
+
+[Todas las entradas](../blog/index.qmd){.blog-caja-mas}
 
 ::: {#div-blog}
 :::
-
-[Ir al blog](../blog/index.qmd){.btn-pill .line}
+:::

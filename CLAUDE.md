@@ -13,6 +13,7 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
 | `recursos/<tema>/index.qmd` | Páginas propias de recursos alojados aquí (p. ej. `bayesiana/`) |
 | `proyectos/proyectos.yml` | Proyectos y contratos (solo datos; no hay página Proyectos). La `categoria` decide en qué página sale cada uno |
 | `divulgacion/index.qmd` | Divulgación: proyectos y eventos de divulgación, enlaces a los cursos de comunicación científica y entradas del blog con categoría Divulgación |
+| `divulgacion/jic/` | Página de las Jornadas JIC (2017 y 2018) con sus documentos: una carpeta por edición (`jic2017/`, `jic2018/`) con los PDF y la chapa. Sus PDF son la excepción a la regla de `.gitignore` (`*.pdf`) y se publican por `resources` de `_quarto.yml` |
 | `blog/posts/AAAA-MM-DD-slug/index.qmd` | Entradas del Blog; imágenes en la misma carpeta |
 | `investigacion/index.qmd` | Perfil investigador: línea temporal, líneas de trabajo, publicaciones y entradas del blog relacionadas |
 | `investigacion/investigacion.yml` | Líneas, etapas profesionales, publicaciones y tesis (los proyectos salen de `proyectos/proyectos.yml`) |
@@ -74,7 +75,7 @@ La página `investigacion/index.qmd` no se edita para añadir contenido: se gene
 - **Proyecto o contrato**: se añade en `proyectos/proyectos.yml`; si lleva `linea`, `desde` y `hasta` sale también en Investigación.
 - Cada línea es un acordeón (`details.acordeon.inv-linea`), cerrado por defecto; se abre al llegar desde la línea temporal.
 - **Líneas** (`clase: linea`): bayes, ambiente, salud, educacion, ia, sociedad. Una línea nueva necesita además su color en `styles/mystat.scss` (clase `.l-<id>`). `activa: true` la prolonga hasta hoy.
-- **Blog**: las entradas con categoría Investigación o Publicación se listan al final de la página (las ocho más recientes).
+- **Blog**: las entradas con categoría Investigación o Publicación salen al final de la página en el recuadro «En el blog» (`.blog-caja`): rejilla compacta de fichas con miniatura, las seis más recientes. Divulgación usa el mismo recuadro con su categoría. El número se cambia en el `slice()` de `_templates/investigacion-blog.ejs` y `divulgacion-blog.ejs`.
 - El texto de presentación sale del resumen del CVN; el CVN no se sube nunca (`CVN*.pdf` está en `.gitignore`).
 
 ### Docencia
