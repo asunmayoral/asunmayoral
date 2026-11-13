@@ -324,6 +324,7 @@
   mas: https://play.google.com/store/books/details?id=jKVYEAAAQBAJ
   mas_texto: "Google Play"
   pdf: /files/libros/lean-seis-sigma-mejora-de-procesos.pdf
+  portada: /images/libros/lean-seis-sigma.webp
   date: 2022-01-13
   anio: "2022"
   tipo: Libro
@@ -363,6 +364,7 @@
   description: "Simulación y análisis de sistemas de espera. A. M. Mayoral, J. Morales, X. Barber y J. Aparicio. Universidad Miguel Hernández. ISBN 978-84-96297-76-0."
   resumen: "Simulación y análisis de sistemas de espera. Con J. Morales, X. Barber y J. Aparicio (UMH)."
   path: /files/libros/apuntes-teoria-de-colas.pdf
+  portada: /images/libros/teoria-de-colas.webp
   date: 2007-01-01
   anio: "2007"
   tipo: Libro
@@ -373,6 +375,7 @@
   description: "A. M. Mayoral, J. Morales, X. Barber y J. Aparicio. Universidad Miguel Hernández. ISBN 978-84-96297-78-4."
   resumen: "Libro docente de Estadística Actuarial. Con J. Morales, X. Barber y J. Aparicio (UMH)."
   path: /files/libros/modelos-estadisticos-perdidas-reclamaciones.pdf
+  portada: /images/libros/perdidas-reclamaciones.webp
   date: 2007-01-02
   anio: "2007"
   tipo: Libro
@@ -382,6 +385,7 @@
 - title: "Modelos Lineales Generalizados (apuntes)"
   description: "A. M. Mayoral y J. Morales. Universidad Miguel Hernández. ISBN 84-95893-01-0."
   path: /files/libros/modelos-lineales-generalizados.pdf
+  portada: /images/libros/modelos-lineales-generalizados.webp
   date: 2002-01-01
   anio: "Libro"
   tipo: Libro
@@ -412,6 +416,7 @@
 - title: "TIS: Técnicas de Investigación Social"
   description: "M. Landete y A. M. Mayoral. Universidad Miguel Hernández. ISBN 84-95315-90-4."
   path: /files/libros/tis-tecnicas-de-investigacion-social.pdf
+  portada: /images/libros/tis.webp
   date: 2001-01-01
   anio: "2001"
   tipo: Libro
