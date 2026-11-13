@@ -32,21 +32,22 @@ Web personal de Asun M. Mayoral (Estadística e Investigación Operativa, UMH), 
 2. Añade una entrada a `recursos/recursos.yml` en el bloque que corresponda, con estos campos:
    `title`, `description`, `path`, `date` (AAAA-MM-DD; si solo hay año, 1 de enero), `anio` (texto que se muestra), `tipo`, `temas`, `origen`, y opcionalmente `autoria` y `nota`.
 3. Valores permitidos (no inventes otros sin preguntar):
-   - `tipo`: Curso/Taller, Libro, Recopilatorio, Vídeo, Datos, Juego
-   - `temas`: Estadística-CC Datos, IA, Bayesiana, Mejora de procesos, Innovación educativa, Comunicación científica, Competencia digital (la materia)
+   - `tipo`: Curso-Taller (cursos, talleres y asignaturas con recursos), Libro, Recopilatorio (incluye fuentes de datos), Vídeo, Juego (sin botón). Puede ser una lista si encaja en dos: `[Curso-Taller, Vídeo]`
+   - `temas`: Estadística-CCDatos (incluye IA, bayesiana y mejora de procesos), Competencia Digital (TICs, ITE, Unidigital: Simustat, Prodigital e IASAC), Comunicación (cursos con recursos y recursos sobre comunicación), Aprendizaje Activo (gamificación, aprendizaje cooperativo, ABP, aprendizaje-servicio…)
    - `lenguaje` (opcional): lista con R y/o Python. Tiene su propio filtro y etiqueta. Si un curso tiene materiales separados en R y en Python, una entrada por lenguaje con «(R)» o «(Python)» en el título; si están en la misma web, una entrada con `lenguaje: [R, Python]`. En Docencia, el texto del enlace lleva el lenguaje: «Web de la asignatura (R)».
    - `origen`: Propio (hecho por Asun, sola o en equipo) | Recomendado (de otras personas)
+   **Filtros de la página Recursos**: una fila de botones (`_templates/recursos-catalogo.ejs`, lista `botones`) con, en este orden: Competencia Digital, Estadística-CCDatos, Comunicación, Curso-Taller, Libro, Recopilatorio, Aprendizaje Activo, Vídeos, Propio, R y Python, además del buscador. Varios botones a la vez muestran lo que tiene todas las etiquetas. Enlaces directos: `recursos/index.html?etiqueta=Curso-Taller,Python` o `?q=texto` (rellena el buscador).
    Si `description` pasa de unos 110 caracteres, añade `resumen` (una frase corta): es lo que muestra la tarjeta; la descripción completa sigue sirviendo al buscador y la información detallada está en el destino del enlace.
 4. Libros: van en el catálogo con `tipo: Libro`; campos opcionales `portada` (imagen pequeña en `images/libros/`, ruta `/images/libros/...`) y `mas` / `mas_texto` (enlace extra, p. ej. Google Play). La antigua página Publicaciones ya no existe: redirige a Recursos.
    Copias de los libros: los PDF están en `files/libros/` (nombres en minúscula, sin espacios ni tildes, con guiones). En `recursos.yml`, `path` apunta a la Editorial UMH si el libro está allí (es prioritaria) y el campo `pdf: /files/libros/<fichero>.pdf` añade el enlace «Copia en PDF»; si no hay página de la editorial, `path` apunta directamente al PDF. En `docencia.yml` se enlaza igual: editorial si existe, si no la copia. Para sustituir un libro, Asun reemplaza el PDF con el mismo nombre y sube el cambio; los enlaces no cambian. GitHub rechaza ficheros de más de 100 MB.
-5. Campo opcional `serie`: colección o proyecto al que pertenece (p. ej. `Unidigital-Prodigital`); se muestra como etiqueta y como filtro «Colección».
+5. Campo opcional `serie`: colección o proyecto al que pertenece (p. ej. `Unidigital-Prodigital`); se muestra como etiqueta en la tarjeta y se encuentra con el buscador (`?q=Unidigital-Prodigital`).
 6. Las tres entradas con `date` más reciente aparecen en la portada.
 
 ### Cursos Unidigital-Prodigital
 - Entrada del blog: `blog/posts/2026-11-07-cursos-unidigital-prodigital/` (un acordeón por curso, fichas de módulo con PDF, vídeo, cuestionario, infografía y ficha en RediUMH, y buscador).
 - Los datos salen de la hoja de cálculo del proyecto, guardada en `fuentes/CURSOS_Y_RECURSOS.xlsx` (excluida de git porque tiene columnas internas).
 - Tras cambiar la hoja: `python scripts/prodigital_desde_excel.py`. Los resúmenes de las tarjetas están en el diccionario `RESUMENES` del script. Regenera `cursos.yml` de la entrada y `recursos/recursos-prodigital.yml` (las 7 fichas del catálogo). No se editan a mano.
-- Se enlaza desde Recursos (filtro Colección), Docencia › Formación continua y el proyecto Unidigital-Prodigital.
+- Se enlaza desde Recursos (buscador: `?q=Unidigital-Prodigital`), Docencia › Formación continua y el proyecto Unidigital-Prodigital.
 
 ### Escribir una entrada del blog
 - Carpeta nueva `blog/posts/AAAA-MM-DD-slug-corto/` con `index.qmd`.

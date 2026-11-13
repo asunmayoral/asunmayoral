@@ -1,55 +1,29 @@
 <%
-const slug = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-const temas = ['Estadística-CC Datos', 'IA', 'Bayesiana', 'Mejora de procesos', 'Innovación educativa', 'Comunicación científica', 'Competencia digital'];
-const tipos = ['Curso/Taller', 'Libro', 'Recopilatorio', 'Vídeo', 'Datos', 'Juego'];
-const usados = new Set(items.flatMap(i => i.temas || []));
-const lenguajes = ['R', 'Python'].filter(l => items.some(i => (i.lenguaje || []).includes(l)));
-const tiposUsados = new Set(items.map(i => i.tipo));
-const series = [...new Set(items.map(i => i.serie).filter(Boolean))];
+const slug = s => String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+const tiposDe = i => [].concat(i.tipo || []);
+// Todo lo que puede filtrar un botón: tipo(s), temas, lenguaje y origen
+const marcas = i => [...tiposDe(i), ...(i.temas || []), ...(i.lenguaje || []), i.origen];
+// Botones de filtro, en este orden. `valor` es lo que hay en los datos; `texto`, lo que se ve.
+const botones = [
+  {texto: 'Competencia Digital'}, {texto: 'Estadística-CCDatos'}, {texto: 'Comunicación'},
+  {texto: 'Curso-Taller'}, {texto: 'Libro'}, {texto: 'Recopilatorio'}, {texto: 'Aprendizaje Activo'},
+  {texto: 'Vídeos', valor: 'Vídeo'}, {texto: 'Propio'}, {texto: 'R'}, {texto: 'Python'}
+].map(b => ({...b, valor: b.valor || b.texto}))
+ .map(b => ({...b, n: items.filter(i => marcas(i).includes(b.valor)).length}))
+ .filter(b => b.n > 0);
 %>
 <div class="recursos-page">
-<div class="filtros filtros-fila" role="search">
-<div class="f-buscar">
+<div class="filtros" role="search">
+<div>
 <label for="rec-buscar">Buscar</label>
 <input id="rec-buscar" type="search" placeholder="Python, bayesiana, gamificación…" autocomplete="off">
 </div>
 <div>
-<label for="f-tema">Tema</label>
-<select id="f-tema" class="filtro" data-eje="tema">
-<option value="">Todos</option>
-<% for (const t of temas.filter(t => usados.has(t))) { %><option value="<%= t %>"><%= t %> (<%= items.filter(i => (i.temas || []).includes(t)).length %>)</option><% } %>
-</select>
-</div>
-<div>
-<label for="f-tipo">Tipo</label>
-<select id="f-tipo" class="filtro" data-eje="tipo">
-<option value="">Todos</option>
-<% for (const t of tipos.filter(t => tiposUsados.has(t))) { %><option value="<%= t %>"><%= t %> (<%= items.filter(i => i.tipo === t).length %>)</option><% } %>
-</select>
-</div>
-<div>
-<label for="f-lenguaje">Lenguaje</label>
-<select id="f-lenguaje" class="filtro" data-eje="lenguaje">
-<option value="">Todos</option>
-<% for (const l of lenguajes) { %><option value="<%= l %>"><%= l %> (<%= items.filter(i => (i.lenguaje || []).includes(l)).length %>)</option><% } %>
-</select>
-</div>
-<% if (series.length) { %>
-<div>
-<label for="f-serie">Colección</label>
-<select id="f-serie" class="filtro" data-eje="serie">
-<option value="">Todas</option>
-<% for (const s of series) { %><option value="<%= s %>"><%= s %> (<%= items.filter(i => i.serie === s).length %>)</option><% } %>
-</select>
-</div>
+<span class="rotulo" id="rot-etiquetas">Filtrar por etiquetas</span>
+<div class="chips" role="group" aria-labelledby="rot-etiquetas">
+<% for (const b of botones) { %><button type="button" class="chip" data-valor="<%= b.valor %>" aria-pressed="false"><%= b.texto %> <span class="chip-n"><%= b.n %></span></button>
 <% } %>
-<div>
-<label for="f-origen">Origen</label>
-<select id="f-origen" class="filtro" data-eje="origen">
-<option value="">Todos</option>
-<option value="Propio">Propio</option>
-<option value="Recomendado">Recomendado</option>
-</select>
+</div>
 </div>
 </div>
 
@@ -60,10 +34,10 @@ const series = [...new Set(items.map(i => i.serie).filter(Boolean))];
 
 <div class="tarjetas" id="rec-grid">
 <% for (const item of items) { %>
-<article class="tarjeta" data-tipo="<%= item.tipo %>" data-temas="<%= (item.temas || []).join('|') %>" data-origen="<%= item.origen %>" data-serie="<%= item.serie || '' %>" data-lenguaje="<%= (item.lenguaje || []).join('|') %>"
-data-texto="<%= [item.title, item.description, item.autoria, item.serie, (item.temas || []).join(' '), (item.lenguaje || []).join(' '), item.tipo].join(' ').toLowerCase() %>">
+<article class="tarjeta" data-marcas="<%= marcas(item).join('|') %>"
+data-texto="<%= [item.title, item.description, item.autoria, item.serie, (item.temas || []).join(' '), (item.lenguaje || []).join(' '), tiposDe(item).join(' ')].join(' ').toLowerCase() %>">
 <div class="etiquetas">
-<span class="tag t-<%= slug(item.tipo) %>"><%= item.tipo %></span>
+<% for (const t of tiposDe(item)) { %><span class="tag t-<%= slug(t) %>"><%= t %></span><% } %>
 <span class="tag tag-outline"><%= item.origen %></span>
 <% if (item.serie) { %><span class="tag t-serie"><%= item.serie %></span><% } %>
 <% for (const l of (item.lenguaje || [])) { %><span class="tag t-lenguaje t-<%= slug(l) %>"><%= l %></span><% } %>
@@ -82,39 +56,40 @@ data-texto="<%= [item.title, item.description, item.autoria, item.serie, (item.t
 
 <script>
 (function () {
-const estado = { tema: null, tipo: null, lenguaje: null, origen: null, serie: null, q: '' };
+// Varios botones a la vez = recursos que tienen TODAS las etiquetas elegidas
+const activos = new Set();
+let q = '';
 const tarjetas = Array.from(document.querySelectorAll('#rec-grid .tarjeta'));
-const selects = Array.from(document.querySelectorAll('.filtros select.filtro'));
+const chips = Array.from(document.querySelectorAll('.filtros .chip'));
 const buscar = document.getElementById('rec-buscar');
 const n = document.getElementById('rec-n');
 const limpiar = document.getElementById('rec-limpiar');
-const norm = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+const norm = s => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
-// Filtros desde la URL: recursos/?lenguaje=Python&tipo=Curso%2FTaller
+// Desde la URL: recursos/?etiqueta=Curso-Taller,Python  o  recursos/?q=Prodigital
 const params = new URLSearchParams(location.search);
-['tema', 'tipo', 'lenguaje', 'origen', 'serie'].forEach(k => { if (params.get(k)) estado[k] = params.get(k); });
+(params.get('etiqueta') || '').split(',').map(s => s.trim()).filter(Boolean).forEach(v => activos.add(v));
+if (params.get('q')) { q = params.get('q'); buscar.value = q; }
 
 function aplicar() {
 let visibles = 0;
-const q = norm(estado.q.trim());
+const nq = norm(q.trim());
 tarjetas.forEach(t => {
-const ok = (!estado.tema || t.dataset.temas.split('|').includes(estado.tema))
-&& (!estado.tipo || t.dataset.tipo === estado.tipo)
-&& (!estado.lenguaje || t.dataset.lenguaje.split('|').includes(estado.lenguaje))
-&& (!estado.origen || t.dataset.origen === estado.origen)
-&& (!estado.serie || t.dataset.serie === estado.serie)
-&& (!q || norm(t.dataset.texto).includes(q));
+const marcas = t.dataset.marcas.split('|');
+const ok = [...activos].every(v => marcas.includes(v)) && (!nq || norm(t.dataset.texto).includes(nq));
 t.hidden = !ok; if (ok) visibles++;
 });
-selects.forEach(s => { s.value = estado[s.dataset.eje] || ''; });
-const filtrando = estado.tema || estado.tipo || estado.lenguaje || estado.origen || estado.serie || q;
+chips.forEach(c => c.setAttribute('aria-pressed', activos.has(c.dataset.valor) ? 'true' : 'false'));
+const filtrando = activos.size > 0 || nq;
 n.textContent = visibles === 0 ? 'Ningún recurso con esos filtros.' :
 (visibles === 1 ? '1 recurso' : visibles + ' recursos') + (filtrando ? ' con los filtros elegidos' : '');
 limpiar.hidden = !filtrando;
 }
-selects.forEach(s => s.addEventListener('change', () => { estado[s.dataset.eje] = s.value || null; aplicar(); }));
-buscar.addEventListener('input', () => { estado.q = buscar.value; aplicar(); });
-limpiar.addEventListener('click', () => { estado.tema = estado.tipo = estado.lenguaje = estado.origen = estado.serie = null; estado.q = ''; buscar.value = ''; aplicar(); });
+chips.forEach(c => c.addEventListener('click', () => {
+const v = c.dataset.valor; activos.has(v) ? activos.delete(v) : activos.add(v); aplicar();
+}));
+buscar.addEventListener('input', () => { q = buscar.value; aplicar(); });
+limpiar.addEventListener('click', () => { activos.clear(); q = ''; buscar.value = ''; aplicar(); });
 aplicar();
 })();
 </script>

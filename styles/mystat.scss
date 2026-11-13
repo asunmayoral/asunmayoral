@@ -130,6 +130,7 @@ img.logo-umh { height: 46px; width: auto; }
 .chips { display: flex; flex-wrap: wrap; gap: .5rem; }
 .chip { min-height: 44px; padding: 0 1rem; border-radius: 22px; border: 1.5px solid #CFC3B0; background: #fff; color: $tinta; font: inherit; font-size: .95rem; cursor: pointer; }
 .chip[aria-pressed="true"] { background: $tinta; border-color: $tinta; color: $crema; font-weight: 700; }
+.chip-n { font-size: .8rem; font-weight: 400; opacity: .7; margin-left: .15rem; }
 .chip:focus-visible { outline: 3px solid $menta-p; outline-offset: 2px; }
 .resumen { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: .5rem; border-top: 1px solid $linea; padding-top: 1rem; margin-bottom: 1rem; color: $gris; }
 .resumen button { border: 0; background: none; color: $menta-p; font-weight: 700; text-decoration: underline; min-height: 44px; }

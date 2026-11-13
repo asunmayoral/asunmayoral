@@ -6,9 +6,8 @@
 #   path         enlace (externo o interno)
 #   date         AAAA-MM-DD aproximada (ordena el catálogo; si solo sabes el año, usa el 1 de enero)
 #   anio         lo que se muestra como fecha (texto libre: "2022", "2023-24", "Web")
-#   tipo         uno de: Asignatura, Curso, Taller, Libro, Apuntes y prácticas, Recopilatorio, Vídeo, Datos, Juego
-#   temas        lista con valores de: Estadística-CC Datos, IA, Bayesiana, Mejora de procesos,
-#                Innovación educativa, Comunicación científica, Competencia digital (la materia, no el lenguaje)
+#   tipo         Curso-Taller, Libro, Recopilatorio, Vídeo (o Juego, que no tiene botón). Puede ser una lista: [Curso-Taller, Vídeo]
+#   temas        lista con valores de: Estadística-CCDatos, Competencia Digital, Comunicación, Aprendizaje Activo
 #   lenguaje     (opcional) lista con R y/o Python, si el recurso usa código. Si un curso tiene materiales
 #                separados en R y en Python, una entrada por lenguaje con «(R)» / «(Python)» en el título
 #   origen       Propio | Recomendado
@@ -22,8 +21,8 @@
   path: https://asunmayoral.github.io/GLM/
   date: 2026-09-01
   anio: "2026"
-  tipo: Curso/Taller
-  temas: [Estadística-CC Datos]
+  tipo: Curso-Taller
+  temas: [Estadística-CCDatos]
   lenguaje: [R]
   origen: Propio
 
@@ -33,8 +32,8 @@
   path: https://umh1477.github.io/
   date: 2022-09-01
   anio: "2022"
-  tipo: Curso/Taller
-  temas: [Estadística-CC Datos]
+  tipo: Curso-Taller
+  temas: [Estadística-CCDatos]
   lenguaje: [R]
   origen: Propio
 
@@ -43,8 +42,8 @@
   path: https://sites.google.com/umh.es/simcm/inicio
   date: 2022-09-01
   anio: "Web"
-  tipo: Curso/Taller
-  temas: [Estadística-CC Datos]
+  tipo: Curso-Taller
+  temas: [Estadística-CCDatos]
   lenguaje: [Python]
   origen: Propio
   nota: "Acceso con cuenta de la UMH"
@@ -55,8 +54,8 @@
   path: https://bookdown.org/asun_mayoral/book-l6s/
   date: 2021-12-01
   anio: "2021"
-  tipo: Curso/Taller
-  temas: [Mejora de procesos]
+  tipo: Curso-Taller
+  temas: [Estadística-CCDatos]
   lenguaje: [R]
   origen: Propio
   autoria: "Con Javier Morales"
@@ -69,8 +68,8 @@
   mas_texto: "El proyecto"
   date: 2022-06-01
   anio: "Unidigital"
-  tipo: Curso/Taller
-  temas: [Estadística-CC Datos]
+  tipo: Curso-Taller
+  temas: [Estadística-CCDatos, Competencia Digital]
   lenguaje: [Python]
   origen: Propio
   autoria: "Con Fernando Borrás, Federico Botella, Josep Moltó, Javier Morales e Inés Hernández"
@@ -80,8 +79,8 @@
   path: https://jmsocuellamos.github.io/
   date: 2021-01-01
   anio: "Web"
-  tipo: Curso/Taller
-  temas: [Estadística-CC Datos]
+  tipo: Curso-Taller
+  temas: [Estadística-CCDatos]
   lenguaje: [R]
   origen: Recomendado
   autoria: "Javier Morales"
@@ -92,7 +91,7 @@
   date: 2021-01-01
   anio: "Web"
   tipo: Recopilatorio
-  temas: [Estadística-CC Datos]
+  temas: [Estadística-CCDatos]
   origen: Recomendado
   autoria: "Javier Morales"
 
@@ -102,7 +101,7 @@
   date: 2021-10-01
   anio: "Web"
   tipo: Recopilatorio
-  temas: [Estadística-CC Datos]
+  temas: [Estadística-CCDatos]
   origen: Propio
 
 - title: "Webs con datos en abierto"
@@ -110,8 +109,8 @@
   path: https://www.symbaloo.com/home/mix/13eP2BWQEG
   date: 2021-10-01
   anio: "Web"
-  tipo: Datos
-  temas: [Estadística-CC Datos]
+  tipo: Recopilatorio
+  temas: [Estadística-CCDatos]
   origen: Propio
 
 - title: "Librerías Machine Learning (Python)"
@@ -120,8 +119,8 @@
   path: https://unidigitaliasac.unizar.es/ficha/librerias-machine-learning-nivel-intermedio
   date: 2022-06-01
   anio: "Unidigital"
-  tipo: Curso/Taller
-  temas: [IA, Estadística-CC Datos]
+  tipo: Curso-Taller
+  temas: [Estadística-CCDatos, Competencia Digital]
   lenguaje: [Python]
   origen: Propio
   autoria: "Con Fernando Borrás, Federico Botella, Inés Hernández, Josep Moltó y Javier Morales"
@@ -133,8 +132,8 @@
   path: https://unidigitaliasac.unizar.es/ficha/librerias-de-deep-learning
   date: 2022-06-01
   anio: "Unidigital"
-  tipo: Curso/Taller
-  temas: [IA]
+  tipo: Curso-Taller
+  temas: [Estadística-CCDatos, Competencia Digital]
   lenguaje: [Python]
   origen: Propio
   autoria: "Con Fernando Borrás, Federico Botella, Inés Hernández, Josep Moltó y Javier Morales"
@@ -147,8 +146,8 @@
   path: https://sites.google.com/umh.es/iaestadisticavadedades/inicio
   date: 2026-04-01
   anio: "2026"
-  tipo: Curso/Taller
-  temas: [IA, Estadística-CC Datos, Innovación educativa]
+  tipo: Curso-Taller
+  temas: [Estadística-CCDatos, Aprendizaje Activo]
   origen: Propio
   serie: Va de Dades!
 
@@ -158,8 +157,8 @@
   path: https://sites.google.com/umh.es/modelizacion-avanzada
   date: 2025-03-01
   anio: "2025"
-  tipo: Curso/Taller
-  temas: [Estadística-CC Datos]
+  tipo: Curso-Taller
+  temas: [Estadística-CCDatos]
   lenguaje: [Python]
   origen: Propio
   
@@ -169,8 +168,8 @@
   path: https://asunmayoral.github.io/modelizacion_python/index.html
   date: 2026-10-01
   anio: "2026"
-  tipo: Curso/Taller
-  temas: [Estadística-CC Datos]
+  tipo: Curso-Taller
+  temas: [Estadística-CCDatos]
   lenguaje: [Python]
   origen: Propio
 
@@ -180,8 +179,8 @@
   path: https://sites.google.com/umh.es/gestioniaparaauditores/aprende
   date: 2025-02-01
   anio: "2025"
-  tipo: Curso/Taller
-  temas: [Competencia digital, IA]
+  tipo: Curso-Taller
+  temas: [Competencia Digital]
   origen: Propio
 
 - title: "Una primera aproximación a la Estadística Bayesiana"
@@ -190,8 +189,8 @@
   path: /recursos/bayesiana/index.html
   date: 2022-11-01
   anio: "2022"
-  tipo: Curso/Taller
-  temas: [Bayesiana, Estadística-CC Datos]
+  tipo: Curso-Taller
+  temas: [Estadística-CCDatos]
   origen: Propio
   lenguaje: [R]
 
@@ -201,8 +200,8 @@
   path: /recursos/bayes-pdi-2006/index.html
   date: 2006-05-05
   anio: "2006"
-  tipo: Curso/Taller
-  temas: [Bayesiana, Estadística-CC Datos]
+  tipo: Curso-Taller
+  temas: [Estadística-CCDatos]
   origen: Propio
   autoria: "Con Javier Morales"
   lenguaje: [R]
@@ -213,8 +212,8 @@
   path: https://sites.google.com/umh.es/comunicacioncientifica40/inicio
   date: 2026-07-01
   anio: "2023-26"
-  tipo: Curso/Taller
-  temas: [Comunicación científica]
+  tipo: Curso-Taller
+  temas: [Comunicación]
   origen: Propio
 
 - title: "Diseñar, mostrar y demostrar: investigación versus estadística"
@@ -222,8 +221,8 @@
   path: https://youtu.be/1i6RYwyVXMA
   date: 2021-03-01
   anio: "2021"
-  tipo: Vídeo
-  temas: [Estadística-CC Datos, Comunicación científica]
+  tipo: [Curso-Taller, Vídeo]
+  temas: [Estadística-CCDatos, Comunicación]
   origen: Propio
 
 # ---------- Innovación educativa ----------
@@ -233,8 +232,8 @@
   path: /recursos/tics-masterprof-2019/index.html
   date: 2019-09-01
   anio: "2019-20"
-  tipo: Curso/Taller
-  temas: [Innovación educativa, Competencia digital]
+  tipo: Curso-Taller
+  temas: [Competencia Digital]
   origen: Propio
   autoria: "Con el equipo docente de la asignatura"
 
@@ -244,8 +243,8 @@
   path: https://sites.google.com/umh.es/gamificacion/
   date: 2021-02-15
   anio: "2021"
-  tipo: Curso/Taller
-  temas: [Innovación educativa]
+  tipo: Curso-Taller
+  temas: [Aprendizaje Activo]
   origen: Propio
   autoria: "Con Manuel Quesada"
 
@@ -255,7 +254,7 @@
   date: 2021-05-01
   anio: "2021"
   tipo: Juego
-  temas: [Innovación educativa]
+  temas: [Aprendizaje Activo]
   origen: Propio
   autoria: "Con Manuel Quesada"
 
@@ -265,8 +264,8 @@
   path: https://docs.google.com/presentation/d/1IyqUnvz1HjkQRTRhXtSzEvBBbne7jqxN8e37JANwjjs/edit?usp=sharing
   date: 2022-10-01
   anio: "2019-23"
-  tipo: Curso/Taller
-  temas: [Innovación educativa]
+  tipo: Curso-Taller
+  temas: [Aprendizaje Activo]
   origen: Propio
 
 - title: "Aprendizaje móvil"
@@ -275,8 +274,8 @@
   path: https://www.symbaloo.com/mix/mobilelearning7
   date: 2016-04-01
   anio: "2016"
-  tipo: Curso/Taller
-  temas: [Innovación educativa]
+  tipo: Curso-Taller
+  temas: [Competencia Digital]
   origen: Propio
 
 - title: "Recursos TIC para la evaluación"
@@ -285,7 +284,7 @@
   date: 2018-01-01
   anio: "Web"
   tipo: Recopilatorio
-  temas: [Innovación educativa]
+  temas: [Competencia Digital]
   origen: Propio
 
 - title: "El aprendizaje cooperativo en el aula"
@@ -294,7 +293,7 @@
   date: 2019-03-01
   anio: "PDF"
   tipo: Libro
-  temas: [Innovación educativa]
+  temas: [Aprendizaje Activo]
   origen: Recomendado
 
 - title: "Aprendizaje cooperativo (Gobierno de Canarias)"
@@ -303,7 +302,7 @@
   date: 2019-01-01
   anio: "Web"
   tipo: Recopilatorio
-  temas: [Innovación educativa]
+  temas: [Aprendizaje Activo]
   origen: Recomendado
 
 - title: "Red Española de Aprendizaje-Servicio"
@@ -312,7 +311,7 @@
   date: 2019-01-01
   anio: "Web"
   tipo: Recopilatorio
-  temas: [Innovación educativa]
+  temas: [Aprendizaje Activo]
   origen: Recomendado
 
 # ---------- Libros ----------
@@ -328,7 +327,7 @@
   date: 2022-01-13
   anio: "2022"
   tipo: Libro
-  temas: [Mejora de procesos]
+  temas: [Estadística-CCDatos]
   origen: Propio
   lenguaje: [R]
 
@@ -343,7 +342,7 @@
   date: 2019-12-16
   anio: "2019"
   tipo: Libro
-  temas: [Innovación educativa]
+  temas: [Competencia Digital]
   origen: Propio
 
 - title: "Monográfico Innovación UMH 2017"
@@ -357,7 +356,7 @@
   date: 2018-11-06
   anio: "2018"
   tipo: Libro
-  temas: [Innovación educativa]
+  temas: [Aprendizaje Activo]
   origen: Propio
 
 - title: "Apuntes de Teoría de Colas"
@@ -368,7 +367,7 @@
   date: 2007-01-01
   anio: "2007"
   tipo: Libro
-  temas: [Estadística-CC Datos]
+  temas: [Estadística-CCDatos]
   origen: Propio
 
 - title: "Modelos estadísticos para pérdidas y reclamaciones"
@@ -379,7 +378,7 @@
   date: 2007-01-02
   anio: "2007"
   tipo: Libro
-  temas: [Estadística-CC Datos]
+  temas: [Estadística-CCDatos]
   origen: Propio
 
 - title: "Modelos Lineales Generalizados (apuntes)"
@@ -389,7 +388,7 @@
   date: 2002-01-01
   anio: "Libro"
   tipo: Libro
-  temas: [Estadística-CC Datos]
+  temas: [Estadística-CCDatos]
   lenguaje: [R]
   origen: Propio
 
@@ -399,7 +398,7 @@
   date: 2005-01-01
   anio: "Apuntes"
   tipo: Libro
-  temas: [Estadística-CC Datos]
+  temas: [Estadística-CCDatos]
   lenguaje: [R]
   origen: Propio
 
@@ -409,7 +408,7 @@
   date: 2005-01-02
   anio: "Apuntes"
   tipo: Libro
-  temas: [Estadística-CC Datos]
+  temas: [Estadística-CCDatos]
   lenguaje: [R]
   origen: Propio
 
@@ -420,7 +419,7 @@
   date: 2001-01-01
   anio: "2001"
   tipo: Libro
-  temas: [Estadística-CC Datos]
+  temas: [Estadística-CCDatos]
   origen: Propio
 
 - title: "Pràctiques d'Estadística Matemàtica"
@@ -429,7 +428,7 @@
   date: 2000-01-01
   anio: "2000"
   tipo: Libro
-  temas: [Estadística-CC Datos]
+  temas: [Estadística-CCDatos]
   origen: Propio
 
 # ---------- Vídeos ----------
@@ -439,7 +438,7 @@
   date: 2016-09-01
   anio: "Lista"
   tipo: Vídeo
-  temas: [Mejora de procesos]
+  temas: [Estadística-CCDatos]
   origen: Propio
 
 - title: "TICs para la docencia y el aprendizaje en Secundaria (umh0460, 2014-15)"
@@ -448,7 +447,7 @@
   date: 2014-09-01
   anio: "2014-15"
   tipo: Vídeo
-  temas: [Innovación educativa]
+  temas: [Competencia Digital]
   origen: Propio
 
 - title: "TICs para la docencia y el aprendizaje en Secundaria (umh0460, 2013-14)"
@@ -457,7 +456,7 @@
   date: 2013-09-01
   anio: "2013-14"
   tipo: Vídeo
-  temas: [Innovación educativa]
+  temas: [Competencia Digital]
   origen: Propio
 
 - title: "Experto en Innovación Tecnológica en Educación (@iteumh 2014)"
@@ -466,7 +465,7 @@
   date: 2014-01-01
   anio: "2014"
   tipo: Vídeo
-  temas: [Innovación educativa]
+  temas: [Competencia Digital]
   origen: Propio
 
 - title: "Herramientas web en investigación (umh3389, 2013-14)"
@@ -475,7 +474,7 @@
   date: 2013-09-02
   anio: "2013-14"
   tipo: Vídeo
-  temas: [Comunicación científica]
+  temas: [Comunicación]
   origen: Propio
 
 - title: "Análisis Exploratorio de Datos (umh1263, 2012-13)"
@@ -484,7 +483,7 @@
   date: 2012-09-01
   anio: "2012-13"
   tipo: Vídeo
-  temas: [Estadística-CC Datos]
+  temas: [Estadística-CCDatos]
   origen: Propio
 
 - title: "¿Es necesaria una educación tecnológica para los jóvenes?"
@@ -493,5 +492,5 @@
   date: 2016-04-01
   anio: "2016"
   tipo: Vídeo
-  temas: [Innovación educativa]
+  temas: [Competencia Digital]
   origen: Propio

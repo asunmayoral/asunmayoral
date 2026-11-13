@@ -134,10 +134,13 @@ with open(SALIDA, "w", encoding="utf-8") as fh:
     fh.write(cabecera)
     yaml.safe_dump(salida, fh, allow_unicode=True, sort_keys=False, width=1000)
 
+COMUNICACION = {"Interacción digital"}
+
 # Entradas del catálogo de Recursos: una por curso, agrupadas en la colección Unidigital-Prodigital
 catalogo = []
 for c in salida:
-    temas = ["Competencia digital"] + (["Innovación educativa"] if c["marco"] == "DigCompEdu" else [])
+    # Etiquetas del catálogo (ver CLAUDE.md): todos son Competencia Digital; el de comunicación digital lleva además Comunicación
+    temas = ["Competencia Digital"] + (["Comunicación"] if c["title"] in COMUNICACION else [])
     catalogo.append({
         "title": c["title"],
         "description": f"{c['description']} {c['n_modulos']} módulos, {c['horas']}.",
@@ -145,7 +148,7 @@ for c in salida:
         "path": f"/{ENTRADA}/index.html#{c['ancla']}",
         "date": "2022-06-01",
         "anio": f"{c['marco']} · 2021-22",
-        "tipo": "Curso/Taller",
+        "tipo": "Curso-Taller",
         "temas": temas,
         "origen": "Propio",
         "serie": "Unidigital-Prodigital",

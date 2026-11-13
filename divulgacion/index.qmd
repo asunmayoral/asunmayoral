@@ -41,7 +41,7 @@ Además de divulgar, enseño a hacerlo. Estos cursos son docencia y por eso vive
 [2013–]{.anio} **[Técnicas de comunicación y herramientas web en investigación](../docencia/index.qmd#comunicacion-web)**. Máster Universitario en Investigación en Medicina Clínica (UMH). · [vídeos](https://www.youtube.com/playlist?list=PLClKgnzRFYe7VDKn29zwc-CgTMkD5qTD-)
 :::
 
-[Recursos de comunicación científica](../recursos/index.html?tema=Comunicación%20científica){.btn-pill .line}
+[Recursos de comunicación científica](../recursos/index.html?etiqueta=Comunicaci%C3%B3n){.btn-pill .line}
 
 </details>
 
