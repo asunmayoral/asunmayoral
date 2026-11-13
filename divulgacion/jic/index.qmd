@@ -10,13 +10,13 @@ En las dos ediciones se presentaron, entre otros, los proyectos financiados por 
 
 Esta página guarda la documentación de las dos ediciones para que cualquiera pueda consultar lo que se hizo allí.
 
-::: {.jic-edicion #jic2017}
-![](jic2017/jic2017_chapa.webp){.jic-chapa fig-alt="Chapa de las I Jornadas de Innovación Colaborativa UMH, JIC2017"}
+::: {.edicion #jic2017}
+![](jic2017/jic2017_chapa.webp){.edicion-chapa fig-alt="Chapa de las I Jornadas de Innovación Colaborativa UMH, JIC2017"}
 
-::: {.jic-cuerpo}
+::: {.edicion-cuerpo}
 ## JIC2017 · I Jornadas
 
-[20 de junio de 2017]{.jic-dato} [Edificio Arenals, Campus de Elche]{.jic-dato} [64 comunicaciones]{.jic-dato} [Más de 150 docentes]{.jic-dato}
+[20 de junio de 2017]{.edicion-dato} [Edificio Arenals, Campus de Elche]{.edicion-dato} [64 comunicaciones]{.edicion-dato} [Más de 150 docentes]{.edicion-dato}
 
 La primera edición nació con el lema «Entusiasmo, Innovación, Colaboración» y con un objetivo: compartir ideas, experiencias educativas, inquietudes y retos, y sobre todo coincidir con docentes de otros centros y niveles con quienes emprender proyectos de innovación en el futuro. En una sola jornada, de mañana y tarde, se presentaron 64 comunicaciones orales y en póster, con más de 150 docentes de todos los niveles educativos.
 
@@ -36,13 +36,13 @@ En el blog: [I Jornadas de Innovación Colaborativa, JIC UMH](../../blog/posts/2
 :::
 :::
 
-::: {.jic-edicion #jic2018}
-![](jic2018/jic2018_chapa.webp){.jic-chapa fig-alt="Chapa de las II Jornadas de Innovación Colaborativa UMH, JIC2018"}
+::: {.edicion #jic2018}
+![](jic2018/jic2018_chapa.webp){.edicion-chapa fig-alt="Chapa de las II Jornadas de Innovación Colaborativa UMH, JIC2018"}
 
-::: {.jic-cuerpo}
+::: {.edicion-cuerpo}
 ## JIC2018 · II Jornadas
 
-[28 y 29 de junio de 2018]{.jic-dato} [Edificio Arenals, Campus de Elche]{.jic-dato} [65 comunicaciones]{.jic-dato} [170 docentes inscritos]{.jic-dato}
+[28 y 29 de junio de 2018]{.edicion-dato} [Edificio Arenals, Campus de Elche]{.edicion-dato} [65 comunicaciones]{.edicion-dato} [170 docentes inscritos]{.edicion-dato}
 
 La segunda edición se repartió en dos mañanas. Su objetivo fue compartir experiencias educativas desarrolladas dentro y fuera de la UMH y en todos los niveles educativos, en particular las financiadas en las convocatorias PIEU y ÓSMOSIS, para propagar la innovación educativa y generar ideas y proyectos colaborativos entre docentes de distintos ámbitos. Se inscribieron 170 docentes de toda la provincia de Alicante y se presentaron 65 comunicaciones orales y en póster.
 

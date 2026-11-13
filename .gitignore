@@ -12,6 +12,7 @@ __pycache__/
 *.pdf
 !files/**/*.pdf
 !divulgacion/jic/**/*.pdf
+!divulgacion/fecitelx/*.pdf
 sobre-mi/CVN*
 CVN*.pdf
 **/CVN*.pdf

@@ -17,9 +17,9 @@ En 1997 inauguramos la Universidad Miguel Hernández de Elche y comencé a traba
 
 Desde 2020 hemos emprendido diversos proyectos formativos en competencia digital (con Prodigital), en programación y análisis con Python (con IA4Legos), y en divulgación estadística (con Va De Dades), y también investigadores en economía y sanidad, combinando estadística e IA, y por supuesto, sigo disfrutando con la docencia y aprendiendo sin tregua.
 
-**Mi investigación** es multidisciplinar: siempre aplicando la Estadística para descubrir qué pasa en salud, genética, entorno natural, agricultura, economía, prospectiva, antropología, educación, sostenibilidad, espacios educativos… y lo que surja. Bayesiana de formación y corazón, sigo estudiando y evolucionando. Me gusta implicarme en proyectos diferentes y siempre a fondo. Disfruto con la docencia poco convencional y en continua actualización. Las líneas de trabajo, las publicaciones y los proyectos están en [Investigación](../investigacion/index.qmd).
+**Mi investigación** es multidisciplinar: siempre aplicando la Estadística para descubrir qué pasa en salud, genética, entorno natural, agricultura, economía, prospectiva, antropología, educación, sostenibilidad, espacios educativos… y lo que surja. Bayesiana de formación y corazón, sigo estudiando y evolucionando. Me gusta implicarme en proyectos diferentes y siempre a fondo. Disfruto con la docencia poco convencional y en continua actualización. Mis líneas de trabajo, publicaciones, recursos, proyectos y líos varios los encontrarás en esta web. 
 
-Casada con otro estadístico de la UMH, tres hijos, dos perros y un proyecto de vida cerca de la naturaleza. Me gusta conservar la catalogación *4p* que me dio un gran jefe que espero conservar siempre como amigo: **pasión, perseverancia, pico y pala**.
+Respecto a mi parte más personal, sigo casada más de 25 años con otro estadístico de la UMH, tres hijos, dos perros y un proyecto de vida cerca de la naturaleza. Me gusta conservar la catalogación *4p* que me dio un gran jefe que espero conservar siempre como amigo: **pasión, perseverancia, pico y pala**.
 
 ## Trayectoria
 

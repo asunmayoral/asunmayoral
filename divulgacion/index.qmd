@@ -19,12 +19,18 @@ listing:
     page-size: 500
 ---
 
-## Proyectos y eventos
+Pulsa en cada apartado para desplegarlo.
+
+<details class="acordeon proyectos" id="proyectos" open>
+<summary>Proyectos y eventos</summary>
 
 ::: {#div-proyectos}
 :::
 
-### Otras jornadas que he organizado
+</details>
+
+<details class="acordeon proyectos" id="otras-jornadas">
+<summary>Otras jornadas que he organizado</summary>
 
 ::: {.linea-tiempo}
 - [2017–2018]{.anio} [Jornadas JIC de Innovación Colaborativa en la UMH](jic/index.qmd) (2 ediciones): programas, libros de actas, carteles y notas de prensa.
@@ -32,7 +38,10 @@ listing:
 - [2007–2008]{.anio} Outdoor Training on Business Intelligence (2 ediciones).
 :::
 
-## Enseñar a comunicar ciencia
+</details>
+
+<details class="acordeon proyectos" id="comunicar-ciencia">
+<summary>Enseñar a comunicar ciencia</summary>
 
 Además de divulgar, enseño a hacerlo. Estos cursos son docencia y por eso viven en [Docencia](../docencia/index.qmd); los enlazo aquí porque su tema es la comunicación de la ciencia.
 
@@ -44,6 +53,8 @@ Además de divulgar, enseño a hacerlo. Estos cursos son docencia y por eso vive
 :::
 
 [Recursos de comunicación científica](../recursos/index.html?tema=Comunicación%20científica){.btn-pill .line}
+
+</details>
 
 ::: {.blog-caja}
 ## En el blog

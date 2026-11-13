@@ -204,7 +204,9 @@
   orden: 2015
   description: "Proyecto institucional de la UMH, junto con las Jornadas de Puertas Abiertas en el Campus de Elche y Proyecta TÚ, para promover la divulgación científica desde colegios e institutos."
   papel: "Creación y organización"
-  path: /blog/posts/2018-05-23-fecitelx-feria-de-ciencia-y-tecnologia-en-elche/index.html
+  path: /divulgacion/fecitelx/index.html
+  mas: /blog/posts/2018-05-23-fecitelx-feria-de-ciencia-y-tecnologia-en-elche/index.html
+  mas_texto: "Entrada del blog"
 
 - title: "Escuela de Verano UMH en Estadística y Optimización"
   categoria: Divulgación
